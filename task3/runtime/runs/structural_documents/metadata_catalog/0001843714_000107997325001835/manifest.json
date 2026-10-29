@@ -1,0 +1,58 @@
+{
+  "entity": "0001843714",
+  "schema_name": "zpat-20240930.xsd",
+  "namespace": "http://zapataquantum.com/20240930",
+  "filing": {
+    "accessionNumber": "0001079973-25-001835",
+    "reportDate": "2024-09-30",
+    "primaryDocument": "zpat_10q093024.htm",
+    "filingDate": "2025-12-09",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "zpat-20240930.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997325001835/zpat-20240930.xsd",
+      "SHA256": "415ec73e8e9735a811bd2a17796a093146008d53a1608b09db2175a340650597",
+      "bytes": 97119
+    },
+    {
+      "file": "zpat-20240930_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997325001835/zpat-20240930_pre.xml",
+      "SHA256": "59186b4a104913fe3e02698dab415fbb6b23fe4564901a4eb1a4bef07445c66c",
+      "bytes": 512962
+    },
+    {
+      "file": "zpat-20240930_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997325001835/zpat-20240930_lab.xml",
+      "SHA256": "4abb22e890f366a75ec313003b228ee7274865698ad40eeed93fa059fc895b6c",
+      "bytes": 530023
+    },
+    {
+      "file": "zpat-20240930_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997325001835/zpat-20240930_cal.xml",
+      "SHA256": "7e2fee8c996ac75e3400baffa40de8e8c7218e93fc501095a4abf7d05d74ae13",
+      "bytes": 71571
+    },
+    {
+      "file": "zpat-20240930_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997325001835/zpat-20240930_def.xml",
+      "SHA256": "aac36f109b162fa113ae442c4c4b3720ef9308db2689cd1c5593f451ad14297e",
+      "bytes": 409440
+    },
+    {
+      "file": "zpat_10q093024_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1843714/000107997325001835/zpat_10q093024_htm.xml",
+      "SHA256": "8b5dbb86d81cacc898d7905993e9f1874ac65caaa5fc57d002f94f0a1b5e476a",
+      "bytes": 1526313
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

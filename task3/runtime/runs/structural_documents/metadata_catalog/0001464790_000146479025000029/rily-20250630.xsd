@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:3372641f-4cf4-4473-b4a9-d25786dc6248,g:5129b1bb-22b9-4d59-92cb-8c8d849115d1-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rily="http://brileyfin.com/20250630" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://brileyfin.com/20250630">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rily-20250630_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rily-20250630_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rily-20250630_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rily-20250630_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="Cover" roleURI="http://brileyfin.com/role/Cover">
+        <link:definition>0000001 - Document - Cover</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedBalanceSheets" roleURI="http://brileyfin.com/role/CondensedConsolidatedBalanceSheets">
+        <link:definition>9952151 - Statement - Condensed Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedBalanceSheetsParenthetical" roleURI="http://brileyfin.com/role/CondensedConsolidatedBalanceSheetsParenthetical">
+        <link:definition>9952152 - Statement - Condensed Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofOperationsLossUnaudited" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofOperationsLossUnaudited">
+        <link:definition>9952153 - Statement - Condensed Consolidated Statements of Operations (Loss) (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofOperationsLossUnauditedParenthetical" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofOperationsLossUnauditedParenthetical">
+        <link:definition>9952154 - Statement - Condensed Consolidated Statements of Operations (Loss) (Unaudited) (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofComprehensiveIncomeLossUnaudited" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofComprehensiveIncomeLossUnaudited">
+        <link:definition>9952155 - Statement - Condensed Consolidated Statements of Comprehensive Income (Loss) (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofEquityDeficitUnaudited" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofEquityDeficitUnaudited">
+        <link:definition>9952156 - Statement - Condensed Consolidated Statements of Equity (Deficit) (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofEquityDeficitUnauditedParenthetical" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofEquityDeficitUnauditedParenthetical">
+        <link:definition>9952157 - Statement - Condensed Consolidated Statements of Equity (Deficit) (Unaudited) (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofCashFlowsUnaudited" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofCashFlowsUnaudited">
+        <link:definition>9952158 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofCashFlowsUnauditedParenthetical" roleURI="http://brileyfin.com/role/CondensedConsolidatedStatementsofCashFlowsUnauditedParenthetical">
+        <link:definition>9952159 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited) (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ORGANIZATIONANDNATUREOFBUSINESSOPERATIONS" roleURI="http://brileyfin.com/role/ORGANIZATIONANDNATUREOFBUSINESSOPERATIONS">
+        <link:definition>9952160 - Disclosure - ORGANIZATION AND NATURE OF BUSINESS OPERATIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+        <link:definition>9952161 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACQUISITIONS" roleURI="http://brileyfin.com/role/ACQUISITIONS">
+        <link:definition>9952162 - Disclosure - ACQUISITIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALE" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALE">
+        <link:definition>9952163 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RESTRUCTURINGCHARGE" roleURI="http://brileyfin.com/role/RESTRUCTURINGCHARGE">
+        <link:definition>9952164 - Disclosure - RESTRUCTURING CHARGE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SECURITIESLENDING" roleURI="http://brileyfin.com/role/SECURITIESLENDING">
+        <link:definition>9952165 - Disclosure - SECURITIES LENDING</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCOUNTSRECEIVABLE" roleURI="http://brileyfin.com/role/ACCOUNTSRECEIVABLE">
+        <link:definition>9952166 - Disclosure - ACCOUNTS RECEIVABLE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PREPAIDEXPENSESANDOTHERASSETS" roleURI="http://brileyfin.com/role/PREPAIDEXPENSESANDOTHERASSETS">
+        <link:definition>9952167 - Disclosure - PREPAID EXPENSES AND OTHER ASSETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDOTHERINTANGIBLEASSETS" roleURI="http://brileyfin.com/role/GOODWILLANDOTHERINTANGIBLEASSETS">
+        <link:definition>9952168 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NOTESPAYABLE" roleURI="http://brileyfin.com/role/NOTESPAYABLE">
+        <link:definition>9952169 - Disclosure - NOTES PAYABLE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TERMLOANSANDREVOLVINGCREDITFACILITY" roleURI="http://brileyfin.com/role/TERMLOANSANDREVOLVINGCREDITFACILITY">
+        <link:definition>9952170 - Disclosure - TERM LOANS AND REVOLVING CREDIT FACILITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SENIORNOTESPAYABLE" roleURI="http://brileyfin.com/role/SENIORNOTESPAYABLE">
+        <link:definition>9952171 - Disclosure - SENIOR NOTES PAYABLE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCRUEDEXPENSESANDOTHERLIABILITIES" roleURI="http://brileyfin.com/role/ACCRUEDEXPENSESANDOTHERLIABILITIES">
+        <link:definition>9952172 - Disclosure - ACCRUED EXPENSES AND OTHER LIABILITIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEFROMCONTRACTSWITHCUSTOMERS" roleURI="http://brileyfin.com/role/REVENUEFROMCONTRACTSWITHCUSTOMERS">
+        <link:definition>9952173 - Disclosure - REVENUE FROM CONTRACTS WITH CUSTOMERS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXES" roleURI="http://brileyfin.com/role/INCOMETAXES">
+        <link:definition>9952174 - Disclosure - INCOME TAXES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARE" roleURI="http://brileyfin.com/role/EARNINGSPERSHARE">
+        <link:definition>9952175 - Disclosure - EARNINGS PER SHARE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIES" roleURI="http://brileyfin.com/role/COMMITMENTSANDCONTINGENCIES">
+        <link:definition>9952176 - Disclosure - COMMITMENTS AND CONTINGENCIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREBASEDPAYMENTS" roleURI="http://brileyfin.com/role/SHAREBASEDPAYMENTS">
+        <link:definition>9952177 - Disclosure - SHARE-BASED PAYMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKHOLDERSEQUITY" roleURI="http://brileyfin.com/role/STOCKHOLDERSEQUITY">
+        <link:definition>9952178 - Disclosure - STOCKHOLDERS' EQUITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NETCAPITALREQUIREMENTS" roleURI="http://brileyfin.com/role/NETCAPITALREQUIREMENTS">
+        <link:definition>9952179 - Disclosure - NET CAPITAL REQUIREMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTYTRANSACTIONS" roleURI="http://brileyfin.com/role/RELATEDPARTYTRANSACTIONS">
+        <link:definition>9952180 - Disclosure - RELATED PARTY TRANSACTIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSSEGMENTS" roleURI="http://brileyfin.com/role/BUSINESSSEGMENTS">
+        <link:definition>9952181 - Disclosure - BUSINESS SEGMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUBSEQUENTEVENTS" roleURI="http://brileyfin.com/role/SUBSEQUENTEVENTS">
+        <link:definition>9952182 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPolicies" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPolicies">
+        <link:definition>9955511 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESTables" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESTables">
+        <link:definition>9955512 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACQUISITIONSTables" roleURI="http://brileyfin.com/role/ACQUISITIONSTables">
+        <link:definition>9955513 - Disclosure - ACQUISITIONS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALETables" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALETables">
+        <link:definition>9955514 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RESTRUCTURINGCHARGETables" roleURI="http://brileyfin.com/role/RESTRUCTURINGCHARGETables">
+        <link:definition>9955515 - Disclosure - RESTRUCTURING CHARGE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SECURITIESLENDINGTables" roleURI="http://brileyfin.com/role/SECURITIESLENDINGTables">
+        <link:definition>9955516 - Disclosure - SECURITIES LENDING (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCOUNTSRECEIVABLETables" roleURI="http://brileyfin.com/role/ACCOUNTSRECEIVABLETables">
+        <link:definition>9955517 - Disclosure - ACCOUNTS RECEIVABLE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PREPAIDEXPENSESANDOTHERASSETSTables" roleURI="http://brileyfin.com/role/PREPAIDEXPENSESANDOTHERASSETSTables">
+        <link:definition>9955518 - Disclosure - PREPAID EXPENSES AND OTHER ASSETS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDOTHERINTANGIBLEASSETSTables" roleURI="http://brileyfin.com/role/GOODWILLANDOTHERINTANGIBLEASSETSTables">
+        <link:definition>9955519 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TERMLOANSANDREVOLVINGCREDITFACILITYTables" roleURI="http://brileyfin.com/role/TERMLOANSANDREVOLVINGCREDITFACILITYTables">
+        <link:definition>9955520 - Disclosure - TERM LOANS AND REVOLVING CREDIT FACILITY (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SENIORNOTESPAYABLETables" roleURI="http://brileyfin.com/role/SENIORNOTESPAYABLETables">
+        <link:definition>9955521 - Disclosure - SENIOR NOTES PAYABLE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCRUEDEXPENSESANDOTHERLIABILITIESTables" roleURI="http://brileyfin.com/role/ACCRUEDEXPENSESANDOTHERLIABILITIESTables">
+        <link:definition>9955522 - Disclosure - ACCRUED EXPENSES AND OTHER LIABILITIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEFROMCONTRACTSWITHCUSTOMERSTables" roleURI="http://brileyfin.com/role/REVENUEFROMCONTRACTSWITHCUSTOMERSTables">
+        <link:definition>9955523 - Disclosure - REVENUE FROM CONTRACTS WITH CUSTOMERS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARETables" roleURI="http://brileyfin.com/role/EARNINGSPERSHARETables">
+        <link:definition>9955524 - Disclosure - EARNINGS PER SHARE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREBASEDPAYMENTSTables" roleURI="http://brileyfin.com/role/SHAREBASEDPAYMENTSTables">
+        <link:definition>9955525 - Disclosure - SHARE-BASED PAYMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKHOLDERSEQUITYTables" roleURI="http://brileyfin.com/role/STOCKHOLDERSEQUITYTables">
+        <link:definition>9955526 - Disclosure - STOCKHOLDERS' EQUITY (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSSEGMENTSTables" roleURI="http://brileyfin.com/role/BUSINESSSEGMENTSTables">
+        <link:definition>9955527 - Disclosure - BUSINESS SEGMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ORGANIZATIONANDNATUREOFBUSINESSOPERATIONSDetails" roleURI="http://brileyfin.com/role/ORGANIZATIONANDNATUREOFBUSINESSOPERATIONSDetails">
+        <link:definition>9955528 - Disclosure - ORGANIZATION AND NATURE OF BUSINESS OPERATIONS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAdditionalinformationALDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAdditionalinformationALDetails">
+        <link:definition>9955529 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Additional information (A-L) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAdditionalinformationMODetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAdditionalinformationMODetails">
+        <link:definition>9955530 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Additional information (M-O) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofcashcashequivalentsandrestrictedcashDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofcashcashequivalentsandrestrictedcashDetails">
+        <link:definition>9955531 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of cash, cash equivalents and restricted cash (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofsecuritiesandotherinvestmentsownedandsecuritiessoldnotyetpurchasedatfairvalueDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofsecuritiesandotherinvestmentsownedandsecuritiessoldnotyetpurchasedatfairvalueDetails">
+        <link:definition>9955532 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of securities and other investments owned and securities sold not yet purchased at fair value (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofequitysecuritieswithoutreadilydeterminablefairvalueDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofequitysecuritieswithoutreadilydeterminablefairvalueDetails">
+        <link:definition>9955533 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of equity securities without readily determinable fair value (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleoffinancialassetsmeasuredonnonrecurringbasisDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleoffinancialassetsmeasuredonnonrecurringbasisDetails">
+        <link:definition>9955534 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of financial assets measured on nonrecurring basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofequitymethodinvestmentsDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofequitymethodinvestmentsDetails">
+        <link:definition>9955535 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of equity method investments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleoffinancialassetsandliabilitiesmeasuredonrecurringbasisDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleoffinancialassetsandliabilitiesmeasuredonrecurringbasisDetails">
+        <link:definition>9955536 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of financial assets and liabilities measured on recurring basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofsignificantunobservableinputsoflevel3financialassetsandliabilitiesDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofsignificantunobservableinputsoflevel3financialassetsandliabilitiesDetails">
+        <link:definition>9955537 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of significant unobservable inputs of level 3 financial assets and liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleoffairvaluemeasurementoflevel3financialassetsandliabilitiesDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleoffairvaluemeasurementoflevel3financialassetsandliabilitiesDetails">
+        <link:definition>9955538 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of fair value measurement of level 3 financial assets and liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofinvestmentsintheVIEDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofinvestmentsintheVIEDetails">
+        <link:definition>9955539 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of investments in the VIE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofassetsandliabilitiestransferredtotheBRCtrustDetails" roleURI="http://brileyfin.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESScheduleofassetsandliabilitiestransferredtotheBRCtrustDetails">
+        <link:definition>9955540 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Schedule of assets and liabilities transferred to the BRC trust (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACQUISITIONSAdditionalinformationDetails" roleURI="http://brileyfin.com/role/ACQUISITIONSAdditionalinformationDetails">
+        <link:definition>9955541 - Disclosure - ACQUISITIONS - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACQUISITIONSScheduleofrecognizedidentifiedassetsacquiredandliabilitiesassumedDetails" roleURI="http://brileyfin.com/role/ACQUISITIONSScheduleofrecognizedidentifiedassetsacquiredandliabilitiesassumedDetails">
+        <link:definition>9955542 - Disclosure - ACQUISITIONS - Schedule of recognized identified assets acquired and liabilities assumed (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACQUISITIONSScheduleofacquiredindefinitelivedintangibleassetsbymajorclassDetails" roleURI="http://brileyfin.com/role/ACQUISITIONSScheduleofacquiredindefinitelivedintangibleassetsbymajorclassDetails">
+        <link:definition>9955543 - Disclosure - ACQUISITIONS - Schedule of acquired indefinite-lived intangible assets by major class (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEAdditionalinformationDetails" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEAdditionalinformationDetails">
+        <link:definition>9955544 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofassetsandliabilitiesfromdiscontinuedoperationsDetails" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofassetsandliabilitiesfromdiscontinuedoperationsDetails">
+        <link:definition>9955545 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE - Schedule of assets and liabilities from discontinued operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofassetsandliabilitiesfromdiscontinuedoperationsDetails_1" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofassetsandliabilitiesfromdiscontinuedoperationsDetails_1">
+        <link:definition>9955546 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE - Schedule of assets and liabilities from discontinued operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofrevenuefromdiscontinuedoperationsDetails" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofrevenuefromdiscontinuedoperationsDetails">
+        <link:definition>9955547 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE - Schedule of revenue from discontinued operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofcashflowsfromdiscontinuedoperationsDetails" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofcashflowsfromdiscontinuedoperationsDetails">
+        <link:definition>9955548 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE - Schedule of cash flows from discontinued operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofsupplementaldisclosuresfromcashflowsDetails" roleURI="http://brileyfin.com/role/DISCONTINUEDOPERATIONSANDASSETSHELDFORSALEScheduleofsupplementaldisclosuresfromcashflowsDetails">
+        <link:definition>9955549 - Disclosure - DISCONTINUED OPERATIONS AND ASSETS HELD FOR SALE - Schedule of supplemental disclosures from cash flows (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RESTRUCTURINGCHARGEAdditionalinformationDetails" roleURI="http://brileyfin.com/role/RESTRUCTURINGCHARGEAdditionalinformationDetails">
+        <link:definition>9955550 - Disclosure - RESTRUCTURING CHARGE - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RESTRUCTURINGCHARGEScheduleofchangesinaccruedrestructuringchargeDetails" roleURI="http://brileyfin.com/role/RESTRUCTURINGCHARGEScheduleofchangesinaccruedrestructuringchargeDetails">
+        <link:definition>9955551 - Disclosure - RESTRUCTURING CHARGE - Schedule of changes in accrued restructuring charge (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SECURITIESLENDINGScheduleofcontractualgrossandnetsecuritiesborrowingandlendingbalancesDetails" roleURI="http://brileyfin.com/role/SECURITIESLENDINGScheduleofcontractualgrossandnetsecuritiesborrowingandlendingbalancesDetails">
+        <link:definition>9955552 - Disclosure - SECURITIES LENDING - Schedule of contractual gross and net securities borrowing and lending balances (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SECURITIESLENDINGScheduleofcontractvalueofsecuritiesleadingtransactionbytypeofcollateralDetails" roleURI="http://brileyfin.com/role/SECURITIESLENDINGScheduleofcontractvalueofsecuritiesleadingtransactionbytypeofcollateralDetails">
+        <link:definition>9955553 - Disclosure - SECURITIES LENDING - Schedule of contract value of securities leading transaction by type of collateral (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SECURITIESLENDINGAdditionalinformationDetails" roleURI="http://brileyfin.com/role/SECURITIESLENDINGAdditionalinformationDetails">
+        <link:definition>9955554 - Disclosure - SECURITIES LENDING - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCOUNTSRECEIVABLEScheduleofcomponentsofaccountsreceivablenetDetails" roleURI="http://brileyfin.com/role/ACCOUNTSRECEIVABLEScheduleofcomponentsofaccountsreceivablenetDetails">
+        <link:definition>9955555 - Disclosure - ACCOUNTS RECEIVABLE - Schedule of components of accounts receivable, net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCOUNTSRECEIVABLEScheduleofallowancefordoubtfulaccountsDetails" roleURI="http://brileyfin.com/role/ACCOUNTSRECEIVABLEScheduleofallowancefordoubtfulaccountsDetails">
+        <link:definition>9955556 - Disclosure - ACCOUNTS RECEIVABLE - Schedule of allowance for doubtful accounts (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PREPAIDEXPENSESANDOTHERASSETSDetails" roleURI="http://brileyfin.com/role/PREPAIDEXPENSESANDOTHERASSETSDetails">
+        <link:definition>9955557 - Disclosure - PREPAID EXPENSES AND OTHER ASSETS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDOTHERINTANGIBLEASSETSAdditionalinformationDetails" roleURI="http://brileyfin.com/role/GOODWILLANDOTHERINTANGIBLEASSETSAdditionalinformationDetails">
+        <link:definition>9955558 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDOTHERINTANGIBLEASSETSScheduleofintangibleassetsDetails" roleURI="http://brileyfin.com/role/GOODWILLANDOTHERINTANGIBLEASSETSScheduleofintangibleassetsDetails">
+        <link:definition>9955559 - Disclosure - GOODWILL AND OTHER INTANGIBLE ASSETS - Schedule of intangible assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NOTESPAYABLEDetails" roleURI="http://brileyfin.com/role/NOTESPAYABLEDetails">
+        <link:definition>9955560 - Disclosure - NOTES PAYABLE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TERMLOANSANDREVOLVINGCREDITFACILITYScheduleoftermloansandrevolvingcreditfacilitiesDetails" roleURI="http://brileyfin.com/role/TERMLOANSANDREVOLVINGCREDITFACILITYScheduleoftermloansandrevolvingcreditfacilitiesDetails">
+        <link:definition>9955561 - Disclosure - TERM LOANS AND REVOLVING CREDIT FACILITY - Schedule of term loans and revolving credit facilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TERMLOANSANDREVOLVINGCREDITFACILITYAdditionalinformationDetails" roleURI="http://brileyfin.com/role/TERMLOANSANDREVOLVINGCREDITFACILITYAdditionalinformationDetails">
+        <link:definition>9955562 - Disclosure - TERM LOANS AND REVOLVING CREDIT FACILITY - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SENIORNOTESPAYABLEScheduleofseniornotespayablenetDetails" roleURI="http://brileyfin.com/role/SENIORNOTESPAYABLEScheduleofseniornotespayablenetDetails">
+        <link:definition>9955563 - Disclosure - SENIOR NOTES PAYABLE - Schedule of senior notes payable, net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SENIORNOTESPAYABLEAdditionalinformationDetails" roleURI="http://brileyfin.com/role/SENIORNOTESPAYABLEAdditionalinformationDetails">
+        <link:definition>9955564 - Disclosure - SENIOR NOTES PAYABLE - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SENIORNOTESPAYABLEScheduleofseniornotesandnewnotesissuedDetails" roleURI="http://brileyfin.com/role/SENIORNOTESPAYABLEScheduleofseniornotesandnewnotesissuedDetails">
+        <link:definition>9955565 - Disclosure - SENIOR NOTES PAYABLE - Schedule of senior notes and new notes issued (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCRUEDEXPENSESANDOTHERLIABILITIESDetails" roleURI="http://brileyfin.com/role/ACCRUEDEXPENSESANDOTHERLIABILITIESDetails">
+        <link:definition>9955566 - Disclosure - ACCRUED EXPENSES AND OTHER LIABILITIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEFROMCONTRACTSWITHCUSTOMERSAdditionalinformationDetails" roleURI="http://brileyfin.com/role/REVENUEFROMCONTRACTSWITHCUSTOMERSAdditionalinformationDetails">
+        <link:definition>9955567 - Disclosure - REVENUE FROM CONTRACTS WITH CUSTOMERS - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEFROMCONTRACTSWITHCUSTOMERSAdditionalinformationDetails_1" roleURI="http://brileyfin.com/role/REVENUEFROMCONTRACTSWITHCUSTOMERSAdditionalinformationDetails_1">
+        <link:definition>9955567 - Disclosure - REVENUE FROM CONTRACTS WITH CUSTOMERS - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEFROMCONTRACTSWITHCUSTOMERSScheduleofrevenuesfromcontractswithcustomersDetails" roleURI="http://brileyfin.com/role/REVENUEFROMCONTRACTSWITHCUSTOMERSScheduleofrevenuesfromcontractswithcustomersDetails">
+        <link:definition>9955568 - Disclosure - REVENUE FROM CONTRACTS WITH CUSTOMERS - Schedule of revenues from contracts with customers (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESDetails" roleURI="http://brileyfin.com/role/INCOMETAXESDetails">
+        <link:definition>9955569 - Disclosure - INCOME TAXES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHAREAdditionalinformationDetails" roleURI="http://brileyfin.com/role/EARNINGSPERSHAREAdditionalinformationDetails">
+        <link:definition>9955570 - Disclosure - EARNINGS PER SHARE - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHAREScheduleofbasicanddilutedearningspershareDetails" roleURI="http://brileyfin.com/role/EARNINGSPERSHAREScheduleofbasicanddilutedearningspershareDetails">
+        <link:definition>9955571 - Disclosure - EARNINGS PER SHARE - Schedule of basic and diluted earnings per share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIESDetails" roleURI="http://brileyfin.com/role/COMMITMENTSANDCONTINGENCIESDetails">
+        <link:definition>9955572 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREBASEDPAYMENTSScheduleofemployeestockincentiveplansDetails" roleURI="http://brileyfin.com/role/SHAREBASEDPAYMENTSScheduleofemployeestockincentiveplansDetails">
+        <link:definition>9955573 - Disclosure - SHARE-BASED PAYMENTS - Schedule of employee stock incentive plans (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREBASEDPAYMENTSAdditionalinformationDetails" roleURI="http://brileyfin.com/role/SHAREBASEDPAYMENTSAdditionalinformationDetails">
+        <link:definition>9955574 - Disclosure - SHARE-BASED PAYMENTS - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKHOLDERSEQUITYAdditionalinformationDetails" roleURI="http://brileyfin.com/role/STOCKHOLDERSEQUITYAdditionalinformationDetails">
+        <link:definition>9955575 - Disclosure - STOCKHOLDERS' EQUITY - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKHOLDERSEQUITYScheduleofStockholdersEquityNoteWarrantsorRightsDetails" roleURI="http://brileyfin.com/role/STOCKHOLDERSEQUITYScheduleofStockholdersEquityNoteWarrantsorRightsDetails">
+        <link:definition>9955576 - Disclosure - STOCKHOLDERS' EQUITY - Schedule of Stockholders' Equity Note, Warrants or Rights (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NETCAPITALREQUIREMENTSDetails" roleURI="http://brileyfin.com/role/NETCAPITALREQUIREMENTSDetails">
+        <link:definition>9955577 - Disclosure - NET CAPITAL REQUIREMENTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTYTRANSACTIONSDetails" roleURI="http://brileyfin.com/role/RELATEDPARTYTRANSACTIONSDetails">
+        <link:definition>9955578 - Disclosure - RELATED PARTY TRANSACTIONS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSSEGMENTSAdditionalinformationDetails" roleURI="http://brileyfin.com/role/BUSINESSSEGMENTSAdditionalinformationDetails">
+        <link:definition>9955579 - Disclosure - BUSINESS SEGMENTS - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSSEGMENTSScheduleofreportablesegmentsDetails" roleURI="http://brileyfin.com/role/BUSINESSSEGMENTSScheduleofreportablesegmentsDetails">
+        <link:definition>9955580 - Disclosure - BUSINESS SEGMENTS - Schedule of reportable segments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSSEGMENTSScheduleofrevenuesbygeographicalareaDetails" roleURI="http://brileyfin.com/role/BUSINESSSEGMENTSScheduleofrevenuesbygeographicalareaDetails">
+        <link:definition>9955581 - Disclosure - BUSINESS SEGMENTS - Schedule of revenues by geographical area (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSSEGMENTSScheduleofLonglivedassetsbygeographicareasDetails" roleURI="http://brileyfin.com/role/BUSINESSSEGMENTSScheduleofLonglivedassetsbygeographicareasDetails">
+        <link:definition>9955582 - Disclosure - BUSINESS SEGMENTS - Schedule of Long-lived assets by geographic areas (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUBSEQUENTEVENTSDetails" roleURI="http://brileyfin.com/role/SUBSEQUENTEVENTSDetails">
+        <link:definition>9955583 - Disclosure - SUBSEQUENT EVENTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="rily_DepositarySharesSeriesACumulativePerpetualPreferredStock6875Member" abstract="true" name="DepositarySharesSeriesACumulativePerpetualPreferredStock6875Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_DepositarySharesSeriesBCumulativePerpetualPreferredStock7375Member" abstract="true" name="DepositarySharesSeriesBCumulativePerpetualPreferredStock7375Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.00SeniorNotesDue2026Member" abstract="true" name="A5.00SeniorNotesDue2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.50SeniorNotesDue2026Member" abstract="true" name="A5.50SeniorNotesDue2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.50SeniorNotesDue2026Member" abstract="true" name="A6.50SeniorNotesDue2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.25SeniorNotesDue2028Member" abstract="true" name="A5.25SeniorNotesDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.00SeniorNotesDue2028Member" abstract="true" name="A6.00SeniorNotesDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_LoanParticipationsSold" abstract="false" name="LoanParticipationsSold" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ServiceAndFeeRevenuesMember" abstract="true" name="ServiceAndFeeRevenuesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TradingGainsLossesOnInvestmentsMember" abstract="true" name="TradingGainsLossesOnInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FairValueAdjustmentOnLoansMember" abstract="true" name="FairValueAdjustmentOnLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_InterestIncomeLoansMember" abstract="true" name="InterestIncomeLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_InterestIncomeSecuritiesLendingMember" abstract="true" name="InterestIncomeSecuritiesLendingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SaleOfGoodsMember" abstract="true" name="SaleOfGoodsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_DirectCostOfService" abstract="false" name="DirectCostOfService" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_InterestExpenseSecuritiesLending" abstract="false" name="InterestExpenseSecuritiesLending" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ChangeInFairValueOfFinancialInstrumentsAndOther" abstract="false" name="ChangeInFairValueOfFinancialInstrumentsAndOther" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_GainLossOnDispositionOfBusinessAndDeconsolidation" abstract="false" name="GainLossOnDispositionOfBusinessAndDeconsolidation" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ShareBasedPaymentArrangementDecreaseDueToReclassificationToLiabilityAwards" abstract="false" name="ShareBasedPaymentArrangementDecreaseDueToReclassificationToLiabilityAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_SharesIssuedSharesShareBasedPaymentArrangementAfterForfeitureNetOfTaxWithholdingObligation" abstract="false" name="SharesIssuedSharesShareBasedPaymentArrangementAfterForfeitureNetOfTaxWithholdingObligation" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="rily_SharesIssuedValueShareBasedPaymentArrangementAfterForfeitureNetOfTaxWithholdingObligation" abstract="false" name="SharesIssuedValueShareBasedPaymentArrangementAfterForfeitureNetOfTaxWithholdingObligation" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_StockIssuedDuringPeriodSharesExtinguishmentOfDebt" abstract="false" name="StockIssuedDuringPeriodSharesExtinguishmentOfDebt" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="rily_StockIssuedDuringPeriodValueExtinguishmentOfDebt" abstract="false" name="StockIssuedDuringPeriodValueExtinguishmentOfDebt" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_APICShareBasedPaymentArrangementIncreaseForCostRecognitionSubsidiary" abstract="false" name="APICShareBasedPaymentArrangementIncreaseForCostRecognitionSubsidiary" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DividendForfeituresOnUnvestedEquityAwards" abstract="false" name="DividendForfeituresOnUnvestedEquityAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NetIncomeLossAvailableToCommonStockholders" abstract="false" name="NetIncomeLossAvailableToCommonStockholders" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NoncontrollingInterestIncreaseFromContributions" abstract="false" name="NoncontrollingInterestIncreaseFromContributions" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NoncontrollingInterestIncreaseFromDeconsolidation" abstract="false" name="NoncontrollingInterestIncreaseFromDeconsolidation" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_FairValueAdjustmentsNoncash" abstract="false" name="FairValueAdjustmentsNoncash" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DepreciationOfRentalMerchandise" abstract="false" name="DepreciationOfRentalMerchandise" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationGainLossOnDisposal" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationGainLossOnDisposal" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_GainLossOnEquityInvestment" abstract="false" name="GainLossOnEquityInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_IncomeAllocatedAndFairValueAdjustmentForMandatorilyRedeemableNoncontrollingInterests" abstract="false" name="IncomeAllocatedAndFairValueAdjustmentForMandatorilyRedeemableNoncontrollingInterests" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_IncreaseDecreaseInSecuritiesAndOtherInvestmentsOwned" abstract="false" name="IncreaseDecreaseInSecuritiesAndOtherInvestmentsOwned" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ProceedsFromLoanParticipationsSold" abstract="false" name="ProceedsFromLoanParticipationsSold" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ProceedsFromTrustAccountOfSubsidiary" abstract="false" name="ProceedsFromTrustAccountOfSubsidiary" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_PaymentsToAcquireEquityMethodInvestmentsAndOtherInvestments" abstract="false" name="PaymentsToAcquireEquityMethodInvestmentsAndOtherInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ProceedsFromConsolidationOfVariableInterestEntities" abstract="false" name="ProceedsFromConsolidationOfVariableInterestEntities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ProceedsFromSaleOfDiscontinuedOperationsNetOfCashSold" abstract="false" name="ProceedsFromSaleOfDiscontinuedOperationsNetOfCashSold" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_SecuritiesLendingAbstract" abstract="true" name="SecuritiesLendingAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_SecuritiesLendingTextBlockTextBlock" abstract="false" name="SecuritiesLendingTextBlockTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_TermLoansAndRevolvingCreditFacilityAbstract" abstract="true" name="TermLoansAndRevolvingCreditFacilityAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_TermLoansAndRevolvingCreditFacilityTextBlock" abstract="false" name="TermLoansAndRevolvingCreditFacilityTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_SupplementalNonCashDisclosuresPolicyTextBlock" abstract="false" name="SupplementalNonCashDisclosuresPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_RentalMerchandisePolicyTextBlock" abstract="false" name="RentalMerchandisePolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_NonRedeemableNoncontrollingInterestsInEquityOfSubsidiariesPolicyTextBlock" abstract="false" name="NonRedeemableNoncontrollingInterestsInEquityOfSubsidiariesPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_WarrantLiabilitiesPolicyTextBlock" abstract="false" name="WarrantLiabilitiesPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_ScheduleOfContractValueOfSecuritiesLeadingTransactionByTypeOfCollateralTableTextBlock" abstract="false" name="ScheduleOfContractValueOfSecuritiesLeadingTransactionByTypeOfCollateralTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="rily_W2WealthManagementBusinessMember" abstract="true" name="W2WealthManagementBusinessMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_AtlanticCoastRecyclingMember" abstract="true" name="AtlanticCoastRecyclingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.50SeniorNotesDueMarch2026Member" abstract="true" name="A5.50SeniorNotesDueMarch2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.00SeniorNotesDueDecember2026Member" abstract="true" name="A5.00SeniorNotesDueDecember2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.000SeniorNotesDueJanuary2028Member" abstract="true" name="A6.000SeniorNotesDueJanuary2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.250SeniorNotesDueAugust2028Member" abstract="true" name="A5.250SeniorNotesDueAugust2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A8.000SeniorSecuredSecondLienNotesDue2028Member" abstract="true" name="A8.000SeniorSecuredSecondLienNotesDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.50SeniorNotesDueSeptember2026Member" abstract="true" name="A6.50SeniorNotesDueSeptember2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.50SeniorNotesDueSeptember2026OneMember" abstract="true" name="A6.50SeniorNotesDueSeptember2026OneMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SeniorSecuredNotesMember" abstract="true" name="SeniorSecuredNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationNumberOfFinancialAdvisors" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationNumberOfFinancialAdvisors" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_DisposalGroupWorkingCapitalAdjustmentDuration" abstract="false" name="DisposalGroupWorkingCapitalAdjustmentDuration" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="rily_DebtInstrumentNumberOfPrivateExchangeTransactions" abstract="false" name="DebtInstrumentNumberOfPrivateExchangeTransactions" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_DebtInstrumentFaceAmountTotal" abstract="false" name="DebtInstrumentFaceAmountTotal" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_AccountingPoliciesTable" abstract="true" name="AccountingPoliciesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="rily_FreedomVCMHoldingsLLCMember" abstract="true" name="FreedomVCMHoldingsLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_RetailIndustryMember" abstract="true" name="RetailIndustryMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ConnsMember" abstract="true" name="ConnsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ExelaTechnologiesIncMember" abstract="true" name="ExelaTechnologiesIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FirstLienLoanMember" abstract="true" name="FirstLienLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TorticityLLCMember" abstract="true" name="TorticityLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_GAHoldingsMember" abstract="true" name="GAHoldingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_JoannRetailMember" abstract="true" name="JoannRetailMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRFinancialMember" abstract="true" name="BRFinancialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_WSBadcockCorporationMember" abstract="true" name="WSBadcockCorporationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FreedomVCMReceivablesIncMember" abstract="true" name="FreedomVCMReceivablesIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_B.RileyPrincipalInvestmentsLLCBRPIMember" abstract="true" name="B.RileyPrincipalInvestmentsLLCBRPIMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FirstPrioritySecurityInterestMember" abstract="true" name="FirstPrioritySecurityInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.375SeniorNotesDue2025Member" abstract="true" name="A6.375SeniorNotesDue2025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A5.25SeniorNotesDueAugust2028Member" abstract="true" name="A5.25SeniorNotesDueAugust2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A6.00SeniorNotesDueJanuary2028Member" abstract="true" name="A6.00SeniorNotesDueJanuary2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A8.00SeniorNotesDue2028Member" abstract="true" name="A8.00SeniorNotesDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TermLoanMember" abstract="true" name="TermLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_OtherEquityInvestmentsMember" abstract="true" name="OtherEquityInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FRGMember" abstract="true" name="FRGMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FRGInvestmentMember" abstract="true" name="FRGInvestmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BWMember" abstract="true" name="BWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SynchronossMember" abstract="true" name="SynchronossMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SynchronossTechnologiesInc.Member" abstract="true" name="SynchronossTechnologiesInc.Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_NoginInc.Member" abstract="true" name="NoginInc.Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_AccountingPoliciesLineItems" abstract="true" name="AccountingPoliciesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_NonredeemableNoncontrollingInterestRecognized" abstract="false" name="NonredeemableNoncontrollingInterestRecognized" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentExitFeeAmoutnt" abstract="false" name="DebtInstrumentExitFeeAmoutnt" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_BusinessCombinationConsiderationTransferredLoansReceivable" abstract="false" name="BusinessCombinationConsiderationTransferredLoansReceivable" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_FinancingReceivableUnrealizedGainLoss" abstract="false" name="FinancingReceivableUnrealizedGainLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DividendsPaidEqualToTheGreaterOfNetAfterTaxProceedsPercentage" abstract="false" name="DividendsPaidEqualToTheGreaterOfNetAfterTaxProceedsPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_DividendsPaidEqualToTheGreaterOfGrossProceedsPercentage" abstract="false" name="DividendsPaidEqualToTheGreaterOfGrossProceedsPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_TakePrivateTransactionPrice" abstract="false" name="TakePrivateTransactionPrice" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LoansReceivableFairValueAdjustment" abstract="false" name="LoansReceivableFairValueAdjustment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_FinancingReceivableAmountExceedFairValue" abstract="false" name="FinancingReceivableAmountExceedFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LongTermDebtNumberOfLoans" abstract="false" name="LongTermDebtNumberOfLoans" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_DebtInstrumentFloorPercentage" abstract="false" name="DebtInstrumentFloorPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_LoanReceivableAmountOfConsiderationReceived" abstract="false" name="LoanReceivableAmountOfConsiderationReceived" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LoansReceivableExceededFairValueDisclosure" abstract="false" name="LoansReceivableExceededFairValueDisclosure" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LoansReceivableFairValueDisclosureDrawn" abstract="false" name="LoansReceivableFairValueDisclosureDrawn" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_TakePrivateTransactionVoteOrDisposalAmountOfShares" abstract="false" name="TakePrivateTransactionVoteOrDisposalAmountOfShares" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_EquityMethodInvestmentNumberOfPrivateCompanies" abstract="false" name="EquityMethodInvestmentNumberOfPrivateCompanies" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_PercentageOfAssetsMeasuredAtFairValue" abstract="false" name="PercentageOfAssetsMeasuredAtFairValue" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_SeniorNotesFairValue" abstract="false" name="SeniorNotesFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_BicoastalAllianceLLCMember" abstract="true" name="BicoastalAllianceLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRCPartnersOpportunityFundLPMember" abstract="true" name="BRCPartnersOpportunityFundLPMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SWB.RileyRetailMember" abstract="true" name="SWB.RileyRetailMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ExcessAmountInBalanceOfEquityMethodInvestment" abstract="false" name="ExcessAmountInBalanceOfEquityMethodInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NoncontrollingInterestCommonStockPercent" abstract="false" name="NoncontrollingInterestCommonStockPercent" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_NoncontrollingInterestContinuesToOwnPercent" abstract="false" name="NoncontrollingInterestContinuesToOwnPercent" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_NoncontrollingInterestEstimatedRecognizedLossAmount" abstract="false" name="NoncontrollingInterestEstimatedRecognizedLossAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NoncontrollingInterestMeasurementInput" abstract="false" name="NoncontrollingInterestMeasurementInput" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:decimalItemType"/>
+  <xs:element id="rily_CashFeesPercentage" abstract="false" name="CashFeesPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_CarriedInterestPercentage" abstract="false" name="CarriedInterestPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_AgentFees" abstract="false" name="AgentFees" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NumberOfBrandApparelOperatingCompanies" abstract="false" name="NumberOfBrandApparelOperatingCompanies" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_CorporateBondsMember" abstract="true" name="CorporateBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_PartnershipInterestsAndOtherMember" abstract="true" name="PartnershipInterestsAndOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SecuritiesAndOtherInvestmentsOwnedAbstract" abstract="true" name="SecuritiesAndOtherInvestmentsOwnedAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_SecuritiesSoldNotYetPurchasedAbstract" abstract="true" name="SecuritiesSoldNotYetPurchasedAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_InvestmentsInNonPublicEntitiesThatDoNotReportNAV" abstract="false" name="InvestmentsInNonPublicEntitiesThatDoNotReportNAV" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_OtherFixedIncomeSecuritiesMember" abstract="true" name="OtherFixedIncomeSecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_OaktreeWarrantsMember" abstract="true" name="OaktreeWarrantsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SecuritiesAndOtherInvestmentsOwnedAbstract0" abstract="true" name="SecuritiesAndOtherInvestmentsOwnedAbstract0" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_SecuritiesSoldNotYetPurchasedAbstract0" abstract="true" name="SecuritiesSoldNotYetPurchasedAbstract0" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_ValuationTechniqueMonteCarloSimulationAndBlackScholesOptionPricingModelMember" abstract="true" name="ValuationTechniqueMonteCarloSimulationAndBlackScholesOptionPricingModelMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ValuationTechniqueDiscountedCashFlowAndMarketApproachMember" abstract="true" name="ValuationTechniqueDiscountedCashFlowAndMarketApproachMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MeasurementInputSaleMultipleMember" abstract="true" name="MeasurementInputSaleMultipleMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MeasurementInputMarketPriceMember" abstract="true" name="MeasurementInputMarketPriceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MeasurementInputAnnualizedVolatilityMember" abstract="true" name="MeasurementInputAnnualizedVolatilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MeasurementInputCashRecoveryRateMember" abstract="true" name="MeasurementInputCashRecoveryRateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_LoansReceivableMeasurementInput" abstract="false" name="LoansReceivableMeasurementInput" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:decimalItemType"/>
+  <xs:element id="rily_OtherAssetsMeasurementInput" abstract="false" name="OtherAssetsMeasurementInput" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_TradingGainsLossesIncomeAndFairValueAdjustmentsOnLoanMember" abstract="true" name="TradingGainsLossesIncomeAndFairValueAdjustmentsOnLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_GainLossOnInvestmentsMember" abstract="true" name="GainLossOnInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_LoanReceivableAtFairValueMember" abstract="true" name="LoanReceivableAtFairValueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BusinessCombinationContingentConsiderationLiabilityMember" abstract="true" name="BusinessCombinationContingentConsiderationLiabilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_LiabilityClassifiedWarrantsMember" abstract="true" name="LiabilityClassifiedWarrantsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_LoansReceivableCostAmount" abstract="false" name="LoansReceivableCostAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentAssetsOperatingLeaseRightOfUseAssets" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedCurrentAssetsOperatingLeaseRightOfUseAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_InternallyDevelopedSoftwareAndOtherIntangiblesMember" abstract="true" name="InternallyDevelopedSoftwareAndOtherIntangiblesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BebeBrandsMember" abstract="true" name="BebeBrandsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BebeCreditAgreementMember" abstract="true" name="BebeCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ScotchAndSodaMember" abstract="true" name="ScotchAndSodaMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BebeStoresIncMember" abstract="true" name="BebeStoresIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BrandsTransactionMember" abstract="true" name="BrandsTransactionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_GreatAmericanGroupMember" abstract="true" name="GreatAmericanGroupMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_GlassRatnerFarberMember" abstract="true" name="GlassRatnerFarberMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ClassAPreferredUnitsMember" abstract="true" name="ClassAPreferredUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_CommonUnitsMember" abstract="true" name="CommonUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ClassBPreferredUnitsMember" abstract="true" name="ClassBPreferredUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BrandAssetsMember" abstract="true" name="BrandAssetsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ProceedsFromSaleOfInterestUpfrontPayment" abstract="false" name="ProceedsFromSaleOfInterestUpfrontPayment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_EquityMethodInvestmentFairValueAdjustment" abstract="false" name="EquityMethodInvestmentFairValueAdjustment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ProceedsFromSaleOfInterestNet" abstract="false" name="ProceedsFromSaleOfInterestNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_RepaymentsOfDebtExpense" abstract="false" name="RepaymentsOfDebtExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationOwnershipPercentageInDisposedAsset" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationOwnershipPercentageInDisposedAsset" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_PreferredStockLiquidationPreferenceCashCouponPercentage" abstract="false" name="PreferredStockLiquidationPreferenceCashCouponPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_PreferredStockLiquidationPreferencePaymentInKindCouponPercentage" abstract="false" name="PreferredStockLiquidationPreferencePaymentInKindCouponPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_PreferredUnitsIssuedAndOutstandingPercentage" abstract="false" name="PreferredUnitsIssuedAndOutstandingPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_PreferredUnitsIssuedAndOutstandingRemainingPercentage" abstract="false" name="PreferredUnitsIssuedAndOutstandingRemainingPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_LineOfCreditFacilityTransitionServiceDuration" abstract="false" name="LineOfCreditFacilityTransitionServiceDuration" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="rily_WealthManagementMember" abstract="true" name="WealthManagementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationAccountsReceivableAllowanceForCreditLossCurrent" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationAccountsReceivableAllowanceForCreditLossCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationOperatingLeaseRightOfUseAssets" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationOperatingLeaseRightOfUseAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationOperatingLeaseLiabilities" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationOperatingLeaseLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationNotesPayableCurrent" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationNotesPayableCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationOtherIntangibleAssetsNet" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationOtherIntangibleAssetsNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationContingentConsiderationLiability" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationContingentConsiderationLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationDirectCostOfServices" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationDirectCostOfServices" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationDividendIncome" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationDividendIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DisposalGroupIncludingDiscontinuedOperationGainLossOnInvestments" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationGainLossOnInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_CommunicationsSegmentMember" abstract="true" name="CommunicationsSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ConsumerProductsSegmentMember" abstract="true" name="ConsumerProductsSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_RestructuringReservesNonCashItems" abstract="false" name="RestructuringReservesNonCashItems" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_SecuritiesBorrowedOffsetAgainstCollateralNetOfNotSubjectToMasterNettingArrangement" abstract="false" name="SecuritiesBorrowedOffsetAgainstCollateralNetOfNotSubjectToMasterNettingArrangement" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_SecuritiesLoanedOffsetAgainstCollateralNetOfNotSubjectToMasterNettingArrangement" abstract="false" name="SecuritiesLoanedOffsetAgainstCollateralNetOfNotSubjectToMasterNettingArrangement" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_OvernightAndContinuousMember" abstract="true" name="OvernightAndContinuousMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_CorporateSecuritiesMember" abstract="true" name="CorporateSecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_InvestmentBankingFeesCommissionsAndOtherReceivable" abstract="false" name="InvestmentBankingFeesCommissionsAndOtherReceivable" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_AccountsReceivableCreditLossExpenseReversalIncludeDiscontinuedOperations" abstract="false" name="AccountsReceivableCreditLossExpenseReversalIncludeDiscontinuedOperations" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_AccountsReceivableAllowanceForCreditLossRecoveryNetOfAdjustments" abstract="false" name="AccountsReceivableAllowanceForCreditLossRecoveryNetOfAdjustments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_RentalMerchandiseNet" abstract="false" name="RentalMerchandiseNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_CapitalMarketsSegmentMember" abstract="true" name="CapitalMarketsSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_WealthManagementSegmentMember" abstract="true" name="WealthManagementSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ConsumerProductsMember" abstract="true" name="ConsumerProductsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ECommerceMember" abstract="true" name="ECommerceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MeasurementInputGrowthRateMember" abstract="true" name="MeasurementInputGrowthRateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MeasurementInputRoyaltyRateMember" abstract="true" name="MeasurementInputRoyaltyRateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FiniteLivedIntangibleAssetExpectedAmortizationAfterYearFour" abstract="false" name="FiniteLivedIntangibleAssetExpectedAmortizationAfterYearFour" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_GoodwillAndIntangibleAssetsImpairmentMeasurementInput" abstract="false" name="GoodwillAndIntangibleAssetsImpairmentMeasurementInput" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:decimalItemType"/>
+  <xs:element id="rily_DomainNamesMember" abstract="true" name="DomainNamesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_AdvertisingRelationshipsMember" abstract="true" name="AdvertisingRelationshipsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ClearingOrganisationMember" abstract="true" name="ClearingOrganisationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SecuredConvertiblePromissoryNoteMember" abstract="true" name="SecuredConvertiblePromissoryNoteMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_DebtInstrumentDeferredPurchaseConsideration" abstract="false" name="DebtInstrumentDeferredPurchaseConsideration" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LingoCreditAgreementMember" abstract="true" name="LingoCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_NomuraCreditAgreementMember" abstract="true" name="NomuraCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRPACCreditAgreementMember" abstract="true" name="BRPACCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_OaktreeCreditAgreementMember" abstract="true" name="OaktreeCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TargusCreditAgreementMember" abstract="true" name="TargusCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TermLoanCreditFacilityMember" abstract="true" name="TermLoanCreditFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SecuredDelayedDrawTermLoanMember" abstract="true" name="SecuredDelayedDrawTermLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TargusFGICreditAgreementMember" abstract="true" name="TargusFGICreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FifthAmendmentMember" abstract="true" name="FifthAmendmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FourthAmendmentMember" abstract="true" name="FourthAmendmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRPACAmendedCreditAgreementMember" abstract="true" name="BRPACAmendedCreditAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SecuredOvernightFinancingRateAdjustmentMember" abstract="true" name="SecuredOvernightFinancingRateAdjustmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_AdjustedTermSOFRMember" abstract="true" name="AdjustedTermSOFRMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_PaidInKindInterestMember" abstract="true" name="PaidInKindInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ApplicableMarginRateMember" abstract="true" name="ApplicableMarginRateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_VariableRateComponentAxis" abstract="true" name="VariableRateComponentAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="rily_VariableRateComponentDomain" abstract="true" name="VariableRateComponentDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_VariableRateComponentOneMember" abstract="true" name="VariableRateComponentOneMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_VariableRateComponentTwoMember" abstract="true" name="VariableRateComponentTwoMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_VariableRateComponentThreeMember" abstract="true" name="VariableRateComponentThreeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_VariableRateComponentFourMember" abstract="true" name="VariableRateComponentFourMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRPIAcquisitionCoLLCMember" abstract="true" name="BRPIAcquisitionCoLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRPACMember" abstract="true" name="BRPACMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_UnitedOnlineSoftwareDevelopmentIndiaPrivateLimitedMember" abstract="true" name="UnitedOnlineSoftwareDevelopmentIndiaPrivateLimitedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_MagicJackVocalTecLTDMember" abstract="true" name="MagicJackVocalTecLTDMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_DebtInstrumentClosingFee" abstract="false" name="DebtInstrumentClosingFee" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_DebtInstrumentExitFee" abstract="false" name="DebtInstrumentExitFee" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRightsPercentage" abstract="false" name="ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRightsPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_DebtInstrumentCovenantBreachAmountContributed" abstract="false" name="DebtInstrumentCovenantBreachAmountContributed" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentRepaidRevolverLoanAdvancesAmount" abstract="false" name="DebtInstrumentRepaidRevolverLoanAdvancesAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentQuarterlyCommitmentFees" abstract="false" name="DebtInstrumentQuarterlyCommitmentFees" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentDeferredAmendmentFee" abstract="false" name="DebtInstrumentDeferredAmendmentFee" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentMonthlyCollateralManagementFee" abstract="false" name="DebtInstrumentMonthlyCollateralManagementFee" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="rily_LineOfCreditFacilityInterestAndFeeAmount" abstract="false" name="LineOfCreditFacilityInterestAndFeeAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DividendsReserve" abstract="false" name="DividendsReserve" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentLoanFeesIncurredAmount" abstract="false" name="DebtInstrumentLoanFeesIncurredAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentLoanFeesIncurredIncludedToPrincipalAmount" abstract="false" name="DebtInstrumentLoanFeesIncurredIncludedToPrincipalAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_TelecommunicationFinancings" abstract="false" name="TelecommunicationFinancings" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentCovenantPledgedAssetPercentage" abstract="false" name="DebtInstrumentCovenantPledgedAssetPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_LineOfCreditFacilityIncrementalBorrowingCapacity" abstract="false" name="LineOfCreditFacilityIncrementalBorrowingCapacity" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NewNotesMember" abstract="true" name="NewNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A8.00NewNotesPrincipalDue2028Member" abstract="true" name="A8.00NewNotesPrincipalDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_NotesPayableTotal" abstract="false" name="NotesPayableTotal" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LongTermDebtUndiscountedDebtPayments" abstract="false" name="LongTermDebtUndiscountedDebtPayments" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_DebtInstrumentRedemptionPriceDiscountedPercentage" abstract="false" name="DebtInstrumentRedemptionPriceDiscountedPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRightsTotal" abstract="false" name="ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRightsTotal" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="rily_CapitalizedContractCostRecognized" abstract="false" name="CapitalizedContractCostRecognized" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_CorporateFinanceConsultingAndInvestmentBankingFeesMember" abstract="true" name="CorporateFinanceConsultingAndInvestmentBankingFeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_WealthAndAssetManagementFeesMember" abstract="true" name="WealthAndAssetManagementFeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_CommissionsFeesAndReimbursedExpensesMember" abstract="true" name="CommissionsFeesAndReimbursedExpensesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SubscriptionServicesMember" abstract="true" name="SubscriptionServicesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_AdvertisingAndOtherMember" abstract="true" name="AdvertisingAndOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_TradingGainsLossesMember" abstract="true" name="TradingGainsLossesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_OtherMember" abstract="true" name="OtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ECommerceSegmentMember" abstract="true" name="ECommerceSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SorrentoTherapeuticsInc.Member" abstract="true" name="SorrentoTherapeuticsInc.Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BabcockAndWilcoxMember" abstract="true" name="BabcockAndWilcoxMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_CreditAgreementQuarterlyPayableCashPercentage" abstract="false" name="CreditAgreementQuarterlyPayableCashPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_CreditAgreementQuarterlyPayablePennyWarrantPercentage" abstract="false" name="CreditAgreementQuarterlyPayablePennyWarrantPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_ServiceFees" abstract="false" name="ServiceFees" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_IndemnityAmount" abstract="false" name="IndemnityAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_IndemnityRiderReceived" abstract="false" name="IndemnityRiderReceived" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_PaymentsForOtherCommitment" abstract="false" name="PaymentsForOtherCommitment" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_A2021StockIncentivePlanMember" abstract="true" name="A2021StockIncentivePlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_EmployeeStockPurchasePlanMember" abstract="true" name="EmployeeStockPurchasePlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_UnregisteredSharesMember" abstract="true" name="UnregisteredSharesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRSHStockIncentivePlanMember" abstract="true" name="BRSHStockIncentivePlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_EmployeeOneMemberMember" abstract="true" name="EmployeeOneMemberMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_StockOptionsVestInTranche1Member" abstract="true" name="StockOptionsVestInTranche1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_StockOptionsVestInTranche2Member" abstract="true" name="StockOptionsVestInTranche2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_StockOptionsVestInTranche3Member" abstract="true" name="StockOptionsVestInTranche3Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsGrantedFairValue" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsGrantedFairValue" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NoncontrollingInterestEquityPercentage" abstract="false" name="NoncontrollingInterestEquityPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="rily_SubsidiaryOwnershipPercentageNoncontrollingOwnerVestingTerms" abstract="false" name="SubsidiaryOwnershipPercentageNoncontrollingOwnerVestingTerms" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="rily_SeriesACumulativePreferredStockMember" abstract="true" name="SeriesACumulativePreferredStockMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SeriesBCumulativePreferredStockMember" abstract="true" name="SeriesBCumulativePreferredStockMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRBrandWarrantsMember" abstract="true" name="BRBrandWarrantsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BrokerDealerNetCapitalRequirementTable" abstract="true" name="BrokerDealerNetCapitalRequirementTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="rily_BRileySecuritiesMember" abstract="true" name="BRileySecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BRileyWealthManagementMember" abstract="true" name="BRileyWealthManagementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BrokerDealerNetCapitalRequirementLineItems" abstract="true" name="BrokerDealerNetCapitalRequirementLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="rily_FundsMember" abstract="true" name="FundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_BebesRentMember" abstract="true" name="BebesRentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_WhitehawkMember" abstract="true" name="WhitehawkMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_APLDMember" abstract="true" name="APLDMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_CaliforniaNaturalResourcesGroupLLCMember" abstract="true" name="CaliforniaNaturalResourcesGroupLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_KanaciTechnologiesLLCMember" abstract="true" name="KanaciTechnologiesLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A272LPAnd272AdvisorsLLCMember" abstract="true" name="A272LPAnd272AdvisorsLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FreedomVCMMember" abstract="true" name="FreedomVCMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_FreedomVCMFirstPrioritySecurityInterestMember" abstract="true" name="FreedomVCMFirstPrioritySecurityInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_Mr.KahnAndHisWifeAndOneOfMr.KahnsAffiliatesMember" abstract="true" name="Mr.KahnAndHisWifeAndOneOfMr.KahnsAffiliatesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_A272CapitalLPMember" abstract="true" name="A272CapitalLPMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_ServiceAgreementTermination" abstract="false" name="ServiceAgreementTermination" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="rily_ManagementConsultingServicesMonthlyPayments" abstract="false" name="ManagementConsultingServicesMonthlyPayments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_UnderwritingAndFinancialAdvisoryFees" abstract="false" name="UnderwritingAndFinancialAdvisoryFees" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LoanReceivableFairValue" abstract="false" name="LoanReceivableFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_PaymentsToAcquireEquityMethodInvestmentsTransactionRollOver" abstract="false" name="PaymentsToAcquireEquityMethodInvestmentsTransactionRollOver" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_LoansReceivableFairValueDisclosureRemaining" abstract="false" name="LoansReceivableFairValueDisclosureRemaining" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_NumberOfSeniorManagementMembersAppointed" abstract="false" name="NumberOfSeniorManagementMembersAppointed" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_NumberOfRetailLiquidationEngagements" abstract="false" name="NumberOfRetailLiquidationEngagements" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_NumberOfLoansReceivable" abstract="false" name="NumberOfLoansReceivable" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="rily_FinancingReceivableSalePromissoryNote" abstract="false" name="FinancingReceivableSalePromissoryNote" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_FinancingReceivableSaleAggregateRevenueShareAmount" abstract="false" name="FinancingReceivableSaleAggregateRevenueShareAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_ServicesAndFeesMember" abstract="true" name="ServicesAndFeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_SalesOfGoodsMember" abstract="true" name="SalesOfGoodsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="rily_GainOnSeniorNoteExchange" abstract="false" name="GainOnSeniorNoteExchange" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="rily_EuropeMiddleEastAndAfricaMember" abstract="true" name="EuropeMiddleEastAndAfricaMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+</xs:schema>

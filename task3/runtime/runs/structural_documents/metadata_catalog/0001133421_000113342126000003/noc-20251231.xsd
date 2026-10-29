@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2026 Workiva-->
+<!--r:86f181fc-e73c-48fb-b034-d794014ac848,g:9b1e35fa-11ae-413f-a4b5-dce911ebe3d3-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:noc="http://www.northropgrumman.com/20251231" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.northropgrumman.com/20251231">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/currency/2025" schemaLocation="https://xbrl.sec.gov/currency/2025/currency-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/cyd-af-sub/2025" schemaLocation="https://xbrl.sec.gov/cyd/2025/cyd-af-sub-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/stpr/2025" schemaLocation="https://xbrl.sec.gov/stpr/2025/stpr-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="noc-20251231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="noc-20251231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="noc-20251231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="noc-20251231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="DocumentandEntityInformation" roleURI="http://www.northropgrumman.com/role/DocumentandEntityInformation">
+        <link:definition>0000001 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AuditInformation" roleURI="http://www.northropgrumman.com/role/AuditInformation">
+        <link:definition>0000002 - Document - Audit Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofEarningsandComprehensiveIncome" roleURI="http://www.northropgrumman.com/role/ConsolidatedStatementsofEarningsandComprehensiveIncome">
+        <link:definition>9952151 - Statement - Consolidated Statements of Earnings and Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofFinancialPosition" roleURI="http://www.northropgrumman.com/role/ConsolidatedStatementsofFinancialPosition">
+        <link:definition>9952152 - Statement - Consolidated Statements of Financial Position</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofFinancialPositionParentheticals" roleURI="http://www.northropgrumman.com/role/ConsolidatedStatementsofFinancialPositionParentheticals">
+        <link:definition>9952153 - Statement - Consolidated Statements of Financial Position (Parentheticals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlows" roleURI="http://www.northropgrumman.com/role/ConsolidatedStatementsofCashFlows">
+        <link:definition>9952154 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinShareholdersEquity" roleURI="http://www.northropgrumman.com/role/ConsolidatedStatementsofChangesinShareholdersEquity">
+        <link:definition>9952155 - Statement - Consolidated Statements of Changes in Shareholders' Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPolicies" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPolicies">
+        <link:definition>9952156 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Dispositions" roleURI="http://www.northropgrumman.com/role/Dispositions">
+        <link:definition>9952157 - Disclosure - Dispositions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareShareRepurchasesandDividendsonCommonStock" roleURI="http://www.northropgrumman.com/role/EarningsPerShareShareRepurchasesandDividendsonCommonStock">
+        <link:definition>9952158 - Disclosure - Earnings Per Share, Share Repurchases and Dividends on Common Stock</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccountsReceivableNet" roleURI="http://www.northropgrumman.com/role/AccountsReceivableNet">
+        <link:definition>9952159 - Disclosure - Accounts Receivable, Net</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnbilledReceivablesNet" roleURI="http://www.northropgrumman.com/role/UnbilledReceivablesNet">
+        <link:definition>9952160 - Disclosure - Unbilled Receivables, Net</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriedCostsNet" roleURI="http://www.northropgrumman.com/role/InventoriedCostsNet">
+        <link:definition>9952161 - Disclosure - Inventoried Costs, Net</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.northropgrumman.com/role/IncomeTaxes">
+        <link:definition>9952162 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherPurchasedIntangibleAssets" roleURI="http://www.northropgrumman.com/role/GoodwillandOtherPurchasedIntangibleAssets">
+        <link:definition>9952163 - Disclosure - Goodwill and Other Purchased Intangible Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstruments" roleURI="http://www.northropgrumman.com/role/FairValueofFinancialInstruments">
+        <link:definition>9952164 - Disclosure - Fair Value of Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Debt" roleURI="http://www.northropgrumman.com/role/Debt">
+        <link:definition>9952165 - Disclosure - Debt</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestigationsClaimsandLitigation" roleURI="http://www.northropgrumman.com/role/InvestigationsClaimsandLitigation">
+        <link:definition>9952166 - Disclosure - Investigations, Claims and Litigation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingencies" roleURI="http://www.northropgrumman.com/role/CommitmentsandContingencies">
+        <link:definition>9952167 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefits" roleURI="http://www.northropgrumman.com/role/RetirementBenefits">
+        <link:definition>9952168 - Disclosure - Retirement Benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockCompensationPlansandOtherCompensationArrangements" roleURI="http://www.northropgrumman.com/role/StockCompensationPlansandOtherCompensationArrangements">
+        <link:definition>9952169 - Disclosure - Stock Compensation Plans and Other Compensation Arrangements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Leases" roleURI="http://www.northropgrumman.com/role/Leases">
+        <link:definition>9952170 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformation" roleURI="http://www.northropgrumman.com/role/SegmentInformation">
+        <link:definition>9952171 - Disclosure - Segment Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesPolicies" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesPolicies">
+        <link:definition>9955511 - Disclosure - Summary of Significant Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesTables" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesTables">
+        <link:definition>9955512 - Disclosure - Summary of Significant Accounting Policies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareShareRepurchasesandDividendsonCommonStockTables" roleURI="http://www.northropgrumman.com/role/EarningsPerShareShareRepurchasesandDividendsonCommonStockTables">
+        <link:definition>9955513 - Disclosure - Earnings Per Share, Share Repurchases and Dividends on Common Stock (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccountsReceivableNetTables" roleURI="http://www.northropgrumman.com/role/AccountsReceivableNetTables">
+        <link:definition>9955514 - Disclosure - Accounts Receivable, Net (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnbilledReceivablesNetTables" roleURI="http://www.northropgrumman.com/role/UnbilledReceivablesNetTables">
+        <link:definition>9955515 - Disclosure - Unbilled Receivables, Net (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriedCostsNetTables" roleURI="http://www.northropgrumman.com/role/InventoriedCostsNetTables">
+        <link:definition>9955516 - Disclosure - Inventoried Costs, Net (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesTables" roleURI="http://www.northropgrumman.com/role/IncomeTaxesTables">
+        <link:definition>9955517 - Disclosure - Income Taxes (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherPurchasedIntangibleAssetsTables" roleURI="http://www.northropgrumman.com/role/GoodwillandOtherPurchasedIntangibleAssetsTables">
+        <link:definition>9955518 - Disclosure - Goodwill and Other Purchased Intangible Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstrumentsTables" roleURI="http://www.northropgrumman.com/role/FairValueofFinancialInstrumentsTables">
+        <link:definition>9955519 - Disclosure - Fair Value of Financial Instruments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtTables" roleURI="http://www.northropgrumman.com/role/DebtTables">
+        <link:definition>9955520 - Disclosure - Debt (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesTables" roleURI="http://www.northropgrumman.com/role/CommitmentsandContingenciesTables">
+        <link:definition>9955521 - Disclosure - Commitments and Contingencies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsTables" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsTables">
+        <link:definition>9955522 - Disclosure - Retirement Benefits (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockCompensationPlansandOtherCompensationArrangementsTables" roleURI="http://www.northropgrumman.com/role/StockCompensationPlansandOtherCompensationArrangementsTables">
+        <link:definition>9955523 - Disclosure - Stock Compensation Plans and Other Compensation Arrangements (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://www.northropgrumman.com/role/LeasesTables">
+        <link:definition>9955524 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationTables" roleURI="http://www.northropgrumman.com/role/SegmentInformationTables">
+        <link:definition>9955525 - Disclosure - Segment Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AmountsinParagraphsSummaryofSignificantAccountingPoliciesDetails1" roleURI="http://www.northropgrumman.com/role/AmountsinParagraphsSummaryofSignificantAccountingPoliciesDetails1">
+        <link:definition>9955526 - Disclosure - Amounts in Paragraphs - Summary of Significant Accounting Policies (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesPropertyPlantandEquipmentDetails2" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesPropertyPlantandEquipmentDetails2">
+        <link:definition>9955527 - Disclosure - Summary of Significant Accounting Policies Property, Plant and Equipment (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesNoncashInvestingandFinancingActivitiesDetails3" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesNoncashInvestingandFinancingActivitiesDetails3">
+        <link:definition>9955528 - Disclosure - Summary of Significant Accounting Policies Non-cash Investing and Financing Activities (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesAccumulatedOtherComprehensiveIncomeLossDetails4" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesAccumulatedOtherComprehensiveIncomeLossDetails4">
+        <link:definition>9955529 - Disclosure - Summary of Significant Accounting Policies Accumulated Other Comprehensive Income (Loss) (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesContractEstimatesDetails5" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesContractEstimatesDetails5">
+        <link:definition>9955530 - Disclosure - Summary of Significant Accounting Policies Contract Estimates (Details 5)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesBacklogandContractAssetsandLiabilitiesDetails6" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesBacklogandContractAssetsandLiabilitiesDetails6">
+        <link:definition>9955531 - Disclosure - Summary of Significant Accounting Policies Backlog and Contract Assets and Liabilities (Details 6)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesBacklogandContractAssetsandLiabilitiesDetails6_1" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesBacklogandContractAssetsandLiabilitiesDetails6_1">
+        <link:definition>9955531 - Disclosure - Summary of Significant Accounting Policies Backlog and Contract Assets and Liabilities (Details 6)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesSaleofMinorityInvestmentDetails7" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesSaleofMinorityInvestmentDetails7">
+        <link:definition>9955532 - Disclosure - Summary of Significant Accounting Policies Sale of Minority Investment (Details 7)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesDispositionsDetails7" roleURI="http://www.northropgrumman.com/role/SummaryofSignificantAccountingPoliciesDispositionsDetails7">
+        <link:definition>9955533 - Disclosure - Summary of Significant Accounting Policies Dispositions (Details 7)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareDividendsandDilutionDetails1" roleURI="http://www.northropgrumman.com/role/EarningsPerShareDividendsandDilutionDetails1">
+        <link:definition>9955534 - Disclosure - Earnings Per Share, Dividends and Dilution (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareShareRepurchasesDetails2" roleURI="http://www.northropgrumman.com/role/EarningsPerShareShareRepurchasesDetails2">
+        <link:definition>9955535 - Disclosure - Earnings Per Share, Share Repurchases (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccountsReceivableNetDetails" roleURI="http://www.northropgrumman.com/role/AccountsReceivableNetDetails">
+        <link:definition>9955536 - Disclosure - Accounts Receivable, Net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnbilledReceivablesNetDetails" roleURI="http://www.northropgrumman.com/role/UnbilledReceivablesNetDetails">
+        <link:definition>9955537 - Disclosure - Unbilled Receivables, Net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InventoriedCostsNetDetails" roleURI="http://www.northropgrumman.com/role/InventoriedCostsNetDetails">
+        <link:definition>9955538 - Disclosure - Inventoried Costs, Net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesFederalandForeignIncomeTaxExpenseDetails1" roleURI="http://www.northropgrumman.com/role/IncomeTaxesFederalandForeignIncomeTaxExpenseDetails1">
+        <link:definition>9955539 - Disclosure - Income Taxes Federal and Foreign Income Tax Expense (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesEffectiveIncomeTaxRateReconciliationDetails2" roleURI="http://www.northropgrumman.com/role/IncomeTaxesEffectiveIncomeTaxRateReconciliationDetails2">
+        <link:definition>9955540 - Disclosure - Income Taxes Effective Income Tax Rate Reconciliation (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesPaidDetails3" roleURI="http://www.northropgrumman.com/role/IncomeTaxesPaidDetails3">
+        <link:definition>9955541 - Disclosure - Income Taxes Paid (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesUnrecognizedTaxBenefitsDetails4" roleURI="http://www.northropgrumman.com/role/IncomeTaxesUnrecognizedTaxBenefitsDetails4">
+        <link:definition>9955542 - Disclosure - Income Taxes Unrecognized Tax Benefits (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDeferredIncomeTaxesDetails5" roleURI="http://www.northropgrumman.com/role/IncomeTaxesDeferredIncomeTaxesDetails5">
+        <link:definition>9955543 - Disclosure - Income Taxes Deferred Income Taxes (Details 5)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AmountsinParagraphsIncomeTaxesDetails6" roleURI="http://www.northropgrumman.com/role/AmountsinParagraphsIncomeTaxesDetails6">
+        <link:definition>9955544 - Disclosure - Amounts in Paragraphs - Income Taxes (Details 6)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherPurchasedIntangibleAssetsGoodwillRollforwardDetails1" roleURI="http://www.northropgrumman.com/role/GoodwillandOtherPurchasedIntangibleAssetsGoodwillRollforwardDetails1">
+        <link:definition>9955545 - Disclosure - Goodwill and Other Purchased Intangible Assets Goodwill Rollforward (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherPurchasedIntangibleAssetsOtherPurchasedIntangibleAssetsDetails2" roleURI="http://www.northropgrumman.com/role/GoodwillandOtherPurchasedIntangibleAssetsOtherPurchasedIntangibleAssetsDetails2">
+        <link:definition>9955546 - Disclosure - Goodwill and Other Purchased Intangible Assets Other Purchased Intangible Assets (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherPurchasedIntangibleAssetsFutureAmortizationofPurchasedIntangiblesDetails3" roleURI="http://www.northropgrumman.com/role/GoodwillandOtherPurchasedIntangibleAssetsFutureAmortizationofPurchasedIntangiblesDetails3">
+        <link:definition>9955547 - Disclosure - Goodwill and Other Purchased Intangible Assets Future Amortization of Purchased Intangibles (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherPurchasedIntangibleAssetsAmountsinParagraphsGoodwillandOtherPurchasedIntangibleAssetsDetails4" roleURI="http://www.northropgrumman.com/role/GoodwillandOtherPurchasedIntangibleAssetsAmountsinParagraphsGoodwillandOtherPurchasedIntangibleAssetsDetails4">
+        <link:definition>9955548 - Disclosure - Goodwill and Other Purchased Intangible Assets Amounts in Paragraphs - Goodwill and Other Purchased Intangible Assets (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstrumentsDetails1" roleURI="http://www.northropgrumman.com/role/FairValueofFinancialInstrumentsDetails1">
+        <link:definition>9955549 - Disclosure - Fair Value of Financial Instruments (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstrumentsAmountsinParagraphsFairValueofFinancialInstrumentsDetails2" roleURI="http://www.northropgrumman.com/role/FairValueofFinancialInstrumentsAmountsinParagraphsFairValueofFinancialInstrumentsDetails2">
+        <link:definition>9955550 - Disclosure - Fair Value of Financial Instruments Amounts in Paragraphs - Fair Value of Financial Instruments (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtFixedrateNotesandOtherDetails1" roleURI="http://www.northropgrumman.com/role/DebtFixedrateNotesandOtherDetails1">
+        <link:definition>9955551 - Disclosure - Debt Fixed-rate Notes and Other (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtMaturitiesofLongtermDebtDetails2" roleURI="http://www.northropgrumman.com/role/DebtMaturitiesofLongtermDebtDetails2">
+        <link:definition>9955552 - Disclosure - Debt Maturities of Long-term Debt (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AmountsinParagraphsDebtDetails3" roleURI="http://www.northropgrumman.com/role/AmountsinParagraphsDebtDetails3">
+        <link:definition>9955553 - Disclosure - Amounts in Paragraphs - Debt (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestigationsClaimsandLitigationInvestigationsClaimsandLitigationDetails1" roleURI="http://www.northropgrumman.com/role/InvestigationsClaimsandLitigationInvestigationsClaimsandLitigationDetails1">
+        <link:definition>9955554 - Disclosure - Investigations, Claims and Litigation Investigations, Claims and Litigation (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesDetails1" roleURI="http://www.northropgrumman.com/role/CommitmentsandContingenciesDetails1">
+        <link:definition>9955555 - Disclosure - Commitments and Contingencies (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsNetPeriodicBenefitCostBenefitDetails1" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsNetPeriodicBenefitCostBenefitDetails1">
+        <link:definition>9955556 - Disclosure - Retirement Benefits Net Periodic Benefit Cost (Benefit) (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsUnamortizedPriorServiceCreditRollforwardDetails2" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsUnamortizedPriorServiceCreditRollforwardDetails2">
+        <link:definition>9955557 - Disclosure - Retirement Benefits Unamortized Prior Service Credit Rollforward (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsFundedStatusofPlanAssetsLiabilitiesDetails3" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsFundedStatusofPlanAssetsLiabilitiesDetails3">
+        <link:definition>9955558 - Disclosure - Retirement Benefits Funded Status of Plan Assets (Liabilities) (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsAccumulatedBenefitObligationsinExcessofFairValueDetails4" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsAccumulatedBenefitObligationsinExcessofFairValueDetails4">
+        <link:definition>9955559 - Disclosure - Retirement Benefits Accumulated Benefit Obligations in Excess of Fair Value (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsPlanAssumptionsDetails5" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsPlanAssumptionsDetails5">
+        <link:definition>9955560 - Disclosure - Retirement Benefits Plan Assumptions (Details 5)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsPlanAssetAllocationDetails6" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsPlanAssetAllocationDetails6">
+        <link:definition>9955561 - Disclosure - Retirement Benefits Plan Asset Allocation (Details 6)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsCategorizationofPlanAssetsDetails7" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsCategorizationofPlanAssetsDetails7">
+        <link:definition>9955562 - Disclosure - Retirement Benefits Categorization of Plan Assets (Details 7)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsEstimatedFutureBenefitPaymentsDetails8" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsEstimatedFutureBenefitPaymentsDetails8">
+        <link:definition>9955563 - Disclosure - Retirement Benefits Estimated Future Benefit Payments (Details 8)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitsAmountsinParagraphsRetirementBenefitsDetails9" roleURI="http://www.northropgrumman.com/role/RetirementBenefitsAmountsinParagraphsRetirementBenefitsDetails9">
+        <link:definition>9955564 - Disclosure - Retirement Benefits Amounts in Paragraphs - Retirement Benefits (Details 9)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockCompensationPlansCompensationExpenseDetails1" roleURI="http://www.northropgrumman.com/role/StockCompensationPlansCompensationExpenseDetails1">
+        <link:definition>9955565 - Disclosure - Stock Compensation Plans Compensation Expense (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockCompensationPlansStockAwardsDetails2" roleURI="http://www.northropgrumman.com/role/StockCompensationPlansStockAwardsDetails2">
+        <link:definition>9955566 - Disclosure - Stock Compensation Plans Stock Awards (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockCompensationPlansCashAwardsDetails3" roleURI="http://www.northropgrumman.com/role/StockCompensationPlansCashAwardsDetails3">
+        <link:definition>9955567 - Disclosure - Stock Compensation Plans Cash Awards (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTotalLeaseCostDetails1" roleURI="http://www.northropgrumman.com/role/LeasesTotalLeaseCostDetails1">
+        <link:definition>9955568 - Disclosure - Leases Total Lease Cost (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesBalanceSheetDetails2" roleURI="http://www.northropgrumman.com/role/LeasesBalanceSheetDetails2">
+        <link:definition>9955569 - Disclosure - Leases Balance Sheet (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseOtherSupplementalInformationDetails3" roleURI="http://www.northropgrumman.com/role/LeasesLeaseOtherSupplementalInformationDetails3">
+        <link:definition>9955570 - Disclosure - Leases Lease Other Supplemental Information (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseMaturitiesDetails4" roleURI="http://www.northropgrumman.com/role/LeasesLeaseMaturitiesDetails4">
+        <link:definition>9955571 - Disclosure - Leases Lease Maturities (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingBasisandCODMDisclosures" roleURI="http://www.northropgrumman.com/role/SegmentReportingBasisandCODMDisclosures">
+        <link:definition>9955572 - Disclosure - Segment Reporting (Basis and CODM Disclosures)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationReconciliationtoConsolidatedOperatingIncomeDetails1" roleURI="http://www.northropgrumman.com/role/SegmentInformationReconciliationtoConsolidatedOperatingIncomeDetails1">
+        <link:definition>9955573 - Disclosure - Segment Information Reconciliation to Consolidated Operating Income (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationSalesbyCustomerTypeDetails2" roleURI="http://www.northropgrumman.com/role/SegmentInformationSalesbyCustomerTypeDetails2">
+        <link:definition>9955574 - Disclosure - Segment Information Sales by Customer Type (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationSalesbyContractTypeDetails3" roleURI="http://www.northropgrumman.com/role/SegmentInformationSalesbyContractTypeDetails3">
+        <link:definition>9955575 - Disclosure - Segment Information Sales by Contract Type (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationSalesbyGeographicLocationDetails4" roleURI="http://www.northropgrumman.com/role/SegmentInformationSalesbyGeographicLocationDetails4">
+        <link:definition>9955576 - Disclosure - Segment Information Sales by Geographic Location (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationSegmentSalesDetails5" roleURI="http://www.northropgrumman.com/role/SegmentInformationSegmentSalesDetails5">
+        <link:definition>9955577 - Disclosure - Segment Information Segment Sales (Details 5)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationIntersegmentSalesandOperatingIncomeDetails6" roleURI="http://www.northropgrumman.com/role/SegmentInformationIntersegmentSalesandOperatingIncomeDetails6">
+        <link:definition>9955578 - Disclosure - Segment Information Intersegment Sales and Operating Income (Details 6)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationCapitalExpendituresandDepreciationandAmortizationDetails7" roleURI="http://www.northropgrumman.com/role/SegmentInformationCapitalExpendituresandDepreciationandAmortizationDetails7">
+        <link:definition>9955579 - Disclosure - Segment Information Capital Expenditures and Depreciation and Amortization (Details 7)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="noc_DocumentAndEntityInformationAbstract" abstract="true" name="DocumentAndEntityInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_AuditInformationAbstract" abstract="true" name="AuditInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_OtherComprehensiveIncomeLossOtherComponentsNetOfTax" abstract="false" name="OtherComprehensiveIncomeLossOtherComponentsNetOfTax" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_NonOperatingFASPensionBenefit" abstract="false" name="NonOperatingFASPensionBenefit" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_UnbilledReceivablesNetAbstract" abstract="true" name="UnbilledReceivablesNetAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_UnbilledReceivablesDisclosureTextBlock" abstract="false" name="UnbilledReceivablesDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_ScheduleofUnbilledReceivablesTableTextBlock" abstract="false" name="ScheduleofUnbilledReceivablesTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_EnvironmentalRemediationTableTextBlock" abstract="false" name="EnvironmentalRemediationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_CashUnitsandCashPerformanceUnitsAggregatePayoutAmountTableTextBlock" abstract="false" name="CashUnitsandCashPerformanceUnitsAggregatePayoutAmountTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_OtherSupplementalLeaseInformationTableTextBlock" abstract="false" name="OtherSupplementalLeaseInformationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_ScheduleOfRevenueByContractTypeTableTextBlock" abstract="false" name="ScheduleOfRevenueByContractTypeTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_SegmentReportingInformationIntersegmentSalesAndOperatingIncomeTableTextBlock" abstract="false" name="SegmentReportingInformationIntersegmentSalesAndOperatingIncomeTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_ResearchandDevelopmentasaPercentofSales" abstract="false" name="ResearchandDevelopmentasaPercentofSales" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_PreTaxGainOnSaleOfBusiness" abstract="false" name="PreTaxGainOnSaleOfBusiness" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_AccumulatedOtherComprehensiveIncomeLossOtherComponentsNetOfTax" abstract="false" name="AccumulatedOtherComprehensiveIncomeLossOtherComponentsNetOfTax" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_AeronauticsSystemsMember" abstract="true" name="AeronauticsSystemsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_DefenseSystemsMember" abstract="true" name="DefenseSystemsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_MissionSystemsMember" abstract="true" name="MissionSystemsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_SpaceSystemsMember" abstract="true" name="SpaceSystemsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_B21ProgramLRIPOptions15Member" abstract="true" name="B21ProgramLRIPOptions15Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_B21ProgramLRIPOptions12Member" abstract="true" name="B21ProgramLRIPOptions12Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_SentinelEMDPhaseMember" abstract="true" name="SentinelEMDPhaseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_RestrictedMicroelectronicsPortfolioMember" abstract="true" name="RestrictedMicroelectronicsPortfolioMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_HALOProgramMember" abstract="true" name="HALOProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_B21ProgramLRIPOption1Member" abstract="true" name="B21ProgramLRIPOption1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_BacklogAwardsAndRelatedAdjustmentsTable" abstract="true" name="BacklogAwardsAndRelatedAdjustmentsTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="noc_SignificantAwardsAxis" abstract="true" name="SignificantAwardsAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="noc_SignificantAwardsDomain" abstract="true" name="SignificantAwardsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_TrainingServicesBusinessMember" abstract="true" name="TrainingServicesBusinessMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_RestrictedSpaceMember" abstract="true" name="RestrictedSpaceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_NGIProgramMember" abstract="true" name="NGIProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_BacklogAwardsAndRelatedAdjustmentsLineItems" abstract="true" name="BacklogAwardsAndRelatedAdjustmentsLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_BacklogReductionDueToDivestiture" abstract="false" name="BacklogReductionDueToDivestiture" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_BacklogReductionDueToContractTermination" abstract="false" name="BacklogReductionDueToContractTermination" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_IncreaseDecreaseInContractWithCustomerAssetCurrent" abstract="false" name="IncreaseDecreaseInContractWithCustomerAssetCurrent" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PercentincreasedecreaseinContractAsset" abstract="false" name="PercentincreasedecreaseinContractAsset" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_DecreaseIncreaseInContractWithCustomerLiabilityCurrent" abstract="false" name="DecreaseIncreaseInContractWithCustomerLiabilityCurrent" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PercentdecreaseincreaseinContractwithCustomerLiabilityCurrent" abstract="false" name="PercentdecreaseincreaseinContractwithCustomerLiabilityCurrent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_NetContractAssetsLiabilities" abstract="false" name="NetContractAssetsLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_Amountofincreasedecreaseinnetcontractassetsliabilities" abstract="false" name="Amountofincreasedecreaseinnetcontractassetsliabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_Percentincreasedecreaseinnetcontractassetsliabilities" abstract="false" name="Percentincreasedecreaseinnetcontractassetsliabilities" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_IncreaseDecreaseinStockDividendPercentage" abstract="false" name="IncreaseDecreaseinStockDividendPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_January2021ShareRepurchaseProgramMember" abstract="true" name="January2021ShareRepurchaseProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_January2022ShareRepurchaseProgramMember" abstract="true" name="January2022ShareRepurchaseProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_December2023ShareRepurchaseProgramMember" abstract="true" name="December2023ShareRepurchaseProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_December2024ShareRepurchaseProgramMember" abstract="true" name="December2024ShareRepurchaseProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2021RepurchaseProgramCompletionDate" abstract="false" name="A2021RepurchaseProgramCompletionDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_A2022RepurchaseProgramCompletionDate" abstract="false" name="A2022RepurchaseProgramCompletionDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_A2023RepurchaseProgramCompletionDate" abstract="false" name="A2023RepurchaseProgramCompletionDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="noc_ShareRepurchasesNotesToTableAbstract" abstract="true" name="ShareRepurchasesNotesToTableAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_Q123ASRMember" abstract="true" name="Q123ASRMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_Q12024ASRMember" abstract="true" name="Q12024ASRMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_AcceleratedShareRepurchaseInitialReceiptShares" abstract="false" name="AcceleratedShareRepurchaseInitialReceiptShares" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="noc_AcceleratedShareRepurchaseFinalReceiptShares" abstract="false" name="AcceleratedShareRepurchaseFinalReceiptShares" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="noc_USGovernmentMember" abstract="true" name="USGovernmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_InternationalandOtherCustomersMember" abstract="true" name="InternationalandOtherCustomersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_InternationalandOtherReceivableProgressPaymentsOffset" abstract="false" name="InternationalandOtherReceivableProgressPaymentsOffset" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_IncreaseDecreaseInInventoriedCostsNet" abstract="false" name="IncreaseDecreaseInInventoriedCostsNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PercentIncreaseDecreaseInInventoriedCostsNet" abstract="false" name="PercentIncreaseDecreaseInInventoriedCostsNet" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_PreASU202309Member" abstract="true" name="PreASU202309Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_UnrecognizedTaxBenefitRelatedToMethodsOfAccounting" abstract="false" name="UnrecognizedTaxBenefitRelatedToMethodsOfAccounting" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_UnrecognizedTaxBenefitsRelatedToMethodsOfAccounting451b" abstract="false" name="UnrecognizedTaxBenefitsRelatedToMethodsOfAccounting451b" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_CurrentUnrecognizedTaxBenefits" abstract="false" name="CurrentUnrecognizedTaxBenefits" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_DeferredTaxAssetREExpenditureCapitalization" abstract="false" name="DeferredTaxAssetREExpenditureCapitalization" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_DeferredTaxAssetLeaseLiabilities" abstract="false" name="DeferredTaxAssetLeaseLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_DeferredTaxLiabilitiesPurchaseIntangibles" abstract="false" name="DeferredTaxLiabilitiesPurchaseIntangibles" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_DeferredTaxLiabilitiesTaxDeferredExpenseCompensationAndBenefitsPostretirementBenefits" abstract="false" name="DeferredTaxLiabilitiesTaxDeferredExpenseCompensationAndBenefitsPostretirementBenefits" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_IncomeTaxReconciliationDeductionsITServicesDivestitureGoodwill" abstract="false" name="IncomeTaxReconciliationDeductionsITServicesDivestitureGoodwill" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_ITServicesDivestitureNondeductibleGoodwill" abstract="false" name="ITServicesDivestitureNondeductibleGoodwill" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_Significantmattersaffectingeffectivetaxratecomparabilitypercent" abstract="false" name="Significantmattersaffectingeffectivetaxratecomparabilitypercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_EffectiveIncomeTaxRateReconciliationIncreaseinResearchTaxCredits" abstract="false" name="EffectiveIncomeTaxRateReconciliationIncreaseinResearchTaxCredits" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_ChangeInFederalAndForeignIncomeTaxExpense" abstract="false" name="ChangeInFederalAndForeignIncomeTaxExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_ChangeInFederalAndForeignIncomeTaxExpensePercent" abstract="false" name="ChangeInFederalAndForeignIncomeTaxExpensePercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_EffectOfTaxLegislationEnactedDuringThePeriodAxis" abstract="true" name="EffectOfTaxLegislationEnactedDuringThePeriodAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="noc_EffectOfTaxLegislationEnactedDuringThePeriodDomain" abstract="true" name="EffectOfTaxLegislationEnactedDuringThePeriodDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_OBBBAMember" abstract="true" name="OBBBAMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_CorporateAlternativeMinimumTaxMember" abstract="true" name="CorporateAlternativeMinimumTaxMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_OtherTaxCreditsMember" abstract="true" name="OtherTaxCreditsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_InvestmentWithIPOAxis" abstract="true" name="InvestmentWithIPOAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="noc_InvestmentWithIPODomain" abstract="true" name="InvestmentWithIPODomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_InvestmentWithIPOMember" abstract="true" name="InvestmentWithIPOMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2023NotesMember" abstract="true" name="A2023NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2025NotesMember" abstract="true" name="A2025NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2026NotesMember" abstract="true" name="A2026NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2027NotesMember" abstract="true" name="A2027NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2028NotesMember" abstract="true" name="A2028NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2029NotesMember" abstract="true" name="A2029NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2030NotesMember" abstract="true" name="A2030NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2031NotesMember" abstract="true" name="A2031NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2033NotesMember" abstract="true" name="A2033NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2034NotesMember" abstract="true" name="A2034NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2035NotesMember" abstract="true" name="A2035NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2040NotesMember" abstract="true" name="A2040NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2043NotesMember" abstract="true" name="A2043NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2045NotesMember" abstract="true" name="A2045NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2047NotesMember" abstract="true" name="A2047NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2050NotesMember" abstract="true" name="A2050NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2053NotesMember" abstract="true" name="A2053NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2054NotesMember" abstract="true" name="A2054NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2025FiveYearTermMember" abstract="true" name="A2025FiveYearTermMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2022FiveYearTermMember" abstract="true" name="A2022FiveYearTermMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_CommercialPaperMaximumBorrowingCapacityPrior" abstract="false" name="CommercialPaperMaximumBorrowingCapacityPrior" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_CommercialPaperMaximumBorrowingCapacity" abstract="false" name="CommercialPaperMaximumBorrowingCapacity" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_InterestPaidNetOfInterestReceived" abstract="false" name="InterestPaidNetOfInterestReceived" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PrincipalAmountNGSCNotes" abstract="false" name="PrincipalAmountNGSCNotes" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PrincipalAmountNorthropGrummanCorporationNotes" abstract="false" name="PrincipalAmountNorthropGrummanCorporationNotes" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PrincipalAmountNorthropGrummanCorporationNotesUnregisteredNotes" abstract="false" name="PrincipalAmountNorthropGrummanCorporationNotesUnregisteredNotes" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_PrincipalAmountNorthropGrummanCorporationNotesRegisteredNotes" abstract="false" name="PrincipalAmountNorthropGrummanCorporationNotesRegisteredNotes" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_ClaimAmountAxis" abstract="true" name="ClaimAmountAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="noc_ClaimAmountDomain" abstract="true" name="ClaimAmountDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_InitialClaimMember" abstract="true" name="InitialClaimMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_IncrementalclaimMember" abstract="true" name="IncrementalclaimMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_MaximumLossContingencyMember" abstract="true" name="MaximumLossContingencyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_MinimumLossContingencyMember" abstract="true" name="MinimumLossContingencyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_StandbyUnusedLettersOfCreditandbankguarantees" abstract="false" name="StandbyUnusedLettersOfCreditandbankguarantees" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_SuretyBondOutstanding" abstract="false" name="SuretyBondOutstanding" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_AmortizationOfPriorServiceCostAndLossesAbstract" abstract="true" name="AmortizationOfPriorServiceCostAndLossesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanOtherChangeInPlanAssets" abstract="false" name="DefinedBenefitPlanOtherChangeInPlanAssets" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_BenefitObligationMember" abstract="true" name="BenefitObligationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_PostretirementBenefitCostMember" abstract="true" name="PostretirementBenefitCostMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationExpectedLongTermRateOfReturn" abstract="false" name="DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationExpectedLongTermRateOfReturn" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanBenefitObligationCashBalanceCreditingRateAssumedforNextFiscalYear" abstract="false" name="DefinedBenefitPlanBenefitObligationCashBalanceCreditingRateAssumedforNextFiscalYear" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanBenefitObligationUltimateCashBalanceCreditingRate" abstract="false" name="DefinedBenefitPlanBenefitObligationUltimateCashBalanceCreditingRate" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanBenefitObligationCashBalanceCreditingRateYearthatratereachesultimaterate" abstract="false" name="DefinedBenefitPlanBenefitObligationCashBalanceCreditingRateYearthatratereachesultimaterate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:gYearItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanBenefitCostCashBalanceCreditingRateAssumedfornextfiscalyear" abstract="false" name="DefinedBenefitPlanBenefitCostCashBalanceCreditingRateAssumedfornextfiscalyear" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanBenefitCostUltimateCashBalanceCreditingRate" abstract="false" name="DefinedBenefitPlanBenefitCostUltimateCashBalanceCreditingRate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanBenefitCostCashBalanceCreditingRateYearthattheratereachestheultimaterate" abstract="false" name="DefinedBenefitPlanBenefitCostCashBalanceCreditingRateYearthattheratereachestheultimaterate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:gYearItemType"/>
+  <xs:element id="noc_RealEstateAndOtherSecuritiesMember" abstract="true" name="RealEstateAndOtherSecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_PrivateCreditFundsMember" abstract="true" name="PrivateCreditFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_PensionandOtherPostretirementbenefitplansMember" abstract="true" name="PensionandOtherPostretirementbenefitplansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_U.S.EquitySecuritiesMember" abstract="true" name="U.S.EquitySecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_InternationalEquitySecuritiesMember" abstract="true" name="InternationalEquitySecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_HighYieldDebtSecuritiesMember" abstract="true" name="HighYieldDebtSecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_BankLoansMember" abstract="true" name="BankLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_OtherAssetCategoriesMember" abstract="true" name="OtherAssetCategoriesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_OpportunisticFundsMember" abstract="true" name="OpportunisticFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_NOCCommonStockMember" abstract="true" name="NOCCommonStockMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_OtherAlternativeFundsMember" abstract="true" name="OtherAlternativeFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_AlternativeFundsMember" abstract="true" name="AlternativeFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_AverageInvestmentTermAlternativeInvestments" abstract="false" name="AverageInvestmentTermAlternativeInvestments" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="noc_ActualPercentReturnOnPlanAssets" abstract="false" name="ActualPercentReturnOnPlanAssets" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_YearlyDiscountRateChangeInBasisPoints" abstract="false" name="YearlyDiscountRateChangeInBasisPoints" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="noc_DefinedBenefitPlanPlanAssetsContributionsByEmployerVoluntaryContributions" abstract="false" name="DefinedBenefitPlanPlanAssetsContributionsByEmployerVoluntaryContributions" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_Amended2011PlanDomain" abstract="true" name="Amended2011PlanDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2011LongTermIncentiveStockPlanMember" abstract="true" name="A2011LongTermIncentiveStockPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_A2024LongTermIncentiveStockPlanMember" abstract="true" name="A2024LongTermIncentiveStockPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_StockIssuedDuringPeriodFairValueGrantDateShareBasedCompensation" abstract="false" name="StockIssuedDuringPeriodFairValueGrantDateShareBasedCompensation" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_CashUnitsAndCashPerformanceUnitsMember" abstract="true" name="CashUnitsAndCashPerformanceUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_GrantsDuring2010AndAfterMember" abstract="true" name="GrantsDuring2010AndAfterMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardGrantsPercentageFinancialMetricMetExceeded" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardGrantsPercentageFinancialMetricMetExceeded" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_LeaseOtherSupplementalInformationDetails3Abstract" abstract="true" name="LeaseOtherSupplementalInformationDetails3Abstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_LeaseMaturitiesAbstract" abstract="true" name="LeaseMaturitiesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="noc_LesseeOperatingLeaseLeaseNotYetCommencedValue" abstract="false" name="LesseeOperatingLeaseLeaseNotYetCommencedValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_IntersegmentCostsMember" abstract="true" name="IntersegmentCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_FASCASOperatingAdjustment" abstract="false" name="FASCASOperatingAdjustment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_UnallowableStateTaxesAndTransactionsCostsFromDivestiture" abstract="false" name="UnallowableStateTaxesAndTransactionsCostsFromDivestiture" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="noc_InternationalCustomerMember" abstract="true" name="InternationalCustomerMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_OtherCustomersMember" abstract="true" name="OtherCustomersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_RevenuefromContractwithCustomerPercentage" abstract="false" name="RevenuefromContractwithCustomerPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="noc_CostReimbursableMember" abstract="true" name="CostReimbursableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_AllOtherGeographicRegionDomain" abstract="true" name="AllOtherGeographicRegionDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="noc_RoshanS.RoederMember" abstract="true" name="RoshanS.RoederMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+</xs:schema>

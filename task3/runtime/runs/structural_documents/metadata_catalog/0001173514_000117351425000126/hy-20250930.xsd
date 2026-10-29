@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:ec59b9b9-eaf5-4674-a1de-31adbf8861d5,g:88f447a2-f0e9-4d93-b41a-e39d75c2ffa9-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:hy="http://www.hyster-yale.com/20250930" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.hyster-yale.com/20250930">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="hy-20250930_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="hy-20250930_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="hy-20250930_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="hy-20250930_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://www.hyster-yale.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Contingencies" roleURI="http://www.hyster-yale.com/role/Contingencies">
+        <link:definition>9952151 - Document - Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedBalanceSheets" roleURI="http://www.hyster-yale.com/role/UnauditedCondensedConsolidatedBalanceSheets">
+        <link:definition>9952152 - Statement - Unaudited Condensed Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetParenthetical" roleURI="http://www.hyster-yale.com/role/BalanceSheetParenthetical">
+        <link:definition>9952153 - Statement - Balance Sheet Parenthetical</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedStatementsofOperations" roleURI="http://www.hyster-yale.com/role/UnauditedCondensedConsolidatedStatementsofOperations">
+        <link:definition>9952154 - Statement - Unaudited Condensed Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedStatementsofComprehensiveIncomeLossStatement" roleURI="http://www.hyster-yale.com/role/UnauditedCondensedConsolidatedStatementsofComprehensiveIncomeLossStatement">
+        <link:definition>9952155 - Statement - Unaudited Condensed Consolidated Statements of Comprehensive Income (Loss) Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedStatementsofCashFlows" roleURI="http://www.hyster-yale.com/role/UnauditedCondensedConsolidatedStatementsofCashFlows">
+        <link:definition>9952156 - Statement - Unaudited Condensed Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedStatementsofChangesinEquity" roleURI="http://www.hyster-yale.com/role/UnauditedCondensedConsolidatedStatementsofChangesinEquity">
+        <link:definition>9952157 - Statement - Unaudited Condensed Consolidated Statements of Changes in Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StatementofIncomeIncludingGrossMargin" roleURI="http://www.hyster-yale.com/role/StatementofIncomeIncludingGrossMargin">
+        <link:definition>9952158 - Statement - Statement of Income (Including Gross Margin)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StatementofIncomeIncludingGrossMarginTables" roleURI="http://www.hyster-yale.com/role/StatementofIncomeIncludingGrossMarginTables">
+        <link:definition>9952159 - Statement - Statement of Income (Including Gross Margin) (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedBalanceSheetsDetails" roleURI="http://www.hyster-yale.com/role/UnauditedCondensedConsolidatedBalanceSheetsDetails">
+        <link:definition>9952160 - Statement - Unaudited Condensed Consolidated Balance Sheets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofPresentation" roleURI="http://www.hyster-yale.com/role/BasisofPresentation">
+        <link:definition>9952161 - Disclosure - Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RecentlyIssuedAccountingStandards" roleURI="http://www.hyster-yale.com/role/RecentlyIssuedAccountingStandards">
+        <link:definition>9952162 - Disclosure - Recently Issued Accounting Standards</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognition" roleURI="http://www.hyster-yale.com/role/RevenueRecognition">
+        <link:definition>9952163 - Disclosure - Revenue Recognition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessSegments" roleURI="http://www.hyster-yale.com/role/BusinessSegments">
+        <link:definition>9952164 - Disclosure - Business Segments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.hyster-yale.com/role/IncomeTaxes">
+        <link:definition>9952165 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLoss" roleURI="http://www.hyster-yale.com/role/ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLoss">
+        <link:definition>9952166 - Disclosure - Reclassifications Out Of Accumulated Other Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstruments" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstruments">
+        <link:definition>9952167 - Disclosure - Financial Instruments and Derivative Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitPlans" roleURI="http://www.hyster-yale.com/role/RetirementBenefitPlans">
+        <link:definition>9952168 - Disclosure - Retirement Benefit Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Inventories" roleURI="http://www.hyster-yale.com/role/Inventories">
+        <link:definition>9952169 - Disclosure - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ProductWarranties" roleURI="http://www.hyster-yale.com/role/ProductWarranties">
+        <link:definition>9952170 - Disclosure - Product Warranties</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Guarantees" roleURI="http://www.hyster-yale.com/role/Guarantees">
+        <link:definition>9952171 - Disclosure - Guarantees</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandDebtInvestments" roleURI="http://www.hyster-yale.com/role/EquityandDebtInvestments">
+        <link:definition>9952172 - Disclosure - Equity and Debt Investments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofPresentation_1" roleURI="http://www.hyster-yale.com/role/BasisofPresentation_1">
+        <link:definition>9955511 - Disclosure - Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognition_1" roleURI="http://www.hyster-yale.com/role/RevenueRecognition_1">
+        <link:definition>9955512 - Disclosure - Revenue Recognition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstruments_1" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstruments_1">
+        <link:definition>9955513 - Disclosure - Financial Instruments and Derivative Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Inventories_1" roleURI="http://www.hyster-yale.com/role/Inventories_1">
+        <link:definition>9955514 - Disclosure - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ProductWarranties_1" roleURI="http://www.hyster-yale.com/role/ProductWarranties_1">
+        <link:definition>9955515 - Disclosure - Product Warranties</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Contingencies_1" roleURI="http://www.hyster-yale.com/role/Contingencies_1">
+        <link:definition>9955516 - Disclosure - Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandDebtInvestments_1" roleURI="http://www.hyster-yale.com/role/EquityandDebtInvestments_1">
+        <link:definition>9955517 - Disclosure - Equity and Debt Investments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RecentlyIssuedAccountingStandards_1" roleURI="http://www.hyster-yale.com/role/RecentlyIssuedAccountingStandards_1">
+        <link:definition>9955518 - Disclosure - Recently Issued Accounting Standards</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognition_2" roleURI="http://www.hyster-yale.com/role/RevenueRecognition_2">
+        <link:definition>9955519 - Disclosure - Revenue Recognition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessSegments_1" roleURI="http://www.hyster-yale.com/role/BusinessSegments_1">
+        <link:definition>9955520 - Disclosure - Business Segments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes_1" roleURI="http://www.hyster-yale.com/role/IncomeTaxes_1">
+        <link:definition>9955521 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLoss_1" roleURI="http://www.hyster-yale.com/role/ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLoss_1">
+        <link:definition>9955522 - Disclosure - Reclassifications Out Of Accumulated Other Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstruments_2" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstruments_2">
+        <link:definition>9955523 - Disclosure - Financial Instruments and Derivative Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitPlans_1" roleURI="http://www.hyster-yale.com/role/RetirementBenefitPlans_1">
+        <link:definition>9955524 - Disclosure - Retirement Benefit Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Inventories_2" roleURI="http://www.hyster-yale.com/role/Inventories_2">
+        <link:definition>9955525 - Disclosure - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ProductWarranties_2" roleURI="http://www.hyster-yale.com/role/ProductWarranties_2">
+        <link:definition>9955526 - Disclosure - Product Warranties</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandDebtInvestments_2" roleURI="http://www.hyster-yale.com/role/EquityandDebtInvestments_2">
+        <link:definition>9955527 - Disclosure - Equity and Debt Investments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofPresentation_2" roleURI="http://www.hyster-yale.com/role/BasisofPresentation_2">
+        <link:definition>9955528 - Disclosure - Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognition_3" roleURI="http://www.hyster-yale.com/role/RevenueRecognition_3">
+        <link:definition>9955529 - Disclosure - Revenue Recognition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessSegments_2" roleURI="http://www.hyster-yale.com/role/BusinessSegments_2">
+        <link:definition>9955530 - Disclosure - Business Segments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes_2" roleURI="http://www.hyster-yale.com/role/IncomeTaxes_2">
+        <link:definition>9955531 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLoss_2" roleURI="http://www.hyster-yale.com/role/ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLoss_2">
+        <link:definition>9955532 - Disclosure - Reclassifications Out Of Accumulated Other Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstrumentsBalanceSheet" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstrumentsBalanceSheet">
+        <link:definition>9955533 - Disclosure - Financial Instruments and Derivative Financial Instruments (Balance Sheet)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstrumentsOffsetting" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstrumentsOffsetting">
+        <link:definition>9955534 - Disclosure - Financial Instruments and Derivative Financial Instruments (Offsetting)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstrumentsIncomeStatement" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstrumentsIncomeStatement">
+        <link:definition>9955535 - Disclosure - Financial Instruments and Derivative Financial Instruments (Income Statement)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FinancialInstrumentsandDerivativeFinancialInstruments_3" roleURI="http://www.hyster-yale.com/role/FinancialInstrumentsandDerivativeFinancialInstruments_3">
+        <link:definition>9955536 - Disclosure - Financial Instruments and Derivative Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementBenefitPlans_2" roleURI="http://www.hyster-yale.com/role/RetirementBenefitPlans_2">
+        <link:definition>9955537 - Disclosure - Retirement Benefit Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Inventories_3" roleURI="http://www.hyster-yale.com/role/Inventories_3">
+        <link:definition>9955538 - Disclosure - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ProductWarranties_3" roleURI="http://www.hyster-yale.com/role/ProductWarranties_3">
+        <link:definition>9955539 - Disclosure - Product Warranties</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Guarantees_1" roleURI="http://www.hyster-yale.com/role/Guarantees_1">
+        <link:definition>9955540 - Disclosure - Guarantees</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandDebtInvestments_3" roleURI="http://www.hyster-yale.com/role/EquityandDebtInvestments_3">
+        <link:definition>9955541 - Disclosure - Equity and Debt Investments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="hy_JAPICHYMember" abstract="true" name="JAPICHYMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_EliminationsMember" abstract="true" name="EliminationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_LifttruckbusinessMember" abstract="true" name="LifttruckbusinessMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_BolzoniMember" abstract="true" name="BolzoniMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_AmericasHYMember" abstract="true" name="AmericasHYMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_EMEAHYMember" abstract="true" name="EMEAHYMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_AccruedDividendToRedeemableNoncontrollingInterests" abstract="false" name="AccruedDividendToRedeemableNoncontrollingInterests" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_PermanentEquityMember" abstract="true" name="PermanentEquityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_AftermarketsalesMember" abstract="true" name="AftermarketsalesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_OtherrevenueMember" abstract="true" name="OtherrevenueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_TemporaryEquityAxis" abstract="true" name="TemporaryEquityAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="hy_TemporaryEquityNewDomain" abstract="true" name="TemporaryEquityNewDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_TemporaryEquityMember" abstract="true" name="TemporaryEquityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_TemporaryEquityDomain" abstract="true" name="TemporaryEquityDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_NoncontrollingInterestDecreaseFromSale" abstract="false" name="NoncontrollingInterestDecreaseFromSale" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLossAbstract" abstract="true" name="ReclassificationsOutOfAccumulatedOtherComprehensiveIncomeLossAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="hy_DescriptionOfNewAccountingPronouncementsNotYetAdoptedTableTextBlock" abstract="false" name="DescriptionOfNewAccountingPronouncementsNotYetAdoptedTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="hy_ScheduleOfDerivativeInstrumentsInStatementOfFinancialPositionByCounterpartyTableTextBlock" abstract="false" name="ScheduleOfDerivativeInstrumentsInStatementOfFinancialPositionByCounterpartyTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="hy_EquityInvestment1Member" abstract="true" name="EquityInvestment1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_EquityInvestment2Member" abstract="true" name="EquityInvestment2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_NuveraMember" abstract="true" name="NuveraMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_EffectiveIncomeTaxRateReconciliationInterimAdjustmentAmount" abstract="false" name="EffectiveIncomeTaxRateReconciliationInterimAdjustmentAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_EffectiveIncomeTaxRateReconciliationDiscreteAdjustmentsAmount" abstract="false" name="EffectiveIncomeTaxRateReconciliationDiscreteAdjustmentsAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_GrossPensionCostsReclassifiedToNetIncomeMember" abstract="true" name="GrossPensionCostsReclassifiedToNetIncomeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_IncomeBeforeTaxesMember" abstract="true" name="IncomeBeforeTaxesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_TaxExpenseBenefitMember" abstract="true" name="TaxExpenseBenefitMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_NetIncomeLossMember" abstract="true" name="NetIncomeLossMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_DerivativeInstrumentsIncomeStatementLocationOfGainLossReclassifiedFromAccumulatedOCITableTextBlock" abstract="false" name="DerivativeInstrumentsIncomeStatementLocationOfGainLossReclassifiedFromAccumulatedOCITableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="hy_PensionandPostretirementPlansIncomeStatementLocationofNetPeriodicPensionExpenseReclassifiedfromAccumulatedOCI" abstract="false" name="PensionandPostretirementPlansIncomeStatementLocationofNetPeriodicPensionExpenseReclassifiedfromAccumulatedOCI" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="hy_LocationOfGainLossOnInterestRateDerivativeOnIncomeStatement" abstract="false" name="LocationOfGainLossOnInterestRateDerivativeOnIncomeStatement" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="hy_LocationOfGainLossOnForeignCurrencyDerivativeInFinancialStatements" abstract="false" name="LocationOfGainLossOnForeignCurrencyDerivativeInFinancialStatements" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="hy_DerivativeAssetFairValueGrossAssetByCounterparty" abstract="false" name="DerivativeAssetFairValueGrossAssetByCounterparty" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_DerivativeLiabilityFairValueGrossLiabilityByCounterparty" abstract="false" name="DerivativeLiabilityFairValueGrossLiabilityByCounterparty" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_StandardwarrantyMember" abstract="true" name="StandardwarrantyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_CertainTruckSeriesStandardWarrantyMember" abstract="true" name="CertainTruckSeriesStandardWarrantyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_AdditionalComponentStandardWarrantyMember" abstract="true" name="AdditionalComponentStandardWarrantyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_ExtendedwarrantyMember" abstract="true" name="ExtendedwarrantyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="hy_GuarantorObligationsContractualTerm" abstract="false" name="GuarantorObligationsContractualTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="hy_GuarantorObligationsCollateral" abstract="false" name="GuarantorObligationsCollateral" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_PercentageOfLoanLossesGuaranteed" abstract="false" name="PercentageOfLoanLossesGuaranteed" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="hy_LoanLossesGuaranteed" abstract="false" name="LoanLossesGuaranteed" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_PercentageOfLoansGuaranteedToJointVenture" abstract="false" name="PercentageOfLoansGuaranteedToJointVenture" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="hy_NotesPayableRelatedPartyDueToParent" abstract="false" name="NotesPayableRelatedPartyDueToParent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_GuarantorObligationsRelatedPartyDisclosures" abstract="false" name="GuarantorObligationsRelatedPartyDisclosures" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="hy_EquityInvestment3Member" abstract="true" name="EquityInvestment3Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+</xs:schema>

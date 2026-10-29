@@ -1,0 +1,58 @@
+{
+  "entity": "0001974138",
+  "schema_name": "ncr-20251231.xsd",
+  "namespace": "http://www.ncr.com/20251231",
+  "filing": {
+    "accessionNumber": "0001628280-26-012576",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "ncr-20251231.htm",
+    "filingDate": "2026-02-27",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "ncr-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231.xsd",
+      "SHA256": "a364406ecce7a0e7834de54e2f20a0d46b76d71d9622e2e15882c1bbbbd314d4",
+      "bytes": 97405
+    },
+    {
+      "file": "ncr-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231_pre.xml",
+      "SHA256": "a790204963659ba4dddd666755fddf42a178f13a390e8716ce23079b1f99c858",
+      "bytes": 1015035
+    },
+    {
+      "file": "ncr-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231_def.xml",
+      "SHA256": "5f32ba5ab29038307503de6c1f1d3f66ca419aa336d5c965e4184538ecb9e22b",
+      "bytes": 696764
+    },
+    {
+      "file": "ncr-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231_lab.xml",
+      "SHA256": "793f1258d65087905dc0195d2d9f2cf66f705aec932788561d5f02a60e259b4c",
+      "bytes": 1321778
+    },
+    {
+      "file": "ncr-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231_cal.xml",
+      "SHA256": "8d13cf0492ff4038ec499174fed7f62aed57a37edd75e065d88c36445b2d07fc",
+      "bytes": 174203
+    },
+    {
+      "file": "ncr-20251231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231_htm.xml",
+      "SHA256": "c72709e93a5a561fa8c41eb54ec70130d5bece627a6baaa62c581bb5ba48ac94",
+      "bytes": 4598490
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

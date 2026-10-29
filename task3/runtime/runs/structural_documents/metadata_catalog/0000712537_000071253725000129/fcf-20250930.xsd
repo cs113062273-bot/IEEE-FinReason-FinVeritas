@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:dda75a0a-39b5-4b75-87da-1b74d8dce480,g:2e36e948-5ac5-421b-98ae-6b0a9f5f537b-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:fcf="http://www.fcbanking.com/20250930" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.fcbanking.com/20250930">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="fcf-20250930_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="fcf-20250930_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="fcf-20250930_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="fcf-20250930_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://www.fcbanking.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofFinancialConditionUnaudited" roleURI="http://www.fcbanking.com/role/CondensedConsolidatedStatementsofFinancialConditionUnaudited">
+        <link:definition>9952151 - Statement - Condensed Consolidated Statements of Financial Condition (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofFinancialConditionParentheticalUnaudited" roleURI="http://www.fcbanking.com/role/CondensedConsolidatedStatementsofFinancialConditionParentheticalUnaudited">
+        <link:definition>9952152 - Statement - Condensed Consolidated Statements of Financial Condition (Parenthetical) (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofIncomeUnaudited" roleURI="http://www.fcbanking.com/role/CondensedConsolidatedStatementsofIncomeUnaudited">
+        <link:definition>9952153 - Statement - Condensed Consolidated Statements of Income (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofComprehensiveIncomeUnaudited" roleURI="http://www.fcbanking.com/role/CondensedConsolidatedStatementsofComprehensiveIncomeUnaudited">
+        <link:definition>9952154 - Statement - Condensed Consolidated Statements of Comprehensive Income (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofChangesinShareholdersEquityUnaudited" roleURI="http://www.fcbanking.com/role/CondensedConsolidatedStatementsofChangesinShareholdersEquityUnaudited">
+        <link:definition>9952155 - Statement - Condensed Consolidated Statements of Changes in Shareholders' Equity (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementsofCashFlowsUnaudited" roleURI="http://www.fcbanking.com/role/CondensedConsolidatedStatementsofCashFlowsUnaudited">
+        <link:definition>9952156 - Statement - Condensed Consolidated Statements of Cash Flows (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofPresentation" roleURI="http://www.fcbanking.com/role/BasisofPresentation">
+        <link:definition>9952157 - Disclosure - Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsandAssetAcquisitions" roleURI="http://www.fcbanking.com/role/BusinessCombinationsandAssetAcquisitions">
+        <link:definition>9952158 - Disclosure - Business Combinations and Asset Acquisitions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalComprehensiveIncomeDisclosures" roleURI="http://www.fcbanking.com/role/SupplementalComprehensiveIncomeDisclosures">
+        <link:definition>9952159 - Disclosure - Supplemental Comprehensive Income Disclosures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowNote" roleURI="http://www.fcbanking.com/role/SupplementalCashFlowNote">
+        <link:definition>9952160 - Disclosure - Supplemental Cash Flow Note</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsperShare" roleURI="http://www.fcbanking.com/role/EarningsperShare">
+        <link:definition>9952161 - Disclosure - Earnings per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingentLiabilities" roleURI="http://www.fcbanking.com/role/CommitmentsandContingentLiabilities">
+        <link:definition>9952162 - Disclosure - Commitments and Contingent Liabilities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecurities" roleURI="http://www.fcbanking.com/role/InvestmentSecurities">
+        <link:definition>9952163 - Disclosure - Investment Securities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLosses" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLosses">
+        <link:definition>9952164 - Disclosure - Loans and Allowance for Credit Losses</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeases" roleURI="http://www.fcbanking.com/role/LeasesLeases">
+        <link:definition>9952165 - Disclosure - Leases Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.fcbanking.com/role/IncomeTaxes">
+        <link:definition>9952166 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilities" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilities">
+        <link:definition>9952167 - Disclosure - Fair Values of Assets and Liabilities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Derivatives" roleURI="http://www.fcbanking.com/role/Derivatives">
+        <link:definition>9952168 - Disclosure - Derivatives</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Goodwill" roleURI="http://www.fcbanking.com/role/Goodwill">
+        <link:definition>9952169 - Disclosure - Goodwill</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubordinatedDebenturesSubordinatedDebenturesOutstanding" roleURI="http://www.fcbanking.com/role/SubordinatedDebenturesSubordinatedDebenturesOutstanding">
+        <link:definition>9952170 - Disclosure - Subordinated Debentures Subordinated Debentures Outstanding</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognitionandDeferredRevenue" roleURI="http://www.fcbanking.com/role/RevenueRecognitionandDeferredRevenue">
+        <link:definition>9952171 - Disclosure - Revenue Recognition and Deferred Revenue</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReporting" roleURI="http://www.fcbanking.com/role/SegmentReporting">
+        <link:definition>9952172 - Disclosure - Segment Reporting</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsAssetAcquisitionsTransactionbetweenEntitiesunderCommonControlandJointVentureFormationTables" roleURI="http://www.fcbanking.com/role/BusinessCombinationsAssetAcquisitionsTransactionbetweenEntitiesunderCommonControlandJointVentureFormationTables">
+        <link:definition>9955511 - Disclosure - Business Combinations, Asset Acquisitions, Transaction between Entities under Common Control, and Joint Venture Formation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ComprehensiveIncomeDisclosuresTables" roleURI="http://www.fcbanking.com/role/ComprehensiveIncomeDisclosuresTables">
+        <link:definition>9955512 - Disclosure - Comprehensive Income Disclosures (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowNoteTables" roleURI="http://www.fcbanking.com/role/SupplementalCashFlowNoteTables">
+        <link:definition>9955513 - Disclosure - Supplemental Cash Flow Note (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsperShareTables" roleURI="http://www.fcbanking.com/role/EarningsperShareTables">
+        <link:definition>9955514 - Disclosure - Earnings per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingentLiabilitiesTables" roleURI="http://www.fcbanking.com/role/CommitmentsandContingentLiabilitiesTables">
+        <link:definition>9955515 - Disclosure - Commitments and Contingent Liabilities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesTables" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesTables">
+        <link:definition>9955516 - Disclosure - Investment Securities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesTables" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesTables">
+        <link:definition>9955517 - Disclosure - Loans and Allowance for Credit Losses (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseLiabilityMaturityTables" roleURI="http://www.fcbanking.com/role/LeasesLeaseLiabilityMaturityTables">
+        <link:definition>9955518 - Disclosure - Leases Lease Liability Maturity (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilitiesTables" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilitiesTables">
+        <link:definition>9955519 - Disclosure - Fair Values of Assets and Liabilities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativesTables" roleURI="http://www.fcbanking.com/role/DerivativesTables">
+        <link:definition>9955520 - Disclosure - Derivatives (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubordinatedDebenturesSubordinatedDebenturesOutstandingTables" roleURI="http://www.fcbanking.com/role/SubordinatedDebenturesSubordinatedDebenturesOutstandingTables">
+        <link:definition>9955521 - Disclosure - Subordinated Debentures Subordinated Debentures Outstanding (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognitionRevenueRecogntionTables" roleURI="http://www.fcbanking.com/role/RevenueRecognitionRevenueRecogntionTables">
+        <link:definition>9955522 - Disclosure - Revenue Recognition Revenue Recogntion (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingTables" roleURI="http://www.fcbanking.com/role/SegmentReportingTables">
+        <link:definition>9955523 - Disclosure - Segment Reporting (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsandAssetAcquisitionsAdditionalInformationDetails" roleURI="http://www.fcbanking.com/role/BusinessCombinationsandAssetAcquisitionsAdditionalInformationDetails">
+        <link:definition>9955524 - Disclosure - Business Combinations and Asset Acquisitions - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleofPCDLoansPurchasedInBusinessAcqusition" roleURI="http://www.fcbanking.com/role/ScheduleofPCDLoansPurchasedInBusinessAcqusition">
+        <link:definition>9955525 - Disclosure - Schedule of PCD Loans Purchased In Business Acqusition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleofNonPCDLoansTable" roleURI="http://www.fcbanking.com/role/ScheduleofNonPCDLoansTable">
+        <link:definition>9955526 - Disclosure - Schedule of NonPCD Loans [Table]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsandAssetAcquisitionsDetails" roleURI="http://www.fcbanking.com/role/BusinessCombinationsandAssetAcquisitionsDetails">
+        <link:definition>9955527 - Disclosure - Business Combinations and Asset Acquisitions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReclassificationofAccumulatedOtherComprehensiveIncomeDetails" roleURI="http://www.fcbanking.com/role/ReclassificationofAccumulatedOtherComprehensiveIncomeDetails">
+        <link:definition>9955528 - Disclosure - Reclassification of Accumulated Other Comprehensive Income (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleofAccumulatedOtherComprehensiveIncomeDetails" roleURI="http://www.fcbanking.com/role/ScheduleofAccumulatedOtherComprehensiveIncomeDetails">
+        <link:definition>9955529 - Disclosure - Schedule of Accumulated Other Comprehensive Income (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowDisclosuresNoncashInvestingandFinancingActivitiesDetails" roleURI="http://www.fcbanking.com/role/SupplementalCashFlowDisclosuresNoncashInvestingandFinancingActivitiesDetails">
+        <link:definition>9955530 - Disclosure - Supplemental Cash Flow Disclosures - Non-cash Investing and Financing Activities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsperShareCompositionofWeightedAverageCommonSharesDenominatorUsedinBasicandDilutedEarningsPerShareDetail" roleURI="http://www.fcbanking.com/role/EarningsperShareCompositionofWeightedAverageCommonSharesDenominatorUsedinBasicandDilutedEarningsPerShareDetail">
+        <link:definition>9955531 - Disclosure - Earnings per Share - Composition of Weighted-Average Common Shares (Denominator) Used in Basic and Diluted Earnings Per Share (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsperShareCommonStockEquivalentsNotIncludedinComputationofDilutedEarningsPerShareDetail" roleURI="http://www.fcbanking.com/role/EarningsperShareCommonStockEquivalentsNotIncludedinComputationofDilutedEarningsPerShareDetail">
+        <link:definition>9955532 - Disclosure - Earnings per Share - Common Stock Equivalents Not Included in Computation of Diluted Earnings Per Share (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingentLiabilitiesNotionalAmountofOutstandingCommitmentsDetail" roleURI="http://www.fcbanking.com/role/CommitmentsandContingentLiabilitiesNotionalAmountofOutstandingCommitmentsDetail">
+        <link:definition>9955533 - Disclosure - Commitments and Contingent Liabilities - Notional Amount of Outstanding Commitments (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingentLiabilitiesAdditionalInformationDetail" roleURI="http://www.fcbanking.com/role/CommitmentsandContingentLiabilitiesAdditionalInformationDetail">
+        <link:definition>9955534 - Disclosure - Commitments and Contingent Liabilities - Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesAnalysisofAmortizedCostandEstimatedFairValuesofSecuritiesAvailableforSaleDetail" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesAnalysisofAmortizedCostandEstimatedFairValuesofSecuritiesAvailableforSaleDetail">
+        <link:definition>9955535 - Disclosure - Investment Securities - Analysis of Amortized Cost and Estimated Fair Values of Securities Available for Sale (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesMaturityofSecuritiesAvailableforSaleDetail" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesMaturityofSecuritiesAvailableforSaleDetail">
+        <link:definition>9955536 - Disclosure - Investment Securities - Maturity of Securities Available for Sale (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesProceedsfromSaleGrossGainsLossesRealizedonSalesMaturitiesandOtherThanTemporaryImpairmentChargesRelatedtoSecuritiesAvailableforSaleDetail" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesProceedsfromSaleGrossGainsLossesRealizedonSalesMaturitiesandOtherThanTemporaryImpairmentChargesRelatedtoSecuritiesAvailableforSaleDetail">
+        <link:definition>9955537 - Disclosure - Investment Securities - Proceeds from Sale, Gross Gains (Losses) Realized on Sales, Maturities and Other-Than-Temporary Impairment Charges Related to Securities Available for Sale (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesHeldtoMaturitySecuritiesbyTypeDetails" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesHeldtoMaturitySecuritiesbyTypeDetails">
+        <link:definition>9955538 - Disclosure - Investment Securities Held to Maturity Securities by Type (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesScheduleofHeldtoMaturitySecuritiesDetails" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesScheduleofHeldtoMaturitySecuritiesDetails">
+        <link:definition>9955539 - Disclosure - Investment Securities Schedule of Held-to-Maturity Securities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleofTemporaryImpairmentLossesInvestmentsDetails" roleURI="http://www.fcbanking.com/role/ScheduleofTemporaryImpairmentLossesInvestmentsDetails">
+        <link:definition>9955540 - Disclosure - Schedule of Temporary Impairment Losses, Investments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesAdditionalInformationDetail" roleURI="http://www.fcbanking.com/role/InvestmentSecuritiesAdditionalInformationDetail">
+        <link:definition>9955541 - Disclosure - Investment Securities - Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesOutstandingBalancesofLoanDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesOutstandingBalancesofLoanDetail">
+        <link:definition>9955542 - Disclosure - Loans and Allowance for Credit Losses - Outstanding Balances of Loan (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesCreditRiskProfilebyCreditworthinessDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesCreditRiskProfilebyCreditworthinessDetail">
+        <link:definition>9955543 - Disclosure - Loans and Allowance for Credit Losses - Credit Risk Profile by Creditworthiness (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesCreditRiskProfileVintagebyCreditworthinessDetails" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesCreditRiskProfileVintagebyCreditworthinessDetails">
+        <link:definition>9955544 - Disclosure - Loans and Allowance for Credit Losses - Credit Risk Profile Vintage by Creditworthiness (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesAgeAnalysisofPastDueLoansbySegmentDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesAgeAnalysisofPastDueLoansbySegmentDetail">
+        <link:definition>9955545 - Disclosure - Loans and Allowance for Credit Losses - Age Analysis of Past Due Loans by Segment (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesRecordedInvestmentandUnpaidPrincipalBalanceforImpairedLoanswithAssociatedAllowanceDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesRecordedInvestmentandUnpaidPrincipalBalanceforImpairedLoanswithAssociatedAllowanceDetail">
+        <link:definition>9955546 - Disclosure - Loans and Allowance for Credit Losses - Recorded Investment and Unpaid Principal Balance for Impaired Loans with Associated Allowance (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesLoansModifiedDuringthePeriodDetails" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesLoansModifiedDuringthePeriodDetails">
+        <link:definition>9955547 - Disclosure - Loans and Allowance for Credit Losses - Loans Modified During the Period (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesModifiedPaymentStatusDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesModifiedPaymentStatusDetail">
+        <link:definition>9955548 - Disclosure - Loans and Allowance for Credit Losses - Modified Payment Status (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesAllowanceforCreditLossesDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesAllowanceforCreditLossesDetail">
+        <link:definition>9955549 - Disclosure - Loans and Allowance for Credit Losses - Allowance for Credit Losses (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesAdditionalInformationDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesAdditionalInformationDetail">
+        <link:definition>9955550 - Disclosure - Loans and Allowance for Credit Losses - Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansandAllowanceforCreditLossesModificationsSubsequentDefaultDetail" roleURI="http://www.fcbanking.com/role/LoansandAllowanceforCreditLossesModificationsSubsequentDefaultDetail">
+        <link:definition>9955551 - Disclosure - Loans and Allowance for Credit Losses - Modifications Subsequent Default (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesOperatingLeaseAssetsandLiabilitiesDetails" roleURI="http://www.fcbanking.com/role/LeasesOperatingLeaseAssetsandLiabilitiesDetails">
+        <link:definition>9955552 - Disclosure - Leases Operating Lease Assets and Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseLiablityMaturityDetails" roleURI="http://www.fcbanking.com/role/LeasesLeaseLiablityMaturityDetails">
+        <link:definition>9955553 - Disclosure - Leases Lease Liablity Maturity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDetails" roleURI="http://www.fcbanking.com/role/IncomeTaxesDetails">
+        <link:definition>9955554 - Disclosure - Income Taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilitiesScheduleofAssetsandLiabilitiesMeasuredatFairValueonRecurringBasisDetail" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilitiesScheduleofAssetsandLiabilitiesMeasuredatFairValueonRecurringBasisDetail">
+        <link:definition>9955555 - Disclosure - Fair Values of Assets and Liabilities - Schedule of Assets and Liabilities Measured at Fair Value on Recurring Basis (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilitiesScheduleofAssetsMeasuredonNonRecurringBasisDetail" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilitiesScheduleofAssetsMeasuredonNonRecurringBasisDetail">
+        <link:definition>9955556 - Disclosure - Fair Values of Assets and Liabilities - Schedule of Assets Measured on Non-Recurring Basis (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilitiesLossesRealizedonAssetsMeasuredonNonRecurringBasisDetail" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilitiesLossesRealizedonAssetsMeasuredonNonRecurringBasisDetail">
+        <link:definition>9955557 - Disclosure - Fair Values of Assets and Liabilities - Losses Realized on Assets Measured on Non-Recurring Basis (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilitiesCarryingAmountsandFairValuesofFinancialInstrumentsDetail" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilitiesCarryingAmountsandFairValuesofFinancialInstrumentsDetail">
+        <link:definition>9955558 - Disclosure - Fair Values of Assets and Liabilities - Carrying Amounts and Fair Values of Financial Instruments (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValuesofAssetsandLiabilitiesAdditionalInformationDetail" roleURI="http://www.fcbanking.com/role/FairValuesofAssetsandLiabilitiesAdditionalInformationDetail">
+        <link:definition>9955559 - Disclosure - Fair Values of Assets and Liabilities - Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativesAdditionalInformationDetail" roleURI="http://www.fcbanking.com/role/DerivativesAdditionalInformationDetail">
+        <link:definition>9955560 - Disclosure - Derivatives - Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativesCreditValueAdjustmentRecordedRelatedtoNotionalAmountofDerivativesOutstandingDetail" roleURI="http://www.fcbanking.com/role/DerivativesCreditValueAdjustmentRecordedRelatedtoNotionalAmountofDerivativesOutstandingDetail">
+        <link:definition>9955561 - Disclosure - Derivatives - Credit Value Adjustment Recorded Related to Notional Amount of Derivatives Outstanding (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativesScheduleofChangesinFairValueofDerivativeAssetsandLiabilitiesDetail" roleURI="http://www.fcbanking.com/role/DerivativesScheduleofChangesinFairValueofDerivativeAssetsandLiabilitiesDetail">
+        <link:definition>9955562 - Disclosure - Derivatives - Schedule of Changes in Fair Value of Derivative Assets and Liabilities (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAdditionalInformationDetail" roleURI="http://www.fcbanking.com/role/GoodwillAdditionalInformationDetail">
+        <link:definition>9955563 - Disclosure - Goodwill - Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubordinatedDebenturesScheduleofSubordinatedDebenturesOutstandingDetails" roleURI="http://www.fcbanking.com/role/SubordinatedDebenturesScheduleofSubordinatedDebenturesOutstandingDetails">
+        <link:definition>9955564 - Disclosure - Subordinated Debentures Schedule of Subordinated Debentures Outstanding (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubordinatedDebenturesSubordinatedDebenturesAdditionalInformationDetails" roleURI="http://www.fcbanking.com/role/SubordinatedDebenturesSubordinatedDebenturesAdditionalInformationDetails">
+        <link:definition>9955565 - Disclosure - Subordinated Debentures Subordinated Debentures, Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognitionInScopeandOutofScopeRevenueStreamsDetails" roleURI="http://www.fcbanking.com/role/RevenueRecognitionInScopeandOutofScopeRevenueStreamsDetails">
+        <link:definition>9955566 - Disclosure - Revenue Recognition In-Scope and Out-of-Scope Revenue Streams (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRecognitionRevenueRecognitionDetails" roleURI="http://www.fcbanking.com/role/RevenueRecognitionRevenueRecognitionDetails">
+        <link:definition>9955567 - Disclosure - Revenue Recognition Revenue Recognition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingDetails" roleURI="http://www.fcbanking.com/role/SegmentReportingDetails">
+        <link:definition>9955568 - Disclosure - Segment Reporting (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="fcf_DocumentAndEntityInformationAbstract" abstract="true" name="DocumentAndEntityInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_LoansHeldForSaleFairValue" abstract="false" name="LoansHeldForSaleFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ProvisionForCreditLossesPortfolio" abstract="false" name="ProvisionForCreditLossesPortfolio" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ProvisionForCreditLossesAcquisitionDay1NonPCD" abstract="false" name="ProvisionForCreditLossesAcquisitionDay1NonPCD" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FeesandCommissionsonTrustandFiduciaryAccounts" abstract="false" name="FeesandCommissionsonTrustandFiduciaryAccounts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FeesandCommissionsonDepositorAccounts" abstract="false" name="FeesandCommissionsonDepositorAccounts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FeesandCommissionsonDebitCards" abstract="false" name="FeesandCommissionsonDebitCards" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_DerivativeFeeIncome" abstract="false" name="DerivativeFeeIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_OperationalLoss" abstract="false" name="OperationalLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_GainLossOnSecuritiesAndOtherAssets" abstract="false" name="GainLossOnSecuritiesAndOtherAssets" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_IncreaseInCashSurrenderValueofBOLI" abstract="false" name="IncreaseInCashSurrenderValueofBOLI" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_SupplementalComprehensiveIncomeDisclosuresAbstract" abstract="true" name="SupplementalComprehensiveIncomeDisclosuresAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesAbstract" abstract="true" name="InvestmentSecuritiesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ScheduleOfRecordedInvestmentAndUnpaidPrincipalBalanceForImpairedLoansWithAssociatedAllowanceTableTextBlock" abstract="false" name="ScheduleOfRecordedInvestmentAndUnpaidPrincipalBalanceForImpairedLoansWithAssociatedAllowanceTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_GoodwillDisclosureAbstract" abstract="true" name="GoodwillDisclosureAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_SubordinatedDebenturesOutstandingAbstract" abstract="true" name="SubordinatedDebenturesOutstandingAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ScheduleOfPCDLoansPurchasedInBusinessAcquisitionTableTextBlock" abstract="false" name="ScheduleOfPCDLoansPurchasedInBusinessAcquisitionTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_ScheduleOfNonPCDLoansPurchasedInBusinessAcquisitionTableTextBlock" abstract="false" name="ScheduleOfNonPCDLoansPurchasedInBusinessAcquisitionTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_ScheduleofHeldtoMaturitySecuritiesbyMaturityTableTextBlock" abstract="false" name="ScheduleofHeldtoMaturitySecuritiesbyMaturityTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_CreditRiskProfileVintageByCreditworthinessTableTextBlock" abstract="false" name="CreditRiskProfileVintageByCreditworthinessTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_LossesRealizedOnAssetsMeasuredOnNonrecurringBasisTableTextBlock" abstract="false" name="LossesRealizedOnAssetsMeasuredOnNonrecurringBasisTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_CreditValueAdjustmentRecordedRelatedToNotionalAmountOfDerivativesOutstandingTableTextBlock" abstract="false" name="CreditValueAdjustmentRecordedRelatedToNotionalAmountOfDerivativesOutstandingTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="fcf_CenterBankMember" abstract="true" name="CenterBankMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FinancingReceivablePurchasedAmountAtParValue" abstract="false" name="FinancingReceivablePurchasedAmountAtParValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ScheduleOfPCDLoansAcquiredTable" abstract="true" name="ScheduleOfPCDLoansAcquiredTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_TimeAndDemandLoansOtherMember" abstract="true" name="TimeAndDemandLoansOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_TimeAndDemandLoansMember" abstract="true" name="TimeAndDemandLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ConstructionOtherMember" abstract="true" name="ConstructionOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ConstructionResidentialMember" abstract="true" name="ConstructionResidentialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NonownerOccupiedCommercialRealEstateMember" abstract="true" name="NonownerOccupiedCommercialRealEstateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_OwnerOccupiedCommercialRealEstateMember" abstract="true" name="OwnerOccupiedCommercialRealEstateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_OtherConsumerLoansMember" abstract="true" name="OtherConsumerLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ScheduleOfPCDLoansAcquiredLineItems" abstract="true" name="ScheduleOfPCDLoansAcquiredLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ScheduleOfNonPCDLoanTable" abstract="true" name="ScheduleOfNonPCDLoanTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ScheduleOfNonPCDLoanLineItems" abstract="true" name="ScheduleOfNonPCDLoanLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_FinancingReceivablePurchasedWithoutCreditDeteriorationAmountAtParValue" abstract="false" name="FinancingReceivablePurchasedWithoutCreditDeteriorationAmountAtParValue" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FinancingReceivablePurchasedWithoutCreditDeteriorationDiscountPremium" abstract="false" name="FinancingReceivablePurchasedWithoutCreditDeteriorationDiscountPremium" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FinancingReceivablePurchasedWithoutCreditDeteriorationAmountAtPurchasePrice" abstract="false" name="FinancingReceivablePurchasedWithoutCreditDeteriorationAmountAtPurchasePrice" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedFHLBStock" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedFHLBStock" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedBankOwnedLifeInsurance" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedBankOwnedLifeInsurance" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedOtherAssets" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedOtherAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedDepositsContractualAmount" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedDepositsContractualAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_CashPaidForInterestAndIncomeTaxesAbstract" abstract="true" name="CashPaidForInterestAndIncomeTaxesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_UnsettledBankOwnedLifeInsuranceProceeds" abstract="false" name="UnsettledBankOwnedLifeInsuranceProceeds" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_LoansTransferredtoOtherRealEstateOwnedandRepossessions" abstract="false" name="LoansTransferredtoOtherRealEstateOwnedandRepossessions" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_WeightedAverageNumberofSharesDeferredCompensationPlans" abstract="false" name="WeightedAverageNumberofSharesDeferredCompensationPlans" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="fcf_WeightedAverageNumberOfAdditionalSharesDeferredCompensationPlan" abstract="false" name="WeightedAverageNumberOfAdditionalSharesDeferredCompensationPlan" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="fcf_RestrictedStockUnitsMember" abstract="true" name="RestrictedStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_CommercialLettersOfCreditMember" abstract="true" name="CommercialLettersOfCreditMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NotionalAmountOfCommitmentsAndLettersOfCredit" abstract="false" name="NotionalAmountOfCommitmentsAndLettersOfCredit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NotionalAmountOfPerformanceStandbyLettersOfCredit" abstract="false" name="NotionalAmountOfPerformanceStandbyLettersOfCredit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NotionalAmountOfCommercialLettersOfCredit" abstract="false" name="NotionalAmountOfCommercialLettersOfCredit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NotionalAmountOfFinancialStandbyLettersOfCredit" abstract="false" name="NotionalAmountOfFinancialStandbyLettersOfCredit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesTable" abstract="true" name="InvestmentSecuritiesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_USGovernmentAgencyDebtSecuritiesResidentialDomain" abstract="true" name="USGovernmentAgencyDebtSecuritiesResidentialDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_USGovernmentAgencyDebtSecuritiesCommercialMember" abstract="true" name="USGovernmentAgencyDebtSecuritiesCommercialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesLineItems" abstract="true" name="InvestmentSecuritiesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_SourceOfRealizedGainsLossesAxis" abstract="true" name="SourceOfRealizedGainsLossesAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_SourceOfRealizedGainsLossesDomain" abstract="true" name="SourceOfRealizedGainsLossesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_MaturitiesMember" abstract="true" name="MaturitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_GrossGains" abstract="false" name="GrossGains" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_GrossLosses" abstract="false" name="GrossLosses" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ScheduleOfUnrealizedLossesAndEstimatedFairValuesTable" abstract="true" name="ScheduleOfUnrealizedLossesAndEstimatedFairValuesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_USGovernmentAgenciesDebtSecuritiesCommercialMember" abstract="true" name="USGovernmentAgenciesDebtSecuritiesCommercialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_CorporateSecuritiesMember" abstract="true" name="CorporateSecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ScheduleOfUnrealizedLossesAndEstimatedFairValuesLineItems" abstract="true" name="ScheduleOfUnrealizedLossesAndEstimatedFairValuesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesContinuousUnrealizedLossPositionLessthanTwelveMonthsFairValue" abstract="false" name="InvestmentSecuritiesContinuousUnrealizedLossPositionLessthanTwelveMonthsFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesContinuousUnrealizedLossPositionLessthan12MonthsAccumulatedLoss" abstract="false" name="InvestmentSecuritiesContinuousUnrealizedLossPositionLessthan12MonthsAccumulatedLoss" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesContinuousUnrealizedLossPositionTwelveMonthsorLongerFairValue" abstract="false" name="InvestmentSecuritiesContinuousUnrealizedLossPositionTwelveMonthsorLongerFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesContinuousUnrealizedLossPosition12MonthsorLongerAccumulatedLoss" abstract="false" name="InvestmentSecuritiesContinuousUnrealizedLossPosition12MonthsorLongerAccumulatedLoss" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesContinuousUnrealizedLossPositionFairValueTotal" abstract="false" name="InvestmentSecuritiesContinuousUnrealizedLossPositionFairValueTotal" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesContinuousUnrealizedLossPositionAccumulatedLoss" abstract="false" name="InvestmentSecuritiesContinuousUnrealizedLossPositionAccumulatedLoss" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_AvailableForSaleSecuritiesSoldAxis" abstract="true" name="AvailableForSaleSecuritiesSoldAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_AvailableForSaleSecuritiesSoldDomain" abstract="true" name="AvailableForSaleSecuritiesSoldDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FCBPortfolioMember" abstract="true" name="FCBPortfolioMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_PercentOfUnrealizedLosses" abstract="false" name="PercentOfUnrealizedLosses" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="fcf_InvestmentSecuritiesinUnrealizedLossPositionQualitativeDisclosureNumberofPositionsTotal" abstract="false" name="InvestmentSecuritiesinUnrealizedLossPositionQualitativeDisclosureNumberofPositionsTotal" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="fcf_BookValueOfAvailableForSaleDebtSecuritiesSold" abstract="false" name="BookValueOfAvailableForSaleDebtSecuritiesSold" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ProceedsFromSaleOfAvailableForSaleDebtSecuritiesSold" abstract="false" name="ProceedsFromSaleOfAvailableForSaleDebtSecuritiesSold" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_EquitySecuritiesFairValueGainLoss" abstract="false" name="EquitySecuritiesFairValueGainLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_CommercialCreditCardsMember" abstract="true" name="CommercialCreditCardsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ConsumerCreditCardsMember" abstract="true" name="ConsumerCreditCardsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_EquipmentFinanceMember" abstract="true" name="EquipmentFinanceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_DefaultStatusOfModificationsAfterNumberOfDaysPastDue" abstract="false" name="DefaultStatusOfModificationsAfterNumberOfDaysPastDue" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="fcf_TermLoanReceivableOriginatedInCurrentYearMember" abstract="true" name="TermLoanReceivableOriginatedInCurrentYearMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_TermLoanReceivableOriginatedInOneYearPriorMember" abstract="true" name="TermLoanReceivableOriginatedInOneYearPriorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_TermLoanReceivableOriginatedTwoYearsPriorMember" abstract="true" name="TermLoanReceivableOriginatedTwoYearsPriorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_TermLoanReceivableOriginatedThreeYearsPriorMember" abstract="true" name="TermLoanReceivableOriginatedThreeYearsPriorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_TermLoanReceivableOriginatedFourYearsPriorMember" abstract="true" name="TermLoanReceivableOriginatedFourYearsPriorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_TermLoanReceivableOriginatedFiveOrMoreYearsPriorMember" abstract="true" name="TermLoanReceivableOriginatedFiveOrMoreYearsPriorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_RevolvingLoansReceivableMember" abstract="true" name="RevolvingLoansReceivableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NonAccrualLoansMember" abstract="true" name="NonAccrualLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_WithNoRelatedAllowanceMember" abstract="true" name="WithNoRelatedAllowanceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_WithARelatedAllowanceMember" abstract="true" name="WithARelatedAllowanceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FinancingReceivableNonaccrualUnpaidPrincipalBalance" abstract="false" name="FinancingReceivableNonaccrualUnpaidPrincipalBalance" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FinancingReceivableNonaccrualRelatedAllowance" abstract="false" name="FinancingReceivableNonaccrualRelatedAllowance" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonperformingFinancingReceivableWithARelatedAllowanceAverageRecordedInvestment" abstract="false" name="NonperformingFinancingReceivableWithARelatedAllowanceAverageRecordedInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonperformingFinancingReceivableAverageRecordedInvestment" abstract="false" name="NonperformingFinancingReceivableAverageRecordedInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonperformingFinancingReceivableWithNoRelatedAllowanceAverageRecordedInvestment" abstract="false" name="NonperformingFinancingReceivableWithNoRelatedAllowanceAverageRecordedInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonperformingFinancingReceivableWithNoRelatedAllowanceInterestIncomeCashBasisMethod" abstract="false" name="NonperformingFinancingReceivableWithNoRelatedAllowanceInterestIncomeCashBasisMethod" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonperformingFinancingReceivableWithRelatedAllowanceInterestIncomeCashBasisMethod" abstract="false" name="NonperformingFinancingReceivableWithRelatedAllowanceInterestIncomeCashBasisMethod" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonperformingFinancingReceivableInterestIncomeCashBasisMethod" abstract="false" name="NonperformingFinancingReceivableInterestIncomeCashBasisMethod" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ExtendedMaturityAndPaymentDeferralMember" abstract="true" name="ExtendedMaturityAndPaymentDeferralMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ContractualInterestRateReductionAndPaymentDeferralMember" abstract="true" name="ContractualInterestRateReductionAndPaymentDeferralMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ContractualInterestRateReductionTermExtensionAndPaymentDeferralMember" abstract="true" name="ContractualInterestRateReductionTermExtensionAndPaymentDeferralMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ContractualPaymentModificationMember" abstract="true" name="ContractualPaymentModificationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FinancingReceivableModifiedPaymentDeferral" abstract="false" name="FinancingReceivableModifiedPaymentDeferral" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:weightItemType"/>
+  <xs:element id="fcf_FinancingReceivableModifiedInPeriodAgingAmount" abstract="false" name="FinancingReceivableModifiedInPeriodAgingAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_NonaccrualCommercialLoansAxis" abstract="true" name="NonaccrualCommercialLoansAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_NonaccrualCommercialLoansDomain" abstract="true" name="NonaccrualCommercialLoansDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NonaccrualCommercialLoansMember" abstract="true" name="NonaccrualCommercialLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_ChargeoffsAxis" abstract="true" name="ChargeoffsAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ChargeoffsDomain" abstract="true" name="ChargeoffsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NonperformingLoansAxis" abstract="true" name="NonperformingLoansAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_NonperformingLoansDomain" abstract="true" name="NonperformingLoansDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NonaccrualLoansPaidOffAxis" abstract="true" name="NonaccrualLoansPaidOffAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_NonaccrualLoansPaidOffDomain" abstract="true" name="NonaccrualLoansPaidOffDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_IncreasesDecreasesinTroubledDebtRestructuringsAxis" abstract="true" name="IncreasesDecreasesinTroubledDebtRestructuringsAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_IncreasesDecreasesinTroubledDebtRestructuringsDomain" abstract="true" name="IncreasesDecreasesinTroubledDebtRestructuringsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_PartofLoanRelationshipAxis" abstract="true" name="PartofLoanRelationshipAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_PartofLoanRelationshipDomain" abstract="true" name="PartofLoanRelationshipDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_IncreasesDecreasesinNonperformingLoansAxis" abstract="true" name="IncreasesDecreasesinNonperformingLoansAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_IncreasesinNonperformingLoansDomain" abstract="true" name="IncreasesinNonperformingLoansDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_LoanToDifferentProjectAxis" abstract="true" name="LoanToDifferentProjectAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_LoanToDifferentProjectDomain" abstract="true" name="LoanToDifferentProjectDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NetDeferredFeesMember" abstract="true" name="NetDeferredFeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_UnearnedPremiumsAndDiscountsMember" abstract="true" name="UnearnedPremiumsAndDiscountsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_SmallBusinessAdministrationGuaranteeMember" abstract="true" name="SmallBusinessAdministrationGuaranteeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_NonAccrualStatusOfLoansAfterNumberOfDaysPastDue" abstract="false" name="NonAccrualStatusOfLoansAfterNumberOfDaysPastDue" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="fcf_UnfundedCommitmentsRelatedToNonperformingLoans" abstract="false" name="UnfundedCommitmentsRelatedToNonperformingLoans" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_OffBalanceSheetReserveToNonperformingLoans" abstract="false" name="OffBalanceSheetReserveToNonperformingLoans" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_ForecastedValueNationalUnemploymentPercent" abstract="false" name="ForecastedValueNationalUnemploymentPercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="fcf_UnearnedDeferredFeesCostsOnLoans" abstract="false" name="UnearnedDeferredFeesCostsOnLoans" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FinancingReceivableModifiedSubsequentDefaultNumberOfContracts" abstract="false" name="FinancingReceivableModifiedSubsequentDefaultNumberOfContracts" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="fcf_ImpairedLoansFairValue" abstract="false" name="ImpairedLoansFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_OtherRealEstateOwnedAssetsFairValue" abstract="false" name="OtherRealEstateOwnedAssetsFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FairValueMeasurementOfAssetsOnNonrecurringBasisNetLossesOnImpairedLoans" abstract="false" name="FairValueMeasurementOfAssetsOnNonrecurringBasisNetLossesOnImpairedLoans" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FairValueMeasurementOfAssetsOnNonrecurringBasisNetLossesOnOtherRealEstateOwned" abstract="false" name="FairValueMeasurementOfAssetsOnNonrecurringBasisNetLossesOnOtherRealEstateOwned" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FairValueMeasurementOfAssetsOnNonrecurringBasisNetLoss" abstract="false" name="FairValueMeasurementOfAssetsOnNonrecurringBasisNetLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_FairValueMeasurementsOfFinancialInstrumentsTable" abstract="true" name="FairValueMeasurementsOfFinancialInstrumentsTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ImpairedLoansFairValueNonCollection" abstract="false" name="ImpairedLoansFairValueNonCollection" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_UpdatedAppraisalRequirementFloor" abstract="false" name="UpdatedAppraisalRequirementFloor" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_RiskparticipationAgreementsTable" abstract="true" name="RiskparticipationAgreementsTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ContractMaturityAxis" abstract="true" name="ContractMaturityAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ContractMaturityDomain" abstract="true" name="ContractMaturityDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_A2024Member" abstract="true" name="A2024Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_A2026Member" abstract="true" name="A2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FourYearOiriginalMaturityMember" abstract="true" name="FourYearOiriginalMaturityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FiveYearOriginalMaturityMember" abstract="true" name="FiveYearOriginalMaturityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_InterestRateMacroSwapMember" abstract="true" name="InterestRateMacroSwapMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_InterestRateSwapMemberDebtMember" abstract="true" name="InterestRateSwapMemberDebtMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_RiskParticipationAgreementsAxis" abstract="true" name="RiskParticipationAgreementsAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_RiskParticipationAgreementsDomain" abstract="true" name="RiskParticipationAgreementsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_RiskParticipationAgreementsPurchasedDomain" abstract="true" name="RiskParticipationAgreementsPurchasedDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_RiskParticipationAgreementsSoldDomain" abstract="true" name="RiskParticipationAgreementsSoldDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_MaturityDateAxis" abstract="true" name="MaturityDateAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_MaturityDateDomain" abstract="true" name="MaturityDateDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_A10102025Member" abstract="true" name="A10102025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_A1152025Member" abstract="true" name="A1152025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_A512026Member" abstract="true" name="A512026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_A10152026Member" abstract="true" name="A10152026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_RiskparticipationAgreementsLineItems" abstract="true" name="RiskparticipationAgreementsLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_DerivativeInstrumentsDesignatedAsHedgingInstrumentsInterestExpense" abstract="false" name="DerivativeInstrumentsDesignatedAsHedgingInstrumentsInterestExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_DerivativeLiabilityCostBasisGrossAsset" abstract="false" name="DerivativeLiabilityCostBasisGrossAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_DerivativeLiabilityNotionalAmountGrossAsset" abstract="false" name="DerivativeLiabilityNotionalAmountGrossAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InterestRateCollarMember" abstract="true" name="InterestRateCollarMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_DerivativeInstrumentsDesignatedAsHedgingInstrumentsInterestIncome" abstract="false" name="DerivativeInstrumentsDesignatedAsHedgingInstrumentsInterestIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_SubordinatedDebenturesAbstract" abstract="true" name="SubordinatedDebenturesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_FirstCommonwealthBank2033Member" abstract="true" name="FirstCommonwealthBank2033Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FirstCommonwealthCapitalTrustIIMember" abstract="true" name="FirstCommonwealthCapitalTrustIIMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FirstCommonwealthCapitalTrustIIIMember" abstract="true" name="FirstCommonwealthCapitalTrustIIIMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_FirstCommonwealthFinancialCorporationMember" abstract="true" name="FirstCommonwealthFinancialCorporationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_SubordinatedDebenturesAdditionalInformationAbstract" abstract="true" name="SubordinatedDebenturesAdditionalInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_SubordinatedDebtParAmount" abstract="false" name="SubordinatedDebtParAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_InScopeandOutofScopeRevenueAbstract" abstract="true" name="InScopeandOutofScopeRevenueAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ScopeofTopic606Axis" abstract="true" name="ScopeofTopic606Axis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_ScopeofTopic606Domain" abstract="true" name="ScopeofTopic606Domain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_InScopeofTopic606Member" abstract="true" name="InScopeofTopic606Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_OutOfScopeofTopic606Member" abstract="true" name="OutOfScopeofTopic606Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="fcf_AdditionalInformationAbstract" abstract="true" name="AdditionalInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="fcf_IncentiveRevenue" abstract="false" name="IncentiveRevenue" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="fcf_AdjustmentsAndReconcilingItemsSegmentNetIncome" abstract="false" name="AdjustmentsAndReconcilingItemsSegmentNetIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

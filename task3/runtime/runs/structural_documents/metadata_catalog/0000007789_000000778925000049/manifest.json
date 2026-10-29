@@ -1,0 +1,58 @@
+{
+  "entity": "0000007789",
+  "schema_name": "asb-20250331.xsd",
+  "namespace": "http://www.associatedbank.com/20250331",
+  "filing": {
+    "accessionNumber": "0000007789-25-000049",
+    "reportDate": "2025-03-31",
+    "primaryDocument": "asb-20250331.htm",
+    "filingDate": "2025-04-29",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "asb-20250331.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778925000049/asb-20250331.xsd",
+      "SHA256": "b475cef6cc6bb688968508080845f2dd301adfd68f96926ffa6f566a63770de4",
+      "bytes": 79408
+    },
+    {
+      "file": "asb-20250331_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778925000049/asb-20250331_pre.xml",
+      "SHA256": "a8920641274a489073c63bd9ebd9248eb9dae266ff099b0923550abd48286e8a",
+      "bytes": 979389
+    },
+    {
+      "file": "asb-20250331_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778925000049/asb-20250331_def.xml",
+      "SHA256": "7fd3818fe938ee5c6d67509b9f1f349d552796833cdfd4d90fe370a6b7901b29",
+      "bytes": 729008
+    },
+    {
+      "file": "asb-20250331_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778925000049/asb-20250331_lab.xml",
+      "SHA256": "9c3dfbe7c89de28d54cdeba6bb648deec23f0355fe5c917442fca1acd98ce3cb",
+      "bytes": 1264059
+    },
+    {
+      "file": "asb-20250331_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778925000049/asb-20250331_cal.xml",
+      "SHA256": "b045a33c49869df5f20d17f246faf0a96861b41275ece85c7e9e14df18db5461",
+      "bytes": 155943
+    },
+    {
+      "file": "asb-20250331_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/7789/000000778925000049/asb-20250331_htm.xml",
+      "SHA256": "d4df195040990d465870c5564cde3f0ae5aba65b407f061ead876963572d6592",
+      "bytes": 6360205
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

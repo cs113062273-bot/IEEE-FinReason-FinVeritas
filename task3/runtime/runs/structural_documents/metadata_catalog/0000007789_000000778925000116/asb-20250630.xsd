@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:66b4a3f5-a668-422e-badb-661e8024641c,g:486c9924-5c56-4089-9971-d24f8a11ea31-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:asb="http://www.associatedbank.com/20250630" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types1="http://www.xbrl.org/dtr/type/2020-01-21" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.associatedbank.com/20250630">
+  <xs:import namespace="http://fasb.org/srt/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2020-01-21" schemaLocation="https://www.xbrl.org/dtr/type/2020-01-21/types.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2024" schemaLocation="https://xbrl.sec.gov/dei/2024/dei-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2024" schemaLocation="https://xbrl.sec.gov/ecd/2024/ecd-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/exch/2024" schemaLocation="https://xbrl.sec.gov/exch/2024/exch-2024.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="asb-20250630_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="asb-20250630_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="asb-20250630_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="asb-20250630_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="DocumentandEntityInformation" roleURI="http://www.associatedbank.com/role/DocumentandEntityInformation">
+        <link:definition>0000001 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheets" roleURI="http://www.associatedbank.com/role/ConsolidatedBalanceSheets">
+        <link:definition>9952151 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsParenthetical" roleURI="http://www.associatedbank.com/role/ConsolidatedBalanceSheetsParenthetical">
+        <link:definition>9952152 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofIncome" roleURI="http://www.associatedbank.com/role/ConsolidatedStatementsofIncome">
+        <link:definition>9952153 - Statement - Consolidated Statements of Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofComprehensiveIncome" roleURI="http://www.associatedbank.com/role/ConsolidatedStatementsofComprehensiveIncome">
+        <link:definition>9952154 - Statement - Consolidated Statements of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinStockholdersEquityUnaudited" roleURI="http://www.associatedbank.com/role/ConsolidatedStatementsofChangesinStockholdersEquityUnaudited">
+        <link:definition>9952155 - Statement - Consolidated Statements of Changes in Stockholders' Equity (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinStockholdersEquityParenthetical" roleURI="http://www.associatedbank.com/role/ConsolidatedStatementsofChangesinStockholdersEquityParenthetical">
+        <link:definition>9952156 - Statement - Consolidated Statements of Changes in Stockholders' Equity (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlows" roleURI="http://www.associatedbank.com/role/ConsolidatedStatementsofCashFlows">
+        <link:definition>9952157 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BasisofPresentation" roleURI="http://www.associatedbank.com/role/BasisofPresentation">
+        <link:definition>9952158 - Disclosure - Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPolicies" roleURI="http://www.associatedbank.com/role/SummaryofSignificantAccountingPolicies">
+        <link:definition>9952159 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerCommonShare" roleURI="http://www.associatedbank.com/role/EarningsPerCommonShare">
+        <link:definition>9952160 - Disclosure - Earnings Per Common Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensation" roleURI="http://www.associatedbank.com/role/StockBasedCompensation">
+        <link:definition>9952161 - Disclosure - Stock-Based Compensation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecurities" roleURI="http://www.associatedbank.com/role/InvestmentSecurities">
+        <link:definition>9952162 - Disclosure - Investment Securities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Loans" roleURI="http://www.associatedbank.com/role/Loans">
+        <link:definition>9952163 - Disclosure - Loans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssets" roleURI="http://www.associatedbank.com/role/GoodwillandOtherIntangibleAssets">
+        <link:definition>9952164 - Disclosure - Goodwill and Other Intangible Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShortandLongTermFunding" roleURI="http://www.associatedbank.com/role/ShortandLongTermFunding">
+        <link:definition>9952165 - Disclosure - Short and Long-Term Funding</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivities" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivities">
+        <link:definition>9952166 - Disclosure - Derivative and Hedging Activities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetOffsetting" roleURI="http://www.associatedbank.com/role/BalanceSheetOffsetting">
+        <link:definition>9952167 - Disclosure - Balance Sheet Offsetting</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMatters" roleURI="http://www.associatedbank.com/role/CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMatters">
+        <link:definition>9952168 - Disclosure - Commitments, Off-Balance Sheet Arrangements, Legal Proceedings and Regulatory Matters</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurements" roleURI="http://www.associatedbank.com/role/FairValueMeasurements">
+        <link:definition>9952169 - Disclosure - Fair Value Measurements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementPlans" roleURI="http://www.associatedbank.com/role/RetirementPlans">
+        <link:definition>9952170 - Disclosure - Retirement Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReporting" roleURI="http://www.associatedbank.com/role/SegmentReporting">
+        <link:definition>9952171 - Disclosure - Segment Reporting</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLoss" roleURI="http://www.associatedbank.com/role/AccumulatedOtherComprehensiveIncomeLoss">
+        <link:definition>9952172 - Disclosure - Accumulated Other Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Leases" roleURI="http://www.associatedbank.com/role/Leases">
+        <link:definition>9952173 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesPolicies" roleURI="http://www.associatedbank.com/role/SummaryofSignificantAccountingPoliciesPolicies">
+        <link:definition>9955511 - Disclosure - Summary of Significant Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerCommonShareTables" roleURI="http://www.associatedbank.com/role/EarningsPerCommonShareTables">
+        <link:definition>9955512 - Disclosure - Earnings Per Common Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationTables" roleURI="http://www.associatedbank.com/role/StockBasedCompensationTables">
+        <link:definition>9955513 - Disclosure - Stock-Based Compensation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesTables" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesTables">
+        <link:definition>9955514 - Disclosure - Investment Securities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansLoansTables" roleURI="http://www.associatedbank.com/role/LoansLoansTables">
+        <link:definition>9955515 - Disclosure - Loans Loans (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsTables" roleURI="http://www.associatedbank.com/role/GoodwillandOtherIntangibleAssetsTables">
+        <link:definition>9955516 - Disclosure - Goodwill and Other Intangible Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShortandLongTermFundingTables" roleURI="http://www.associatedbank.com/role/ShortandLongTermFundingTables">
+        <link:definition>9955517 - Disclosure - Short and Long-Term Funding (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesTables" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesTables">
+        <link:definition>9955518 - Disclosure - Derivative and Hedging Activities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetOffsettingTables" roleURI="http://www.associatedbank.com/role/BalanceSheetOffsettingTables">
+        <link:definition>9955519 - Disclosure - Balance Sheet Offsetting (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMattersTables" roleURI="http://www.associatedbank.com/role/CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMattersTables">
+        <link:definition>9955520 - Disclosure - Commitments, Off-Balance Sheet Arrangements, Legal Proceedings and Regulatory Matters (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsTables" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsTables">
+        <link:definition>9955521 - Disclosure - Fair Value Measurements (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementPlansTables" roleURI="http://www.associatedbank.com/role/RetirementPlansTables">
+        <link:definition>9955522 - Disclosure - Retirement Plans (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingTables" roleURI="http://www.associatedbank.com/role/SegmentReportingTables">
+        <link:definition>9955523 - Disclosure - Segment Reporting (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLossTables" roleURI="http://www.associatedbank.com/role/AccumulatedOtherComprehensiveIncomeLossTables">
+        <link:definition>9955524 - Disclosure - Accumulated Other Comprehensive Income (Loss) (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://www.associatedbank.com/role/LeasesTables">
+        <link:definition>9955525 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerCommonShareDetails" roleURI="http://www.associatedbank.com/role/EarningsPerCommonShareDetails">
+        <link:definition>9955526 - Disclosure - Earnings Per Common Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerCommonShareDetails_1" roleURI="http://www.associatedbank.com/role/EarningsPerCommonShareDetails_1">
+        <link:definition>9955526 - Disclosure - Earnings Per Common Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerCommonShareDetailsTextuals" roleURI="http://www.associatedbank.com/role/EarningsPerCommonShareDetailsTextuals">
+        <link:definition>9955527 - Disclosure - Earnings Per Common Share (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationStockOptionActivityDetails" roleURI="http://www.associatedbank.com/role/StockBasedCompensationStockOptionActivityDetails">
+        <link:definition>9955528 - Disclosure - Stock-Based Compensation, Stock Option Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationRestrictedStockActivityDetails" roleURI="http://www.associatedbank.com/role/StockBasedCompensationRestrictedStockActivityDetails">
+        <link:definition>9955529 - Disclosure - Stock-Based Compensation, Restricted Stock Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockBasedCompensationDetailsTextuals" roleURI="http://www.associatedbank.com/role/StockBasedCompensationDetailsTextuals">
+        <link:definition>9955530 - Disclosure - Stock-Based Compensation (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesAFSandHTMSecuritiesAmortizedCostsandFairValuesDetails" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesAFSandHTMSecuritiesAmortizedCostsandFairValuesDetails">
+        <link:definition>9955531 - Disclosure - Investment Securities, AFS and HTM Securities Amortized Costs and Fair Values (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesAFSandHTMContractualMaturitiesDetails" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesAFSandHTMContractualMaturitiesDetails">
+        <link:definition>9955532 - Disclosure - Investment Securities, AFS and HTM Contractual Maturities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesHTMCreditQualityIndicatorsDetails" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesHTMCreditQualityIndicatorsDetails">
+        <link:definition>9955533 - Disclosure - Investment Securities, HTM Credit Quality Indicators (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesGainLossSaleofSecuritiesDetails" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesGainLossSaleofSecuritiesDetails">
+        <link:definition>9955534 - Disclosure - Investment Securities Gain/Loss Sale of Securities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesAFSandHTMSecuritiesGrossUnrealizedLossesDetails" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesAFSandHTMSecuritiesGrossUnrealizedLossesDetails">
+        <link:definition>9955535 - Disclosure - Investment Securities, AFS and HTM Securities Gross Unrealized Losses (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesDetailsTextual" roleURI="http://www.associatedbank.com/role/InvestmentSecuritiesDetailsTextual">
+        <link:definition>9955536 - Disclosure - Investment Securities (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansCompositionDetails" roleURI="http://www.associatedbank.com/role/LoansCompositionDetails">
+        <link:definition>9955537 - Disclosure - Loans Composition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansCreditQualityIndicatorbyVintageYearDetails" roleURI="http://www.associatedbank.com/role/LoansCreditQualityIndicatorbyVintageYearDetails">
+        <link:definition>9955538 - Disclosure - Loans, Credit Quality Indicator by Vintage Year (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansPastDueStatusDetails" roleURI="http://www.associatedbank.com/role/LoansPastDueStatusDetails">
+        <link:definition>9955539 - Disclosure - Loans Past Due Status (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansModificationsDetails" roleURI="http://www.associatedbank.com/role/LoansModificationsDetails">
+        <link:definition>9955540 - Disclosure - Loans, Modifications (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansModificationsinLast12MonthsPerformance" roleURI="http://www.associatedbank.com/role/LoansModificationsinLast12MonthsPerformance">
+        <link:definition>9955541 - Disclosure - Loans, Modifications in Last 12 Months, Performance</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansModifiedSubsequentDefaultDetails" roleURI="http://www.associatedbank.com/role/LoansModifiedSubsequentDefaultDetails">
+        <link:definition>9955542 - Disclosure - Loans, Modified, Subsequent Default (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansChangesintheAllowanceforLoanLossesbyPortfolioSegmentDetails" roleURI="http://www.associatedbank.com/role/LoansChangesintheAllowanceforLoanLossesbyPortfolioSegmentDetails">
+        <link:definition>9955543 - Disclosure - Loans, Changes in the Allowance for Loan Losses by Portfolio Segment (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LoansNarrativeDetails" roleURI="http://www.associatedbank.com/role/LoansNarrativeDetails">
+        <link:definition>9955544 - Disclosure - Loans Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsSummaryofCoreDepositandOtherIntangiblesDetails" roleURI="http://www.associatedbank.com/role/GoodwillandOtherIntangibleAssetsSummaryofCoreDepositandOtherIntangiblesDetails">
+        <link:definition>9955545 - Disclosure - Goodwill and Other Intangible Assets, Summary of Core Deposit and Other Intangibles (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsMortgageServicingRightsRollForwardDetails" roleURI="http://www.associatedbank.com/role/GoodwillandOtherIntangibleAssetsMortgageServicingRightsRollForwardDetails">
+        <link:definition>9955546 - Disclosure - Goodwill and Other Intangible Assets, Mortgage Servicing Rights Roll-Forward (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsEstimatedFutureAmortizationExpenseDetails" roleURI="http://www.associatedbank.com/role/GoodwillandOtherIntangibleAssetsEstimatedFutureAmortizationExpenseDetails">
+        <link:definition>9955547 - Disclosure - Goodwill and Other Intangible Assets, Estimated Future Amortization Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsDetailsTextuals" roleURI="http://www.associatedbank.com/role/GoodwillandOtherIntangibleAssetsDetailsTextuals">
+        <link:definition>9955548 - Disclosure - Goodwill and Other Intangible Assets (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShortandLongTermFundingCompositionDetails" roleURI="http://www.associatedbank.com/role/ShortandLongTermFundingCompositionDetails">
+        <link:definition>9955549 - Disclosure - Short and Long-Term Funding, Composition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShortandLongTermFundingRemainingContractualMaturityoftheSecuritiesSoldUnderAgreementstoRepurchaseDetails" roleURI="http://www.associatedbank.com/role/ShortandLongTermFundingRemainingContractualMaturityoftheSecuritiesSoldUnderAgreementstoRepurchaseDetails">
+        <link:definition>9955550 - Disclosure - Short and Long-Term Funding (Remaining Contractual Maturity of the Securities Sold Under Agreements to Repurchase) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ShortandLongTermFundingLongtermFundingNarrativeDetailsTextuals" roleURI="http://www.associatedbank.com/role/ShortandLongTermFundingLongtermFundingNarrativeDetailsTextuals">
+        <link:definition>9955551 - Disclosure - Short and Long-Term Funding (Long-term Funding Narrative) (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesDerivativeInstrumentsDetails" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesDerivativeInstrumentsDetails">
+        <link:definition>9955552 - Disclosure - Derivative and Hedging Activities, Derivative Instruments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesCumulativeBasisAdjustmentforFairValueHedgesDetails" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesCumulativeBasisAdjustmentforFairValueHedgesDetails">
+        <link:definition>9955553 - Disclosure - Derivative and Hedging Activities Cumulative Basis Adjustment for Fair Value Hedges (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesIncomeimpactofFairValueandCashFlowHedgeDetails" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesIncomeimpactofFairValueandCashFlowHedgeDetails">
+        <link:definition>9955554 - Disclosure - Derivative and Hedging Activities Income impact of Fair Value and Cash Flow Hedge (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesCashFlowHedgeIncludedinAOCIDetails" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesCashFlowHedgeIncludedinAOCIDetails">
+        <link:definition>9955555 - Disclosure - Derivative and Hedging Activities, Cash Flow Hedge Included in AOCI (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesDerivativeImpactonPerfomanceDetails" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesDerivativeImpactonPerfomanceDetails">
+        <link:definition>9955556 - Disclosure - Derivative and Hedging Activities Derivative Impact on Perfomance (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeandHedgingActivitiesDetailsTextuals" roleURI="http://www.associatedbank.com/role/DerivativeandHedgingActivitiesDetailsTextuals">
+        <link:definition>9955557 - Disclosure - Derivative and Hedging Activities (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetOffsettingDetails" roleURI="http://www.associatedbank.com/role/BalanceSheetOffsettingDetails">
+        <link:definition>9955558 - Disclosure - Balance Sheet Offsetting (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMattersSummaryofLendingRelatedandOtherCommitmentsDetails" roleURI="http://www.associatedbank.com/role/CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMattersSummaryofLendingRelatedandOtherCommitmentsDetails">
+        <link:definition>9955559 - Disclosure - Commitments, Off-Balance Sheet Arrangements, Legal Proceedings and Regulatory Matters, Summary of Lending Related and Other Commitments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentChangesintheAllowanceforUnfundedCommitmentsDetails" roleURI="http://www.associatedbank.com/role/CommitmentChangesintheAllowanceforUnfundedCommitmentsDetails">
+        <link:definition>9955560 - Disclosure - Commitment, Changes in the Allowance for Unfunded Commitments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMattersDetailsTextuals" roleURI="http://www.associatedbank.com/role/CommitmentsOffBalanceSheetArrangementsLegalProceedingsandRegulatoryMattersDetailsTextuals">
+        <link:definition>9955561 - Disclosure - Commitments, Off-Balance Sheet Arrangements, Legal Proceedings and Regulatory Matters (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAssetsandLiabilitiesMeasuredatFairValueonaRecurringBasisDetails" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsAssetsandLiabilitiesMeasuredatFairValueonaRecurringBasisDetails">
+        <link:definition>9955562 - Disclosure - Fair Value Measurements, Assets and Liabilities Measured at Fair Value on a Recurring Basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsFinancialInstrumentsClassifiedWithinLevel3Details" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsFinancialInstrumentsClassifiedWithinLevel3Details">
+        <link:definition>9955563 - Disclosure - Fair Value Measurements Financial Instruments Classified Within Level 3 (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsEquitySecuritiesRollForwardDetails" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsEquitySecuritiesRollForwardDetails">
+        <link:definition>9955564 - Disclosure - Fair Value Measurements Equity Securities Roll Forward (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAssetsandLiabilitiesMeasuredatFairValueonaNonrecurringBasisDetails" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsAssetsandLiabilitiesMeasuredatFairValueonaNonrecurringBasisDetails">
+        <link:definition>9955565 - Disclosure - Fair Value Measurements, Assets and Liabilities Measured at Fair Value on a Nonrecurring Basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsFairValueUnobservableLevel3MeasurementsDetails" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsFairValueUnobservableLevel3MeasurementsDetails">
+        <link:definition>9955566 - Disclosure - Fair Value Measurements Fair Value Unobservable Level 3 Measurements (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsDetailsTextuals" roleURI="http://www.associatedbank.com/role/FairValueMeasurementsDetailsTextuals">
+        <link:definition>9955567 - Disclosure - Fair Value Measurements (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementPlansComponentsofNetPeriodicBenefitCostforthePensionandPostretirementTablesDetails" roleURI="http://www.associatedbank.com/role/RetirementPlansComponentsofNetPeriodicBenefitCostforthePensionandPostretirementTablesDetails">
+        <link:definition>9955568 - Disclosure - Retirement Plans, Components of Net Periodic Benefit Cost for the Pension and Postretirement Tables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RetirementPlansDetailsTextualsDetails" roleURI="http://www.associatedbank.com/role/RetirementPlansDetailsTextualsDetails">
+        <link:definition>9955569 - Disclosure - Retirement Plans (Details Textuals) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingDetails" roleURI="http://www.associatedbank.com/role/SegmentReportingDetails">
+        <link:definition>9955570 - Disclosure - Segment Reporting (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingDetailsTextuals" roleURI="http://www.associatedbank.com/role/SegmentReportingDetailsTextuals">
+        <link:definition>9955571 - Disclosure - Segment Reporting (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLossDetails" roleURI="http://www.associatedbank.com/role/AccumulatedOtherComprehensiveIncomeLossDetails">
+        <link:definition>9955572 - Disclosure - Accumulated Other Comprehensive Income (Loss) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLeaseCostandCashFlowsDetails" roleURI="http://www.associatedbank.com/role/LeasesLeaseCostandCashFlowsDetails">
+        <link:definition>9955573 - Disclosure - Leases Lease, Cost and Cash Flows (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesComponentsofLeaseExpenseDetails" roleURI="http://www.associatedbank.com/role/LeasesComponentsofLeaseExpenseDetails">
+        <link:definition>9955574 - Disclosure - Leases Components of Lease Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesOperatingLeaseInformationDetails" roleURI="http://www.associatedbank.com/role/LeasesOperatingLeaseInformationDetails">
+        <link:definition>9955575 - Disclosure - Leases Operating Lease Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesAmortizationofOperatingLeaseLiabilitiesDetails" roleURI="http://www.associatedbank.com/role/LeasesAmortizationofOperatingLeaseLiabilitiesDetails">
+        <link:definition>9955576 - Disclosure - Leases Amortization of Operating Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesDetailsTextuals" roleURI="http://www.associatedbank.com/role/LeasesDetailsTextuals">
+        <link:definition>9955577 - Disclosure - Leases (Details Textuals)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="asb_TwoThousandTwentyThreeSubordinatedNotesMember" abstract="true" name="TwoThousandTwentyThreeSubordinatedNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_TotalCommonEquity" abstract="false" name="TotalCommonEquity" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_InterestonFHLBFunding" abstract="false" name="InterestonFHLBFunding" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_NoninterestIncomeInScopeofTopic606" abstract="false" name="NoninterestIncomeInScopeofTopic606" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_CapitalMarketFeesNet" abstract="false" name="CapitalMarketFeesNet" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LossOnPrepaymentsOfFHLBAdvances" abstract="false" name="LossOnPrepaymentsOfFHLBAdvances" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_InterestOnPPPLFFunding" abstract="false" name="InterestOnPPPLFFunding" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LegalAndProfessionalFees" abstract="false" name="LegalAndProfessionalFees" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_BankandCorporateOwnedLifeInsuranceIncome" abstract="false" name="BankandCorporateOwnedLifeInsuranceIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_AmortizationOfNetUnrealizedLossesOnAvailableForSaleSecuritiesTransferedToHeldToMaturitySecurities" abstract="false" name="AmortizationOfNetUnrealizedLossesOnAvailableForSaleSecuritiesTransferedToHeldToMaturitySecurities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_BoardAuthorizedPurchaseProgramMember" abstract="true" name="BoardAuthorizedPurchaseProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_PerformanceServiceBasedRSAsRSAMember" abstract="true" name="PerformanceServiceBasedRSAsRSAMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_GainLossOnMortgageBankingActivitiesNet" abstract="false" name="GainLossOnMortgageBankingActivitiesNet" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_NetChangeinTaxCreditInvestments" abstract="false" name="NetChangeinTaxCreditInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_ProceedsFromSaleOfMortgagePortfolio" abstract="false" name="ProceedsFromSaleOfMortgagePortfolio" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_NetDecreaseInDepositsDueToBranchSales" abstract="false" name="NetDecreaseInDepositsDueToBranchSales" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_ProceedsFromPaycheckProtectionProgramLoanFunding" abstract="false" name="ProceedsFromPaycheckProtectionProgramLoanFunding" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_FutureAccountingPronouncementsPolicyTextBlock" abstract="false" name="FutureAccountingPronouncementsPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="asb_ScheduleOfDerivativeInstrumentsGainLossNotDesignatedAsHedgingInstrumentsTableTextBlock" abstract="false" name="ScheduleOfDerivativeInstrumentsGainLossNotDesignatedAsHedgingInstrumentsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="asb_ScheduleOfUnfundedCommitmentsTableTextBlock" abstract="false" name="ScheduleOfUnfundedCommitmentsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="asb_AssetsAndLiabilitiesLesseeTableTextBlock" abstract="false" name="AssetsAndLiabilitiesLesseeTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="asb_LesseeLeaseInformationTableTextBlock" abstract="false" name="LesseeLeaseInformationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="asb_UnvestedShareBasedPaymentAwards" abstract="false" name="UnvestedShareBasedPaymentAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_UndistributedEarningsAllocatedToUnvestedShareBasedPaymentAwards" abstract="false" name="UndistributedEarningsAllocatedToUnvestedShareBasedPaymentAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_CommonShareholdersEarningsBasic" abstract="false" name="CommonShareholdersEarningsBasic" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_DistributedEarningsToCommonShareholdersDiluted" abstract="false" name="DistributedEarningsToCommonShareholdersDiluted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_CommonShareholdersEarningsDiluted" abstract="false" name="CommonShareholdersEarningsDiluted" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_EmployeeServiceShareBasedCompensationNonvestedAwardsCompensationCostNotYetRecognizedYearForRecognition" abstract="false" name="EmployeeServiceShareBasedCompensationNonvestedAwardsCompensationCostNotYetRecognizedYearForRecognition" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_ScheduleofAvailableforsaleandHeldtomaturitySecuritiesTable" abstract="true" name="ScheduleofAvailableforsaleandHeldtomaturitySecuritiesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="asb_ScheduleofAvailableforsaleandHeldtomaturitySecuritiesTableLineItems" abstract="true" name="ScheduleofAvailableforsaleandHeldtomaturitySecuritiesTableLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_RatioofFairValuetoAmortizedCostAFS" abstract="false" name="RatioofFairValuetoAmortizedCostAFS" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="asb_RatioOfFairValueToAmortizedCostHtm" abstract="false" name="RatioOfFairValueToAmortizedCostHtm" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="asb_NotRatedMember" abstract="true" name="NotRatedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_DebtSecuritiesHeldtomaturitySoldRealizedGain" abstract="false" name="DebtSecuritiesHeldtomaturitySoldRealizedGain" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_DebtSecuritiesHeldtomaturitySoldRealizedLoss" abstract="false" name="DebtSecuritiesHeldtomaturitySoldRealizedLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LengthoftimeheldtomaturitysecuritiesareincontinuousunrealizedlosspositionaxisAxis" abstract="true" name="LengthoftimeheldtomaturitysecuritiesareincontinuousunrealizedlosspositionaxisAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="asb_LengthOfTimeHeldToMaturitySecuritiesAreInContinuousUnrealizedLossPositionDomain" abstract="true" name="LengthOfTimeHeldToMaturitySecuritiesAreInContinuousUnrealizedLossPositionDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_HeldtomaturitysecuritiesinunrealizedlosspositionsqualitativedisclosurenumberofpositionslessthanoneyearMember" abstract="true" name="HeldtomaturitysecuritiesinunrealizedlosspositionsqualitativedisclosurenumberofpositionslessthanoneyearMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_HeldtomaturitysecuritiesinunrealizedlosspositionsqualitativedisclosurenumberofpositionsgreaterthanorequaltooneyearMember" abstract="true" name="HeldtomaturitysecuritiesinunrealizedlosspositionsqualitativedisclosurenumberofpositionsgreaterthanorequaltooneyearMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_ScheduleOfInvestmentSecuritiesInformationTable" abstract="true" name="ScheduleOfInvestmentSecuritiesInformationTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="asb_SecuritiesInsuredOrGuaranteedByGovernmentAuthoritiesAxis" abstract="true" name="SecuritiesInsuredOrGuaranteedByGovernmentAuthoritiesAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="asb_SecuritiesInsuredOrGuaranteedByGovernmentAuthoritiesDomain" abstract="true" name="SecuritiesInsuredOrGuaranteedByGovernmentAuthoritiesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_FederalReserveBankStockMember" abstract="true" name="FederalReserveBankStockMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_InvestmentSecuritiesInformationLineItems" abstract="true" name="InvestmentSecuritiesInformationLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_CommercialRealEstateOwnerOccupiedPortfolioMember" abstract="true" name="CommercialRealEstateOwnerOccupiedPortfolioMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_CommercialAndBusinessLendingMember" abstract="true" name="CommercialAndBusinessLendingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_CommercialRealEstateInvestorPortfolioSegmentMember" abstract="true" name="CommercialRealEstateInvestorPortfolioSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_OtherConsumerMember" abstract="true" name="OtherConsumerMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_NonaccrualLoanMember" abstract="true" name="NonaccrualLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_NonaccrualLoansCurrentPortion" abstract="false" name="NonaccrualLoansCurrentPortion" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_PercentOfCurrentNonaccrualLoans" abstract="false" name="PercentOfCurrentNonaccrualLoans" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="asb_FinancingReceivableModifiedWeightedAverageTermRangeFrom" abstract="false" name="FinancingReceivableModifiedWeightedAverageTermRangeFrom" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="asb_FinancingReceivableModifiedWeightedAverageTermRangeTo" abstract="false" name="FinancingReceivableModifiedWeightedAverageTermRangeTo" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="asb_FinancialAsset3089DaysPastDueMember" abstract="true" name="FinancialAsset3089DaysPastDueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_AllowanceTypeAxis" abstract="true" name="AllowanceTypeAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="asb_AllowanceTypeDomain" abstract="true" name="AllowanceTypeDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_AllowanceForLoanLossesMember" abstract="true" name="AllowanceForLoanLossesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_AllowanceForLoansLossesAndUnfundedCommitmentsMember" abstract="true" name="AllowanceForLoansLossesAndUnfundedCommitmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_AllowanceForCreditLossesOnLoansAbstract" abstract="true" name="AllowanceForCreditLossesOnLoansAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_AllowanceForCreditLossesOnLoans" abstract="false" name="AllowanceForCreditLossesOnLoans" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LoansInformationTable" abstract="true" name="LoansInformationTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="asb_LoansInformationLineItems" abstract="true" name="LoansInformationLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_PortfolioOfResidentialMortgageLoansServicedForOthers" abstract="false" name="PortfolioOfResidentialMortgageLoansServicedForOthers" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_MortgageServicingRightsNetToServicingPortfolio" abstract="false" name="MortgageServicingRightsNetToServicingPortfolio" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="asb_TotalShortTermLongTermExcludingFHLB" abstract="false" name="TotalShortTermLongTermExcludingFHLB" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_OtherLongtermDebtandCapitalizedCosts" abstract="false" name="OtherLongtermDebtandCapitalizedCosts" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_TwoThousandFourteenSubordinatedNotesMember" abstract="true" name="TwoThousandFourteenSubordinatedNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_TwoThousandTwentyFourSeniorNotesMember" abstract="true" name="TwoThousandTwentyFourSeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="asb_FairValueOfPledgedSecuritesToSecuritiesSoldUnderAgreementsToRepurchase" abstract="false" name="FairValueOfPledgedSecuritesToSecuritiesSoldUnderAgreementsToRepurchase" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="asb_DebtInstrumentIssuanceDateMonthYear" abstract="false" name="DebtInstrumentIssuanceDateMonthYear" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_DebtInstrumentRateConversionDate" abstract="false" name="DebtInstrumentRateConversionDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="asb_DebtInstrumentRedemption" abstract="false" name="DebtInstrumentRedemption" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="asb_InterestAddedToCompoundSOFREffectiveFloatingRate" abstract="false" name="InterestAddedToCompoundSOFREffectiveFloatingRate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="asb_JuniorSubordinatedDebenturesIssued" abstract="false" name="JuniorSubordinatedDebenturesIssued" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_DebtInstrumentMaturityDateMonthYear" abstract="false" name="DebtInstrumentMaturityDateMonthYear" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_DebtInstrumentCallDateEarliestMonthYear" abstract="false" name="DebtInstrumentCallDateEarliestMonthYear" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_InterestAddedToUST5YearRate" abstract="false" name="InterestAddedToUST5YearRate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="asb_DebtInstrumentRateStartDate" abstract="false" name="DebtInstrumentRateStartDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="asb_ForwardCommitmentsToSellResidentialMortgageLoansMember" abstract="true" name="ForwardCommitmentsToSellResidentialMortgageLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisWithUnobservableInputsForwardCommitments" abstract="false" name="FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisWithUnobservableInputsForwardCommitments" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisWithUnobservableInputsInterestRateLockCommitements" abstract="false" name="FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisWithUnobservableInputsInterestRateLockCommitements" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_CarryingAmountExcludedForForeignCurrencyLoans" abstract="false" name="CarryingAmountExcludedForForeignCurrencyLoans" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_CapitalMarketFeesMember" abstract="true" name="CapitalMarketFeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_IncreaseDecreaseInFairValueOfHedgedItemInForeignCurrencyFairValueHedge" abstract="false" name="IncreaseDecreaseInFairValueOfHedgedItemInForeignCurrencyFairValueHedge" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_IncreaseDecreaseInFairValueOfForeignCurrencyFairValueHedgingInstruments" abstract="false" name="IncreaseDecreaseInFairValueOfForeignCurrencyFairValueHedgingInstruments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_DerivativeLiabilityNotionalAmountTerminated" abstract="false" name="DerivativeLiabilityNotionalAmountTerminated" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_InterestRateRelatedInstrumentsCustomerAndMirrorMember" abstract="true" name="InterestRateRelatedInstrumentsCustomerAndMirrorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_InterestRateRelatedInstrumentsMSRsHedgeMember" abstract="true" name="InterestRateRelatedInstrumentsMSRsHedgeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_UnderlyingHedgedAssetAmortizedCostBasis" abstract="false" name="UnderlyingHedgedAssetAmortizedCostBasis" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LoansRepurchasedUnderMakeWholeRequests" abstract="false" name="LoansRepurchasedUnderMakeWholeRequests" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_AffordableHousingProjectsAndOtherMember" abstract="true" name="AffordableHousingProjectsAndOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="asb_PrivateSBALoanFundMember" abstract="true" name="PrivateSBALoanFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="asb_LoanPoolCRAInvestmentsMember" abstract="true" name="LoanPoolCRAInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="asb_LoansSoldToOutsideInvestorsLossReimbursementSettlementPaid" abstract="false" name="LoansSoldToOutsideInvestorsLossReimbursementSettlementPaid" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_MakeWholeRequestsLoanOriginationDateMajority" abstract="false" name="MakeWholeRequestsLoanOriginationDateMajority" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="asb_LoansSoldToOutsideInvestorsOriginalAmount" abstract="false" name="LoansSoldToOutsideInvestorsOriginalAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LoansSoldToOutsideInvestorsRemainingOutstandingAmount" abstract="false" name="LoansSoldToOutsideInvestorsRemainingOutstandingAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_FairValueInputsNAVMember" abstract="true" name="FairValueInputsNAVMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="asb_BrokeredCDsCarryingAmount" abstract="false" name="BrokeredCDsCarryingAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_BrokeredCDsFairValue" abstract="false" name="BrokeredCDsFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_BankTermFundingProgramFunding" abstract="false" name="BankTermFundingProgramFunding" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_BankTermFundingProgramFundingFairValueDisclosure" abstract="false" name="BankTermFundingProgramFundingFairValueDisclosure" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LendingRelatedCommitments" abstract="false" name="LendingRelatedCommitments" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_AppraisalsDiscountedCashFlowMember" abstract="true" name="AppraisalsDiscountedCashFlowMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_ImpairedFinanceReceivableMember" abstract="true" name="ImpairedFinanceReceivableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_AssumptionForFairValueOfFinancingReceivableIndividuallyEvaluatedForCreditLossCollateralRealization" abstract="false" name="AssumptionForFairValueOfFinancingReceivableIndividuallyEvaluatedForCreditLossCollateralRealization" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="asb_AssumptionForFairValueOfFinancingReceivableIndividuallyEvaluatedForCreditLossDiscountFactor" abstract="false" name="AssumptionForFairValueOfFinancingReceivableIndividuallyEvaluatedForCreditLossDiscountFactor" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="asb_AssumptionForFairValueOfInterestRateLockCommitmentsClosingRatio" abstract="false" name="AssumptionForFairValueOfInterestRateLockCommitmentsClosingRatio" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="asb_CorporateandCommercialSpecialtyMember" abstract="true" name="CorporateandCommercialSpecialtyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_CommunityConsumerandBusinesssegmentMember" abstract="true" name="CommunityConsumerandBusinesssegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_RiskManagementandSharedSeriviesSegmentMember" abstract="true" name="RiskManagementandSharedSeriviesSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_CommunityConsumerandBusinessMember" abstract="true" name="CommunityConsumerandBusinessMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_RiskManagementandSharedServicesMember" abstract="true" name="RiskManagementandSharedServicesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_Netintersegmentinterestincomeexpense" abstract="false" name="Netintersegmentinterestincomeexpense" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_Segmentnetinterestincome" abstract="false" name="Segmentnetinterestincome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_InterestIncomeExpenseBeforeProvision" abstract="false" name="InterestIncomeExpenseBeforeProvision" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_FHLBAdvancesPrepaymentPenalty" abstract="false" name="FHLBAdvancesPrepaymentPenalty" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_AllocatedIndirectExpense" abstract="false" name="AllocatedIndirectExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_APortionOfTotalDepreciationTechnologyExpense" abstract="false" name="APortionOfTotalDepreciationTechnologyExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_APortionOfTotalDepreciationOccupancyExpense" abstract="false" name="APortionOfTotalDepreciationOccupancyExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_APortionOfTotalDepreciationEquipmentExpense" abstract="false" name="APortionOfTotalDepreciationEquipmentExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_AccumulatedOtherComprehensiveIncomeLossRollForward" abstract="true" name="AccumulatedOtherComprehensiveIncomeLossRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_FinanceLeaseCost" abstract="false" name="FinanceLeaseCost" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_FinanceLeasePayments" abstract="false" name="FinanceLeasePayments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_RetailandCorporateOfficesMember" abstract="true" name="RetailandCorporateOfficesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="asb_LesseeOperatingLeaseLiabilityToBePaidAfterYearFour" abstract="false" name="LesseeOperatingLeaseLiabilityToBePaidAfterYearFour" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_FinanceLeaseLiabilityToBePaidAfterYearFour" abstract="false" name="FinanceLeaseLiabilityToBePaidAfterYearFour" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_TotalLeasesAbstract" abstract="true" name="TotalLeasesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="asb_LeaseLiabilityToBePaidRemainderOfFiscalYear" abstract="false" name="LeaseLiabilityToBePaidRemainderOfFiscalYear" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityToBePaidDueYearOne" abstract="false" name="LeaseLiabilityToBePaidDueYearOne" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityToBePaidDueYearTwo" abstract="false" name="LeaseLiabilityToBePaidDueYearTwo" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityToBePaidDueYearThree" abstract="false" name="LeaseLiabilityToBePaidDueYearThree" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityToBePaidDueYearFour" abstract="false" name="LeaseLiabilityToBePaidDueYearFour" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityToBePaidDueAfterYearFour" abstract="false" name="LeaseLiabilityToBePaidDueAfterYearFour" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityPaymentsDueTotal" abstract="false" name="LeaseLiabilityPaymentsDueTotal" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiabilityUndiscountedExcessAmount" abstract="false" name="LeaseLiabilityUndiscountedExcessAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LeaseLiability" abstract="false" name="LeaseLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="asb_LesseeOperatingLeaseLeaseNotyetCommencedLiability" abstract="false" name="LesseeOperatingLeaseLeaseNotyetCommencedLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

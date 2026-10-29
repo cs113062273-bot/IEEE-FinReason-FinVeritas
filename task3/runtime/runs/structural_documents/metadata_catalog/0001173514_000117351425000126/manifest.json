@@ -1,0 +1,58 @@
+{
+  "entity": "0001173514",
+  "schema_name": "hy-20250930.xsd",
+  "namespace": "http://www.hyster-yale.com/20250930",
+  "filing": {
+    "accessionNumber": "0001173514-25-000126",
+    "reportDate": "2025-09-30",
+    "primaryDocument": "hy-20250930.htm",
+    "filingDate": "2025-11-04",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "hy-20250930.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173514/000117351425000126/hy-20250930.xsd",
+      "SHA256": "e6063e5e22d60eac93378c1ab8a9abd1791fb2306e5dc21d47ad3566b6efdc03",
+      "bytes": 36330
+    },
+    {
+      "file": "hy-20250930_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173514/000117351425000126/hy-20250930_pre.xml",
+      "SHA256": "2a6bf5f7908ec38f2af5610e64497535d3d9859da8dec67288846e4a9a16476a",
+      "bytes": 495470
+    },
+    {
+      "file": "hy-20250930_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173514/000117351425000126/hy-20250930_def.xml",
+      "SHA256": "63c3b0c8ba913cd6949100646bf6f5b90ad52013f8afb32ec34295cf0447a8ea",
+      "bytes": 398080
+    },
+    {
+      "file": "hy-20250930_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173514/000117351425000126/hy-20250930_lab.xml",
+      "SHA256": "f2fa8f2d51180300201e49f44420125208c15d9897756448ca8c92963248af28",
+      "bytes": 606621
+    },
+    {
+      "file": "hy-20250930_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173514/000117351425000126/hy-20250930_cal.xml",
+      "SHA256": "a573318064628a6c6a9de725c7c65ee25bc4664aca12481db559a335e0753664",
+      "bytes": 69756
+    },
+    {
+      "file": "hy-20250930_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1173514/000117351425000126/hy-20250930_htm.xml",
+      "SHA256": "f702287949fa8fd1c6927589261d5a7af639b199971903bd5bf1fa0c03ed2cbc",
+      "bytes": 1782584
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

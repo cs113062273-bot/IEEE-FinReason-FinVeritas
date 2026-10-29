@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 5.25b -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+    <!-- Field: Doc-Info; Name: Misc; Value: /qg5o7xRiXgOn8uEb3ZMSaSFKaP9wpJ5CelBtWx0fVm6ryYvO9dDWi8HmLF28TsP -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:srt="http://fasb.org/srt/2024" xmlns:srt-types="http://fasb.org/srt-types/2024" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:bctf="http://bank34.com/20241231" elementFormDefault="qualified" targetNamespace="http://bank34.com/20241231">
+    <annotation>
+      <appinfo>
+        <link:roleType roleURI="http://bank34.com/role/Cover" id="Cover">
+          <link:definition>00000001 - Document - Cover</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BalanceSheets" id="BalanceSheets">
+          <link:definition>00000002 - Statement - Consolidated Balance Sheets</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BalanceSheetsParenthetical" id="BalanceSheetsParenthetical">
+          <link:definition>00000003 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/StatementsOfIncomeLoss" id="StatementsOfIncomeLoss">
+          <link:definition>00000004 - Statement - Consolidated Statements of Income (Loss)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/ConsolidatedStatementsOfComprehensiveIncomeLoss" id="ConsolidatedStatementsOfComprehensiveIncomeLoss">
+          <link:definition>00000005 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS) (Unaudited)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/StatementsOfChangesInStockholdersEquity" id="StatementsOfChangesInStockholdersEquity">
+          <link:definition>00000006 - Statement - Consolidated Statements of Changes in Stockholders' Equity</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/StatementsOfCashFlows" id="StatementsOfCashFlows">
+          <link:definition>00000007 - Statement - Consolidated Statements of Cash Flows</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/NatureOfOperationsAndSignificantAccountingPolicies" id="NatureOfOperationsAndSignificantAccountingPolicies">
+          <link:definition>999008 - Disclosure - Nature of Operations and Significant Accounting Policies</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BusinessCombination" id="BusinessCombination">
+          <link:definition>999009 - Disclosure - BUSINESS COMBINATION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Securities" id="Securities">
+          <link:definition>999010 - Disclosure - SECURITIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLosses" id="LoansAndAllowanceForCreditLosses">
+          <link:definition>999011 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/PremisesAndEquipmentNet" id="PremisesAndEquipmentNet">
+          <link:definition>999012 - Disclosure - PREMISES AND EQUIPMENT, NET</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/TimeDeposits" id="TimeDeposits">
+          <link:definition>999013 - Disclosure - TIME DEPOSITS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Borrowings" id="Borrowings">
+          <link:definition>999014 - Disclosure - BORROWINGS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FinancialInstrumentsWithOffBalanceSheetRisk" id="FinancialInstrumentsWithOffBalanceSheetRisk">
+          <link:definition>999015 - Disclosure - FINANCIAL INSTRUMENTS WITH OFF BALANCE SHEET RISK</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EmployeeRetirementBenefitPlans" id="EmployeeRetirementBenefitPlans">
+          <link:definition>999016 - Disclosure - Employee Retirement Benefit Plans</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Leases" id="Leases">
+          <link:definition>999017 - Disclosure - LEASES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/IncomeTaxes" id="IncomeTaxes">
+          <link:definition>999018 - Disclosure - Income Taxes</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/DerivativesAndHedgingActivities" id="DerivativesAndHedgingActivities">
+          <link:definition>999019 - Disclosure - DERIVATIVES AND HEDGING ACTIVITIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/RegulatoryMatters" id="RegulatoryMatters">
+          <link:definition>999020 - Disclosure - Regulatory Matters</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Related-partyTransactions" id="Related-partyTransactions">
+          <link:definition>999021 - Disclosure - Related-Party Transactions</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensation" id="Stock-basedCompensation">
+          <link:definition>999022 - Disclosure - Stock-Based Compensation</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FairValueInformation" id="FairValueInformation">
+          <link:definition>999023 - Disclosure - Fair Value Information</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EarningsPerShare" id="EarningsPerShare">
+          <link:definition>999024 - Disclosure - Earnings per Share</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/PrivatePlacementOfCommonAndPreferredStock" id="PrivatePlacementOfCommonAndPreferredStock">
+          <link:definition>999025 - Disclosure - Private Placement of Common and Preferred Stock</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Bancorp34Inc.ParentCompanyOnlyFinancialInformation" id="Bancorp34Inc.ParentCompanyOnlyFinancialInformation">
+          <link:definition>999026 - Disclosure - Bancorp 34, Inc. (Parent Company Only) Financial Information</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/RealEstateOwned" id="RealEstateOwned">
+          <link:definition>999027 - Disclosure - Real Estate Owned</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/NatureOfOperationsAndSignificantAccountingPoliciesPolicies" id="NatureOfOperationsAndSignificantAccountingPoliciesPolicies">
+          <link:definition>999028 - Disclosure - Nature of Operations and Significant Accounting Policies (Policies)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BusinessCombinationTables" id="BusinessCombinationTables">
+          <link:definition>999029 - Disclosure - BUSINESS COMBINATION (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesTables" id="SecuritiesTables">
+          <link:definition>999030 - Disclosure - SECURITIES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesTables" id="LoansAndAllowanceForCreditLossesTables">
+          <link:definition>999031 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/PremisesAndEquipmentNetTables" id="PremisesAndEquipmentNetTables">
+          <link:definition>999032 - Disclosure - PREMISES AND EQUIPMENT, NET (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/TimeDepositsTables" id="TimeDepositsTables">
+          <link:definition>999033 - Disclosure - TIME DEPOSITS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BorrowingsTables" id="BorrowingsTables">
+          <link:definition>999034 - Disclosure - BORROWINGS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FinancialInstrumentsWithOffBalanceSheetRiskTables" id="FinancialInstrumentsWithOffBalanceSheetRiskTables">
+          <link:definition>999035 - Disclosure - FINANCIAL INSTRUMENTS WITH OFF BALANCE SHEET RISK (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EmployeeRetirementBenefitPlansTables" id="EmployeeRetirementBenefitPlansTables">
+          <link:definition>999036 - Disclosure - Employee Retirement Benefit Plans (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LeasesTables" id="LeasesTables">
+          <link:definition>999037 - Disclosure - LEASES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/IncomeTaxesTables" id="IncomeTaxesTables">
+          <link:definition>999038 - Disclosure - Income Taxes (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/DerivativesAndHedgingActivitiesTables" id="DerivativesAndHedgingActivitiesTables">
+          <link:definition>999039 - Disclosure - DERIVATIVES AND HEDGING ACTIVITIES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/RegulatoryMattersTables" id="RegulatoryMattersTables">
+          <link:definition>999040 - Disclosure - Regulatory Matters (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Related-partyTransactionsTables" id="Related-partyTransactionsTables">
+          <link:definition>999041 - Disclosure - Related-Party Transactions (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationTables" id="Stock-basedCompensationTables">
+          <link:definition>999042 - Disclosure - Stock-Based Compensation (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FairValueInformationTables" id="FairValueInformationTables">
+          <link:definition>999043 - Disclosure - Fair Value Information (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EarningsPerShareTables" id="EarningsPerShareTables">
+          <link:definition>999044 - Disclosure - Earnings per Share (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Bancorp34Inc.ParentCompanyOnlyFinancialInformationTables" id="Bancorp34Inc.ParentCompanyOnlyFinancialInformationTables">
+          <link:definition>999045 - Disclosure - Bancorp 34, Inc. (Parent Company Only) Financial Information (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/RealEstateOwnedTables" id="RealEstateOwnedTables">
+          <link:definition>999046 - Disclosure - Real Estate Owned (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/NatureOfOperationsAndSignificantAccountingPoliciesDetailsNarrative" id="NatureOfOperationsAndSignificantAccountingPoliciesDetailsNarrative">
+          <link:definition>999047 - Disclosure - Nature of Operations and Significant Accounting Policies (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BusinessCombinationDetails" id="BusinessCombinationDetails">
+          <link:definition>999048 - Disclosure - BUSINESS COMBINATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BusinessCombinationDetails2" id="BusinessCombinationDetails2">
+          <link:definition>999049 - Disclosure - BUSINESS COMBINATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BusinessCombinationDetails3" id="BusinessCombinationDetails3">
+          <link:definition>999050 - Disclosure - BUSINESS COMBINATION (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BusinessCombinationDetails4" id="BusinessCombinationDetails4">
+          <link:definition>999051 - Disclosure - BUSINESS COMBINATION (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesDetails" id="SecuritiesDetails">
+          <link:definition>999052 - Disclosure - SECURITIES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesDetails2" id="SecuritiesDetails2">
+          <link:definition>999053 - Disclosure - SECURITIES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesDetails3" id="SecuritiesDetails3">
+          <link:definition>999054 - Disclosure - SECURITIES (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesDetails4" id="SecuritiesDetails4">
+          <link:definition>999055 - Disclosure - SECURITIES (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesDetails5" id="SecuritiesDetails5">
+          <link:definition>999056 - Disclosure - SECURITIES (Details 5)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SecuritiesDetailsNarrative" id="SecuritiesDetailsNarrative">
+          <link:definition>999057 - Disclosure - SECURITIES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetails" id="LoansAndAllowanceForCreditLossesDetails">
+          <link:definition>999058 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetails2" id="LoansAndAllowanceForCreditLossesDetails2">
+          <link:definition>999059 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetails3" id="LoansAndAllowanceForCreditLossesDetails3">
+          <link:definition>999060 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetails4" id="LoansAndAllowanceForCreditLossesDetails4">
+          <link:definition>999061 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetails5" id="LoansAndAllowanceForCreditLossesDetails5">
+          <link:definition>999062 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details 5)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetails6" id="LoansAndAllowanceForCreditLossesDetails6">
+          <link:definition>999063 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details 6)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LoansAndAllowanceForCreditLossesDetailsNarrative" id="LoansAndAllowanceForCreditLossesDetailsNarrative">
+          <link:definition>999064 - Disclosure - LOANS AND ALLOWANCE FOR CREDIT LOSSES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/PremisesAndEquipmentNetDetails" id="PremisesAndEquipmentNetDetails">
+          <link:definition>999065 - Disclosure - PREMISES AND EQUIPMENT, NET (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/PremisesAndEquipmentNetDetailsNarrative" id="PremisesAndEquipmentNetDetailsNarrative">
+          <link:definition>999066 - Disclosure - PREMISES AND EQUIPMENT, NET (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/TimeDepositsDetails" id="TimeDepositsDetails">
+          <link:definition>999067 - Disclosure - TIME DEPOSITS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/TimeDepositsDetailsNarrative" id="TimeDepositsDetailsNarrative">
+          <link:definition>999068 - Disclosure - TIME DEPOSITS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BorrowingsDetails" id="BorrowingsDetails">
+          <link:definition>999069 - Disclosure - BORROWINGS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/BorrowingsDetailsNarrative" id="BorrowingsDetailsNarrative">
+          <link:definition>999070 - Disclosure - BORROWINGS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FinancialInstrumentsWithOffBalanceSheetRiskDetails" id="FinancialInstrumentsWithOffBalanceSheetRiskDetails">
+          <link:definition>999071 - Disclosure - FINANCIAL INSTRUMENTS WITH OFF BALANCE SHEET RISK (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FinancialInstrumentsWithOffBalanceSheetRiskDetails2" id="FinancialInstrumentsWithOffBalanceSheetRiskDetails2">
+          <link:definition>999072 - Disclosure - FINANCIAL INSTRUMENTS WITH OFF BALANCE SHEET RISK (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EmployeeRetirementBenefitPlansDetails" id="EmployeeRetirementBenefitPlansDetails">
+          <link:definition>999073 - Disclosure - EMPLOYEE RETIREMENT BENEFIT PLANS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EmployeeRetirementBenefitPlansDetailsNarrative" id="EmployeeRetirementBenefitPlansDetailsNarrative">
+          <link:definition>999074 - Disclosure - Employee Retirement Benefit Plans (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LeasesDetails" id="LeasesDetails">
+          <link:definition>999075 - Disclosure - LEASES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LeasesDetails2" id="LeasesDetails2">
+          <link:definition>999076 - Disclosure - LEASES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/LeasesDetailsNarrative" id="LeasesDetailsNarrative">
+          <link:definition>999077 - Disclosure - LEASES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/IncomeTaxesDetails" id="IncomeTaxesDetails">
+          <link:definition>999078 - Disclosure - INCOME TAXES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/IncomeTaxesDetails2" id="IncomeTaxesDetails2">
+          <link:definition>999079 - Disclosure - INCOME TAXES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/IncomeTaxesDetails3" id="IncomeTaxesDetails3">
+          <link:definition>999080 - Disclosure - INCOME TAXES (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/DerivativesAndHedgingActivitiesDetails" id="DerivativesAndHedgingActivitiesDetails">
+          <link:definition>999081 - Disclosure - DERIVATIVES AND HEDGING ACTIVITIES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/DerivativesAndHedgingActivitiesDetails2" id="DerivativesAndHedgingActivitiesDetails2">
+          <link:definition>999082 - Disclosure - DERIVATIVES AND HEDGING ACTIVITIES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/DerivativesAndHedgingActivitiesDetails3" id="DerivativesAndHedgingActivitiesDetails3">
+          <link:definition>999083 - Disclosure - DERIVATIVES AND HEDGING ACTIVITIES (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/RegulatoryMattersDetails" id="RegulatoryMattersDetails">
+          <link:definition>999084 - Disclosure - REGULATORY MATTERS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Related-partyTransactionsDetails" id="Related-partyTransactionsDetails">
+          <link:definition>999085 - Disclosure - RELATED-PARTY TRANSACTIONS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationDetails" id="Stock-basedCompensationDetails">
+          <link:definition>999086 - Disclosure - STOCK-BASED COMPENSATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationDetails2" id="Stock-basedCompensationDetails2">
+          <link:definition>999087 - Disclosure - STOCK-BASED COMPENSATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationDetails3" id="Stock-basedCompensationDetails3">
+          <link:definition>999088 - Disclosure - STOCK-BASED COMPENSATION (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationDetails4" id="Stock-basedCompensationDetails4">
+          <link:definition>999089 - Disclosure - STOCK-BASED COMPENSATION (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationDetails5" id="Stock-basedCompensationDetails5">
+          <link:definition>999090 - Disclosure - STOCK-BASED COMPENSATION (Details 5)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Stock-basedCompensationDetailsNarrative" id="Stock-basedCompensationDetailsNarrative">
+          <link:definition>999091 - Disclosure - Stock-Based Compensation (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FairValueInformationDetails" id="FairValueInformationDetails">
+          <link:definition>999092 - Disclosure - FAIR VALUE INFORMATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FairValueInformationDetails2" id="FairValueInformationDetails2">
+          <link:definition>999093 - Disclosure - FAIR VALUE INFORMATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/FairValueInformationDetails3" id="FairValueInformationDetails3">
+          <link:definition>999094 - Disclosure - FAIR VALUE INFORMATION (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EarningsPerShareDetails" id="EarningsPerShareDetails">
+          <link:definition>999095 - Disclosure - EARNINGS PER SHARE (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/SegmentReportingDetails" id="SegmentReportingDetails">
+          <link:definition>999096 - Disclosure - SEGMENT REPORTING (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/EarningsPerShareDetailsNarrative" id="EarningsPerShareDetailsNarrative">
+          <link:definition>999097 - Disclosure - Earnings per Share (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/PrivatePlacementOfCommonAndPreferredStockDetailsNarrative" id="PrivatePlacementOfCommonAndPreferredStockDetailsNarrative">
+          <link:definition>999098 - Disclosure - Private Placement of Common and Preferred Stock (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Bancorp34Inc.ParentCompanyOnlyFinancialInformationDetails" id="Bancorp34Inc.ParentCompanyOnlyFinancialInformationDetails">
+          <link:definition>999099 - Disclosure - BANCORP 34, INC. (PARENT COMPANY ONLY) FINANCIAL INFORMATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Bancorp34Inc.ParentCompanyOnlyFinancialInformationDetails2" id="Bancorp34Inc.ParentCompanyOnlyFinancialInformationDetails2">
+          <link:definition>999100 - Disclosure - BANCORP 34, INC. (PARENT COMPANY ONLY) FINANCIAL INFORMATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/Bancorp34Inc.ParentCompanyOnlyFinancialInformationDetails3" id="Bancorp34Inc.ParentCompanyOnlyFinancialInformationDetails3">
+          <link:definition>999101 - Disclosure - BANCORP 34, INC. (PARENT COMPANY ONLY) FINANCIAL INFORMATION (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://bank34.com/role/RealEstateOwnedDetails" id="RealEstateOwnedDetails">
+          <link:definition>999102 - Disclosure - REAL ESTATE OWNED (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:linkbaseRef xlink:type="simple" xlink:href="bctf-20241231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="bctf-20241231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="bctf-20241231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="bctf-20241231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links" />
+      </appinfo>
+    </annotation>
+    <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+    <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+    <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+    <import namespace="http://xbrl.sec.gov/dei/2024" schemaLocation="https://xbrl.sec.gov/dei/2024/dei-2024.xsd" />
+    <import namespace="http://fasb.org/us-gaap/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd" />
+    <import namespace="http://fasb.org/us-types/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-types-2024.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd" />
+    <import namespace="http://xbrl.sec.gov/country/2024" schemaLocation="https://xbrl.sec.gov/country/2024/country-2024.xsd" />
+    <import namespace="http://fasb.org/srt/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd" />
+    <import namespace="http://fasb.org/srt-types/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-types-2024.xsd" />
+    <element id="bctf_VotingCommonStockMember" name="VotingCommonStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_UnearnedESOPSharesMember" name="UnearnedESOPSharesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AsRecordedByCBOAMember" name="AsRecordedByCBOAMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EstimatedFairValueAdjustmentsMember" name="EstimatedFairValueAdjustmentsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EstimatedFairValueAsRecordedByBancorp34Member" name="EstimatedFairValueAsRecordedByBancorp34Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_NonOwnerOccupiedCREMember" name="NonOwnerOccupiedCREMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_OwnerOccupiedCREMember" name="OwnerOccupiedCREMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_OtherLoanMember" name="OtherLoanMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_FixedMember" name="FixedMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_VariableMember" name="VariableMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredCompensationPlanMember" name="DeferredCompensationPlanMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_HedgeItemMember" name="HedgeItemMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_HedgedAssetsMember" name="HedgedAssetsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EquityIncentivePlan2017Member" name="EquityIncentivePlan2017Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EquityIncentivePlan2022Member" name="EquityIncentivePlan2022Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_PerformanceRestrictedStockMember" name="PerformanceRestrictedStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_OtherRealEstateOwnedMember" name="OtherRealEstateOwnedMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BankMember" name="BankMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_UnallocatedHoldingCompanyMember" name="UnallocatedHoldingCompanyMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EliminationsMember" name="EliminationsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AccruedInterestReceivable" name="AccruedInterestReceivable" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AdvancesFromFederalReserveBank" name="AdvancesFromFederalReserveBank" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_SubordinatedDebentureOwedToTrustPreferredSecurities" name="SubordinatedDebentureOwedToTrustPreferredSecurities" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_Escrows" name="Escrows" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_RestrictedStockAwardShares" name="RestrictedStockAwardShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_RestrictedStockAwardForfeituresShares" name="RestrictedStockAwardForfeituresShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AmortizationOfEquityAwards" name="AmortizationOfEquityAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_StockIssuedDuringPeriodValueNewIssues1" name="StockIssuedDuringPeriodValueNewIssues1" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_StockIssuedDuringPeriodSharesNewIssues1" name="StockIssuedDuringPeriodSharesNewIssues1" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_StockIssuedDuringPeriodValueMerger" name="StockIssuedDuringPeriodValueMerger" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_StockIssuedDuringPeriodSharesMerger" name="StockIssuedDuringPeriodSharesMerger" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_StockDividendsOnOtherInvestments" name="StockDividendsOnOtherInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AccretionOfDiscountOnLoans" name="AccretionOfDiscountOnLoans" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AmortizationOfDiscountOnTimeDeposits" name="AmortizationOfDiscountOnTimeDeposits" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CashAcquiredFromMerger" name="CashAcquiredFromMerger" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_PurchaseOfOtherInvestmentSecurities" name="PurchaseOfOtherInvestmentSecurities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_IncreaseDecreaseInLoansHeldForInvestment" name="IncreaseDecreaseInLoansHeldForInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BankownedLifeInsuranceDeathBenefit" name="BankownedLifeInsuranceDeathBenefit" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DisclosureDerivativesAndHedgingActivitiesAbstract" name="DisclosureDerivativesAndHedgingActivitiesAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DerivativeAndHedgingActivitiesTextBlock" name="DerivativeAndHedgingActivitiesTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DisclosurePrivatePlacementOfCommonAndPreferredStockAbstract" name="DisclosurePrivatePlacementOfCommonAndPreferredStockAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_PrivatePlacementOfCommonAndPreferredStockTextBlock" name="PrivatePlacementOfCommonAndPreferredStockTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_FederalHomeLoanBankStockPolicyTextBlock" name="FederalHomeLoanBankStockPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BankOwnedLifeInsurancePolicyTextBlock" name="BankOwnedLifeInsurancePolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EscrowAccountsPolicyTextBlock" name="EscrowAccountsPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_MergerExpensesPolicyTextBlock" name="MergerExpensesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EmployeeRetentionCreditPolicyTextBlock" name="EmployeeRetentionCreditPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_NewAccountingPronouncementsNotYetAdoptedPolicyTextBlock" name="NewAccountingPronouncementsNotYetAdoptedPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfCertainMeasurementPeriodAdjustments" name="ScheduleOfCertainMeasurementPeriodAdjustments" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfPurchasedCreditDeterioratedLoansTableTextBlock" name="ScheduleOfPurchasedCreditDeterioratedLoansTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfCollateralDependentLoansTableTextBlock" name="ScheduleOfCollateralDependentLoansTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AllowanceForCreditLossesOnFinancingReceivablesOnOffBalanceSheetCreditExposuresTableTextBlock" name="AllowanceForCreditLossesOnFinancingReceivablesOnOffBalanceSheetCreditExposuresTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfLeaseInformationTableTextBlock" name="ScheduleOfLeaseInformationTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfFairValueHedgeAccountingTableTextBlock" name="ScheduleOfFairValueHedgeAccountingTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfCumulativeBasisAdjustmentOfHedgedItemsTableTextBlock" name="ScheduleOfCumulativeBasisAdjustmentOfHedgedItemsTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ScheduleOfEquityBasedExpenseUnderEquityInvestmentPlanTableTextBlock" name="ScheduleOfEquityBasedExpenseUnderEquityInvestmentPlanTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_RealEstateOwnedTableTextBlock" name="RealEstateOwnedTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLoanPurchasedPerforming" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLoanPurchasedPerforming" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLoanPurchasedCreditDeteriorated" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLoanPurchasedCreditDeteriorated" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAllowanceForCreditLossesOnLoans" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAllowanceForCreditLossesOnLoans" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedDeferredLoanFees" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedDeferredLoanFees" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedDeferredTaxOnAssetsAcquiredNet" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedDeferredTaxOnAssetsAcquiredNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedOperatingRightOfUseAssets" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedOperatingRightOfUseAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLiabilitiesDeposits" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLiabilitiesDeposits" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLiabilitiesShortTermDebt" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLiabilitiesShortTermDebt" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLiabilitiesDeferredTaxesOnLiabilitiesAssumed" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedLiabilitiesDeferredTaxesOnLiabilitiesAssumed" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_PreliminaryBargainPurchaseGain" name="PreliminaryBargainPurchaseGain" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_FairValueOfTheCommonStockConsideration" name="FairValueOfTheCommonStockConsideration" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_NoncreditDiscount" name="NoncreditDiscount" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DebtSecuritiesHeldToMaturityProvisionForCreditLosses" name="DebtSecuritiesHeldToMaturityProvisionForCreditLosses" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DebtSecuritiesHeldToMaturitySecuritiesChargedOffRecoveries" name="DebtSecuritiesHeldToMaturitySecuritiesChargedOffRecoveries" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLossWriteoff" name="FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLossWriteoff" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_TimeDepositMaturitiesOverOneYearThroughThreeYears" name="TimeDepositMaturitiesOverOneYearThroughThreeYears" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_TimeDepositMaturitiesOverThreeYearThroughFiveYears" name="TimeDepositMaturitiesOverThreeYearThroughFiveYears" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_TimeDepositsInExcessOf250000" name="TimeDepositsInExcessOf250000" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_TimeDepositsInExcessOf250000MaturityWithinOneYear" name="TimeDepositsInExcessOf250000MaturityWithinOneYear" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_LongTermDebtMaturingInYearsSixToTen" name="LongTermDebtMaturingInYearsSixToTen" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearTen" name="LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearTen" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CreditRiskOffBalanceSheet" name="CreditRiskOffBalanceSheet" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_OffBalanceSheetCreditLossLiabilityImpactOnMerger" name="OffBalanceSheetCreditLossLiabilityImpactOnMerger" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_FairValueOfUnallocatedSharesHeldByESOP" name="FairValueOfUnallocatedSharesHeldByESOP" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_LesseeOperatingLeaseLiabilityPaymentsDueYearSix" name="LesseeOperatingLeaseLiabilityPaymentsDueYearSix" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_LesseeOperatingLeaseLiabilityPaymentsDueYearSeven" name="LesseeOperatingLeaseLiabilityPaymentsDueYearSeven" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_LesseeOperatingLeaseLiabilityPaymentsDueYearEight" name="LesseeOperatingLeaseLiabilityPaymentsDueYearEight" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_IncomeTaxReconciliationNondeductibleExpenseMergerCost" name="IncomeTaxReconciliationNondeductibleExpenseMergerCost" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxAssetsAllowanceForCreditLosses" name="DeferredTaxAssetsAllowanceForCreditLosses" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxAssetsDeferredCompensation" name="DeferredTaxAssetsDeferredCompensation" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxAssetsAccuredBonus" name="DeferredTaxAssetsAccuredBonus" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxAssetsLeaseLiability" name="DeferredTaxAssetsLeaseLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxAssetsLoanAcquisitionAdjustment" name="DeferredTaxAssetsLoanAcquisitionAdjustment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxAssetsDepreciation" name="DeferredTaxAssetsDepreciation" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxLiabilitiesLoanOriginationCost" name="DeferredTaxLiabilitiesLoanOriginationCost" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxLiabilitiesDepreciation" name="DeferredTaxLiabilitiesDepreciation" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxLiabilitiesRightOfUseAssets" name="DeferredTaxLiabilitiesRightOfUseAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxLiabilitiesFHLBStockDividends" name="DeferredTaxLiabilitiesFHLBStockDividends" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_DeferredTaxLiabilitiesDerivativeMarkToMarket" name="DeferredTaxLiabilitiesDerivativeMarkToMarket" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CommonEquityTierActualAmount" name="CommonEquityTierActualAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CommonEquityTier1ActualRatioAsPercent" name="CommonEquityTier1ActualRatioAsPercent" nillable="true" xbrli:periodType="instant" type="xbrli:pureItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedAmount" name="CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedRatioAsPercent" name="CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedRatioAsPercent" nillable="true" xbrli:periodType="instant" type="xbrli:pureItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CommonEquityTierRequiredToBeCategorizedWellCapitalizedAmount" name="CommonEquityTierRequiredToBeCategorizedWellCapitalizedAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CommonEquityTierRequiredToBeCategorizedWellCapitalizedRatioAsPercent" name="CommonEquityTierRequiredToBeCategorizedWellCapitalizedRatioAsPercent" nillable="true" xbrli:periodType="instant" type="xbrli:pureItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantedWeightedAverageRemainingContractualTerms" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantedWeightedAverageRemainingContractualTerms" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EmployeeBenefitsAndShareBasedCompensationWithinOneYear" name="EmployeeBenefitsAndShareBasedCompensationWithinOneYear" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EmployeeBenefitsAndShareBasedCompensationForTwoYears" name="EmployeeBenefitsAndShareBasedCompensationForTwoYears" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EmployeeBenefitsAndShareBasedCompensationForThreeYears" name="EmployeeBenefitsAndShareBasedCompensationForThreeYears" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EmployeeBenefitsAndShareBasedCompensationForFourYears" name="EmployeeBenefitsAndShareBasedCompensationForFourYears" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_NonMaturityDeposits" name="NonMaturityDeposits" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AdvancesFromFederalReserveBankAndFederalHomeLoanBanks" name="AdvancesFromFederalReserveBankAndFederalHomeLoanBanks" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EmployeeStockOwnershipPlanESOPInterestPaymentsToESOP" name="EmployeeStockOwnershipPlanESOPInterestPaymentsToESOP" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_InvestmentInSubsidiary" name="InvestmentInSubsidiary" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EsopNoteReceivable" name="EsopNoteReceivable" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_EquityInLossIncomesOfSubsidiaryBank" name="EquityInLossIncomesOfSubsidiaryBank" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_NetAssetValueAdjustmentOtherInvestments" name="NetAssetValueAdjustmentOtherInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_AmortizationOfSubordinatedDebtIssuanceCosts" name="AmortizationOfSubordinatedDebtIssuanceCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_FairValueAmortizationOfCBOATRUPs" name="FairValueAmortizationOfCBOATRUPs" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_PrincipalCollectionsOnEsopNoteReceivable" name="PrincipalCollectionsOnEsopNoteReceivable" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_OtherInvestmentContributions" name="OtherInvestmentContributions" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CapitalContributionToBankSubsidiary" name="CapitalContributionToBankSubsidiary" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_RetirementOfSubordinatedDebtAcquiredInCBOAMerger" name="RetirementOfSubordinatedDebtAcquiredInCBOAMerger" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_OtherRealEstateSales" name="OtherRealEstateSales" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="bctf_CorporateAndOtherDebtSecuritiesMember" name="CorporateAndOtherDebtSecuritiesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+</schema>

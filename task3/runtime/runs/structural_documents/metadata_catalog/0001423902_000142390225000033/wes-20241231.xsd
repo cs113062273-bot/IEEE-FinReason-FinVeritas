@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:541e287c-4fff-4426-bacc-674786d17d3e,g:4cedc873-eb0f-4347-9e8e-b88bfb576e00-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:wes="http://www.westernmidstream.com/20241231" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types1="http://www.xbrl.org/dtr/type/2020-01-21" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.westernmidstream.com/20241231">
+  <xs:import namespace="http://fasb.org/srt/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2020-01-21" schemaLocation="https://www.xbrl.org/dtr/type/2020-01-21/types.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/cyd-af-sub/2024" schemaLocation="https://xbrl.sec.gov/cyd/2024/cyd-af-sub-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2024" schemaLocation="https://xbrl.sec.gov/dei/2024/dei-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2024" schemaLocation="https://xbrl.sec.gov/ecd/2024/ecd-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/naics/2024" schemaLocation="https://xbrl.sec.gov/naics/2024/naics-2024.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="wes-20241231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="wes-20241231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="wes-20241231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="wes-20241231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://www.westernmidstream.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AuditInformation" roleURI="http://www.westernmidstream.com/role/AuditInformation">
+        <link:definition>0000002 - Document - Audit Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperations" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofOperations">
+        <link:definition>9952151 - Statement - Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperations_1" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofOperations_1">
+        <link:definition>9952151 - Statement - Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperationsParenthetical" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofOperationsParenthetical">
+        <link:definition>9952152 - Statement - Consolidated Statements of Operations (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheets" roleURI="http://www.westernmidstream.com/role/ConsolidatedBalanceSheets">
+        <link:definition>9952153 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsParenthetical" roleURI="http://www.westernmidstream.com/role/ConsolidatedBalanceSheetsParenthetical">
+        <link:definition>9952154 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofEquityandPartnersCapital" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofEquityandPartnersCapital">
+        <link:definition>9952155 - Statement - Consolidated Statements of Equity and Partners' Capital</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlows" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofCashFlows">
+        <link:definition>9952156 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperationsWESOperating" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofOperationsWESOperating">
+        <link:definition>9952157 - Statement - Consolidated Statements of Operations - WES Operating</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperationsWESOperatingParenthetical" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofOperationsWESOperatingParenthetical">
+        <link:definition>9952158 - Statement - Consolidated Statements of Operations - WES Operating (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsWESOperating" roleURI="http://www.westernmidstream.com/role/ConsolidatedBalanceSheetsWESOperating">
+        <link:definition>9952159 - Statement - Consolidated Balance Sheets - WES Operating</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsWESOperatingParenthetical" roleURI="http://www.westernmidstream.com/role/ConsolidatedBalanceSheetsWESOperatingParenthetical">
+        <link:definition>9952160 - Statement - Consolidated Balance Sheets - WES Operating (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofEquityandPartnersCapitalWESOperating" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofEquityandPartnersCapitalWESOperating">
+        <link:definition>9952161 - Statement - Consolidated Statements of Equity and Partners' Capital - WES Operating</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlowsWESOperating" roleURI="http://www.westernmidstream.com/role/ConsolidatedStatementsofCashFlowsWESOperating">
+        <link:definition>9952162 - Statement - Consolidated Statements of Cash Flows - WES Operating</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesandBasisofPresentation" roleURI="http://www.westernmidstream.com/role/SummaryofSignificantAccountingPoliciesandBasisofPresentation">
+        <link:definition>9952163 - Disclosure - Summary of Significant Accounting Policies and Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomers" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomers">
+        <link:definition>9952164 - Disclosure - Revenue from Contracts with Customers</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionsandDivestitures" roleURI="http://www.westernmidstream.com/role/AcquisitionsandDivestitures">
+        <link:definition>9952165 - Disclosure - Acquisitions and Divestitures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PartnershipDistributions" roleURI="http://www.westernmidstream.com/role/PartnershipDistributions">
+        <link:definition>9952166 - Disclosure - Partnership Distributions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandPartnersCapital" roleURI="http://www.westernmidstream.com/role/EquityandPartnersCapital">
+        <link:definition>9952167 - Disclosure - Equity and Partners' Capital</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactions" roleURI="http://www.westernmidstream.com/role/RelatedPartyTransactions">
+        <link:definition>9952168 - Disclosure - Related-Party Transactions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityInvestments" roleURI="http://www.westernmidstream.com/role/EquityInvestments">
+        <link:definition>9952169 - Disclosure - Equity Investments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.westernmidstream.com/role/IncomeTaxes">
+        <link:definition>9952170 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyPlantandEquipment" roleURI="http://www.westernmidstream.com/role/PropertyPlantandEquipment">
+        <link:definition>9952171 - Disclosure - Property, Plant, and Equipment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibles" roleURI="http://www.westernmidstream.com/role/GoodwillandOtherIntangibles">
+        <link:definition>9952172 - Disclosure - Goodwill and Other Intangibles</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SelectedComponentsofWorkingCapital" roleURI="http://www.westernmidstream.com/role/SelectedComponentsofWorkingCapital">
+        <link:definition>9952173 - Disclosure - Selected Components of Working Capital</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetRetirementObligations" roleURI="http://www.westernmidstream.com/role/AssetRetirementObligations">
+        <link:definition>9952174 - Disclosure - Asset Retirement Obligations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandInterestExpense" roleURI="http://www.westernmidstream.com/role/DebtandInterestExpense">
+        <link:definition>9952175 - Disclosure - Debt and Interest Expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Leases" roleURI="http://www.westernmidstream.com/role/Leases">
+        <link:definition>9952176 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityBasedCompensation" roleURI="http://www.westernmidstream.com/role/EquityBasedCompensation">
+        <link:definition>9952177 - Disclosure - Equity-Based Compensation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingencies" roleURI="http://www.westernmidstream.com/role/CommitmentsandContingencies">
+        <link:definition>9952178 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReportableSegment" roleURI="http://www.westernmidstream.com/role/ReportableSegment">
+        <link:definition>9952179 - Disclosure - Reportable Segment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesandBasisofPresentationPolicies" roleURI="http://www.westernmidstream.com/role/SummaryofSignificantAccountingPoliciesandBasisofPresentationPolicies">
+        <link:definition>9955511 - Disclosure - Summary of Significant Accounting Policies and Basis of Presentation (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangiblesPolicies" roleURI="http://www.westernmidstream.com/role/GoodwillandOtherIntangiblesPolicies">
+        <link:definition>9955512 - Disclosure - Goodwill and Other Intangibles (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityBasedCompensationPolicies" roleURI="http://www.westernmidstream.com/role/EquityBasedCompensationPolicies">
+        <link:definition>9955513 - Disclosure - Equity-Based Compensation (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesandBasisofPresentationTables" roleURI="http://www.westernmidstream.com/role/SummaryofSignificantAccountingPoliciesandBasisofPresentationTables">
+        <link:definition>9955514 - Disclosure - Summary of Significant Accounting Policies and Basis of Presentation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersTables" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersTables">
+        <link:definition>9955515 - Disclosure - Revenue from Contracts with Customers (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionsandDivestituresTables" roleURI="http://www.westernmidstream.com/role/AcquisitionsandDivestituresTables">
+        <link:definition>9955516 - Disclosure - Acquisitions and Divestitures (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PartnershipDistributionsTables" roleURI="http://www.westernmidstream.com/role/PartnershipDistributionsTables">
+        <link:definition>9955517 - Disclosure - Partnership Distributions (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandPartnersCapitalTables" roleURI="http://www.westernmidstream.com/role/EquityandPartnersCapitalTables">
+        <link:definition>9955518 - Disclosure - Equity and Partners' Capital (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsTables" roleURI="http://www.westernmidstream.com/role/RelatedPartyTransactionsTables">
+        <link:definition>9955519 - Disclosure - Related-Party Transactions (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityInvestmentsTables" roleURI="http://www.westernmidstream.com/role/EquityInvestmentsTables">
+        <link:definition>9955520 - Disclosure - Equity Investments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesTables" roleURI="http://www.westernmidstream.com/role/IncomeTaxesTables">
+        <link:definition>9955521 - Disclosure - Income Taxes (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyPlantandEquipmentTables" roleURI="http://www.westernmidstream.com/role/PropertyPlantandEquipmentTables">
+        <link:definition>9955522 - Disclosure - Property, Plant, and Equipment (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangiblesTables" roleURI="http://www.westernmidstream.com/role/GoodwillandOtherIntangiblesTables">
+        <link:definition>9955523 - Disclosure - Goodwill and Other Intangibles (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SelectedComponentsofWorkingCapitalTables" roleURI="http://www.westernmidstream.com/role/SelectedComponentsofWorkingCapitalTables">
+        <link:definition>9955524 - Disclosure - Selected Components of Working Capital (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetRetirementObligationsTables" roleURI="http://www.westernmidstream.com/role/AssetRetirementObligationsTables">
+        <link:definition>9955525 - Disclosure - Asset Retirement Obligations (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandInterestExpenseTables" roleURI="http://www.westernmidstream.com/role/DebtandInterestExpenseTables">
+        <link:definition>9955526 - Disclosure - Debt and Interest Expense (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://www.westernmidstream.com/role/LeasesTables">
+        <link:definition>9955527 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityBasedCompensationTables" roleURI="http://www.westernmidstream.com/role/EquityBasedCompensationTables">
+        <link:definition>9955528 - Disclosure - Equity-Based Compensation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReportableSegmentTables" roleURI="http://www.westernmidstream.com/role/ReportableSegmentTables">
+        <link:definition>9955529 - Disclosure - Reportable Segment (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesandBasisofPresentationAssetsandInvestmentsTableDetails" roleURI="http://www.westernmidstream.com/role/SummaryofSignificantAccountingPoliciesandBasisofPresentationAssetsandInvestmentsTableDetails">
+        <link:definition>9955530 - Disclosure - Summary of Significant Accounting Policies and Basis of Presentation - Assets and Investments Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesandBasisofPresentationOwnershipInterestsandMethodofConsolidationTableDetails" roleURI="http://www.westernmidstream.com/role/SummaryofSignificantAccountingPoliciesandBasisofPresentationOwnershipInterestsandMethodofConsolidationTableDetails">
+        <link:definition>9955531 - Disclosure - Summary of Significant Accounting Policies and Basis of Presentation - Ownership Interests and Method of Consolidation Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesandBasisofPresentationAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/SummaryofSignificantAccountingPoliciesandBasisofPresentationAdditionalInformationDetails">
+        <link:definition>9955532 - Disclosure - Summary of Significant Accounting Policies and Basis of Presentation - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersRevenueFromContractsWithCustomersTableDetails" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersRevenueFromContractsWithCustomersTableDetails">
+        <link:definition>9955533 - Disclosure - Revenue from Contracts with Customers - Revenue From Contracts With Customers Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersContractAssetsTableDetails" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersContractAssetsTableDetails">
+        <link:definition>9955534 - Disclosure - Revenue from Contracts with Customers - Contract Assets Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersContractLiabilitiesTableDetails" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersContractLiabilitiesTableDetails">
+        <link:definition>9955535 - Disclosure - Revenue from Contracts with Customers - Contract Liabilities Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersExpectedRevenuesTableDetails" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersExpectedRevenuesTableDetails">
+        <link:definition>9955536 - Disclosure - Revenue from Contracts with Customers - Expected Revenues Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersExpectedRevenuesTableDetails_1" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersExpectedRevenuesTableDetails_1">
+        <link:definition>9955536 - Disclosure - Revenue from Contracts with Customers - Expected Revenues Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuefromContractswithCustomersAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/RevenuefromContractswithCustomersAdditionalInformationDetails">
+        <link:definition>9955537 - Disclosure - Revenue from Contracts with Customers - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionsandDivestituresAcquisitionDateFairValueTableDetails" roleURI="http://www.westernmidstream.com/role/AcquisitionsandDivestituresAcquisitionDateFairValueTableDetails">
+        <link:definition>9955538 - Disclosure - Acquisitions and Divestitures - Acquisition-Date Fair Value Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionsandDivestituresProFormaInformationTableDetails" roleURI="http://www.westernmidstream.com/role/AcquisitionsandDivestituresProFormaInformationTableDetails">
+        <link:definition>9955539 - Disclosure - Acquisitions and Divestitures - Pro-Forma Information Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionsandDivestituresAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/AcquisitionsandDivestituresAdditionalInformationDetails">
+        <link:definition>9955540 - Disclosure - Acquisitions and Divestitures - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PartnershipDistributionsCashDistributionsTablesDetails" roleURI="http://www.westernmidstream.com/role/PartnershipDistributionsCashDistributionsTablesDetails">
+        <link:definition>9955541 - Disclosure - Partnership Distributions - Cash Distributions Tables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PartnershipDistributionsAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/PartnershipDistributionsAdditionalInformationDetails">
+        <link:definition>9955542 - Disclosure - Partnership Distributions - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandPartnersCapitalCalculationofNetIncomeLossPerUnitTableDetails" roleURI="http://www.westernmidstream.com/role/EquityandPartnersCapitalCalculationofNetIncomeLossPerUnitTableDetails">
+        <link:definition>9955543 - Disclosure - Equity and Partners' Capital - Calculation of Net Income (Loss) Per Unit Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityandPartnersCapitalAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/EquityandPartnersCapitalAdditionalInformationDetails">
+        <link:definition>9955544 - Disclosure - Equity and Partners' Capital - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsSummaryofWESRelatedPartyTransactionsTablesDetails" roleURI="http://www.westernmidstream.com/role/RelatedPartyTransactionsSummaryofWESRelatedPartyTransactionsTablesDetails">
+        <link:definition>9955545 - Disclosure - Related-Party Transactions - Summary of WES Related-Party Transactions Tables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsSummaryofWESOperatingRelatedPartyTransactionsTablesDetails" roleURI="http://www.westernmidstream.com/role/RelatedPartyTransactionsSummaryofWESOperatingRelatedPartyTransactionsTablesDetails">
+        <link:definition>9955546 - Disclosure - Related-Party Transactions - Summary of WES Operating Related-Party Transactions Tables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/RelatedPartyTransactionsAdditionalInformationDetails">
+        <link:definition>9955547 - Disclosure - Related-Party Transactions - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityInvestmentsEquityInvestmentsTableDetails" roleURI="http://www.westernmidstream.com/role/EquityInvestmentsEquityInvestmentsTableDetails">
+        <link:definition>9955548 - Disclosure - Equity Investments - Equity Investments Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityInvestmentsSummarizedCombinedFinancialDataForEquityInvestmentsDetails" roleURI="http://www.westernmidstream.com/role/EquityInvestmentsSummarizedCombinedFinancialDataForEquityInvestmentsDetails">
+        <link:definition>9955549 - Disclosure - Equity Investments - Summarized Combined Financial Data For Equity Investments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityInvestmentsAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/EquityInvestmentsAdditionalInformationDetails">
+        <link:definition>9955550 - Disclosure - Equity Investments - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesComponentsofIncomeTaxExpenseBenefitTableDetails" roleURI="http://www.westernmidstream.com/role/IncomeTaxesComponentsofIncomeTaxExpenseBenefitTableDetails">
+        <link:definition>9955551 - Disclosure - Income Taxes - Components of Income Tax Expense (Benefit) Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesTaxRateReconciliationTableDetails" roleURI="http://www.westernmidstream.com/role/IncomeTaxesTaxRateReconciliationTableDetails">
+        <link:definition>9955552 - Disclosure - Income Taxes - Tax Rate Reconciliation Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesIncomeTaxTemporaryDifferencesTableDetails" roleURI="http://www.westernmidstream.com/role/IncomeTaxesIncomeTaxTemporaryDifferencesTableDetails">
+        <link:definition>9955553 - Disclosure - Income Taxes - Income Tax Temporary Differences Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/IncomeTaxesAdditionalInformationDetails">
+        <link:definition>9955554 - Disclosure - Income Taxes - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyPlantandEquipmentHistoricalCostTableDetails" roleURI="http://www.westernmidstream.com/role/PropertyPlantandEquipmentHistoricalCostTableDetails">
+        <link:definition>9955555 - Disclosure - Property, Plant, and Equipment - Historical Cost Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PropertyPlantandEquipmentAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/PropertyPlantandEquipmentAdditionalInformationDetails">
+        <link:definition>9955556 - Disclosure - Property, Plant, and Equipment - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangiblesOtherIntangibleAssetsTableDetails" roleURI="http://www.westernmidstream.com/role/GoodwillandOtherIntangiblesOtherIntangibleAssetsTableDetails">
+        <link:definition>9955557 - Disclosure - Goodwill and Other Intangibles - Other Intangible Assets Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangiblesAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/GoodwillandOtherIntangiblesAdditionalInformationDetails">
+        <link:definition>9955558 - Disclosure - Goodwill and Other Intangibles - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SelectedComponentsofWorkingCapitalAccountsReceivableNetTableDetails" roleURI="http://www.westernmidstream.com/role/SelectedComponentsofWorkingCapitalAccountsReceivableNetTableDetails">
+        <link:definition>9955559 - Disclosure - Selected Components of Working Capital - Accounts Receivable, Net Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SelectedComponentsofWorkingCapitalOtherCurrentAssetsTableDetails" roleURI="http://www.westernmidstream.com/role/SelectedComponentsofWorkingCapitalOtherCurrentAssetsTableDetails">
+        <link:definition>9955560 - Disclosure - Selected Components of Working Capital - Other Current Assets Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SelectedComponentsofWorkingCapitalAccruedLiabilitiesTableDetails" roleURI="http://www.westernmidstream.com/role/SelectedComponentsofWorkingCapitalAccruedLiabilitiesTableDetails">
+        <link:definition>9955561 - Disclosure - Selected Components of Working Capital - Accrued Liabilities Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetRetirementObligationsAssetRetirementObligationsTableDetails" roleURI="http://www.westernmidstream.com/role/AssetRetirementObligationsAssetRetirementObligationsTableDetails">
+        <link:definition>9955562 - Disclosure - Asset Retirement Obligations - Asset Retirement Obligations Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandInterestExpenseDebtOutstandingTableDetails" roleURI="http://www.westernmidstream.com/role/DebtandInterestExpenseDebtOutstandingTableDetails">
+        <link:definition>9955563 - Disclosure - Debt and Interest Expense - Debt Outstanding Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandInterestExpenseDebtActivityTableDetails" roleURI="http://www.westernmidstream.com/role/DebtandInterestExpenseDebtActivityTableDetails">
+        <link:definition>9955564 - Disclosure - Debt and Interest Expense - Debt Activity Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandInterestExpenseInterestExpenseTableDetails" roleURI="http://www.westernmidstream.com/role/DebtandInterestExpenseInterestExpenseTableDetails">
+        <link:definition>9955565 - Disclosure - Debt and Interest Expense - Interest Expense Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandInterestExpenseAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/DebtandInterestExpenseAdditionalInformationDetails">
+        <link:definition>9955566 - Disclosure - Debt and Interest Expense - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesSummaryofLeasesTableDetails" roleURI="http://www.westernmidstream.com/role/LeasesSummaryofLeasesTableDetails">
+        <link:definition>9955567 - Disclosure - Leases - Summary of Leases Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesSummaryofLeaseCostTableDetails" roleURI="http://www.westernmidstream.com/role/LeasesSummaryofLeaseCostTableDetails">
+        <link:definition>9955568 - Disclosure - Leases - Summary of Lease Cost Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesCashFlowActivityRelatedtoLeasesTableDetails" roleURI="http://www.westernmidstream.com/role/LeasesCashFlowActivityRelatedtoLeasesTableDetails">
+        <link:definition>9955569 - Disclosure - Leases - Cash Flow Activity Related to Leases Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesLesseeReconciliationofOperatingandFinanceLeaseLiabilitiesTableDetails" roleURI="http://www.westernmidstream.com/role/LeasesLesseeReconciliationofOperatingandFinanceLeaseLiabilitiesTableDetails">
+        <link:definition>9955570 - Disclosure - Leases - Lessee, Reconciliation of Operating and Finance Lease Liabilities Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityBasedCompensationAwardActivityTablesDetails" roleURI="http://www.westernmidstream.com/role/EquityBasedCompensationAwardActivityTablesDetails">
+        <link:definition>9955571 - Disclosure - Equity-Based Compensation - Award Activity Tables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityBasedCompensationAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/EquityBasedCompensationAdditionalInformationDetails">
+        <link:definition>9955572 - Disclosure - Equity-Based Compensation - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/CommitmentsandContingenciesAdditionalInformationDetails">
+        <link:definition>9955573 - Disclosure - Commitments and Contingencies - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReportableSegmentSummarizedFinancialInformationTableDetails" roleURI="http://www.westernmidstream.com/role/ReportableSegmentSummarizedFinancialInformationTableDetails">
+        <link:definition>9955574 - Disclosure - Reportable Segment - Summarized Financial Information Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReportableSegmentAdditionalInformationDetails" roleURI="http://www.westernmidstream.com/role/ReportableSegmentAdditionalInformationDetails">
+        <link:definition>9955575 - Disclosure - Reportable Segment - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="wes_WesternMidstreamOperatingLPMember" abstract="true" name="WesternMidstreamOperatingLPMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_AuditInformationAbstract" abstract="true" name="AuditInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ServiceFeeBasedMember" abstract="true" name="ServiceFeeBasedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ServiceProductBasedMember" abstract="true" name="ServiceProductBasedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_GainLossOnDispositionOfAssetsAndOtherNet" abstract="false" name="GainLossOnDispositionOfAssetsAndOtherNet" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_InventoryNonCurrentRawMaterialsAndSuppliesGross" abstract="false" name="InventoryNonCurrentRawMaterialsAndSuppliesGross" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_CommonUnitsMember" abstract="true" name="CommonUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ChipetaProcessingLimitedLiabilityCompanyMember" abstract="true" name="ChipetaProcessingLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_OccidentalMember" abstract="true" name="OccidentalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ContributionsOfEquityBasedCompensationFromRelatedParties" abstract="false" name="ContributionsOfEquityBasedCompensationFromRelatedParties" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_PartnersCapitalAccountAdjustmentContributionsFromorDistributionsToAffiliate" abstract="false" name="PartnersCapitalAccountAdjustmentContributionsFromorDistributionsToAffiliate" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_ThirdPartiesMember" abstract="true" name="ThirdPartiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_AccretionandAmortizationofLongTermObligationsNet" abstract="false" name="AccretionandAmortizationofLongTermObligationsNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_ProceedsFromPaymentToAffiliate" abstract="false" name="ProceedsFromPaymentToAffiliate" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_WesternMidstreamPartnersLPMember" abstract="true" name="WesternMidstreamPartnersLPMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_BusinessCombinationAndDisposalGroupsDisclosureTextBlock" abstract="false" name="BusinessCombinationAndDisposalGroupsDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="wes_PartnershipDistributionsDisclosureTextBlock" abstract="false" name="PartnershipDistributionsDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="wes_SelectedComponentsOfWorkingCapitalAbstract" abstract="true" name="SelectedComponentsOfWorkingCapitalAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_CreditLossesPolicyTextBlock" abstract="false" name="CreditLossesPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="wes_AssetTableTextBlock" abstract="false" name="AssetTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="wes_OwnershipInterestAndMethodOfConsolidationTableTextBlock" abstract="false" name="OwnershipInterestAndMethodOfConsolidationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="wes_AssetsAndLiabilitiesLesseeTableTextBlock" abstract="false" name="AssetsAndLiabilitiesLesseeTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="wes_OperatedMember" abstract="true" name="OperatedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_OperatedInterestMember" abstract="true" name="OperatedInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_NaturalGasGatheringSystemMember" abstract="true" name="NaturalGasGatheringSystemMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_NaturalGasTreatingFacilitiesMember" abstract="true" name="NaturalGasTreatingFacilitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_NaturalGasLiquidsPipelineMember" abstract="true" name="NaturalGasLiquidsPipelineMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_AssetsLineItems" abstract="true" name="AssetsLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_LessThan100OwnedAssetsandBasisofPresentationAbstract" abstract="true" name="LessThan100OwnedAssetsandBasisofPresentationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ProportionateConsolidationMember" abstract="true" name="ProportionateConsolidationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SpringfieldPipelineLimitedLiabilityCompanyMember" abstract="true" name="SpringfieldPipelineLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_MiVidaJointVentureLimitedLiabilityCompanyMember" abstract="true" name="MiVidaJointVentureLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_FrontRangePipelineLLCMember" abstract="true" name="FrontRangePipelineLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_RedBluffExpressPipelineLimitedLiabilityCompanyMember" abstract="true" name="RedBluffExpressPipelineLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_RendezvousMember" abstract="true" name="RendezvousMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_TexasExpressPipelineLLCMember" abstract="true" name="TexasExpressPipelineLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_TexasExpressGatheringLLCMember" abstract="true" name="TexasExpressGatheringLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_WhiteCliffsMember" abstract="true" name="WhiteCliffsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ChangeinContractwithCustomerAssetRollForward" abstract="true" name="ChangeinContractwithCustomerAssetRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ContractWithCustomerAssetAdditionalEstimatedRevenues" abstract="false" name="ContractWithCustomerAssetAdditionalEstimatedRevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_ChangeinContractwithCustomerLiabilityRollForward" abstract="true" name="ChangeinContractwithCustomerLiabilityRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ContractwithCustomerLiabilityIncreaseforCashReceivedNetofRevenueRecognized" abstract="false" name="ContractwithCustomerLiabilityIncreaseforCashReceivedNetofRevenueRecognized" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_RevenuefromContractswithCustomerTable" abstract="true" name="RevenuefromContractswithCustomerTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="wes_CustomersMember" abstract="true" name="CustomersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_RevenuefromContractswithCustomerLineItems" abstract="true" name="RevenuefromContractswithCustomerLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAssetRetirementObligation" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedAssetRetirementObligation" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_MarcellusInterestMember" abstract="true" name="MarcellusInterestMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_MontBelvieuJointVentureMember" abstract="true" name="MontBelvieuJointVentureMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_WhitethornPipelineCompanyLimitedLiabilityCompanyMember" abstract="true" name="WhitethornPipelineCompanyLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_PanolaPipelineCompanyLimitedLiabilityCompanyMember" abstract="true" name="PanolaPipelineCompanyLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SaddlehornPipelineCompanyLimitedLiabilityCompanyMember" abstract="true" name="SaddlehornPipelineCompanyLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_CactusIIPipelineLimitedLiabilityCompanyMember" abstract="true" name="CactusIIPipelineLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_MeritageMidstreamServicesIILLCMember" abstract="true" name="MeritageMidstreamServicesIILLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="wes_SeniorNotes6Point35PercentDue2029Member" abstract="true" name="SeniorNotes6Point35PercentDue2029Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="wes_RanchWestexJointVentureLimitedLiabilityCompanyMember" abstract="true" name="RanchWestexJointVentureLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_BusinessAcquisitionsAdjustmentToProFormaRevenue" abstract="false" name="BusinessAcquisitionsAdjustmentToProFormaRevenue" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_BusinessAcquisitionsAdjustmentToProFormaDepreciationAmortization" abstract="false" name="BusinessAcquisitionsAdjustmentToProFormaDepreciationAmortization" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_BusinessAcquisitionsAdjustmentToProFormaInterestExpense" abstract="false" name="BusinessAcquisitionsAdjustmentToProFormaInterestExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_BusinessCombinationProFormaInformationOperatingExpensesOfAcquireeSinceAcquisitionDateActual" abstract="false" name="BusinessCombinationProFormaInformationOperatingExpensesOfAcquireeSinceAcquisitionDateActual" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_OwnershipInterestPurchased" abstract="false" name="OwnershipInterestPurchased" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="wes_BaseDistributionMadeToLimitedPartnerDistributionsDeclaredPerUnit" abstract="false" name="BaseDistributionMadeToLimitedPartnerDistributionsDeclaredPerUnit" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:perShareItemType"/>
+  <xs:element id="wes_BaseDistributionMadeToLimitedPartnerCashDistributionsDeclared" abstract="false" name="BaseDistributionMadeToLimitedPartnerCashDistributionsDeclared" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_EnhancedDistributionMadeToLimitedPartnerDistributionsDeclaredPerUnit" abstract="false" name="EnhancedDistributionMadeToLimitedPartnerDistributionsDeclaredPerUnit" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:perShareItemType"/>
+  <xs:element id="wes_NumberOfDaysSubsequentToQuarterEndThatCashIsRequiredToBeDistributed" abstract="false" name="NumberOfDaysSubsequentToQuarterEndThatCashIsRequiredToBeDistributed" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="wes_EnhancedDistributionMadeToLimitedPartnerCashDistributionsDeclared" abstract="false" name="EnhancedDistributionMadeToLimitedPartnerCashDistributionsDeclared" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_OwnershipInterestByPartyAxis" abstract="true" name="OwnershipInterestByPartyAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="wes_OwnershipInterestByPartyDomain" abstract="true" name="OwnershipInterestByPartyDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_PublicMember" abstract="true" name="PublicMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ConsolidatedStatementsOfOperationsAbstract" abstract="true" name="ConsolidatedStatementsOfOperationsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ConsolidatedBalanceSheetsAbstract" abstract="true" name="ConsolidatedBalanceSheetsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ConsolidatedStatementsOfCashFlowsAbstract" abstract="true" name="ConsolidatedStatementsOfCashFlowsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_NaturalGasMember" abstract="true" name="NaturalGasMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_CrudeOilandNGLsMember" abstract="true" name="CrudeOilandNGLsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_IncentivePlansMember" abstract="true" name="IncentivePlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_RelatedPartyThroughputPercent" abstract="false" name="RelatedPartyThroughputPercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="wes_ProceedsFromPaymentsForEquityMethodInvestmentsDivestituresAcquisitions" abstract="false" name="ProceedsFromPaymentsForEquityMethodInvestmentsDivestituresAcquisitions" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_AdjustmentsResultingFromAbstract" abstract="true" name="AdjustmentsResultingFromAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_TransportationPipelinesAndEquipmentMember" abstract="true" name="TransportationPipelinesAndEquipmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ProducedWaterDisposalSystemMember" abstract="true" name="ProducedWaterDisposalSystemMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_RockiesAssetsMember" abstract="true" name="RockiesAssetsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_GatheringandProcessingReportingUnitMember" abstract="true" name="GatheringandProcessingReportingUnitMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_TransportationReportingUnitMember" abstract="true" name="TransportationReportingUnitMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_DJBasinComplexProcessingPlantsMember" abstract="true" name="DJBasinComplexProcessingPlantsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_DelawareBasinMidstreamLimitedLiabilityCompanyMember" abstract="true" name="DelawareBasinMidstreamLimitedLiabilityCompanyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_LongTermDebtObligationsMember" abstract="true" name="LongTermDebtObligationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_CommercialPaperProgram1Member" abstract="true" name="CommercialPaperProgram1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="wes_SeniorNotes3Point100PercentDue2025Member" abstract="true" name="SeniorNotes3Point100PercentDue2025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes3Point950PercentDue2025Member" abstract="true" name="SeniorNotes3Point950PercentDue2025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_FinanceLeaseLiabilityShortTermMember" abstract="true" name="FinanceLeaseLiabilityShortTermMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes4Point650PercentDue2026Member" abstract="true" name="SeniorNotes4Point650PercentDue2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes4Point500PercentDue2028Member" abstract="true" name="SeniorNotes4Point500PercentDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes4Point750PercentDue2028Member" abstract="true" name="SeniorNotes4Point750PercentDue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes4Point50PercentDue2030Member" abstract="true" name="SeniorNotes4Point50PercentDue2030Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes6Point15PercentDue2033Member" abstract="true" name="SeniorNotes6Point15PercentDue2033Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes5Point450PercentDue2034Member" abstract="true" name="SeniorNotes5Point450PercentDue2034Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="wes_SeniorNotes5Point450PercentDue2044Member" abstract="true" name="SeniorNotes5Point450PercentDue2044Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes5Point300PercentDue2048Member" abstract="true" name="SeniorNotes5Point300PercentDue2048Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes5Point500PercentDue2048Member" abstract="true" name="SeniorNotes5Point500PercentDue2048Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotes5Point250PercentDue2050Member" abstract="true" name="SeniorNotes5Point250PercentDue2050Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_FinanceLeaseLiabilityLongTermMember" abstract="true" name="FinanceLeaseLiabilityLongTermMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_DebtInstrumentCarryingAmountCurrent" abstract="false" name="DebtInstrumentCarryingAmountCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_SeniorRevolvingCreditFacility1Member" abstract="true" name="SeniorRevolvingCreditFacility1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_SeniorNotesFloatingRateDue2023Member" abstract="true" name="SeniorNotesFloatingRateDue2023Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_FinanceLeaseLiabilityMember" abstract="true" name="FinanceLeaseLiabilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ChangesinDebtOutstandingRollForward" abstract="true" name="ChangesinDebtOutstandingRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="wes_ChangesInFinanceLeaseObligations" abstract="false" name="ChangesInFinanceLeaseObligations" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_DebtActivityOther" abstract="false" name="DebtActivityOther" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_LenderTypeAxis" abstract="true" name="LenderTypeAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="wes_LenderTypeDomain" abstract="true" name="LenderTypeDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="wes_NonExtendingLenderMember" abstract="true" name="NonExtendingLenderMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="wes_PercentageMarginAboveAdjustedTermSOFRMember" abstract="true" name="PercentageMarginAboveAdjustedTermSOFRMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_AlternateBaseRatePercentageAboveFederalFundsEffectiveRateMember" abstract="true" name="AlternateBaseRatePercentageAboveFederalFundsEffectiveRateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_AlternateBaseRatePercentageAboveAdjustedTermSOFRMember" abstract="true" name="AlternateBaseRatePercentageAboveAdjustedTermSOFRMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_LineOfCreditFacilityExpandableMaximumBorrowingCapacity" abstract="false" name="LineOfCreditFacilityExpandableMaximumBorrowingCapacity" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="wes_TimeVestedMember" abstract="true" name="TimeVestedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_MarketAwardMember" abstract="true" name="MarketAwardMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_WesternGasPartners2017LongTermIncentivePlanMember" abstract="true" name="WesternGasPartners2017LongTermIncentivePlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_WesternMidstreamPartnersLP2021LongTermIncentivePlanMember" abstract="true" name="WesternMidstreamPartnersLP2021LongTermIncentivePlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ExecutiveLongTermIncentivePlansMember" abstract="true" name="ExecutiveLongTermIncentivePlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_LongTermIncentivePlansMember" abstract="true" name="LongTermIncentivePlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_NonExecutiveLongTermIncentivePlansMember" abstract="true" name="NonExecutiveLongTermIncentivePlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_IndependentDirectorLongTermIncentivePlansMember" abstract="true" name="IndependentDirectorLongTermIncentivePlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="wes_ShareBasedCompensationArrangementbySharebasedPaymentAwardPerformanceBasedPayoutPercentage" abstract="false" name="ShareBasedCompensationArrangementbySharebasedPaymentAwardPerformanceBasedPayoutPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="wes_CashGeneralAndAdministrativeCosts" abstract="false" name="CashGeneralAndAdministrativeCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

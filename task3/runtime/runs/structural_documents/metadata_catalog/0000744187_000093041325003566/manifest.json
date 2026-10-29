@@ -1,0 +1,58 @@
+{
+  "entity": "0000744187",
+  "schema_name": "rex-20251031.xsd",
+  "namespace": "http://www.rexamerican.com/20251031",
+  "filing": {
+    "accessionNumber": "0000930413-25-003566",
+    "reportDate": "2025-10-31",
+    "primaryDocument": "c114265_10q-ixbrl.htm",
+    "filingDate": "2025-12-04",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "rex-20251031.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041325003566/rex-20251031.xsd",
+      "SHA256": "273c88169c9e88f6492564dc8d92b8e8d1d5c08254eebc4606ebbb863848fc7d",
+      "bytes": 57990
+    },
+    {
+      "file": "rex-20251031_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041325003566/rex-20251031_lab.xml",
+      "SHA256": "cc5b9fe1492de842db59aa8c30828e1539cde8639258434da3304249f58fec1e",
+      "bytes": 458543
+    },
+    {
+      "file": "rex-20251031_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041325003566/rex-20251031_pre.xml",
+      "SHA256": "7436d6bb89ad44af13da9d14800b72088328d53e999a7b22a713299eae3cfb26",
+      "bytes": 256469
+    },
+    {
+      "file": "rex-20251031_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041325003566/rex-20251031_def.xml",
+      "SHA256": "3b92d291c1e2f9efc8bd2c461f12172b59982392d0209eb0e6810912aafbef9c",
+      "bytes": 228461
+    },
+    {
+      "file": "rex-20251031_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041325003566/rex-20251031_cal.xml",
+      "SHA256": "8d6fea5e1ed0dab247d22856196fbd0ac0b66da0b6621b5f244703f8fd6be445",
+      "bytes": 57649
+    },
+    {
+      "file": "c114265_10q-ixbrl_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/744187/000093041325003566/c114265_10q-ixbrl_htm.xml",
+      "SHA256": "a6360ae8a35f855b18feb0d2f7aa840f61cadb7398266f067101ca5b41c6d7b9",
+      "bytes": 629478
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

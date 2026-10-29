@@ -1,0 +1,58 @@
+{
+  "entity": "0001051470",
+  "schema_name": "cci-20250630.xsd",
+  "namespace": "http://www.crowncastle.com/20250630",
+  "filing": {
+    "accessionNumber": "0001051470-25-000168",
+    "reportDate": "2025-06-30",
+    "primaryDocument": "cci-20250630.htm",
+    "filingDate": "2025-08-06",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "cci-20250630.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000168/cci-20250630.xsd",
+      "SHA256": "c6972042b758d9a2c68be08c53337a29a63c84b943def8783328610bd01150ed",
+      "bytes": 42762
+    },
+    {
+      "file": "cci-20250630_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000168/cci-20250630_pre.xml",
+      "SHA256": "549ebef641cb27f31c51dcdc2c0e4b97223ce76f59fe0c67ce61114949452383",
+      "bytes": 386757
+    },
+    {
+      "file": "cci-20250630_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000168/cci-20250630_def.xml",
+      "SHA256": "c2c38f45f2ccfb2b19bde31cf03d408084869d4a2706ee9c5b9097c3a86fac94",
+      "bytes": 186240
+    },
+    {
+      "file": "cci-20250630_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000168/cci-20250630_lab.xml",
+      "SHA256": "5a07f2267e0595251398a6ec8767f511dffb0759e79d18fd49d2fd6665ab0ae9",
+      "bytes": 573710
+    },
+    {
+      "file": "cci-20250630_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000168/cci-20250630_cal.xml",
+      "SHA256": "bc148f8c21f4981c325a242f30dcf895035d1701c7ea2d4236584f0fe50016e4",
+      "bytes": 64712
+    },
+    {
+      "file": "cci-20250630_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000168/cci-20250630_htm.xml",
+      "SHA256": "b95ee5e7af2d9d06a24faf22f928dc92a5e096f45c5c04ef116030c45379e595",
+      "bytes": 1284879
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

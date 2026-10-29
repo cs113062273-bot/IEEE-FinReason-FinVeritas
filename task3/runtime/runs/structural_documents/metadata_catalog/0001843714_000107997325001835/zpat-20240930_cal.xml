@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 6.3a -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#Cover" roleURI="http://zapataquantum.com/role/Cover" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CondensedConsolidatedBalanceSheets" roleURI="http://zapataquantum.com/role/CondensedConsolidatedBalanceSheets" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CondensedConsolidatedBalanceSheetsParenthetical" roleURI="http://zapataquantum.com/role/CondensedConsolidatedBalanceSheetsParenthetical" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLoss" roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLoss" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficit" roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficit" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficitParenthetical" roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficitParenthetical" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CondensedConsolidatedStatementsOfCashFlows" roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfCashFlows" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#NatureOfBusinessAndBasisOfPresentation" roleURI="http://zapataquantum.com/role/NatureOfBusinessAndBasisOfPresentation" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPolicies" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPolicies" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#Merger" roleURI="http://zapataquantum.com/role/Merger" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#FairValueMeasurements" roleURI="http://zapataquantum.com/role/FairValueMeasurements" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#PropertyAndEquipmentNet" roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNet" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#AccruedExpensesAndOtherCurrentLiabilities" roleURI="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilities" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#ForwardPurchaseAgreement" roleURI="http://zapataquantum.com/role/ForwardPurchaseAgreement" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#Debt" roleURI="http://zapataquantum.com/role/Debt" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#ConvertiblePreferredStock" roleURI="http://zapataquantum.com/role/ConvertiblePreferredStock" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CommonStock" roleURI="http://zapataquantum.com/role/CommonStock" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#Warrants" roleURI="http://zapataquantum.com/role/Warrants" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlans" roleURI="http://zapataquantum.com/role/CompensationPlans" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#Leases" roleURI="http://zapataquantum.com/role/Leases" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#IncomeTaxes" roleURI="http://zapataquantum.com/role/IncomeTaxes" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#RetirementPlan" roleURI="http://zapataquantum.com/role/RetirementPlan" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CommitmentsAndContingencies" roleURI="http://zapataquantum.com/role/CommitmentsAndContingencies" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#NetIncomeLossPerShare" roleURI="http://zapataquantum.com/role/NetIncomeLossPerShare" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#RelatedPartyTransactions" roleURI="http://zapataquantum.com/role/RelatedPartyTransactions" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SubsequentEvents" roleURI="http://zapataquantum.com/role/SubsequentEvents" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesPolicies" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesPolicies" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesTables" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#MergerTables" roleURI="http://zapataquantum.com/role/MergerTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#FairValueMeasurementsTables" roleURI="http://zapataquantum.com/role/FairValueMeasurementsTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#PropertyAndEquipmentNetTables" roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNetTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#AccruedExpensesAndOtherCurrentLiabilitiesTables" roleURI="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilitiesTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#DebtTables" roleURI="http://zapataquantum.com/role/DebtTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#ConvertiblePreferredStockTables" roleURI="http://zapataquantum.com/role/ConvertiblePreferredStockTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlansTables" roleURI="http://zapataquantum.com/role/CompensationPlansTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#LeasesTables" roleURI="http://zapataquantum.com/role/LeasesTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CommitmentsAndContingenciesTables" roleURI="http://zapataquantum.com/role/CommitmentsAndContingenciesTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#NetIncomeLossPerShareTables" roleURI="http://zapataquantum.com/role/NetIncomeLossPerShareTables" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#NatureOfBusinessAndBasisOfPresentationDetailsNarrative" roleURI="http://zapataquantum.com/role/NatureOfBusinessAndBasisOfPresentationDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesDetails" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesDetails1" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesDetails2" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails2" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesDetails3" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails3" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesDetails4" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails4" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SummaryOfSignificantAccountingPoliciesDetailsNarrative" roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#MergerDetails" roleURI="http://zapataquantum.com/role/MergerDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#MergerDetails1" roleURI="http://zapataquantum.com/role/MergerDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#MergerDetailsNarrative" roleURI="http://zapataquantum.com/role/MergerDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#FairValueMeasurementsDetails" roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#FairValueMeasurementsDetails1" roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#FairValueMeasurementsDetails2" roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetails2" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#FairValueMeasurementsDetailsNarrative" roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#PropertyAndEquipmentNetDetails" roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNetDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#PropertyAndEquipmentNetDetailsNarrative" roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNetDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#AccruedExpensesAndOtherCurrentLiabilitiesDetails" roleURI="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilitiesDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#ForwardPurchaseAgreementDetailsNarrative" roleURI="http://zapataquantum.com/role/ForwardPurchaseAgreementDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#DebtDetails" roleURI="http://zapataquantum.com/role/DebtDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#DebtDetails1" roleURI="http://zapataquantum.com/role/DebtDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#DebtDetails2" roleURI="http://zapataquantum.com/role/DebtDetails2" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#DebtDetails3" roleURI="http://zapataquantum.com/role/DebtDetails3" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#DebtDetailsNarrative" roleURI="http://zapataquantum.com/role/DebtDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#ConvertiblePreferredStockDetails" roleURI="http://zapataquantum.com/role/ConvertiblePreferredStockDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#ConvertiblePreferredStockDetailsNarrative" roleURI="http://zapataquantum.com/role/ConvertiblePreferredStockDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CommonStockDetailsNarrative" roleURI="http://zapataquantum.com/role/CommonStockDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#WarrantsDetailsNarrative" roleURI="http://zapataquantum.com/role/WarrantsDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlansDetails" roleURI="http://zapataquantum.com/role/CompensationPlansDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlansDetails1" roleURI="http://zapataquantum.com/role/CompensationPlansDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlansDetails2" roleURI="http://zapataquantum.com/role/CompensationPlansDetails2" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlansDetails3" roleURI="http://zapataquantum.com/role/CompensationPlansDetails3" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CompensationPlansDetailsNarrative" roleURI="http://zapataquantum.com/role/CompensationPlansDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#LeasesDetails" roleURI="http://zapataquantum.com/role/LeasesDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#LeasesDetails1" roleURI="http://zapataquantum.com/role/LeasesDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#LeasesDetailsNarrative" roleURI="http://zapataquantum.com/role/LeasesDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#IncomeTaxesDetailsNarrative" roleURI="http://zapataquantum.com/role/IncomeTaxesDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CommitmentsAndContingenciesDetails" roleURI="http://zapataquantum.com/role/CommitmentsAndContingenciesDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#CommitmentsAndContingenciesDetailsNarrative" roleURI="http://zapataquantum.com/role/CommitmentsAndContingenciesDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#NetIncomeLossPerShareDetails" roleURI="http://zapataquantum.com/role/NetIncomeLossPerShareDetails" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#NetIncomeLossPerShareDetails1" roleURI="http://zapataquantum.com/role/NetIncomeLossPerShareDetails1" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#RelatedPartyTransactionsDetailsNarrative" roleURI="http://zapataquantum.com/role/RelatedPartyTransactionsDetailsNarrative" />
+    <link:roleRef xlink:type="simple" xlink:href="zpat-20240930.xsd#SubsequentEventsDetailsNarrative" roleURI="http://zapataquantum.com/role/SubsequentEventsDetailsNarrative" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/Cover" xlink:title="00000001 - Document - Cover" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CondensedConsolidatedBalanceSheets" xlink:title="00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AssetsCurrent" xlink:label="loc_us-gaapAssetsCurrent" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Cash" xlink:label="loc_us-gaapCash" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapCash" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ReceivablesNetCurrent" xlink:label="loc_us-gaapReceivablesNetCurrent" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapReceivablesNetCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PrepaidExpenseAndOtherAssetsCurrent" xlink:label="loc_us-gaapPrepaidExpenseAndOtherAssetsCurrent" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapPrepaidExpenseAndOtherAssetsCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Assets" xlink:label="loc_us-gaapAssets" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapAssetsCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PropertyPlantAndEquipmentNet" xlink:label="loc_us-gaapPropertyPlantAndEquipmentNet" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapPropertyPlantAndEquipmentNet" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingLeaseRightOfUseAsset" xlink:label="loc_us-gaapOperatingLeaseRightOfUseAsset" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapOperatingLeaseRightOfUseAsset" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_DeferredOfferingCostsNonCurrent" xlink:label="loc_zpatDeferredOfferingCostsNonCurrent" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_zpatDeferredOfferingCostsNonCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherAssetsNoncurrent" xlink:label="loc_us-gaapOtherAssetsNoncurrent" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapOtherAssetsNoncurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LiabilitiesCurrent" xlink:label="loc_us-gaapLiabilitiesCurrent" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AccountsPayableCurrent" xlink:label="loc_us-gaapAccountsPayableCurrent" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapAccountsPayableCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_AccruedExpensesAndOtherCurrentLiabilities" xlink:label="loc_zpatAccruedExpensesAndOtherCurrentLiabilities" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_zpatAccruedExpensesAndOtherCurrentLiabilities" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DeferredRevenueCurrent" xlink:label="loc_us-gaapDeferredRevenueCurrent" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapDeferredRevenueCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_DeferredLegalFeesCurrent" xlink:label="loc_zpatDeferredLegalFeesCurrent" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_zpatDeferredLegalFeesCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingLeaseLiabilityCurrent" xlink:label="loc_us-gaapOperatingLeaseLiabilityCurrent" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapOperatingLeaseLiabilityCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NotesPayableRelatedPartiesCurrent" xlink:label="loc_zpatNotesPayableRelatedPartiesCurrent" />
+      <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_zpatNotesPayableRelatedPartiesCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Liabilities" xlink:label="loc_us-gaapLiabilities" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapLiabilitiesCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DerivativeLiabilitiesNoncurrent" xlink:label="loc_us-gaapDerivativeLiabilitiesNoncurrent" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapDerivativeLiabilitiesNoncurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SeniorLongTermNotes" xlink:label="loc_us-gaapSeniorLongTermNotes" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapSeniorLongTermNotes" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NotePayableRelatedPartyNoncurrent" xlink:label="loc_zpatNotePayableRelatedPartyNoncurrent" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_zpatNotePayableRelatedPartyNoncurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockValue" xlink:label="loc_us-gaapCommonStockValue" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapCommonStockValue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AdditionalPaidInCapital" xlink:label="loc_us-gaapAdditionalPaidInCapital" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapAdditionalPaidInCapital" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax" xlink:label="loc_us-gaapAccumulatedOtherComprehensiveIncomeLossNetOfTax" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapAccumulatedOtherComprehensiveIncomeLossNetOfTax" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RetainedEarningsAccumulatedDeficit" xlink:label="loc_us-gaapRetainedEarningsAccumulatedDeficit" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapRetainedEarningsAccumulatedDeficit" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LiabilitiesAndStockholdersEquity" xlink:label="loc_us-gaapLiabilitiesAndStockholdersEquity" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapLiabilities" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RedeemableNoncontrollingInterestEquityPreferredCarryingAmount" xlink:label="loc_us-gaapRedeemableNoncontrollingInterestEquityPreferredCarryingAmount" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapRedeemableNoncontrollingInterestEquityPreferredCarryingAmount" xlink:type="arc" weight="1" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesAndStockholdersEquity" xlink:to="loc_us-gaapStockholdersEquity" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CondensedConsolidatedBalanceSheetsParenthetical" xlink:title="00000003 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED) (Parenthetical)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLoss" xlink:title="00000004 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME (LOSS) (UNAUDITED)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_GrossProfit" xlink:label="loc_us-gaapGrossProfit" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Revenues" xlink:label="loc_us-gaapRevenues" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapGrossProfit" xlink:to="loc_us-gaapRevenues" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CostOfRevenue" xlink:label="loc_us-gaapCostOfRevenue" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapGrossProfit" xlink:to="loc_us-gaapCostOfRevenue" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingExpenses" xlink:label="loc_us-gaapOperatingExpenses" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SellingAndMarketingExpense" xlink:label="loc_us-gaapSellingAndMarketingExpense" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapSellingAndMarketingExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ResearchAndDevelopmentExpense" xlink:label="loc_us-gaapResearchAndDevelopmentExpense" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapResearchAndDevelopmentExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_GeneralAndAdministrativeExpense" xlink:label="loc_us-gaapGeneralAndAdministrativeExpense" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapGeneralAndAdministrativeExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingIncomeLoss" xlink:label="loc_us-gaapOperatingIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingIncomeLoss" xlink:to="loc_us-gaapGrossProfit" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingIncomeLoss" xlink:to="loc_us-gaapOperatingExpenses" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NonoperatingIncomeExpense" xlink:label="loc_us-gaapNonoperatingIncomeExpense" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_InterestExpense" xlink:label="loc_us-gaapInterestExpense" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNonoperatingIncomeExpense" xlink:to="loc_us-gaapInterestExpense" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_GainLossOnDerivativeInstrumentsNetPretax" xlink:label="loc_us-gaapGainLossOnDerivativeInstrumentsNetPretax" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNonoperatingIncomeExpense" xlink:to="loc_us-gaapGainLossOnDerivativeInstrumentsNetPretax" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" xlink:label="loc_zpatChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNonoperatingIncomeExpense" xlink:to="loc_zpatChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_InducedConversionOfConvertibleDebtExpense" xlink:label="loc_us-gaapInducedConversionOfConvertibleDebtExpense" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNonoperatingIncomeExpense" xlink:to="loc_us-gaapInducedConversionOfConvertibleDebtExpense" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherNonoperatingIncomeExpense" xlink:label="loc_us-gaapOtherNonoperatingIncomeExpense" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNonoperatingIncomeExpense" xlink:to="loc_us-gaapOtherNonoperatingIncomeExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:label="loc_us-gaapIncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetIncomeLoss" xlink:to="loc_us-gaapIncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeTaxExpenseBenefit" xlink:label="loc_us-gaapIncomeTaxExpenseBenefit" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetIncomeLoss" xlink:to="loc_us-gaapIncomeTaxExpenseBenefit" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ComprehensiveIncomeNetOfTax" xlink:label="loc_us-gaapComprehensiveIncomeNetOfTax" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapComprehensiveIncomeNetOfTax" xlink:to="loc_us-gaapNetIncomeLoss" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ForeignCurrencyTranslationAdjustment" xlink:label="loc_zpatForeignCurrencyTranslationAdjustment" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapComprehensiveIncomeNetOfTax" xlink:to="loc_zpatForeignCurrencyTranslationAdjustment" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficit" xlink:title="00000005 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND STOCKHOLDERS&apos; DEFICIT (UNAUDITED)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficitParenthetical" xlink:title="00000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND STOCKHOLDERS&apos; DEFICIT (UNAUDITED) (Parenthetical)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfCashFlows" xlink:title="00000007 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapNetIncomeLoss" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DepreciationDepletionAndAmortization" xlink:label="loc_us-gaapDepreciationDepletionAndAmortization" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapDepreciationDepletionAndAmortization" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PaidInKindInterest" xlink:label="loc_us-gaapPaidInKindInterest" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapPaidInKindInterest" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NonCashVendorPayments" xlink:label="loc_zpatNonCashVendorPayments" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatNonCashVendorPayments" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_GainLossOnDerivativeInstrumentsNetPretax" xlink:label="loc_us-gaapGainLossOnDerivativeInstrumentsNetPretax" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapGainLossOnDerivativeInstrumentsNetPretax" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ChangeInFairValueOfSeniorNotes" xlink:label="loc_zpatChangeInFairValueOfSeniorNotes" />
+      <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatChangeInFairValueOfSeniorNotes" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" xlink:label="loc_zpatChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" />
+      <link:calculationArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AllocatedShareBasedCompensationExpense" xlink:label="loc_us-gaapAllocatedShareBasedCompensationExpense" />
+      <link:calculationArc order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapAllocatedShareBasedCompensationExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NonCashLeaseExpense" xlink:label="loc_zpatNonCashLeaseExpense" />
+      <link:calculationArc order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatNonCashLeaseExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_EquityLineOfCreditCommitmentExpense" xlink:label="loc_zpatEquityLineOfCreditCommitmentExpense" />
+      <link:calculationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatEquityLineOfCreditCommitmentExpense" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInAccountsReceivable" xlink:label="loc_us-gaapIncreaseDecreaseInAccountsReceivable" />
+      <link:calculationArc order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInAccountsReceivable" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" xlink:label="loc_us-gaapIncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" />
+      <link:calculationArc order="12" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInAccountsPayable" xlink:label="loc_us-gaapIncreaseDecreaseInAccountsPayable" />
+      <link:calculationArc order="13" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInAccountsPayable" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_IncreaseDecreaseInAccruedExpensesOtherCurrentLiabilitiesAndOtherNonCurrentLiabilities" xlink:label="loc_zpatIncreaseDecreaseInAccruedExpensesOtherCurrentLiabilitiesAndOtherNonCurrentLiabilities" />
+      <link:calculationArc order="14" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatIncreaseDecreaseInAccruedExpensesOtherCurrentLiabilitiesAndOtherNonCurrentLiabilities" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInDeferredRevenue" xlink:label="loc_us-gaapIncreaseDecreaseInDeferredRevenue" />
+      <link:calculationArc order="15" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInDeferredRevenue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_IncreaseDecreaseInDeferredLegalFees" xlink:label="loc_zpatIncreaseDecreaseInDeferredLegalFees" />
+      <link:calculationArc order="16" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_zpatIncreaseDecreaseInDeferredLegalFees" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInOperatingLeaseLiability" xlink:label="loc_us-gaapIncreaseDecreaseInOperatingLeaseLiability" />
+      <link:calculationArc order="17" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInOperatingLeaseLiability" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PaymentsToAcquirePropertyPlantAndEquipment" xlink:label="loc_us-gaapPaymentsToAcquirePropertyPlantAndEquipment" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" xlink:to="loc_us-gaapPaymentsToAcquirePropertyPlantAndEquipment" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PaymentsOfStockIssuanceCosts" xlink:label="loc_us-gaapPaymentsOfStockIssuanceCosts" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapPaymentsOfStockIssuanceCosts" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProceedsFromStockOptionsExercised" xlink:label="loc_us-gaapProceedsFromStockOptionsExercised" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapProceedsFromStockOptionsExercised" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_IssuancesOfCommonStockUnderEquityLineOfCredit" xlink:label="loc_zpatIssuancesOfCommonStockUnderEquityLineOfCredit" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_zpatIssuancesOfCommonStockUnderEquityLineOfCredit" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ProceedsFromReverseRecapitalization" xlink:label="loc_zpatProceedsFromReverseRecapitalization" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_zpatProceedsFromReverseRecapitalization" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ProceedsFromPartialEarlyTerminationOfForwardPurchaseAgreement" xlink:label="loc_zpatProceedsFromPartialEarlyTerminationOfForwardPurchaseAgreement" />
+      <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_zpatProceedsFromPartialEarlyTerminationOfForwardPurchaseAgreement" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RepaymentsOfRelatedPartyDebt" xlink:label="loc_us-gaapRepaymentsOfRelatedPartyDebt" />
+      <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapRepaymentsOfRelatedPartyDebt" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_PrepaymentForForwardPurchaseAgreement" xlink:label="loc_zpatPrepaymentForForwardPurchaseAgreement" />
+      <link:calculationArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_zpatPrepaymentForForwardPurchaseAgreement" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PaymentsOfDebtExtinguishmentCosts" xlink:label="loc_us-gaapPaymentsOfDebtExtinguishmentCosts" />
+      <link:calculationArc order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapPaymentsOfDebtExtinguishmentCosts" xlink:type="arc" weight="-1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProceedsFromIssuanceOfSeniorLongTermDebt" xlink:label="loc_us-gaapProceedsFromIssuanceOfSeniorLongTermDebt" />
+      <link:calculationArc order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapProceedsFromIssuanceOfSeniorLongTermDebt" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:label="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" xlink:type="arc" weight="1" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:label="loc_us-gaapEffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" />
+      <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect" xlink:to="loc_us-gaapEffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/NatureOfBusinessAndBasisOfPresentation" xlink:title="999008 - Disclosure - Nature of the Business and Basis of Presentation" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPolicies" xlink:title="999009 - Disclosure - Summary of Significant Accounting Policies" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/Merger" xlink:title="999010 - Disclosure - Merger" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/FairValueMeasurements" xlink:title="999011 - Disclosure - Fair Value Measurements" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/PropertyAndEquipmentNet" xlink:title="999012 - Disclosure - Property and Equipment, Net" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilities" xlink:title="999013 - Disclosure - Accrued Expenses and Other Current Liabilities" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/ForwardPurchaseAgreement" xlink:title="999014 - Disclosure - Forward Purchase Agreement" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/Debt" xlink:title="999015 - Disclosure - Debt" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/ConvertiblePreferredStock" xlink:title="999016 - Disclosure - Convertible Preferred Stock" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CommonStock" xlink:title="999017 - Disclosure - Common Stock" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/Warrants" xlink:title="999018 - Disclosure - Warrants" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlans" xlink:title="999019 - Disclosure - Compensation Plans" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/Leases" xlink:title="999020 - Disclosure - Leases" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/IncomeTaxes" xlink:title="999021 - Disclosure - Income Taxes" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/RetirementPlan" xlink:title="999022 - Disclosure - Retirement Plan" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CommitmentsAndContingencies" xlink:title="999023 - Disclosure - Commitments and Contingencies" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/NetIncomeLossPerShare" xlink:title="999024 - Disclosure - Net Income (Loss) per Share" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/RelatedPartyTransactions" xlink:title="999025 - Disclosure - Related Party Transactions" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SubsequentEvents" xlink:title="999026 - Disclosure - Subsequent Events" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesPolicies" xlink:title="999028 - Disclosure - Summary of Significant Accounting Policies (Policies)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesTables" xlink:title="999029 - Disclosure - Summary of Significant Accounting Policies (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/MergerTables" xlink:title="999030 - Disclosure - Merger (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/FairValueMeasurementsTables" xlink:title="999031 - Disclosure - Fair Value Measurements (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/PropertyAndEquipmentNetTables" xlink:title="999032 - Disclosure - Property and Equipment, Net (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilitiesTables" xlink:title="999033 - Disclosure - Accrued Expenses and Other Current Liabilities (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/DebtTables" xlink:title="999034 - Disclosure - Debt (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/ConvertiblePreferredStockTables" xlink:title="999035 - Disclosure - Convertible Preferred Stock (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlansTables" xlink:title="999036 - Disclosure - Compensation Plans (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/LeasesTables" xlink:title="999037 - Disclosure - Leases (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CommitmentsAndContingenciesTables" xlink:title="999038 - Disclosure - Commitments and Contingencies (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/NetIncomeLossPerShareTables" xlink:title="999039 - Disclosure - Net Income (Loss) per Share (Tables)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/NatureOfBusinessAndBasisOfPresentationDetailsNarrative" xlink:title="999040 - Disclosure - Nature of the Business and Basis of Presentation (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails" xlink:title="999041 - Disclosure - Summary of Significant Accounting Policies (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails1" xlink:title="999042 - Disclosure - Summary of Significant Accounting Policies (Details 1)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:label="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashEquivalentsAtCarryingValue" xlink:label="loc_us-gaapCashEquivalentsAtCarryingValue" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:to="loc_us-gaapCashEquivalentsAtCarryingValue" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RestrictedCashEquivalents" xlink:label="loc_us-gaapRestrictedCashEquivalents" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:to="loc_us-gaapRestrictedCashEquivalents" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails2" xlink:title="999043 - Disclosure - Summary of Significant Accounting Policies (Details 2)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails3" xlink:title="999044 - Disclosure - Summary of Significant Accounting Policies (Details 3)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails4" xlink:title="999045 - Disclosure - Summary of Significant Accounting Policies (Details 4)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" xlink:title="999046 - Disclosure - Summary of Significant Accounting Policies (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/MergerDetails" xlink:title="999047 - Disclosure - Merger (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/MergerDetails1" xlink:title="999048 - Disclosure - Merger (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/MergerDetailsNarrative" xlink:title="999049 - Disclosure - Merger (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/FairValueMeasurementsDetails" xlink:title="999050 - Disclosure - Fair Value Measurements (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/FairValueMeasurementsDetails1" xlink:title="999051 - Disclosure - Fair Value Measurements (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/FairValueMeasurementsDetails2" xlink:title="999052 - Disclosure - Fair Value Measurements (Details 2)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/FairValueMeasurementsDetailsNarrative" xlink:title="999053 - Disclosure - Fair Value Measurements (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/PropertyAndEquipmentNetDetails" xlink:title="999054 - Disclosure - Property and Equipment, Net (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/PropertyAndEquipmentNetDetailsNarrative" xlink:title="999055 - Disclosure - Property and Equipment, Net (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilitiesDetails" xlink:title="999056 - Disclosure - Accrued Expenses and Other Current Liabilities (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/ForwardPurchaseAgreementDetailsNarrative" xlink:title="999057 - Disclosure - Forward Purchase Agreement (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/DebtDetails" xlink:title="999058 - Disclosure - Debt (Details)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DebtLongtermAndShorttermCombinedAmount" xlink:label="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SeniorLongTermNotes" xlink:label="loc_us-gaapSeniorLongTermNotes" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" xlink:to="loc_us-gaapSeniorLongTermNotes" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NotePayableRelatedParties" xlink:label="loc_zpatNotePayableRelatedParties" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" xlink:to="loc_zpatNotePayableRelatedParties" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/DebtDetails1" xlink:title="999059 - Disclosure - Debt (Details 1)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DebtCurrent" xlink:label="loc_us-gaapDebtCurrent" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NotesPayableRelatedPartiesCurrent" xlink:label="loc_zpatNotesPayableRelatedPartiesCurrent" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtCurrent" xlink:to="loc_zpatNotesPayableRelatedPartiesCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LongTermDebt" xlink:label="loc_us-gaapLongTermDebt" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_NotePayableRelatedPartiesNonCurrent" xlink:label="loc_zpatNotePayableRelatedPartiesNonCurrent" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLongTermDebt" xlink:to="loc_zpatNotePayableRelatedPartiesNonCurrent" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_SeniorLongTermNotes" xlink:label="loc_us-gaapSeniorLongTermNotes" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLongTermDebt" xlink:to="loc_us-gaapSeniorLongTermNotes" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DebtLongtermAndShorttermCombinedAmount" xlink:label="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" xlink:to="loc_us-gaapDebtCurrent" xlink:type="arc" weight="1" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" xlink:to="loc_us-gaapLongTermDebt" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/DebtDetails2" xlink:title="999060 - Disclosure - Debt (Details 2)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/DebtDetails3" xlink:title="999061 - Disclosure - Debt (Details 3)">
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_TotalFutureMinimumPayments" xlink:label="loc_zpatTotalFutureMinimumPayments" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths" xlink:label="loc_us-gaapLongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_zpatTotalFutureMinimumPayments" xlink:to="loc_us-gaapLongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo" xlink:label="loc_us-gaapLongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_zpatTotalFutureMinimumPayments" xlink:to="loc_us-gaapLongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree" xlink:label="loc_us-gaapLongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree" />
+      <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_zpatTotalFutureMinimumPayments" xlink:to="loc_us-gaapLongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DebtLongtermAndShorttermCombinedAmount" xlink:label="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" xlink:to="loc_zpatTotalFutureMinimumPayments" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="zpat-20240930.xsd#zpat_ImputedInterest" xlink:label="loc_zpatImputedInterest" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapDebtLongtermAndShorttermCombinedAmount" xlink:to="loc_zpatImputedInterest" xlink:type="arc" weight="-1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/DebtDetailsNarrative" xlink:title="999062 - Disclosure - Debt (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/ConvertiblePreferredStockDetails" xlink:title="999063 - Disclosure - Convertible Preferred Stock (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/ConvertiblePreferredStockDetailsNarrative" xlink:title="999064 - Disclosure - Convertible Preferred Stock (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CommonStockDetailsNarrative" xlink:title="999065 - Disclosure - Common Stock (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/WarrantsDetailsNarrative" xlink:title="999066 - Disclosure - Warrants (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlansDetails" xlink:title="999067 - Disclosure - Compensation Plans (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlansDetails1" xlink:title="999068 - Disclosure - Compensation Plans (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlansDetails2" xlink:title="999069 - Disclosure - Compensation Plans (Details 2)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlansDetails3" xlink:title="999070 - Disclosure - Compensation Plans (Details 3)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CompensationPlansDetailsNarrative" xlink:title="999071 - Disclosure - Compensation Plans (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/LeasesDetails" xlink:title="999072 - Disclosure - Leases (Details)">
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LeaseCost" xlink:label="loc_us-gaapLeaseCost" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingLeaseCost" xlink:label="loc_us-gaapOperatingLeaseCost" />
+      <link:calculationArc order="1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLeaseCost" xlink:to="loc_us-gaapOperatingLeaseCost" xlink:type="arc" weight="1" />
+      <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ShortTermLeaseCost" xlink:label="loc_us-gaapShortTermLeaseCost" />
+      <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLeaseCost" xlink:to="loc_us-gaapShortTermLeaseCost" xlink:type="arc" weight="1" />
+    </link:calculationLink>
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/LeasesDetails1" xlink:title="999073 - Disclosure - Leases (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/LeasesDetailsNarrative" xlink:title="999074 - Disclosure - Leases (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/IncomeTaxesDetailsNarrative" xlink:title="999075 - Disclosure - Income Taxes (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CommitmentsAndContingenciesDetails" xlink:title="999076 - Disclosure - Commitments and Contingencies (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/CommitmentsAndContingenciesDetailsNarrative" xlink:title="999077 - Disclosure - Commitments and Contingencies (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/NetIncomeLossPerShareDetails" xlink:title="999078 - Disclosure - Net Income (Loss) per Share (Details)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/NetIncomeLossPerShareDetails1" xlink:title="999079 - Disclosure - Net Income (Loss) per Share (Details 1)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/RelatedPartyTransactionsDetailsNarrative" xlink:title="999080 - Disclosure - Related Party Transactions (Details Narrative)" />
+    <link:calculationLink xlink:type="extended" xlink:role="http://zapataquantum.com/role/SubsequentEventsDetailsNarrative" xlink:title="999081 - Disclosure - Subsequent Events (Details Narrative)" />
+</link:linkbase>

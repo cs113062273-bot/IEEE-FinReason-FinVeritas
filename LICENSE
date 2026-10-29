@@ -1,0 +1,34 @@
+MIT License
+
+Copyright (c) 2026 Chin-Hao Hsu (FinVeritas)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This license applies to original FinVeritas source code and repository
+documentation, excluding the Working Notes paper in paper/. Bundled
+third-party code, rules, taxonomies, and filing structures retain their own
+licenses and notices; see THIRD_PARTY_NOTICES.md.
+
+Question-derived wording in the Task 1 registries and matching routines is
+also excluded from this MIT grant. It retains the published Task 1 data
+release's CC BY 4.0 license and attribution described in THIRD_PARTY_NOTICES.md.
+
+Working Notes paper: Copyright (c) 2026 Chin-Hao Hsu. The paper is not
+licensed under this MIT software license; this repository grants no separate
+license to redistribute or adapt it.

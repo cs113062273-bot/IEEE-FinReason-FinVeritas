@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2026 Workiva-->
+<!--r:019df4c4-ef24-7f63-8881-2e1c861865a9,g:14402abf-6afc-49a5-9a7b-0092e8ff4ce4-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:apam="http://artisanpartners.com/20260630" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://artisanpartners.com/20260630">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="apam-20260630_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="apam-20260630_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="apam-20260630_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="apam-20260630_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="Cover" roleURI="http://artisanpartners.com/role/Cover">
+        <link:definition>0000001 - Document - Cover</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedStatementsofFinancialCondition" roleURI="http://artisanpartners.com/role/UnauditedCondensedConsolidatedStatementsofFinancialCondition">
+        <link:definition>9952151 - Statement - Unaudited Condensed Consolidated Statements of Financial Condition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedCondensedConsolidatedStatementsofFinancialConditionParenthetical" roleURI="http://artisanpartners.com/role/UnauditedCondensedConsolidatedStatementsofFinancialConditionParenthetical">
+        <link:definition>9952152 - Statement - Unaudited Condensed Consolidated Statements of Financial Condition (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedConsolidatedStatementsofOperations" roleURI="http://artisanpartners.com/role/UnauditedConsolidatedStatementsofOperations">
+        <link:definition>9952153 - Statement - Unaudited Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedConsolidatedStatementsofComprehensiveIncome" roleURI="http://artisanpartners.com/role/UnauditedConsolidatedStatementsofComprehensiveIncome">
+        <link:definition>9952154 - Statement - Unaudited Consolidated Statements of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedConsolidatedStatementsofChangesinStockholdersEquity" roleURI="http://artisanpartners.com/role/UnauditedConsolidatedStatementsofChangesinStockholdersEquity">
+        <link:definition>9952155 - Statement - Unaudited Consolidated Statements of Changes in Stockholders' Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedConsolidatedStatementsofCashFlows" roleURI="http://artisanpartners.com/role/UnauditedConsolidatedStatementsofCashFlows">
+        <link:definition>9952156 - Statement - Unaudited Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NatureofBusinessandOrganization" roleURI="http://artisanpartners.com/role/NatureofBusinessandOrganization">
+        <link:definition>9952157 - Disclosure - Nature of Business and Organization</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPolicies" roleURI="http://artisanpartners.com/role/SummaryofSignificantAccountingPolicies">
+        <link:definition>9952158 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Acquisition" roleURI="http://artisanpartners.com/role/Acquisition">
+        <link:definition>9952159 - Disclosure - Acquisition</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecurities" roleURI="http://artisanpartners.com/role/InvestmentSecurities">
+        <link:definition>9952160 - Disclosure - Investment Securities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurements" roleURI="http://artisanpartners.com/role/FairValueMeasurements">
+        <link:definition>9952161 - Disclosure - Fair Value Measurements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Borrowings" roleURI="http://artisanpartners.com/role/Borrowings">
+        <link:definition>9952162 - Disclosure - Borrowings</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesandConsolidatedInvestmentProducts" roleURI="http://artisanpartners.com/role/VariableInterestEntitiesandConsolidatedInvestmentProducts">
+        <link:definition>9952163 - Disclosure - Variable Interest Entities and Consolidated Investment Products</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NoncontrollingInterestsHoldings" roleURI="http://artisanpartners.com/role/NoncontrollingInterestsHoldings">
+        <link:definition>9952164 - Disclosure - Noncontrolling Interests - Holdings</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockholdersEquity" roleURI="http://artisanpartners.com/role/StockholdersEquity">
+        <link:definition>9952165 - Disclosure - Stockholders' Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueFromContractswithCustomers" roleURI="http://artisanpartners.com/role/RevenueFromContractswithCustomers">
+        <link:definition>9952166 - Disclosure - Revenue From Contracts with Customers</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CompensationandBenefits" roleURI="http://artisanpartners.com/role/CompensationandBenefits">
+        <link:definition>9952167 - Disclosure - Compensation and Benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesandRelatedPayments" roleURI="http://artisanpartners.com/role/IncomeTaxesandRelatedPayments">
+        <link:definition>9952168 - Disclosure - Income Taxes and Related Payments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShare" roleURI="http://artisanpartners.com/role/EarningsPerShare">
+        <link:definition>9952169 - Disclosure - Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Indemnifications" roleURI="http://artisanpartners.com/role/Indemnifications">
+        <link:definition>9952170 - Disclosure - Indemnifications</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactions" roleURI="http://artisanpartners.com/role/RelatedPartyTransactions">
+        <link:definition>9952171 - Disclosure - Related Party Transactions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEvents" roleURI="http://artisanpartners.com/role/SubsequentEvents">
+        <link:definition>9952172 - Disclosure - Subsequent Events</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReporting" roleURI="http://artisanpartners.com/role/SegmentReporting">
+        <link:definition>9952173 - Disclosure - Segment Reporting</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesPolicies" roleURI="http://artisanpartners.com/role/SummaryofSignificantAccountingPoliciesPolicies">
+        <link:definition>9955511 - Disclosure - Summary of Significant Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionTables" roleURI="http://artisanpartners.com/role/AcquisitionTables">
+        <link:definition>9955512 - Disclosure - Acquisition (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesTables" roleURI="http://artisanpartners.com/role/InvestmentSecuritiesTables">
+        <link:definition>9955513 - Disclosure - Investment Securities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsTables" roleURI="http://artisanpartners.com/role/FairValueMeasurementsTables">
+        <link:definition>9955514 - Disclosure - Fair Value Measurements (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BorrowingsTables" roleURI="http://artisanpartners.com/role/BorrowingsTables">
+        <link:definition>9955515 - Disclosure - Borrowings (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesandConsolidatedInvestmentProductsTables" roleURI="http://artisanpartners.com/role/VariableInterestEntitiesandConsolidatedInvestmentProductsTables">
+        <link:definition>9955516 - Disclosure - Variable Interest Entities and Consolidated Investment Products (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NoncontrollingInterestsHoldingsTables" roleURI="http://artisanpartners.com/role/NoncontrollingInterestsHoldingsTables">
+        <link:definition>9955517 - Disclosure - Noncontrolling Interests - Holdings (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockholdersEquityTables" roleURI="http://artisanpartners.com/role/StockholdersEquityTables">
+        <link:definition>9955518 - Disclosure - Stockholders' Equity (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueFromContractswithCustomersTables" roleURI="http://artisanpartners.com/role/RevenueFromContractswithCustomersTables">
+        <link:definition>9955519 - Disclosure - Revenue From Contracts with Customers (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CompensationandBenefitsTables" roleURI="http://artisanpartners.com/role/CompensationandBenefitsTables">
+        <link:definition>9955520 - Disclosure - Compensation and Benefits (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesandRelatedPaymentsTables" roleURI="http://artisanpartners.com/role/IncomeTaxesandRelatedPaymentsTables">
+        <link:definition>9955521 - Disclosure - Income Taxes and Related Payments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareTables" roleURI="http://artisanpartners.com/role/EarningsPerShareTables">
+        <link:definition>9955522 - Disclosure - Earnings Per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsTables" roleURI="http://artisanpartners.com/role/RelatedPartyTransactionsTables">
+        <link:definition>9955523 - Disclosure - Related Party Transactions (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingTables" roleURI="http://artisanpartners.com/role/SegmentReportingTables">
+        <link:definition>9955524 - Disclosure - Segment Reporting (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NatureofBusinessandOrganizationDetails" roleURI="http://artisanpartners.com/role/NatureofBusinessandOrganizationDetails">
+        <link:definition>9955525 - Disclosure - Nature of Business and Organization (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesDetails" roleURI="http://artisanpartners.com/role/SummaryofSignificantAccountingPoliciesDetails">
+        <link:definition>9955526 - Disclosure - Summary of Significant Accounting Policies (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AcquisitionDetails" roleURI="http://artisanpartners.com/role/AcquisitionDetails">
+        <link:definition>9955527 - Disclosure - Acquisition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesInvestmentsDebtandEquitySecuritiesDetails" roleURI="http://artisanpartners.com/role/InvestmentSecuritiesInvestmentsDebtandEquitySecuritiesDetails">
+        <link:definition>9955528 - Disclosure - Investment Securities - Investments, Debt and Equity Securities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesAdditionalInformationDetails" roleURI="http://artisanpartners.com/role/InvestmentSecuritiesAdditionalInformationDetails">
+        <link:definition>9955529 - Disclosure - Investment Securities - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentSecuritiesUnrealizedGainLossonInvestmentsDetails" roleURI="http://artisanpartners.com/role/InvestmentSecuritiesUnrealizedGainLossonInvestmentsDetails">
+        <link:definition>9955530 - Disclosure - Investment Securities - Unrealized Gain (Loss) on Investments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsFairvaluehierarchyofassetsandliabilitiesDetails" roleURI="http://artisanpartners.com/role/FairValueMeasurementsFairvaluehierarchyofassetsandliabilitiesDetails">
+        <link:definition>9955531 - Disclosure - Fair Value Measurements - Fair value hierarchy of assets and liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BorrowingsComponentsofBorrowingsDetails" roleURI="http://artisanpartners.com/role/BorrowingsComponentsofBorrowingsDetails">
+        <link:definition>9955532 - Disclosure - Borrowings - Components of Borrowings (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BorrowingsAdditionalInformationDetails" roleURI="http://artisanpartners.com/role/BorrowingsAdditionalInformationDetails">
+        <link:definition>9955533 - Disclosure - Borrowings - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesandConsolidatedInvestmentProductsAdditionalInformationDetails" roleURI="http://artisanpartners.com/role/VariableInterestEntitiesandConsolidatedInvestmentProductsAdditionalInformationDetails">
+        <link:definition>9955534 - Disclosure - Variable Interest Entities and Consolidated Investment Products - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesandConsolidatedInvestmentProductsAssetsLiabilitiesandEquityoftheFundDetails" roleURI="http://artisanpartners.com/role/VariableInterestEntitiesandConsolidatedInvestmentProductsAssetsLiabilitiesandEquityoftheFundDetails">
+        <link:definition>9955535 - Disclosure - Variable Interest Entities and Consolidated Investment Products - Assets, Liabilities and Equity of the Fund (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NoncontrollingInterestsHoldingsAdditionalInformationDetails" roleURI="http://artisanpartners.com/role/NoncontrollingInterestsHoldingsAdditionalInformationDetails">
+        <link:definition>9955536 - Disclosure - Noncontrolling Interests - Holdings - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NoncontrollingInterestsHoldingsShareIssuancesCancellationsDetails" roleURI="http://artisanpartners.com/role/NoncontrollingInterestsHoldingsShareIssuancesCancellationsDetails">
+        <link:definition>9955537 - Disclosure - Noncontrolling Interests - Holdings - Share Issuances &amp; Cancellations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NoncontrollingInterestsHoldingsImpactonStatementofFinancialConditionDetails" roleURI="http://artisanpartners.com/role/NoncontrollingInterestsHoldingsImpactonStatementofFinancialConditionDetails">
+        <link:definition>9955538 - Disclosure - Noncontrolling Interests - Holdings - Impact on Statement of Financial Condition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockholdersEquityAuthorizedandOutstandingEquityDetails" roleURI="http://artisanpartners.com/role/StockholdersEquityAuthorizedandOutstandingEquityDetails">
+        <link:definition>9955539 - Disclosure - Stockholders' Equity - Authorized and Outstanding Equity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockholdersEquityDividendsDeclaredDetails" roleURI="http://artisanpartners.com/role/StockholdersEquityDividendsDeclaredDetails">
+        <link:definition>9955540 - Disclosure - Stockholders' Equity - Dividends Declared (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockholdersEquityShareActivitybyClassofStockDetails" roleURI="http://artisanpartners.com/role/StockholdersEquityShareActivitybyClassofStockDetails">
+        <link:definition>9955541 - Disclosure - Stockholders' Equity - Share Activity by Class of Stock (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockholdersEquityDistributionsDetails" roleURI="http://artisanpartners.com/role/StockholdersEquityDistributionsDetails">
+        <link:definition>9955542 - Disclosure - Stockholders' Equity - Distributions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueFromContractswithCustomersDetails" roleURI="http://artisanpartners.com/role/RevenueFromContractswithCustomersDetails">
+        <link:definition>9955543 - Disclosure - Revenue From Contracts with Customers (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CompensationandBenefitsComponentsofexpenseDetails" roleURI="http://artisanpartners.com/role/CompensationandBenefitsComponentsofexpenseDetails">
+        <link:definition>9955544 - Disclosure - Compensation and Benefits - Components of expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CompensationandBenefitsAdditionalinformationDetails" roleURI="http://artisanpartners.com/role/CompensationandBenefitsAdditionalinformationDetails">
+        <link:definition>9955545 - Disclosure - Compensation and Benefits - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CompensationandBenefitsRestrictedShareActivityDetails" roleURI="http://artisanpartners.com/role/CompensationandBenefitsRestrictedShareActivityDetails">
+        <link:definition>9955546 - Disclosure - Compensation and Benefits - Restricted Share Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CompensationandBenefitsChangeinValueofInvestmentsDetails" roleURI="http://artisanpartners.com/role/CompensationandBenefitsChangeinValueofInvestmentsDetails">
+        <link:definition>9955547 - Disclosure - Compensation and Benefits - Change in Value of Investments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesandRelatedPaymentsAdditionalinformationDetails" roleURI="http://artisanpartners.com/role/IncomeTaxesandRelatedPaymentsAdditionalinformationDetails">
+        <link:definition>9955548 - Disclosure - Income Taxes and Related Payments - Additional information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesandRelatedPaymentsComponentsofprovisionforincometaxesDetails" roleURI="http://artisanpartners.com/role/IncomeTaxesandRelatedPaymentsComponentsofprovisionforincometaxesDetails">
+        <link:definition>9955549 - Disclosure - Income Taxes and Related Payments - Components of provision for income taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesandRelatedPaymentsChangesinDeferredTaxAssetsDetails" roleURI="http://artisanpartners.com/role/IncomeTaxesandRelatedPaymentsChangesinDeferredTaxAssetsDetails">
+        <link:definition>9955550 - Disclosure - Income Taxes and Related Payments - Changes in Deferred Tax Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesandRelatedPaymentsComponentsofdeferredtaxassetsDetails" roleURI="http://artisanpartners.com/role/IncomeTaxesandRelatedPaymentsComponentsofdeferredtaxassetsDetails">
+        <link:definition>9955551 - Disclosure - Income Taxes and Related Payments - Components of deferred tax assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareComputationofbasicanddilutednetincomepershareDetails" roleURI="http://artisanpartners.com/role/EarningsPerShareComputationofbasicanddilutednetincomepershareDetails">
+        <link:definition>9955552 - Disclosure - Earnings Per Share - Computation of basic and diluted net income per share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareAntidilutivesecuritiesexcludedfromthecomputationofnetincomepershareDetails" roleURI="http://artisanpartners.com/role/EarningsPerShareAntidilutivesecuritiesexcludedfromthecomputationofnetincomepershareDetails">
+        <link:definition>9955553 - Disclosure - Earnings Per Share - Antidilutive securities excluded from the computation of net income per share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsAdditionalInformationDetails" roleURI="http://artisanpartners.com/role/RelatedPartyTransactionsAdditionalInformationDetails">
+        <link:definition>9955554 - Disclosure - Related Party Transactions - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsDetails" roleURI="http://artisanpartners.com/role/RelatedPartyTransactionsDetails">
+        <link:definition>9955555 - Disclosure - Related Party Transactions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsDetails" roleURI="http://artisanpartners.com/role/SubsequentEventsDetails">
+        <link:definition>9955556 - Disclosure - Subsequent Events (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingDetails" roleURI="http://artisanpartners.com/role/SegmentReportingDetails">
+        <link:definition>9955557 - Disclosure - Segment Reporting (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="apam_DocumentAndEntityInformationAbstract" abstract="true" name="DocumentAndEntityInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="apam_ShortTermEmployeeRelatedLiabilities" abstract="false" name="ShortTermEmployeeRelatedLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_LongTermEmployeeRelatedLiabilities" abstract="false" name="LongTermEmployeeRelatedLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_AmountsPayableUnderTaxReceivableAgreement" abstract="false" name="AmountsPayableUnderTaxReceivableAgreement" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ConsolidatedInvestmentProductsMember" abstract="true" name="ConsolidatedInvestmentProductsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_SeparateAccountsMember" abstract="true" name="SeparateAccountsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_GainLossOnNonOperatingLiabilities" abstract="false" name="GainLossOnNonOperatingLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ArtisanPartnersHoldingsLPMember" abstract="true" name="ArtisanPartnersHoldingsLPMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_AdjustmentstoPaidInCapitalEstablishmentofDeferredTaxAssetsNetOfAmountsPayableUnderTaxReceivableAgreements" abstract="false" name="AdjustmentstoPaidInCapitalEstablishmentofDeferredTaxAssetsNetOfAmountsPayableUnderTaxReceivableAgreements" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ImpactOfConsolidationOfCIPs" abstract="false" name="ImpactOfConsolidationOfCIPs" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NetInvestmentGainLossOnNonconsolidatedInvestmentProducts" abstract="false" name="NetInvestmentGainLossOnNonconsolidatedInvestmentProducts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NetInvestmentGainLossOfConsolidatedInvestmentProducts" abstract="false" name="NetInvestmentGainLossOfConsolidatedInvestmentProducts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_PurchaseofInvestmentsbyConsolidatedInvestmentProducts" abstract="false" name="PurchaseofInvestmentsbyConsolidatedInvestmentProducts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ProceedsfromSaleofInvestmentsbyConsolidatedInvestmentProducts" abstract="false" name="ProceedsfromSaleofInvestmentsbyConsolidatedInvestmentProducts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NetChangeinOperatingAssetsandLiabilitiesofConsolidatedInvestmentProducts" abstract="false" name="NetChangeinOperatingAssetsandLiabilitiesofConsolidatedInvestmentProducts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_PaymentsForLeaseholdImprovements" abstract="false" name="PaymentsForLeaseholdImprovements" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_TaxReceivableAgreementPayments" abstract="false" name="TaxReceivableAgreementPayments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_CapitalContributionstoConsolidatedInvestmentProducts" abstract="false" name="CapitalContributionstoConsolidatedInvestmentProducts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ReductionToCashDueToDeconsolidation" abstract="false" name="ReductionToCashDueToDeconsolidation" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NonCashTransactionInitialEstablishmentOfDeferredTaxAssets" abstract="false" name="NonCashTransactionInitialEstablishmentOfDeferredTaxAssets" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NonCashTransactionInitialEstablishmentOfAmountsPayableUnderTaxReceivableAgreements" abstract="false" name="NonCashTransactionInitialEstablishmentOfAmountsPayableUnderTaxReceivableAgreements" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_SettlementOfFranchiseCapitalLiabilityViaTransferOfInvestmentSecurities" abstract="false" name="SettlementOfFranchiseCapitalLiabilityViaTransferOfInvestmentSecurities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_IncreaseInCIPNetAssetsDueToConsolidation" abstract="false" name="IncreaseInCIPNetAssetsDueToConsolidation" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_FairValueMeasurementsRecurringandNonrecurringAbstract" abstract="true" name="FairValueMeasurementsRecurringandNonrecurringAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="apam_ScheduleOfDistributionsMadeToGeneralAndLimitedPartnersTableTextBlock" abstract="false" name="ScheduleOfDistributionsMadeToGeneralAndLimitedPartnersTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="apam_ScheduleOfLaborAndRelatedExpenseTableTextBlock" abstract="false" name="ScheduleOfLaborAndRelatedExpenseTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="apam_ArtisanFundsMember" abstract="true" name="ArtisanFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_ArtisanGlobalFundsMember" abstract="true" name="ArtisanGlobalFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_PrivatelyOfferedFundsMember" abstract="true" name="PrivatelyOfferedFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_ArtisanPartnersLimitedPartnershipMember" abstract="true" name="ArtisanPartnersLimitedPartnershipMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_SignificantAccountingPoliciesTable" abstract="true" name="SignificantAccountingPoliciesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="apam_ArtisanPrivateFundsMember" abstract="true" name="ArtisanPrivateFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_SignificantAccountingPoliciesLineItems" abstract="true" name="SignificantAccountingPoliciesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="apam_NumberOfConsolidatedVIEs" abstract="false" name="NumberOfConsolidatedVIEs" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="apam_GrandviewMember" abstract="true" name="GrandviewMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_BusinessCombinationRecognizedAssetAcquiredOtherAssetNet" abstract="false" name="BusinessCombinationRecognizedAssetAcquiredOtherAssetNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_SeedInvestmentsMember" abstract="true" name="SeedInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_LongTermCashAwardsMember" abstract="true" name="LongTermCashAwardsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_SeriesESeniorNotesMember" abstract="true" name="SeriesESeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_SeriesFSeniorNotesMember" abstract="true" name="SeriesFSeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_SeriesGSeniorNotesMember" abstract="true" name="SeriesGSeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_NetAssetsofConsolidatedInvestmentProductsMeasuredatFairValue" abstract="false" name="NetAssetsofConsolidatedInvestmentProductsMeasuredatFairValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NetAssetsofConsolidatedInvestmentProductsCarryingValue" abstract="false" name="NetAssetsofConsolidatedInvestmentProductsCarryingValue" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_NetAssetsofConsolidatedInvestmentProducts" abstract="false" name="NetAssetsofConsolidatedInvestmentProducts" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_LimitedPartnershipUnitsMember" abstract="true" name="LimitedPartnershipUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_AdjustmentsToAdditionalPaidInCapitalChangeInNoncontrollingInterest" abstract="false" name="AdjustmentsToAdditionalPaidInCapitalChangeInNoncontrollingInterest" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ChangeinAPAMEconomicOwnershipInterestinArtisanPartnersHoldingsLPasapercent" abstract="false" name="ChangeinAPAMEconomicOwnershipInterestinArtisanPartnersHoldingsLPasapercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_RestrictedStockUnitsAndPerformanceStockUnitsMember" abstract="true" name="RestrictedStockUnitsAndPerformanceStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_EmployeePartnerTerminationsAxis" abstract="true" name="EmployeePartnerTerminationsAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="apam_EmployeePartnerTerminationsDomain" abstract="true" name="EmployeePartnerTerminationsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_NoncontrollingInterestIncreaseDecreaseOwnershipInterestExchangeofUnitsPercent" abstract="false" name="NoncontrollingInterestIncreaseDecreaseOwnershipInterestExchangeofUnitsPercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_CumulativeImpactofChangesinOwnership" abstract="false" name="CumulativeImpactofChangesinOwnership" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_GeneralPartnershipUnitsMember" abstract="true" name="GeneralPartnershipUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_CommonStockNumberofVotes_per_Share" abstract="false" name="CommonStockNumberofVotes_per_Share" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="apam_O2025ADividendsMember" abstract="true" name="O2025ADividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_S2025ADividendsMember" abstract="true" name="S2025ADividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_O2026ADividendsMember" abstract="true" name="O2026ADividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_S2026ADividendsMember" abstract="true" name="S2026ADividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_O2026Q2DividendsMember" abstract="true" name="O2026Q2DividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_S2026Q2DividendsMember" abstract="true" name="S2026Q2DividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_S2025Q2DividendsMember" abstract="true" name="S2025Q2DividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_O2025Q2DividendsMember" abstract="true" name="O2025Q2DividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_HoldingsCommonUnitExchangesAxis" abstract="true" name="HoldingsCommonUnitExchangesAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="apam_HoldingsCommonUnitExchangesDomain" abstract="true" name="HoldingsCommonUnitExchangesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_CommonStockSharesIssuedNotDisclosed" abstract="false" name="CommonStockSharesIssuedNotDisclosed" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="apam_ReceivableFromRedemptionOfInvestment" abstract="false" name="ReceivableFromRedemptionOfInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriodRetirementAcceleration" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardRequisiteServicePeriodRetirementAcceleration" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="apam_LongTermIncentiveCompensationExpenseImpactOfChangeInValueOfInvestments" abstract="false" name="LongTermIncentiveCompensationExpenseImpactOfChangeInValueOfInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_ApproximatePercentageOfEarningsNotSubjectToIncomeTaxes" abstract="false" name="ApproximatePercentageOfEarningsNotSubjectToIncomeTaxes" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_IncomeTaxDisclosureNumberofTaxReceivableAgreements" abstract="false" name="IncomeTaxDisclosureNumberofTaxReceivableAgreements" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="apam_TaxReceivableAgreementPercentageSavingsRequiredToBePaidToShareholders" abstract="false" name="TaxReceivableAgreementPercentageSavingsRequiredToBePaidToShareholders" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_TaxReceivableAgreementPercentageToBeRetainedByEntity" abstract="false" name="TaxReceivableAgreementPercentageToBeRetainedByEntity" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_TaxReceivableAgreementPaymentPeriod" abstract="false" name="TaxReceivableAgreementPaymentPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="apam_CapitalUnitMember" abstract="true" name="CapitalUnitMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_DeferredTaxAssetRollForward" abstract="true" name="DeferredTaxAssetRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="apam_DeferredTaxAssetsStepUpOfTaxBasis" abstract="false" name="DeferredTaxAssetsStepUpOfTaxBasis" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_DeferredTaxAssetsExchanges" abstract="false" name="DeferredTaxAssetsExchanges" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_AmortizationofTRADTA" abstract="false" name="AmortizationofTRADTA" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_TaxReceivableAgreementsRollForward" abstract="true" name="TaxReceivableAgreementsRollForward" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="apam_ManagementFeesBeforeReimbursementRevenueMember" abstract="true" name="ManagementFeesBeforeReimbursementRevenueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_ExpenseReimbursementMember" abstract="true" name="ExpenseReimbursementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="apam_RelatedPartyManagementFeePercentageAverageDailyNetAssets" abstract="false" name="RelatedPartyManagementFeePercentageAverageDailyNetAssets" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_RelatedPartyManagementFeePercentageOperatingExpensesToDailyNetAssets" abstract="false" name="RelatedPartyManagementFeePercentageOperatingExpensesToDailyNetAssets" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_RelatedPartyManagementFeeThresholdForReimbursement" abstract="false" name="RelatedPartyManagementFeeThresholdForReimbursement" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="apam_RelatedPartyFeeWaiverExpenseReimbursement" abstract="false" name="RelatedPartyFeeWaiverExpenseReimbursement" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_SalariesExpense" abstract="false" name="SalariesExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_IncentiveCompensationExpense" abstract="false" name="IncentiveCompensationExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_EmployeeBenefitsAndPayrollTaxesExpense" abstract="false" name="EmployeeBenefitsAndPayrollTaxesExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="apam_LongTermIncentiveCompensation" abstract="false" name="LongTermIncentiveCompensation" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

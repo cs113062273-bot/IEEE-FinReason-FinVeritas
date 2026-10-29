@@ -1,0 +1,58 @@
+{
+  "entity": "0001517302",
+  "schema_name": "apam-20260630.xsd",
+  "namespace": "http://artisanpartners.com/20260630",
+  "filing": {
+    "accessionNumber": "0001517302-26-000114",
+    "reportDate": "2026-06-30",
+    "primaryDocument": "apam-20260630.htm",
+    "filingDate": "2026-07-31",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "apam-20260630.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630.xsd",
+      "SHA256": "076a03cda984f81b35996734882b01c13a12ebb7c3b100cd560fe1910fdec71a",
+      "bytes": 57421
+    },
+    {
+      "file": "apam-20260630_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630_pre.xml",
+      "SHA256": "58965d9f6106c2d8d292cbb1cd743a481ebeea1657155068d79e4df4c15c51d2",
+      "bytes": 581557
+    },
+    {
+      "file": "apam-20260630_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630_def.xml",
+      "SHA256": "3abb3865c14bb9edefd5cdfee44e967509c5344920ebcc83317df3c948062bce",
+      "bytes": 433280
+    },
+    {
+      "file": "apam-20260630_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630_lab.xml",
+      "SHA256": "cf3f648903c693199d80fe2469301b51259b8828414cf9e86849563fce1277d5",
+      "bytes": 687678
+    },
+    {
+      "file": "apam-20260630_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630_cal.xml",
+      "SHA256": "759326ef70b6a9bfd4fd84816839abfbbc8632c225e1eab1e148e0c9de9f00d4",
+      "bytes": 73098
+    },
+    {
+      "file": "apam-20260630_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1517302/000151730226000114/apam-20260630_htm.xml",
+      "SHA256": "e7aff05eb32c19895e6e6b2ce8eb62dffb94749d4d41468eec3f8c3fc7e44716",
+      "bytes": 1453990
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

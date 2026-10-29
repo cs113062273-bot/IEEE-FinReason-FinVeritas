@@ -1,0 +1,58 @@
+{
+  "entity": "0000065984",
+  "schema_name": "etr-20251231.xsd",
+  "namespace": "http://www.entergy.com/20251231",
+  "filing": {
+    "accessionNumber": "0000065984-26-000174",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "etr-20251231.htm",
+    "filingDate": "2026-02-19",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "etr-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231.xsd",
+      "SHA256": "88829ed8d870d3927df33d18ceffd453c040fd67b7f672c69c7f6d30407a8d69",
+      "bytes": 290172
+    },
+    {
+      "file": "etr-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231_pre.xml",
+      "SHA256": "a4f8b39b543539eb750add090eb24ad9be81acbdf39b23f3cc662c0ad36576ab",
+      "bytes": 2411900
+    },
+    {
+      "file": "etr-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231_def.xml",
+      "SHA256": "a718d6c9ffa5ef0c130ebde3bb07a663f78b1f2ac74b4692c7651019bc7b649d",
+      "bytes": 2254243
+    },
+    {
+      "file": "etr-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231_lab.xml",
+      "SHA256": "ab697fc5357d2d14e04724e24d853ec8ba09308b5ac4ded3c34a1fe632800076",
+      "bytes": 2380812
+    },
+    {
+      "file": "etr-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231_cal.xml",
+      "SHA256": "57fd886b3e92b9129eb0643f6156ad035ecc02d71746e37255fb479ae9e10729",
+      "bytes": 114567
+    },
+    {
+      "file": "etr-20251231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231_htm.xml",
+      "SHA256": "05cedd8dfc9a37e3c3822b25ced830f54027006218f4bf055af782a3ed7f1e71",
+      "bytes": 57915458
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

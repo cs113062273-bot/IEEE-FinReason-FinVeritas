@@ -1,0 +1,58 @@
+{
+  "entity": "0000907654",
+  "schema_name": "orka-20251231.xsd",
+  "namespace": "http://orukatx.com/20251231",
+  "filing": {
+    "accessionNumber": "0001213900-26-026929",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "ea0273300-10k_oruka.htm",
+    "filingDate": "2026-03-12",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "orka-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/orka-20251231.xsd",
+      "SHA256": "44571afaf07bf3ba265fc00fa14b7eca50c702fc731e996bb3ac0c311e1431a2",
+      "bytes": 88873
+    },
+    {
+      "file": "orka-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/orka-20251231_lab.xml",
+      "SHA256": "93cd92e3f3a15304887430357efc0ac73ab1ac13830242059559ed2e6abb179f",
+      "bytes": 766482
+    },
+    {
+      "file": "orka-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/orka-20251231_pre.xml",
+      "SHA256": "2e1fc7e79804909020fa3aedeb31598a7234157cfe77e952961487c75bdb2c75",
+      "bytes": 467044
+    },
+    {
+      "file": "orka-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/orka-20251231_def.xml",
+      "SHA256": "ca3cc5cc3ff635ce06e0e476075a1638fee4b7448825a847c6c033834fccdc4e",
+      "bytes": 438435
+    },
+    {
+      "file": "orka-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/orka-20251231_cal.xml",
+      "SHA256": "58b7b1a3ab1a5b0bc90ee982c5930e0760283a131bbb1e4ef9877a96e57c9b09",
+      "bytes": 50446
+    },
+    {
+      "file": "ea0273300-10k_oruka_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/907654/000121390026026929/ea0273300-10k_oruka_htm.xml",
+      "SHA256": "ad8ddca0a39d0fa5f5bfa8c69e03c63f9f6316a5ac74e357e927aba7e60e761e",
+      "bytes": 1149120
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

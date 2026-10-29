@@ -1,0 +1,180 @@
+{
+  "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+  "created_at_utc": "2026-10-13T16:17:44.480780+00:00",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2021_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2021_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_usgaap_2021_concepts.csv",
+      "bytes": 361437,
+      "sha256": "45eaa9df6448a97d6de07fd261f455e5172056b2d472f568b02882e51c70ccf1",
+      "http_status": 200,
+      "csv_rows": 6245,
+      "unique_concepts": 6245,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2022_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2022_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_usgaap_2022_concepts.csv",
+      "bytes": 365433,
+      "sha256": "4f7d24e6a1de492686bb6f5723435d8614276dffc49df114d9da6544ffbb4172",
+      "http_status": 200,
+      "csv_rows": 6269,
+      "unique_concepts": 6269,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_srt_concepts.csv",
+      "bytes": 4771,
+      "sha256": "5b5b1e7403b454e709cbf4d553b9b591a7b2c5d316af2fdebbd282652889af5f",
+      "http_status": 200,
+      "csv_rows": 85,
+      "unique_concepts": 85,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2023_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2023_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_srt_2023_concepts.csv",
+      "bytes": 4934,
+      "sha256": "acd10b8fb4cd60accb4a75666a2772a3da2cc8318b1a4c2fca580d26c3f18068",
+      "http_status": 200,
+      "csv_rows": 88,
+      "unique_concepts": 88,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2024_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2024_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_srt_2024_concepts.csv",
+      "bytes": 5056,
+      "sha256": "400c5f7e74f9c31df19fa3aba0bae0592531eef3989e57a86c72ed5307c768fa",
+      "http_status": 200,
+      "csv_rows": 90,
+      "unique_concepts": 90,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2025_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2025_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_srt_2025_concepts.csv",
+      "bytes": 5455,
+      "sha256": "ef1466e7e6f0aeade170b796a81cf2b2dbf9785d0435f4a89cbcddbbe5d4d9c9",
+      "http_status": 200,
+      "csv_rows": 94,
+      "unique_concepts": 94,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2026_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_2026_concepts.csv",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\dqc_15_srt_2026_concepts.csv",
+      "bytes": 5543,
+      "sha256": "bf3875d403b57ca09a4be15cf8326115438a2735ae644e036846679a0a73d388",
+      "http_status": 200,
+      "csv_rows": 96,
+      "unique_concepts": 96,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/License.md",
+      "remote_path": "License.md",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\License_DQC0015.md",
+      "bytes": 1813,
+      "sha256": "8aa6d2bae76c3cc4d5cafb6016726bf2719a7700dd64efdaca67b897dd584931",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/source/us/2023/constant-us-gaap.xule",
+      "remote_path": "dqc_us_rules/source/us/2023/constant-us-gaap.xule",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\constant-us-gaap-2023.xule",
+      "bytes": 25061,
+      "sha256": "ee423827bcf6f9abc58700f29b09a9b270fe62cd5fcd9ee92c5eb28c6e3c677b",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/source/us/2023/constant.xule",
+      "remote_path": "dqc_us_rules/source/us/2023/constant.xule",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\constant-2023.xule",
+      "bytes": 55455,
+      "sha256": "0c185aceb8dc4bee9622a49d0b4582f369a26b5991ff964b4cb6543edd379fd3",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/source/us/2023/resources.xule",
+      "remote_path": "dqc_us_rules/source/us/2023/resources.xule",
+      "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+      "file": "resources\\task3_round4_dqc\\resources-2023.xule",
+      "bytes": 8653,
+      "sha256": "8279e5592f2c18b6e2225f6559503eb75f44912a42b94300d4f5c142f307ee40",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/cbb5f1f02d2f3f21b438a72a555127c4090d135b/dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_concepts.csv",
+      "remote_path": "dqc_us_rules/resources/DQC_US_0015/dqc_15_srt_concepts.csv",
+      "commit": "cbb5f1f02d2f3f21b438a72a555127c4090d135b",
+      "file": "resources\\task3_round4_dqc\\v18_dqc_15_srt_concepts.csv",
+      "bytes": 3126,
+      "sha256": "8f855a12a9ecd01a9da954c197989d909ab5af22efc0caea30789bee01550d4f",
+      "http_status": 200,
+      "csv_rows": 50,
+      "unique_concepts": 50,
+      "column_contract": "rule suffix ID, concept local name"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/cbb5f1f02d2f3f21b438a72a555127c4090d135b/dqc_us_rules/source/us/2021/namespace.xule",
+      "remote_path": "dqc_us_rules/source/us/2021/namespace.xule",
+      "commit": "cbb5f1f02d2f3f21b438a72a555127c4090d135b",
+      "file": "resources\\task3_round4_dqc\\v18_2021_namespace.xule",
+      "bytes": 1301,
+      "sha256": "22fb94fb8f9c6c2f93d2e37d7098e6b01db73ae05ed251824770a3271dec5f29",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/cbb5f1f02d2f3f21b438a72a555127c4090d135b/dqc_us_rules/source/us/2021/resources.xule",
+      "remote_path": "dqc_us_rules/source/us/2021/resources.xule",
+      "commit": "cbb5f1f02d2f3f21b438a72a555127c4090d135b",
+      "file": "resources\\task3_round4_dqc\\v18_2021_resources.xule",
+      "bytes": 8648,
+      "sha256": "8b28bf3e4710683553f15c81f5ed5821dc0c3191520879ca96610c92fecb8bf5",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/cbb5f1f02d2f3f21b438a72a555127c4090d135b/dqc_us_rules/source/us/2022/namespace.xule",
+      "remote_path": "dqc_us_rules/source/us/2022/namespace.xule",
+      "commit": "cbb5f1f02d2f3f21b438a72a555127c4090d135b",
+      "file": "resources\\task3_round4_dqc\\v18_2022_namespace.xule",
+      "bytes": 1331,
+      "sha256": "cd2006c08d27243fe4db550c6bda7762e67aece5eb9fde285e836f2c01c76268",
+      "http_status": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/cbb5f1f02d2f3f21b438a72a555127c4090d135b/dqc_us_rules/source/us/2022/resources.xule",
+      "remote_path": "dqc_us_rules/source/us/2022/resources.xule",
+      "commit": "cbb5f1f02d2f3f21b438a72a555127c4090d135b",
+      "file": "resources\\task3_round4_dqc\\v18_2022_resources.xule",
+      "bytes": 8648,
+      "sha256": "ab5354192fbd66658364216b494de50493c510451646e5dc93b7b1533bf887be",
+      "http_status": 200
+    }
+  ],
+  "public_generic_rules_only": true,
+  "company_case_findings_downloaded": false,
+  "no_production_solver_changes": true,
+  "license_file": "resources/task3_round4_dqc/License_DQC0015.md",
+  "historical_v18_commit": "cbb5f1f02d2f3f21b438a72a555127c4090d135b",
+  "srt_version_caveat": "v18 resources and namespace source explicitly associate the historical unsuffixed SRT CSV to 2021/2022 taxonomy namespaces. Prefer that v18 list for those namespaces. v29 unsuffixed SRT resource is not assumed universal."
+}

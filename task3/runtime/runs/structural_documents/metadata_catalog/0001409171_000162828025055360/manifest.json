@@ -1,0 +1,58 @@
+{
+  "entity": "0001409171",
+  "schema_name": "titn-20251031.xsd",
+  "namespace": "http://www.titanmachinery.com/20251031",
+  "filing": {
+    "accessionNumber": "0001628280-25-055360",
+    "reportDate": "2025-10-31",
+    "primaryDocument": "titn-20251031.htm",
+    "filingDate": "2025-12-04",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "titn-20251031.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828025055360/titn-20251031.xsd",
+      "SHA256": "77ec784559bb59b2f5fc52c0cf8367fa2d7ac8872a0900cc8bb9201aade506b8",
+      "bytes": 44090
+    },
+    {
+      "file": "titn-20251031_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828025055360/titn-20251031_pre.xml",
+      "SHA256": "eddd786a9b4c0c0af3414904731d9d5ed1a9b74e790743ac2ad560fa82b6d071",
+      "bytes": 451504
+    },
+    {
+      "file": "titn-20251031_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828025055360/titn-20251031_def.xml",
+      "SHA256": "b094e0a66ba732f24974ed444c3970f296cb6d33eb787e52df4feaf448b98680",
+      "bytes": 249213
+    },
+    {
+      "file": "titn-20251031_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828025055360/titn-20251031_lab.xml",
+      "SHA256": "2420c8f0a763bc78a025c8735b69a845241fd0d71411c542458618ab61ecd6e8",
+      "bytes": 600910
+    },
+    {
+      "file": "titn-20251031_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828025055360/titn-20251031_cal.xml",
+      "SHA256": "978e8ed684d2a3649636fd3326267da55a85e8bee7ecd9bc618da1df4fa8fecc",
+      "bytes": 55382
+    },
+    {
+      "file": "titn-20251031_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1409171/000162828025055360/titn-20251031_htm.xml",
+      "SHA256": "832446678bc846486e024ca6849d8bdecd759754a6abe6cf410ebf7fb931240f",
+      "bytes": 1123105
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

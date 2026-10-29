@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2026 Workiva-->
+<!--r:001cce26-73e9-4de3-8afb-fa9ba2cbc273,g:77268c43-eb02-40ee-b37e-2a5c813ef3c4-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ncr="http://www.ncr.com/20251231" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.ncr.com/20251231">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/cyd-af-sub/2025" schemaLocation="https://xbrl.sec.gov/cyd/2025/cyd-af-sub-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ncr-20251231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ncr-20251231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ncr-20251231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ncr-20251231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://www.ncr.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AuditInformation" roleURI="http://www.ncr.com/role/AuditInformation">
+        <link:definition>0000002 - Document - Audit Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofOperations" roleURI="http://www.ncr.com/role/ConsolidatedStatementsofOperations">
+        <link:definition>9952151 - Statement - Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofComprehensiveIncomeLoss" roleURI="http://www.ncr.com/role/ConsolidatedStatementsofComprehensiveIncomeLoss">
+        <link:definition>9952152 - Statement - Consolidated Statements of Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheets" roleURI="http://www.ncr.com/role/ConsolidatedBalanceSheets">
+        <link:definition>9952153 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsParenthetical" roleURI="http://www.ncr.com/role/ConsolidatedBalanceSheetsParenthetical">
+        <link:definition>9952154 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlows" roleURI="http://www.ncr.com/role/ConsolidatedStatementsofCashFlows">
+        <link:definition>9952155 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinStockholdersEquity" roleURI="http://www.ncr.com/role/ConsolidatedStatementsofChangesinStockholdersEquity">
+        <link:definition>9952156 - Statement - Consolidated Statements of Changes in Stockholders' Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIES" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIES">
+        <link:definition>9952157 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDPURCHASEDINTANGIBLEASSETS" roleURI="http://www.ncr.com/role/GOODWILLANDPURCHASEDINTANGIBLEASSETS">
+        <link:definition>9952158 - Disclosure - GOODWILL AND PURCHASED INTANGIBLE ASSETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONS" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONS">
+        <link:definition>9952159 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DEBTOBLIGATIONS" roleURI="http://www.ncr.com/role/DEBTOBLIGATIONS">
+        <link:definition>9952160 - Disclosure - DEBT OBLIGATIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TRADERECEIVABLESFACILITY" roleURI="http://www.ncr.com/role/TRADERECEIVABLESFACILITY">
+        <link:definition>9952161 - Disclosure - TRADE RECEIVABLES FACILITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXES" roleURI="http://www.ncr.com/role/INCOMETAXES">
+        <link:definition>9952162 - Disclosure - INCOME TAXES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANS" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANS">
+        <link:definition>9952163 - Disclosure - STOCK COMPENSATION PLANS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANS" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANS">
+        <link:definition>9952164 - Disclosure - EMPLOYEE BENEFIT PLANS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIES" roleURI="http://www.ncr.com/role/COMMITMENTSANDCONTINGENCIES">
+        <link:definition>9952165 - Disclosure - COMMITMENTS AND CONTINGENCIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASING" roleURI="http://www.ncr.com/role/LEASING">
+        <link:definition>9952166 - Disclosure - LEASING</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTIES" roleURI="http://www.ncr.com/role/RELATEDPARTIES">
+        <link:definition>9952167 - Disclosure - RELATED PARTIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARE" roleURI="http://www.ncr.com/role/EARNINGSPERSHARE">
+        <link:definition>9952168 - Disclosure - EARNINGS PER SHARE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVESANDHEDGINGINSTRUMENTS" roleURI="http://www.ncr.com/role/DERIVATIVESANDHEDGINGINSTRUMENTS">
+        <link:definition>9952169 - Disclosure - DERIVATIVES AND HEDGING INSTRUMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFASSETSANDLIABILITIES" roleURI="http://www.ncr.com/role/FAIRVALUEOFASSETSANDLIABILITIES">
+        <link:definition>9952170 - Disclosure - FAIR VALUE OF ASSETS AND LIABILITIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOME" roleURI="http://www.ncr.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOME">
+        <link:definition>9952171 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUPPLEMENTALFINANCIALINFORMATION" roleURI="http://www.ncr.com/role/SUPPLEMENTALFINANCIALINFORMATION">
+        <link:definition>9952172 - Disclosure - SUPPLEMENTAL FINANCIAL INFORMATION</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITED" roleURI="http://www.ncr.com/role/REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITED">
+        <link:definition>9952173 - Disclosure - REVISED INFORMATION FOR PRIOR PERIOD QUARTERLY FINANCIAL STATEMENTS (UNAUDITED)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTS" roleURI="http://www.ncr.com/role/SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTS">
+        <link:definition>9952174 - Disclosure - SCHEDULE II - VALUATION AND QUALIFYING ACCOUNTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESPolicies" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESPolicies">
+        <link:definition>9955511 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESTables" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESTables">
+        <link:definition>9955512 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDPURCHASEDINTANGIBLEASSETSTables" roleURI="http://www.ncr.com/role/GOODWILLANDPURCHASEDINTANGIBLEASSETSTables">
+        <link:definition>9955513 - Disclosure - GOODWILL AND PURCHASED INTANGIBLE ASSETS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONSTables" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONSTables">
+        <link:definition>9955514 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DEBTOBLIGATIONSTables" roleURI="http://www.ncr.com/role/DEBTOBLIGATIONSTables">
+        <link:definition>9955515 - Disclosure - DEBT OBLIGATIONS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESTables" roleURI="http://www.ncr.com/role/INCOMETAXESTables">
+        <link:definition>9955516 - Disclosure - INCOME TAXES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSTables" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSTables">
+        <link:definition>9955517 - Disclosure - STOCK COMPENSATION PLANS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSTables" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSTables">
+        <link:definition>9955518 - Disclosure - EMPLOYEE BENEFIT PLANS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGTables" roleURI="http://www.ncr.com/role/LEASINGTables">
+        <link:definition>9955519 - Disclosure - LEASING (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTIESTables" roleURI="http://www.ncr.com/role/RELATEDPARTIESTables">
+        <link:definition>9955520 - Disclosure - RELATED PARTIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARETables" roleURI="http://www.ncr.com/role/EARNINGSPERSHARETables">
+        <link:definition>9955521 - Disclosure - EARNINGS PER SHARE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVESANDHEDGINGINSTRUMENTSTables" roleURI="http://www.ncr.com/role/DERIVATIVESANDHEDGINGINSTRUMENTSTables">
+        <link:definition>9955522 - Disclosure - DERIVATIVES AND HEDGING INSTRUMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFASSETSANDLIABILITIESTables" roleURI="http://www.ncr.com/role/FAIRVALUEOFASSETSANDLIABILITIESTables">
+        <link:definition>9955523 - Disclosure - FAIR VALUE OF ASSETS AND LIABILITIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOMETables" roleURI="http://www.ncr.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOMETables">
+        <link:definition>9955524 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUPPLEMENTALFINANCIALINFORMATIONTables" roleURI="http://www.ncr.com/role/SUPPLEMENTALFINANCIALINFORMATIONTables">
+        <link:definition>9955525 - Disclosure - SUPPLEMENTAL FINANCIAL INFORMATION (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITEDTables" roleURI="http://www.ncr.com/role/REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITEDTables">
+        <link:definition>9955526 - Disclosure - REVISED INFORMATION FOR PRIOR PERIOD QUARTERLY FINANCIAL STATEMENTS (UNAUDITED) (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESNarrativeDetails" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESNarrativeDetails">
+        <link:definition>9955527 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESNarrativeDetails_1" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESNarrativeDetails_1">
+        <link:definition>9955527 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESCashandCashEquivalentsDetails" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESCashandCashEquivalentsDetails">
+        <link:definition>9955528 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES - Cash and Cash Equivalents (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESComponentsofAccountsReceivableDetails" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESComponentsofAccountsReceivableDetails">
+        <link:definition>9955529 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES - Components of Accounts Receivable (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESContractwithCustomerAssetandLiabilityDetails" roleURI="http://www.ncr.com/role/BASISOFPRESENTATIONANDSIGNIFICANTACCOUNTINGPOLICIESContractwithCustomerAssetandLiabilityDetails">
+        <link:definition>9955530 - Disclosure - BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES - Contract with Customer, Asset and Liability (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDPURCHASEDINTANGIBLEASSETSGoodwillbySegmentsDetails" roleURI="http://www.ncr.com/role/GOODWILLANDPURCHASEDINTANGIBLEASSETSGoodwillbySegmentsDetails">
+        <link:definition>9955531 - Disclosure - GOODWILL AND PURCHASED INTANGIBLE ASSETS - Goodwill by Segments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDPURCHASEDINTANGIBLEASSETSNarrativeDetails" roleURI="http://www.ncr.com/role/GOODWILLANDPURCHASEDINTANGIBLEASSETSNarrativeDetails">
+        <link:definition>9955532 - Disclosure - GOODWILL AND PURCHASED INTANGIBLE ASSETS - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDPURCHASEDINTANGIBLEASSETSPurchasedIntangibleAssetsDetails" roleURI="http://www.ncr.com/role/GOODWILLANDPURCHASEDINTANGIBLEASSETSPurchasedIntangibleAssetsDetails">
+        <link:definition>9955533 - Disclosure - GOODWILL AND PURCHASED INTANGIBLE ASSETS - Purchased Intangible Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLANDPURCHASEDINTANGIBLEASSETSAmorizationExpenseDetails" roleURI="http://www.ncr.com/role/GOODWILLANDPURCHASEDINTANGIBLEASSETSAmorizationExpenseDetails">
+        <link:definition>9955534 - Disclosure - GOODWILL AND PURCHASED INTANGIBLE ASSETS - Amorization Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONSNarrativeDetails" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONSNarrativeDetails">
+        <link:definition>9955535 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONSRevenueandOperatingIncomeBySegmentsDetails" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONSRevenueandOperatingIncomeBySegmentsDetails">
+        <link:definition>9955536 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS - Revenue and Operating Income By Segments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONSRevenuefromExternalCustomersbyProductsandServicesDetails" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONSRevenuefromExternalCustomersbyProductsandServicesDetails">
+        <link:definition>9955537 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS - Revenue from External Customers by Products and Services (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONSGeographicAreaDetails" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONSGeographicAreaDetails">
+        <link:definition>9955538 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS - Geographic Area (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDCONCENTRATIONSPropertyPlantandEquipmentbyGeographyDetails" roleURI="http://www.ncr.com/role/SEGMENTINFORMATIONANDCONCENTRATIONSPropertyPlantandEquipmentbyGeographyDetails">
+        <link:definition>9955539 - Disclosure - SEGMENT INFORMATION AND CONCENTRATIONS - Property, Plant and Equipment by Geography (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DEBTOBLIGATIONSShorttermBorrowingsandLongtermDebtDetails" roleURI="http://www.ncr.com/role/DEBTOBLIGATIONSShorttermBorrowingsandLongtermDebtDetails">
+        <link:definition>9955540 - Disclosure - DEBT OBLIGATIONS - Short-term Borrowings and Long-term Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DEBTOBLIGATIONSAdditionalInformationDetails" roleURI="http://www.ncr.com/role/DEBTOBLIGATIONSAdditionalInformationDetails">
+        <link:definition>9955541 - Disclosure - DEBT OBLIGATIONS - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DEBTOBLIGATIONSMaturitiesofLongTermDebtDetails" roleURI="http://www.ncr.com/role/DEBTOBLIGATIONSMaturitiesofLongTermDebtDetails">
+        <link:definition>9955542 - Disclosure - DEBT OBLIGATIONS - Maturities of Long Term Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TRADERECEIVABLESFACILITYDetails" roleURI="http://www.ncr.com/role/TRADERECEIVABLESFACILITYDetails">
+        <link:definition>9955543 - Disclosure - TRADE RECEIVABLES FACILITY (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESIncomefromContinuingOperationsDetails" roleURI="http://www.ncr.com/role/INCOMETAXESIncomefromContinuingOperationsDetails">
+        <link:definition>9955544 - Disclosure - INCOME TAXES - Income from Continuing Operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESComponentsofIncomeTaxBenefitExpenseDetails" roleURI="http://www.ncr.com/role/INCOMETAXESComponentsofIncomeTaxBenefitExpenseDetails">
+        <link:definition>9955545 - Disclosure - INCOME TAXES - Components of Income Tax (Benefit) Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESScheduleofCashPaidforIncomeTaxesNetofRefundsDetails" roleURI="http://www.ncr.com/role/INCOMETAXESScheduleofCashPaidforIncomeTaxesNetofRefundsDetails">
+        <link:definition>9955546 - Disclosure - INCOME TAXES - Schedule of Cash Paid for Income Taxes, Net of Refunds (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESAdditionalInformationDetails" roleURI="http://www.ncr.com/role/INCOMETAXESAdditionalInformationDetails">
+        <link:definition>9955547 - Disclosure - INCOME TAXES - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESIncomeTaxReconciliationCurrentPeriodDetails" roleURI="http://www.ncr.com/role/INCOMETAXESIncomeTaxReconciliationCurrentPeriodDetails">
+        <link:definition>9955548 - Disclosure - INCOME TAXES - Income Tax Reconciliation Current Period (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESIncomeTaxReconciliationPriorPeriodDetails" roleURI="http://www.ncr.com/role/INCOMETAXESIncomeTaxReconciliationPriorPeriodDetails">
+        <link:definition>9955549 - Disclosure - INCOME TAXES - Income Tax Reconciliation Prior Period (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESDeferredTaxesDetails" roleURI="http://www.ncr.com/role/INCOMETAXESDeferredTaxesDetails">
+        <link:definition>9955550 - Disclosure - INCOME TAXES - Deferred Taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESUnrecognizedTaxBenefitDetails" roleURI="http://www.ncr.com/role/INCOMETAXESUnrecognizedTaxBenefitDetails">
+        <link:definition>9955551 - Disclosure - INCOME TAXES - Unrecognized Tax Benefit (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSAdditionalInformationDetails" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSAdditionalInformationDetails">
+        <link:definition>9955552 - Disclosure - STOCK COMPENSATION PLANS - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSSummaryofStockBasedCompensationExpenseSpecificToAtleosDetails" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSSummaryofStockBasedCompensationExpenseSpecificToAtleosDetails">
+        <link:definition>9955553 - Disclosure - STOCK COMPENSATION PLANS - Summary of Stock-Based Compensation Expense Specific To Atleos (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSSummaryofRestrictedStockUnitActivityDetails" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSSummaryofRestrictedStockUnitActivityDetails">
+        <link:definition>9955554 - Disclosure - STOCK COMPENSATION PLANS - Summary of Restricted Stock Unit Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSScheduleofCompositionOfRestrictedStockUnitsGrantedDetails" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSScheduleofCompositionOfRestrictedStockUnitsGrantedDetails">
+        <link:definition>9955555 - Disclosure - STOCK COMPENSATION PLANS - Schedule of Composition Of Restricted Stock Units Granted (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSValuationAssumptionsUsedforRestrictedStockUnitswithaMarketConditionDetails" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSValuationAssumptionsUsedforRestrictedStockUnitswithaMarketConditionDetails">
+        <link:definition>9955556 - Disclosure - STOCK COMPENSATION PLANS - Valuation Assumptions Used for Restricted Stock Units with a Market Condition (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="STOCKCOMPENSATIONPLANSSummaryofStockOptionActivityDetails" roleURI="http://www.ncr.com/role/STOCKCOMPENSATIONPLANSSummaryofStockOptionActivityDetails">
+        <link:definition>9955557 - Disclosure - STOCK COMPENSATION PLANS - Summary of Stock Option Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSSummaryofnetperiodicbenefitcostincomeofthepensionplansDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSSummaryofnetperiodicbenefitcostincomeofthepensionplansDetails">
+        <link:definition>9955558 - Disclosure - EMPLOYEE BENEFIT PLANS - Summary of net periodic benefit cost (income) of the pension plans (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSScheduleofpensionplanbenefitobligationsDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSScheduleofpensionplanbenefitobligationsDetails">
+        <link:definition>9955559 - Disclosure - EMPLOYEE BENEFIT PLANS - Schedule of pension plan benefit obligations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSRollforwardoffairvalueofpensionplanassetsDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSRollforwardoffairvalueofpensionplanassetsDetails">
+        <link:definition>9955560 - Disclosure - EMPLOYEE BENEFIT PLANS - Rollforward of fair value of pension plan assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSScheduleofnetbenefitcostsandamountsrecognizedinbalancesheetDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSScheduleofnetbenefitcostsandamountsrecognizedinbalancesheetDetails">
+        <link:definition>9955561 - Disclosure - EMPLOYEE BENEFIT PLANS - Schedule of net benefit costs and amounts recognized in balance sheet (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSAdditionalInformationDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSAdditionalInformationDetails">
+        <link:definition>9955562 - Disclosure - EMPLOYEE BENEFIT PLANS - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSSummaryofweightedaverageassetallocationsDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSSummaryofweightedaverageassetallocationsDetails">
+        <link:definition>9955563 - Disclosure - EMPLOYEE BENEFIT PLANS - Summary of weighted average asset allocations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSFairvalueofplanassetsDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSFairvalueofplanassetsDetails">
+        <link:definition>9955564 - Disclosure - EMPLOYEE BENEFIT PLANS - Fair value of plan assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSSummaryofplanassetsatlevel3valuationhierarchyDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSSummaryofplanassetsatlevel3valuationhierarchyDetails">
+        <link:definition>9955565 - Disclosure - EMPLOYEE BENEFIT PLANS - Summary of plan assets at level 3 valuation hierarchy (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSSummaryofweightedaverageratesandassumptionsusedDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSSummaryofweightedaverageratesandassumptionsusedDetails">
+        <link:definition>9955566 - Disclosure - EMPLOYEE BENEFIT PLANS - Summary of weighted average rates and assumptions used (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EMPLOYEEBENEFITPLANSScheduleofexpectedbenefitpaymentsDetails" roleURI="http://www.ncr.com/role/EMPLOYEEBENEFITPLANSScheduleofexpectedbenefitpaymentsDetails">
+        <link:definition>9955567 - Disclosure - EMPLOYEE BENEFIT PLANS - Schedule of expected benefit payments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIESDetails" roleURI="http://www.ncr.com/role/COMMITMENTSANDCONTINGENCIESDetails">
+        <link:definition>9955568 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGLeaseBalancesatBalanceSheetDateDetails" roleURI="http://www.ncr.com/role/LEASINGLeaseBalancesatBalanceSheetDateDetails">
+        <link:definition>9955569 - Disclosure - LEASING - Lease Balances at Balance Sheet Date (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGLeaseCostsDetails" roleURI="http://www.ncr.com/role/LEASINGLeaseCostsDetails">
+        <link:definition>9955570 - Disclosure - LEASING - Lease Costs (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGSupplementalCashFlowInformationDetails" roleURI="http://www.ncr.com/role/LEASINGSupplementalCashFlowInformationDetails">
+        <link:definition>9955571 - Disclosure - LEASING - Supplemental Cash Flow Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGPresentValueofLeaseLiabilitiesDetails" roleURI="http://www.ncr.com/role/LEASINGPresentValueofLeaseLiabilitiesDetails">
+        <link:definition>9955572 - Disclosure - LEASING - Present Value of Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGPresentValueofLeaseLiabilitiesDetails_1" roleURI="http://www.ncr.com/role/LEASINGPresentValueofLeaseLiabilitiesDetails_1">
+        <link:definition>9955572 - Disclosure - LEASING - Present Value of Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASINGWeightedAverageLeaseTermandInterestRatesDetails" roleURI="http://www.ncr.com/role/LEASINGWeightedAverageLeaseTermandInterestRatesDetails">
+        <link:definition>9955573 - Disclosure - LEASING - Weighted Average Lease Term and Interest Rates (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTIESParentAllocationDetails" roleURI="http://www.ncr.com/role/RELATEDPARTIESParentAllocationDetails">
+        <link:definition>9955574 - Disclosure - RELATED PARTIES - Parent Allocation (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTIESNarrativeDetails" roleURI="http://www.ncr.com/role/RELATEDPARTIESNarrativeDetails">
+        <link:definition>9955575 - Disclosure - RELATED PARTIES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTIESNetTransfersFromToParentDetails" roleURI="http://www.ncr.com/role/RELATEDPARTIESNetTransfersFromToParentDetails">
+        <link:definition>9955576 - Disclosure - RELATED PARTIES - Net Transfers From (To) Parent (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHAREAdditionalInformationDetails" roleURI="http://www.ncr.com/role/EARNINGSPERSHAREAdditionalInformationDetails">
+        <link:definition>9955577 - Disclosure - EARNINGS PER SHARE - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARESummaryofBasicandDilutedEarningsLossperShareDetails" roleURI="http://www.ncr.com/role/EARNINGSPERSHARESummaryofBasicandDilutedEarningsLossperShareDetails">
+        <link:definition>9955578 - Disclosure - EARNINGS PER SHARE - Summary of Basic and Diluted Earnings (Loss) per Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareDilutedEarningsPerShareDetails" roleURI="http://www.ncr.com/role/EarningsPerShareDilutedEarningsPerShareDetails">
+        <link:definition>9955579 - Disclosure - Earnings Per Share - Diluted Earnings Per Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVESANDHEDGINGINSTRUMENTSNarrativeDetails" roleURI="http://www.ncr.com/role/DERIVATIVESANDHEDGINGINSTRUMENTSNarrativeDetails">
+        <link:definition>9955580 - Disclosure - DERIVATIVES AND HEDGING INSTRUMENTS - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVESANDHEDGINGINSTRUMENTSDerivativeFairValuesDetails" roleURI="http://www.ncr.com/role/DERIVATIVESANDHEDGINGINSTRUMENTSDerivativeFairValuesDetails">
+        <link:definition>9955581 - Disclosure - DERIVATIVES AND HEDGING INSTRUMENTS - Derivative Fair Values (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVESANDHEDGINGINSTRUMENTSGainLossonDerivativesDetails" roleURI="http://www.ncr.com/role/DERIVATIVESANDHEDGINGINSTRUMENTSGainLossonDerivativesDetails">
+        <link:definition>9955582 - Disclosure - DERIVATIVES AND HEDGING INSTRUMENTS - Gain (Loss) on Derivatives (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVESANDHEDGINGINSTRUMENTSGainLossonDerivativesNotDesignatedasHedgingInstrumentsDetails" roleURI="http://www.ncr.com/role/DERIVATIVESANDHEDGINGINSTRUMENTSGainLossonDerivativesNotDesignatedasHedgingInstrumentsDetails">
+        <link:definition>9955583 - Disclosure - DERIVATIVES AND HEDGING INSTRUMENTS - Gain (Loss) on Derivatives Not Designated as Hedging Instruments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFASSETSANDLIABILITIESScheduleofFairValueAssetsandLiabilitiesMeasuredonRecurringBasisDetails" roleURI="http://www.ncr.com/role/FAIRVALUEOFASSETSANDLIABILITIESScheduleofFairValueAssetsandLiabilitiesMeasuredonRecurringBasisDetails">
+        <link:definition>9955584 - Disclosure - FAIR VALUE OF ASSETS AND LIABILITIES - Schedule of Fair Value, Assets and Liabilities Measured on Recurring Basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFASSETSANDLIABILITIESAdditionalInformationDetails" roleURI="http://www.ncr.com/role/FAIRVALUEOFASSETSANDLIABILITIESAdditionalInformationDetails">
+        <link:definition>9955585 - Disclosure - FAIR VALUE OF ASSETS AND LIABILITIES - Additional Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOMEChangesinAccumulatedOtherComprehensiveIncomeLossDetails" roleURI="http://www.ncr.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOMEChangesinAccumulatedOtherComprehensiveIncomeLossDetails">
+        <link:definition>9955586 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME - Changes in Accumulated Other Comprehensive Income (Loss) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOMEReclassificationsDetails" roleURI="http://www.ncr.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOMEReclassificationsDetails">
+        <link:definition>9955587 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME - Reclassifications (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUPPLEMENTALFINANCIALINFORMATIONInventoriesDetails" roleURI="http://www.ncr.com/role/SUPPLEMENTALFINANCIALINFORMATIONInventoriesDetails">
+        <link:definition>9955588 - Disclosure - SUPPLEMENTAL FINANCIAL INFORMATION - Inventories (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUPPLEMENTALFINANCIALINFORMATIONPropertyPlantandEquipmentDetails" roleURI="http://www.ncr.com/role/SUPPLEMENTALFINANCIALINFORMATIONPropertyPlantandEquipmentDetails">
+        <link:definition>9955589 - Disclosure - SUPPLEMENTAL FINANCIAL INFORMATION - Property, Plant and Equipment (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITEDStatementsofOperationDetails" roleURI="http://www.ncr.com/role/REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITEDStatementsofOperationDetails">
+        <link:definition>9955590 - Disclosure - REVISED INFORMATION FOR PRIOR PERIOD QUARTERLY FINANCIAL STATEMENTS (UNAUDITED) - Statements of Operation (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITEDAdditionalDetailsDetails" roleURI="http://www.ncr.com/role/REVISEDINFORMATIONFORPRIORPERIODQUARTERLYFINANCIALSTATEMENTSUNAUDITEDAdditionalDetailsDetails">
+        <link:definition>9955591 - Disclosure - REVISED INFORMATION FOR PRIOR PERIOD QUARTERLY FINANCIAL STATEMENTS (UNAUDITED)- Additional Details (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTSDetails" roleURI="http://www.ncr.com/role/SCHEDULEIIVALUATIONANDQUALIFYINGACCOUNTSDetails">
+        <link:definition>9955592 - Disclosure - SCHEDULE II - VALUATION AND QUALIFYING ACCOUNTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="ncr_AuditorInformationAbstract" abstract="true" name="AuditorInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_IncreaseDecreaseInEmployeeBenefitPlans" abstract="false" name="IncreaseDecreaseInEmployeeBenefitPlans" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_IncreaseDecreaseInSettlementAssetsAndLiabilitiesNet" abstract="false" name="IncreaseDecreaseInSettlementAssetsAndLiabilitiesNet" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_ProceedsFromPaymentsToParent" abstract="false" name="ProceedsFromPaymentsToParent" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_PaymentForConsiderationInConnectionWithSeparation" abstract="false" name="PaymentForConsiderationInConnectionWithSeparation" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_NetParentInvestmentMember" abstract="true" name="NetParentInvestmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_NetTransfersToFromParent" abstract="false" name="NetTransfersToFromParent" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_StockholdersEquityAOCITransferredSpinoffTransaction" abstract="false" name="StockholdersEquityAOCITransferredSpinoffTransaction" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_StockIssuedDuringPeriodInConnectionWithSeparationAndReclassificationShares" abstract="false" name="StockIssuedDuringPeriodInConnectionWithSeparationAndReclassificationShares" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="ncr_StockIssuedDuringPeriodInConnectionWithSeparationAndReclassificationValue" abstract="false" name="StockIssuedDuringPeriodInConnectionWithSeparationAndReclassificationValue" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_SupplementalFinancialInformationAbstract" abstract="true" name="SupplementalFinancialInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_ATMCashManagementProgramPolicyTextBlock" abstract="false" name="ATMCashManagementProgramPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="ncr_SettlementProcessingAssetsAndObligationsPolicyPolicyTextBlock" abstract="false" name="SettlementProcessingAssetsAndObligationsPolicyPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="ncr_EnvironmentalAndLegalContingenciesPolicyTextBlock" abstract="false" name="EnvironmentalAndLegalContingenciesPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="ncr_NoncontrollingInterestsPolicyTextBlock" abstract="false" name="NoncontrollingInterestsPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="ncr_AssetsAndLiabilitiesLesseeTableTextBlock" abstract="false" name="AssetsAndLiabilitiesLesseeTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="ncr_SeniorSecuredNotesMember" abstract="true" name="SeniorSecuredNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_ComputerSoftwareTypeAxis" abstract="true" name="ComputerSoftwareTypeAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_ComputerSoftwareTypeDomain" abstract="true" name="ComputerSoftwareTypeDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_SoftwareDevelopmentCostsInternalUseMember" abstract="true" name="SoftwareDevelopmentCostsInternalUseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_BrinksMember" abstract="true" name="BrinksMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_NCRAtleosCorporationMember" abstract="true" name="NCRAtleosCorporationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_MergerAgreementPricePerShare" abstract="false" name="MergerAgreementPricePerShare" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:perShareItemType"/>
+  <xs:element id="ncr_BusinessCombinationConsiderationTransferredEquityInterestsIssuedAndIssuableEntitySharesIssuedPerAcquireeShare" abstract="false" name="BusinessCombinationConsiderationTransferredEquityInterestsIssuedAndIssuableEntitySharesIssuedPerAcquireeShare" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="ncr_RevenueCommittedTermOfContract" abstract="false" name="RevenueCommittedTermOfContract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_RevenuePaymentTerm" abstract="false" name="RevenuePaymentTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_AverageAmountOfVaultCash" abstract="false" name="AverageAmountOfVaultCash" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_RestrictedCashSettlementProcessingAssets" abstract="false" name="RestrictedCashSettlementProcessingAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_CapitalizedComputerSoftwareUsefulLife" abstract="false" name="CapitalizedComputerSoftwareUsefulLife" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_SpinoffTransactionShareDistributionRatio" abstract="false" name="SpinoffTransactionShareDistributionRatio" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_RevenueRemainingPerformanceObligationPercentage1" abstract="false" name="RevenueRemainingPerformanceObligationPercentage1" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_OtherReceivablesMember" abstract="true" name="OtherReceivablesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_NetworkSegmentMember" abstract="true" name="NetworkSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_SelfServiceBankingSegmentsMember" abstract="true" name="SelfServiceBankingSegmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TTMember" abstract="true" name="TTMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_CostOfProductsAdjusted" abstract="false" name="CostOfProductsAdjusted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_CostOfServicesAdjusted" abstract="false" name="CostOfServicesAdjusted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_SellingGeneralAndAdministrativeExpenseAndResearchAndDevelopmentExpenseAdjusted" abstract="false" name="SellingGeneralAndAdministrativeExpenseAndResearchAndDevelopmentExpenseAdjusted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_TotalAdjustedEBITDA" abstract="false" name="TotalAdjustedEBITDA" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_UnallocatedIncomeAndExpenses" abstract="false" name="UnallocatedIncomeAndExpenses" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_OtherIncomeAndExpenses" abstract="false" name="OtherIncomeAndExpenses" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DepreciationAndAmortizationExcludingAcquisitionRelatedAmortizationOfIntangibles" abstract="false" name="DepreciationAndAmortizationExcludingAcquisitionRelatedAmortizationOfIntangibles" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_PlannedBusinessSeparationCosts" abstract="false" name="PlannedBusinessSeparationCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EnvironmentalIndemnificationExpense" abstract="false" name="EnvironmentalIndemnificationExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_OtherNonoperatingIncomeExpenseAdjusted" abstract="false" name="OtherNonoperatingIncomeExpenseAdjusted" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_RecurringRevenueMember" abstract="true" name="RecurringRevenueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_AllOtherProductsAndServicesMember" abstract="true" name="AllOtherProductsAndServicesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_AmericasExcludingUnitedStatesMember" abstract="true" name="AmericasExcludingUnitedStatesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_APJMember" abstract="true" name="APJMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_PercentageOfRevenuesByGeographicArea" abstract="false" name="PercentageOfRevenuesByGeographicArea" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_SeniorSecuredCreditFacilityMember" abstract="true" name="SeniorSecuredCreditFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_OtherShortTermBorrowingsMember" abstract="true" name="OtherShortTermBorrowingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermLoanFacilityMember" abstract="true" name="TermLoanFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_OtherLongTermBorrowingsMember" abstract="true" name="OtherLongTermBorrowingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermLoanA1LoansMember" abstract="true" name="TermLoanA1LoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermA2LoansMember" abstract="true" name="TermA2LoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermBLoansMember" abstract="true" name="TermBLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_RevolvingCreditLoansMember" abstract="true" name="RevolvingCreditLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermLoanFacilitiesMember" abstract="true" name="TermLoanFacilitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermA1LoansTermA2LoansAndRevolvingCreditLoansMember" abstract="true" name="TermA1LoansTermA2LoansAndRevolvingCreditLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermA1LoansMember" abstract="true" name="TermA1LoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_NewTermBLoansMember" abstract="true" name="NewTermBLoansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TermLoanAAndBFacilityMember" abstract="true" name="TermLoanAAndBFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_BancOfAmericaLeasingCapitalLLCMember" abstract="true" name="BancOfAmericaLeasingCapitalLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_VariableRateComponentAxis" abstract="true" name="VariableRateComponentAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_VariableRateComponentDomain" abstract="true" name="VariableRateComponentDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_VariableRateComponentOneMember" abstract="true" name="VariableRateComponentOneMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_VariableRateComponentTwoMember" abstract="true" name="VariableRateComponentTwoMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_PaymentPeriodAxis" abstract="true" name="PaymentPeriodAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_PaymentPeriodDomain" abstract="true" name="PaymentPeriodDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_YearsOneThroughThreeMember" abstract="true" name="YearsOneThroughThreeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_YearsFourThroughFiveMember" abstract="true" name="YearsFourThroughFiveMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_ConsolidatedLeverageRatioPeriodAxis" abstract="true" name="ConsolidatedLeverageRatioPeriodAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_ConsolidatedLeverageRatioPeriodDomain" abstract="true" name="ConsolidatedLeverageRatioPeriodDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_OnOrFollowingSeptember302024AndPriorToSeptember302025Member" abstract="true" name="OnOrFollowingSeptember302024AndPriorToSeptember302025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_EndingOnOrFollowingSeptember302025Member" abstract="true" name="EndingOnOrFollowingSeptember302025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_DebtInstrumentPeriodicPaymentPercentageOfPrincipal" abstract="false" name="DebtInstrumentPeriodicPaymentPercentageOfPrincipal" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_DebtInstrumentDebtCovenantConsolidatedTotalDebtToConsolidatedEBITDAIncreaseDueToMaterialAcquisition" abstract="false" name="DebtInstrumentDebtCovenantConsolidatedTotalDebtToConsolidatedEBITDAIncreaseDueToMaterialAcquisition" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_DebtInstrumentDebtCovenantConsolidatedTotalDebtToConsolidatedEBITDAIncreaseDueToMaterialAcquisitionMaximum" abstract="false" name="DebtInstrumentDebtCovenantConsolidatedTotalDebtToConsolidatedEBITDAIncreaseDueToMaterialAcquisitionMaximum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_LineOfCreditFacilityAccordionFeatureIncreaseLimit" abstract="false" name="LineOfCreditFacilityAccordionFeatureIncreaseLimit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DebtInstrumentLeverageRatioMaximum" abstract="false" name="DebtInstrumentLeverageRatioMaximum" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_DebtInstrumentRedemptionMinimumPercentageOfPrincipalAmountOutstanding" abstract="false" name="DebtInstrumentRedemptionMinimumPercentageOfPrincipalAmountOutstanding" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_DebtInstrumentRedemptionThresholdDays" abstract="false" name="DebtInstrumentRedemptionThresholdDays" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_DebtInstrumentRedemptionPriceIncludingApplicablePremiumPercentage" abstract="false" name="DebtInstrumentRedemptionPriceIncludingApplicablePremiumPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_TradeReceivablesFacilityMember" abstract="true" name="TradeReceivablesFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_LineOfCreditFacilitySoldAndDerecognized" abstract="false" name="LineOfCreditFacilitySoldAndDerecognized" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_TradeReceivablesSecuritizationFacilityCollateralAtPeriodEnd" abstract="false" name="TradeReceivablesSecuritizationFacilityCollateralAtPeriodEnd" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_TradeReceivablesFacilityBenefitFromCashOperations" abstract="false" name="TradeReceivablesFacilityBenefitFromCashOperations" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationFDIIAmountIncreaseDecreaseFromPriorYear" abstract="false" name="EffectiveIncomeTaxRateReconciliationFDIIAmountIncreaseDecreaseFromPriorYear" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationUSTaxImpactOnForeignIncomeTaxRateDifferentialAndOtherAmount" abstract="false" name="EffectiveIncomeTaxRateReconciliationUSTaxImpactOnForeignIncomeTaxRateDifferentialAndOtherAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationWithholdingTaxAmount" abstract="false" name="EffectiveIncomeTaxRateReconciliationWithholdingTaxAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationWithholdingTaxPercent" abstract="false" name="EffectiveIncomeTaxRateReconciliationWithholdingTaxPercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationUSTaxImpactOnForeignIncomeTaxRateDifferentialAmount" abstract="false" name="EffectiveIncomeTaxRateReconciliationUSTaxImpactOnForeignIncomeTaxRateDifferentialAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationExecutiveCompensation" abstract="false" name="EffectiveIncomeTaxRateReconciliationExecutiveCompensation" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_IncomeTaxReconciliationChangeInLiabilityForUnrecognizedTaxBenefits" abstract="false" name="IncomeTaxReconciliationChangeInLiabilityForUnrecognizedTaxBenefits" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_EffectiveIncomeTaxRateReconciliationChangeInTaxEstimatesForPriorPeriodsAmount" abstract="false" name="EffectiveIncomeTaxRateReconciliationChangeInTaxEstimatesForPriorPeriodsAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DeferredTaxAssetsOperatingLossAndTaxCreditsCarryforwards" abstract="false" name="DeferredTaxAssetsOperatingLossAndTaxCreditsCarryforwards" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DeferredTaxAssetsCapitalizedResearchAndDevelopment" abstract="false" name="DeferredTaxAssetsCapitalizedResearchAndDevelopment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DeferredTaxAssetsLeaseLiabilities" abstract="false" name="DeferredTaxAssetsLeaseLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DeferredTaxLiabilitiesDeferredExpenseTaxableDistribution" abstract="false" name="DeferredTaxLiabilitiesDeferredExpenseTaxableDistribution" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_UnrecognizedTaxBenefitsDecreaseResultingFromSettlementsWithParentCompany" abstract="false" name="UnrecognizedTaxBenefitsDecreaseResultingFromSettlementsWithParentCompany" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_StockIncentivePlan2013Member" abstract="true" name="StockIncentivePlan2013Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_EmployeeStockPurchasePlanMember" abstract="true" name="EmployeeStockPurchasePlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_NCRCorporateAndSharedEmployeesMember" abstract="true" name="NCRCorporateAndSharedEmployeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_ConvertedAwardsSpinOffMember" abstract="true" name="ConvertedAwardsSpinOffMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_ShareBasedCompensationArrangementByShareBasedPaymentAwardMandatoryPostVestingHoldingPeriod" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardMandatoryPostVestingHoldingPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_ShareBasedCompensationArrangementByShareBasedPaymentAwardWeightedAverageClosingStockPricePerDay" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardWeightedAverageClosingStockPricePerDay" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_SharebasedCompensationArrangementbySharebasedPaymentAwardDiscountfromMarketPriceLookBackPeriod" abstract="false" name="SharebasedCompensationArrangementbySharebasedPaymentAwardDiscountfromMarketPriceLookBackPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="ncr_SharebasedCompensationArrangementbySharebasedPaymentAwardMinimumEmployeeSubscriptionRate" abstract="false" name="SharebasedCompensationArrangementbySharebasedPaymentAwardMinimumEmployeeSubscriptionRate" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_EmployeeStockPurchasePlanWeightedAveragePurchasePriceOfSharesPurchased" abstract="false" name="EmployeeStockPurchasePlanWeightedAveragePurchasePriceOfSharesPurchased" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:perShareItemType"/>
+  <xs:element id="ncr_NCRAtleosOperationsMember" abstract="true" name="NCRAtleosOperationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantAdjustmentsInPeriod" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantAdjustmentsInPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="ncr_ServiceBasedRestrictedStockUnitsMember" abstract="true" name="ServiceBasedRestrictedStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_PerformanceBasedRestrictedStockUnitsMember" abstract="true" name="PerformanceBasedRestrictedStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleListNotDisclosedFlag" abstract="false" name="DefinedBenefitPlanNetPeriodicBenefitCostCreditAmortizationOfGainLossStatementOfIncomeOrComprehensiveIncomeExtensibleListNotDisclosedFlag" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanServiceCostNetOfAllocatedCosts" abstract="false" name="DefinedBenefitPlanServiceCostNetOfAllocatedCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanAssumptionGainLoss" abstract="false" name="DefinedBenefitPlanAssumptionGainLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanBenefitObligationTransferred" abstract="false" name="DefinedBenefitPlanBenefitObligationTransferred" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DefinedContributionUSPlanMember" abstract="true" name="DefinedContributionUSPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_OtherPostemploymentRetirementBenefitsMember" abstract="true" name="OtherPostemploymentRetirementBenefitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanServiceCostPriorToSpinOff" abstract="false" name="DefinedBenefitPlanServiceCostPriorToSpinOff" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanOtherMember" abstract="true" name="DefinedBenefitPlanOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_CommonAndCommingledTrustsEquitiesMember" abstract="true" name="CommonAndCommingledTrustsEquitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_CommonAndCommingledTrustsBondsMember" abstract="true" name="CommonAndCommingledTrustsBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_RealEstateAndOtherMember" abstract="true" name="RealEstateAndOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_CommonAndCommingledTrustsShortTermInvestmentsMember" abstract="true" name="CommonAndCommingledTrustsShortTermInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_PartnershipAndJointVentureInterestsOtherMember" abstract="true" name="PartnershipAndJointVentureInterestsOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_PartnershipAndJointVentureInterestsRealEstateMember" abstract="true" name="PartnershipAndJointVentureInterestsRealEstateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_InsuranceProductsMember" abstract="true" name="InsuranceProductsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_NotSubjecttoLevelingMember" abstract="true" name="NotSubjecttoLevelingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanPlanAssetsLevel3ReconciliationRealizedAndUnrealizedGainsLossesNet" abstract="false" name="DefinedBenefitPlanPlanAssetsLevel3ReconciliationRealizedAndUnrealizedGainsLossesNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRateServiceCost" abstract="false" name="DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRateServiceCost" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostInvoluntaryTurnoverRate" abstract="false" name="DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostInvoluntaryTurnoverRate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationInvoluntaryTurnoverRate" abstract="false" name="DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationInvoluntaryTurnoverRate" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_NCRVoyixMember" abstract="true" name="NCRVoyixMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_SharedEnvironmentalMattersMember" abstract="true" name="SharedEnvironmentalMattersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_KalamazooRiverSiteMember" abstract="true" name="KalamazooRiverSiteMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_SharedLegalMattersMember" abstract="true" name="SharedLegalMattersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_SpinOffTransactionPercentageOfEnvironmentalLiabilitiesAssumed" abstract="false" name="SpinOffTransactionPercentageOfEnvironmentalLiabilitiesAssumed" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_SpinOffTransactionEnvironmentalLiabilitiesAssumedThreshold" abstract="false" name="SpinOffTransactionEnvironmentalLiabilitiesAssumedThreshold" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_SpinOffTransactionPercentageOfDivestedOrDiscontinuedBusinessAssumed" abstract="false" name="SpinOffTransactionPercentageOfDivestedOrDiscontinuedBusinessAssumed" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="ncr_SpinOffTransactionEnvironmentalLiabilitiesAssumedThresholdOne" abstract="false" name="SpinOffTransactionEnvironmentalLiabilitiesAssumedThresholdOne" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_LossContingencyDamagesSoughtPercentageOfPastCostsOwed" abstract="false" name="LossContingencyDamagesSoughtPercentageOfPastCostsOwed" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="ncr_LeaseRightofUseAsset" abstract="false" name="LeaseRightofUseAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_LeaseLiability" abstract="false" name="LeaseLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_WeightedAverageRemainingLeaseTermAbstract" abstract="true" name="WeightedAverageRemainingLeaseTermAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_LeasesWeightedAverageDiscountRateAbstract" abstract="true" name="LeasesWeightedAverageDiscountRateAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_GeneralFinancingActivitiesMember" abstract="true" name="GeneralFinancingActivitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_AllocationOfCentralizedCostsMember" abstract="true" name="AllocationOfCentralizedCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_AcquisitionOfBusinessMember" abstract="true" name="AcquisitionOfBusinessMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_PriorPeriodRevisionSeparationAdjustments" abstract="false" name="PriorPeriodRevisionSeparationAdjustments" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_RestrictedStockUnitsRSUsandStockOptionsMember" abstract="true" name="RestrictedStockUnitsRSUsandStockOptionsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_SpinOffNumberOfCommonSharesDistributed" abstract="false" name="SpinOffNumberOfCommonSharesDistributed" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="ncr_InterestRateSwapAugust132024Member" abstract="true" name="InterestRateSwapAugust132024Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_InterestRateSwapAugust52024Member" abstract="true" name="InterestRateSwapAugust52024Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_InterestRateSwapTerminatingMarch2027Member" abstract="true" name="InterestRateSwapTerminatingMarch2027Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_InterestRateSwapTerminatingDecember2027Member" abstract="true" name="InterestRateSwapTerminatingDecember2027Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_InterestRateSwapTerminatingDecember2025Member" abstract="true" name="InterestRateSwapTerminatingDecember2025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_AOCIAttributableToInterestRateDerivativesMember" abstract="true" name="AOCIAttributableToInterestRateDerivativesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_TerminationOfDerivativeInstrumentNotionalAmount" abstract="false" name="TerminationOfDerivativeInstrumentNotionalAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_ProceedsFromTerminationOfDerivativeInstrument" abstract="false" name="ProceedsFromTerminationOfDerivativeInstrument" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_InterestRateSwap1Member" abstract="true" name="InterestRateSwap1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_OtherIncomeExpenseMember" abstract="true" name="OtherIncomeExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="ncr_AccumulatedOtherComprehensiveIncomeTable" abstract="true" name="AccumulatedOtherComprehensiveIncomeTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="ncr_AccumulatedOtherComprehensiveIncomeLossDueToSpinOff" abstract="false" name="AccumulatedOtherComprehensiveIncomeLossDueToSpinOff" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_AccumulatedOtherComprehensiveIncomeLossOther" abstract="false" name="AccumulatedOtherComprehensiveIncomeLossOther" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="ncr_ReclassificationOutOfAccumulatedOtherComprehensiveIncomeLineItems" abstract="true" name="ReclassificationOutOfAccumulatedOtherComprehensiveIncomeLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+</xs:schema>

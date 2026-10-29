@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<!--XBRL Document Created with XBRLMaster-->
+<!--Version: 2.3.08-->
+<!--Based on XBRL 2.1-->
+<!--Date of creation: 05/28/2025-->
+<!--Software architectural design and coding: A'c Dharmapremananda Avt.-->
+<!--Copyright (c) 2025 I-NET Business Solutions, Inc. All Rights Reserved.-->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://amjt.com/role/Cover" xlink:href="amjt-20250228.xsd#Cover" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CondensedBalanceSheets" xlink:href="amjt-20250228.xsd#CondensedBalanceSheets" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CondensedBalanceSheetsParenthetical" xlink:href="amjt-20250228.xsd#CondensedBalanceSheetsParenthetical" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CondensedStatementsOfOperations" xlink:href="amjt-20250228.xsd#CondensedStatementsOfOperations" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CondensedStatementOfChangesInStockholdersDeficit" xlink:href="amjt-20250228.xsd#CondensedStatementOfChangesInStockholdersDeficit" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CondensedStatementsOfCashFlows" xlink:href="amjt-20250228.xsd#CondensedStatementsOfCashFlows" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/InsiderTradingArragements" xlink:href="amjt-20250228.xsd#InsiderTradingArragements" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/OrganizationBusinessAndLiquidity" xlink:href="amjt-20250228.xsd#OrganizationBusinessAndLiquidity" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/GoingConcernAndLiquidityConsideration" xlink:href="amjt-20250228.xsd#GoingConcernAndLiquidityConsideration" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/EquityInvestmentRelatedParty" xlink:href="amjt-20250228.xsd#EquityInvestmentRelatedParty" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/SoftwareAndTechnologyAsset" xlink:href="amjt-20250228.xsd#SoftwareAndTechnologyAsset" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/RelatedPartyTransactions" xlink:href="amjt-20250228.xsd#RelatedPartyTransactions" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CommonStock" xlink:href="amjt-20250228.xsd#CommonStock" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CommitmentsAndContingencies" xlink:href="amjt-20250228.xsd#CommitmentsAndContingencies" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/SubsequentEvents" xlink:href="amjt-20250228.xsd#SubsequentEvents" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/OrganizationBusinessAndLiquidityPolicies" xlink:href="amjt-20250228.xsd#OrganizationBusinessAndLiquidityPolicies" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/OrganizationBusinessAndLiquidityTable" xlink:href="amjt-20250228.xsd#OrganizationBusinessAndLiquidityTable" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/EquityInvestmentRelatedPartyTable" xlink:href="amjt-20250228.xsd#EquityInvestmentRelatedPartyTable" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/SoftwareAndTechnologyAssetTables" xlink:href="amjt-20250228.xsd#SoftwareAndTechnologyAssetTables" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/OrganizationBusinessAndLiquidityDetails" xlink:href="amjt-20250228.xsd#OrganizationBusinessAndLiquidityDetails" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/OrganizationBusinessAndLiquidityDetailsNarrative" xlink:href="amjt-20250228.xsd#OrganizationBusinessAndLiquidityDetailsNarrative" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/GoingConcernAndLiquidityConsiderationDetailNarrative" xlink:href="amjt-20250228.xsd#GoingConcernAndLiquidityConsiderationDetailNarrative" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/EquityInvestmentRelatedPartyDetails" xlink:href="amjt-20250228.xsd#EquityInvestmentRelatedPartyDetails" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/EquityInvestmentRelatedPartyDetailsNarrative" xlink:href="amjt-20250228.xsd#EquityInvestmentRelatedPartyDetailsNarrative" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/SoftwareAndTechnologyAssetDetails" xlink:href="amjt-20250228.xsd#SoftwareAndTechnologyAssetDetails" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/SoftwareAndTechnologyAssetDetailsNarrative" xlink:href="amjt-20250228.xsd#SoftwareAndTechnologyAssetDetailsNarrative" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/RelatedPartyTransactionsDetailsNarrative" xlink:href="amjt-20250228.xsd#RelatedPartyTransactionsDetailsNarrative" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CommonStockDetailsNarrative" xlink:href="amjt-20250228.xsd#CommonStockDetailsNarrative" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/CommitmentsAndContingenciesDetails" xlink:href="amjt-20250228.xsd#CommitmentsAndContingenciesDetails" xlink:type="simple" />
+  <link:roleRef roleURI="http://amjt.com/role/SubsequentEventsDetailsNarrative" xlink:href="amjt-20250228.xsd#SubsequentEventsDetailsNarrative" xlink:type="simple" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/Cover" xlink:title="00000001 - Document - Document and Entity Information" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CondensedBalanceSheets" xlink:title="110200 - Statement - Condensed Balance Sheets">
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AssetsCurrent" xlink:label="loc_us-gaapAssetsCurrent" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:label="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" />
+    <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_PrepaidExpenseCurrent" xlink:label="loc_us-gaapPrepaidExpenseCurrent" />
+    <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssetsCurrent" xlink:to="loc_us-gaapPrepaidExpenseCurrent" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Assets" xlink:label="loc_us-gaapAssets" />
+    <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapAssetsCurrent" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_EquityMethodInvestments" xlink:label="loc_us-gaapEquityMethodInvestments" />
+    <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapEquityMethodInvestments" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IntangibleAssetsNetExcludingGoodwill" xlink:label="loc_us-gaapIntangibleAssetsNetExcludingGoodwill" />
+    <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapAssets" xlink:to="loc_us-gaapIntangibleAssetsNetExcludingGoodwill" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_LiabilitiesCurrent" xlink:label="loc_us-gaapLiabilitiesCurrent" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AccountsPayableAndOtherAccruedLiabilities" xlink:label="loc_us-gaapAccountsPayableAndOtherAccruedLiabilities" />
+    <link:calculationArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_us-gaapAccountsPayableAndOtherAccruedLiabilities" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_AccruedManagementFeesRelatedParty" xlink:label="loc_amjtAccruedManagementFeesRelatedParty" />
+    <link:calculationArc order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_amjtAccruedManagementFeesRelatedParty" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_RelatedPartyCurrentLiabilities" xlink:label="loc_amjtRelatedPartyCurrentLiabilities" />
+    <link:calculationArc order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilitiesCurrent" xlink:to="loc_amjtRelatedPartyCurrentLiabilities" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Liabilities" xlink:label="loc_us-gaapLiabilities" />
+    <link:calculationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_us-gaapLiabilitiesCurrent" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_DueToRelatedParty" xlink:label="loc_amjtDueToRelatedParty" />
+    <link:calculationArc order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapLiabilities" xlink:to="loc_amjtDueToRelatedParty" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquity" xlink:label="loc_us-gaapStockholdersEquity" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CommonStockValue" xlink:label="loc_us-gaapCommonStockValue" />
+    <link:calculationArc order="12" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapCommonStockValue" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_AdditionalPaidInCapital" xlink:label="loc_us-gaapAdditionalPaidInCapital" />
+    <link:calculationArc order="13" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapAdditionalPaidInCapital" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RetainedEarningsAccumulatedDeficit" xlink:label="loc_us-gaapRetainedEarningsAccumulatedDeficit" />
+    <link:calculationArc order="14" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquity" xlink:to="loc_us-gaapRetainedEarningsAccumulatedDeficit" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" xlink:label="loc_us-gaapStockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" />
+    <link:calculationArc order="15" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" xlink:to="loc_us-gaapStockholdersEquity" xlink:type="arc" weight="1" />
+    <link:calculationArc order="16" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapStockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" xlink:to="loc_us-gaapLiabilities" xlink:type="arc" weight="1" />
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CondensedBalanceSheetsParenthetical" xlink:title="110201 - Statement - Condensed Balance Sheets (Parenthetical)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CondensedStatementsOfOperations" xlink:title="124100 - Statement - Condensed Statements of Operations">
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingExpenses" xlink:label="loc_us-gaapOperatingExpenses" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_GeneralAndAdministrativeExpense" xlink:label="loc_us-gaapGeneralAndAdministrativeExpense" />
+    <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapGeneralAndAdministrativeExpense" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProfessionalFees" xlink:label="loc_us-gaapProfessionalFees" />
+    <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapProfessionalFees" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OfficersCompensation" xlink:label="loc_us-gaapOfficersCompensation" />
+    <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingExpenses" xlink:to="loc_us-gaapOfficersCompensation" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OperatingIncomeLoss" xlink:label="loc_us-gaapOperatingIncomeLoss" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_Revenues" xlink:label="loc_us-gaapRevenues" />
+    <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingIncomeLoss" xlink:to="loc_us-gaapRevenues" xlink:type="arc" weight="1" />
+    <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOperatingIncomeLoss" xlink:to="loc_us-gaapOperatingExpenses" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_OtherExpenses" xlink:label="loc_us-gaapOtherExpenses" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_EquityInvestmentIncomeRelatedParty" xlink:label="loc_amjtEquityInvestmentIncomeRelatedParty" />
+    <link:calculationArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOtherExpenses" xlink:to="loc_amjtEquityInvestmentIncomeRelatedParty" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_InterestExpense" xlink:label="loc_us-gaapInterestExpense" />
+    <link:calculationArc order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOtherExpenses" xlink:to="loc_us-gaapInterestExpense" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DepreciationDepletionAndAmortization" xlink:label="loc_us-gaapDepreciationDepletionAndAmortization" />
+    <link:calculationArc order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapOtherExpenses" xlink:to="loc_us-gaapDepreciationDepletionAndAmortization" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:label="loc_us-gaapIncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" />
+    <link:calculationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapIncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:to="loc_us-gaapOperatingIncomeLoss" xlink:type="arc" weight="1" />
+    <link:calculationArc order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapIncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:to="loc_us-gaapOtherExpenses" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_us-gaapNetIncomeLoss" />
+    <link:calculationArc order="12" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetIncomeLoss" xlink:to="loc_us-gaapIncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncomeTaxExpenseBenefit" xlink:label="loc_us-gaapIncomeTaxExpenseBenefit" />
+    <link:calculationArc order="13" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetIncomeLoss" xlink:to="loc_us-gaapIncomeTaxExpenseBenefit" xlink:type="arc" weight="-1" />
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CondensedStatementOfChangesInStockholdersDeficit" xlink:title="148600 - Statement - Condensed Statement of Changes in Stockholders Deficit" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CondensedStatementsOfCashFlows" xlink:title="170000 - Statement - Condensed Statements of Cash Flows">
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProfitLoss" xlink:label="loc_us-gaapProfitLoss" />
+    <link:calculationArc order="2" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapProfitLoss" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_DepreciationDepletionAndAmortization" xlink:label="loc_us-gaapDepreciationDepletionAndAmortization" />
+    <link:calculationArc order="3" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapDepreciationDepletionAndAmortization" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInPrepaidExpense" xlink:label="loc_us-gaapIncreaseDecreaseInPrepaidExpense" />
+    <link:calculationArc order="4" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInPrepaidExpense" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:label="loc_us-gaapIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" />
+    <link:calculationArc order="5" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_us-gaapIncreaseDecreaseInAccountsPayableAndAccruedLiabilities" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_IncreaseDecreaseInAccruedManagementFeeRelatedparty" xlink:label="loc_amjtIncreaseDecreaseInAccruedManagementFeeRelatedparty" />
+    <link:calculationArc order="6" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_amjtIncreaseDecreaseInAccruedManagementFeeRelatedparty" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_EquityInvestmentsIncomeRelatedParty" xlink:label="loc_amjtEquityInvestmentsIncomeRelatedParty" />
+    <link:calculationArc order="7" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_amjtEquityInvestmentsIncomeRelatedParty" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_ImputedInterest" xlink:label="loc_amjtImputedInterest" />
+    <link:calculationArc order="8" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:to="loc_amjtImputedInterest" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_DistributionFromEquityInvestmentsRelatedParty" xlink:label="loc_amjtDistributionFromEquityInvestmentsRelatedParty" />
+    <link:calculationArc order="9" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" xlink:to="loc_amjtDistributionFromEquityInvestmentsRelatedParty" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities" xlink:label="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_ProceedsFromRelatedPartyDebt" xlink:label="loc_us-gaapProceedsFromRelatedPartyDebt" />
+    <link:calculationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapProceedsFromRelatedPartyDebt" xlink:type="arc" weight="1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_RepaymentsOfRelatedPartyDebt" xlink:label="loc_us-gaapRepaymentsOfRelatedPartyDebt" />
+    <link:calculationArc order="11" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_us-gaapRepaymentsOfRelatedPartyDebt" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="amjt-20250228.xsd#amjt_CommonStockIssuedForCompensationRelatedParty" xlink:label="loc_amjtCommonStockIssuedForCompensationRelatedParty" />
+    <link:calculationArc order="12" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:to="loc_amjtCommonStockIssuedForCompensationRelatedParty" xlink:type="arc" weight="-1" />
+    <link:loc xlink:type="locator" xlink:href="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd#us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:label="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" />
+    <link:calculationArc order="13" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInOperatingActivities" xlink:type="arc" weight="1" />
+    <link:calculationArc order="14" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInInvestingActivities" xlink:type="arc" weight="1" />
+    <link:calculationArc order="15" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_us-gaapCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_us-gaapNetCashProvidedByUsedInFinancingActivities" xlink:type="arc" weight="1" />
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/InsiderTradingArragements" xlink:title="170001 - Disclosure - Insider Trading Arragements" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/OrganizationBusinessAndLiquidity" xlink:title="170002 - Disclosure - ORGANIZATION BUSINESS AND LIQUIDITY" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/GoingConcernAndLiquidityConsideration" xlink:title="275000 - Disclosure - GOING CONCERN AND LIQUIDITY CONSIDERATION" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/EquityInvestmentRelatedParty" xlink:title="333000 - Disclosure - EQUITY INVESTMENT - RELATED PARTY" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/SoftwareAndTechnologyAsset" xlink:title="370000 - Disclosure - SOFTWARE AND TECHNOLOGY ASSET" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/RelatedPartyTransactions" xlink:title="845000 - Disclosure - RELATED PARTY TRANSACTIONS" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CommonStock" xlink:title="845001 - Disclosure - COMMON STOCK" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CommitmentsAndContingencies" xlink:title="845002 - Disclosure - COMMITMENTS AND CONTINGENCIES" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/SubsequentEvents" xlink:title="870000 - Disclosure - SUBSEQUENT EVENTS" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/OrganizationBusinessAndLiquidityPolicies" xlink:title="870001 - Disclosure - ORGANIZATION, BUSINESS AND LIQUIDITY (Policies)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/OrganizationBusinessAndLiquidityTable" xlink:title="870002 - Disclosure - ORGANIZATION, BUSINESS AND LIQUIDITY (Table)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/EquityInvestmentRelatedPartyTable" xlink:title="870003 - Disclosure - EQUITY INVESTMENT - RELATED PARTY (Table)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/SoftwareAndTechnologyAssetTables" xlink:title="870004 - Disclosure - SOFTWARE AND TECHNOLOGY ASSET (Tables)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/OrganizationBusinessAndLiquidityDetails" xlink:title="870005 - Disclosure - ORGANIZATION BUSINESS AND LIQUIDITY (Details)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/OrganizationBusinessAndLiquidityDetailsNarrative" xlink:title="870006 - Disclosure - ORGANIZATION BUSINESS AND LIQUIDITY (Details Narrative)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/GoingConcernAndLiquidityConsiderationDetailNarrative" xlink:title="870007 - Disclosure - GOING CONCERN AND LIQUIDITY CONSIDERATION (Detail Narrative)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/EquityInvestmentRelatedPartyDetails" xlink:title="870008 - Disclosure - EQUITY INVESTMENT - RELATED PARTY (Details)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/EquityInvestmentRelatedPartyDetailsNarrative" xlink:title="870009 - Disclosure - EQUITY INVESTMENT - RELATED PARTY (Details Narrative)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/SoftwareAndTechnologyAssetDetails" xlink:title="870010 - Disclosure - SOFTWARE AND TECHNOLOGY ASSET (Details)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/SoftwareAndTechnologyAssetDetailsNarrative" xlink:title="870011 - Disclosure - SOFTWARE AND TECHNOLOGY ASSET (Details Narrative)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/RelatedPartyTransactionsDetailsNarrative" xlink:title="870012 - Disclosure - RELATED PARTY TRANSACTIONS (Details Narrative)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CommonStockDetailsNarrative" xlink:title="870013 - Disclosure - COMMON STOCK (Details Narrative)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/CommitmentsAndContingenciesDetails" xlink:title="870014 - Disclosure - COMMITMENTS AND CONTINGENCIES (Details)" />
+  <link:calculationLink xlink:type="extended" xlink:role="http://amjt.com/role/SubsequentEventsDetailsNarrative" xlink:title="870015 - Disclosure - SUBSEQUENT EVENTS (Details Narrative)" />
+</link:linkbase>

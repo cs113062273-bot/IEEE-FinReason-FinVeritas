@@ -1,0 +1,58 @@
+{
+  "entity": "0001165002",
+  "schema_name": "whg-20251231.xsd",
+  "namespace": "http://westwoodgroup.com/20251231",
+  "filing": {
+    "accessionNumber": "0001165002-26-000020",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "whg-20251231.htm",
+    "filingDate": "2026-03-04",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "whg-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1165002/000116500226000020/whg-20251231.xsd",
+      "SHA256": "47a0b8e2f76cea98ecaeb73148f8f4ff2b247eca2abdeaf13e25e34fa0b9794e",
+      "bytes": 90910
+    },
+    {
+      "file": "whg-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1165002/000116500226000020/whg-20251231_pre.xml",
+      "SHA256": "52e947ab13347b073a2a31f5ce50105d752fc9395cda8ebdeb2a67e828cc63bb",
+      "bytes": 912788
+    },
+    {
+      "file": "whg-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1165002/000116500226000020/whg-20251231_def.xml",
+      "SHA256": "6ff9aaa3e39b84a2ca8a2a5b8e8dca41415f95a523216f4633ca75b06ccd5e5e",
+      "bytes": 536203
+    },
+    {
+      "file": "whg-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1165002/000116500226000020/whg-20251231_lab.xml",
+      "SHA256": "e87b2c757037a3422c6827364b904bc14be4bc43a932be3be269846bf7fa7b2d",
+      "bytes": 1173952
+    },
+    {
+      "file": "whg-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1165002/000116500226000020/whg-20251231_cal.xml",
+      "SHA256": "d421d0016a27693cc702695e18a4718e94a92234e51b658eb71db555d8927f2b",
+      "bytes": 86891
+    },
+    {
+      "file": "whg-20251231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1165002/000116500226000020/whg-20251231_htm.xml",
+      "SHA256": "203815ab060292e686702656ad94e0ec6ffecee554065c6b35bb72efe42c3d0f",
+      "bytes": 1348088
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

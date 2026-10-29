@@ -1,0 +1,58 @@
+{
+  "entity": "0001170010",
+  "schema_name": "kmx-20251130.xsd",
+  "namespace": "http://www.carmax.com/20251130",
+  "filing": {
+    "accessionNumber": "0001170010-25-000131",
+    "reportDate": "2025-11-30",
+    "primaryDocument": "kmx-20251130.htm",
+    "filingDate": "2025-12-23",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "kmx-20251130.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000131/kmx-20251130.xsd",
+      "SHA256": "9b3931be5e147eeb430e94b95262dd5e49147e3892315d2212a1a40ddcfad82b",
+      "bytes": 64747
+    },
+    {
+      "file": "kmx-20251130_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000131/kmx-20251130_pre.xml",
+      "SHA256": "dd5076a188023bcaa7b302b24f06af7967adb50a875ef97b00a401fd648d96f4",
+      "bytes": 485482
+    },
+    {
+      "file": "kmx-20251130_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000131/kmx-20251130_def.xml",
+      "SHA256": "6420eb98ee414faee81692585cbb4f9c936dc93a1e69b9a306b4c9dbff050417",
+      "bytes": 317425
+    },
+    {
+      "file": "kmx-20251130_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000131/kmx-20251130_lab.xml",
+      "SHA256": "15e76fe44a5e735a066bfa518d0a7a512b35744d0d98fdfd77e14ee3f68d8c46",
+      "bytes": 686166
+    },
+    {
+      "file": "kmx-20251130_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000131/kmx-20251130_cal.xml",
+      "SHA256": "908406b13581ae89ba9f76232265dafd5f88726bc566dbcc390f74459fb7139d",
+      "bytes": 72448
+    },
+    {
+      "file": "kmx-20251130_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000131/kmx-20251130_htm.xml",
+      "SHA256": "b97f7544ac143fffa4285023853462bb9fd6606217cc2beaa31a35a017b2f809",
+      "bytes": 1764398
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

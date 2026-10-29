@@ -1,0 +1,58 @@
+{
+  "entity": "0001411342",
+  "schema_name": "efc-20250930.xsd",
+  "namespace": "http://www.ellingtonfinancial.com/20250930",
+  "filing": {
+    "accessionNumber": "0001628280-25-051038",
+    "reportDate": "2025-09-30",
+    "primaryDocument": "efc-20250930.htm",
+    "filingDate": "2025-11-10",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "efc-20250930.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828025051038/efc-20250930.xsd",
+      "SHA256": "5699263f643e085f91008137ea7a8e06eeda81b7433afa09b2efdabd58e07be9",
+      "bytes": 236972
+    },
+    {
+      "file": "efc-20250930_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828025051038/efc-20250930_pre.xml",
+      "SHA256": "fcefab813740308a237054ca60b1626d66907fff5e230e586766b6da80d4e08a",
+      "bytes": 1829468
+    },
+    {
+      "file": "efc-20250930_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828025051038/efc-20250930_def.xml",
+      "SHA256": "7d71987566bd2729cf01feeabd38b166ce7f9603fb96f5416de4b8eb135d095e",
+      "bytes": 1514706
+    },
+    {
+      "file": "efc-20250930_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828025051038/efc-20250930_lab.xml",
+      "SHA256": "11a828438c1f7d831af3ee6a151cba32d7cb711437e625668334aa61353ff621",
+      "bytes": 1857930
+    },
+    {
+      "file": "efc-20250930_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828025051038/efc-20250930_cal.xml",
+      "SHA256": "a06d3cd14143026ab630aadaf50d4fe92848b31311f555097717774de44ba040",
+      "bytes": 80835
+    },
+    {
+      "file": "efc-20250930_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000162828025051038/efc-20250930_htm.xml",
+      "SHA256": "0e155a9222f91490f1031acba15a48e6a80200e12c6f71627ff9e366f5a04607",
+      "bytes": 9943866
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

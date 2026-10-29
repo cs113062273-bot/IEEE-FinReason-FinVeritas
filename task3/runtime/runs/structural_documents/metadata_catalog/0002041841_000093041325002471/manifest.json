@@ -1,0 +1,58 @@
+{
+  "entity": "0002041841",
+  "schema_name": "lordabbett-20250630.xsd",
+  "namespace": "http://www.lordabbett.com/20250630",
+  "filing": {
+    "accessionNumber": "0000930413-25-002471",
+    "reportDate": "2025-06-30",
+    "primaryDocument": "c113542_10q-ixbrl.htm",
+    "filingDate": "2025-08-14",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "lordabbett-20250630.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041325002471/lordabbett-20250630.xsd",
+      "SHA256": "e10b9d330a6e884fc3eb98a87d6359b339141a41c58fbcf8e6ca9eb58b7fdae2",
+      "bytes": 76032
+    },
+    {
+      "file": "lordabbett-20250630_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041325002471/lordabbett-20250630_lab.xml",
+      "SHA256": "35f2b9de4c8cdbffc0a9d72d9063f13666b765f0898dd912a4111936f8dddb7f",
+      "bytes": 468123
+    },
+    {
+      "file": "lordabbett-20250630_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041325002471/lordabbett-20250630_pre.xml",
+      "SHA256": "59d0f90fdf9c9445d59a6d381956c508f150bfdc0b2e6b9662a45815256c3b95",
+      "bytes": 285865
+    },
+    {
+      "file": "lordabbett-20250630_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041325002471/lordabbett-20250630_def.xml",
+      "SHA256": "67332eb056e1a6045a4abfe14d1986beb97612b07afdafb9eb3aa9dd4c361a90",
+      "bytes": 356868
+    },
+    {
+      "file": "lordabbett-20250630_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041325002471/lordabbett-20250630_cal.xml",
+      "SHA256": "7b5f2e21180cf1e3586545fb9dfcca6fcfa5b0a32ca29944bd2a51a66e87201d",
+      "bytes": 35991
+    },
+    {
+      "file": "c113542_10q-ixbrl_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041841/000093041325002471/c113542_10q-ixbrl_htm.xml",
+      "SHA256": "71a6b1ab88dc9fb8e90d304f872b9d033a843a2f3b184518e3897d53b97b8184",
+      "bytes": 1568946
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

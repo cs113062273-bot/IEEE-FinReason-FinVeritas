@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:73191e78-3ae2-436f-b310-da09f2a37a10,g:e6985026-4b52-441c-8479-689a40df5844-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:cci="http://www.crowncastle.com/20250630" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.crowncastle.com/20250630">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="cci-20250630_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="cci-20250630_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="cci-20250630_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="cci-20250630_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="DocumentandEntityInformation" roleURI="http://www.crowncastle.com/role/DocumentandEntityInformation">
+        <link:definition>0000001 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedBalanceSheet" roleURI="http://www.crowncastle.com/role/CondensedConsolidatedBalanceSheet">
+        <link:definition>9952151 - Statement - Condensed Consolidated Balance Sheet</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedBalanceSheetParenthetical" roleURI="http://www.crowncastle.com/role/CondensedConsolidatedBalanceSheetParenthetical">
+        <link:definition>9952152 - Statement - Condensed Consolidated Balance Sheet (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementofOperationsandComprehensiveIncomeLoss" roleURI="http://www.crowncastle.com/role/CondensedConsolidatedStatementofOperationsandComprehensiveIncomeLoss">
+        <link:definition>9952153 - Statement - Condensed Consolidated Statement of Operations and Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementofCashFlows" roleURI="http://www.crowncastle.com/role/CondensedConsolidatedStatementofCashFlows">
+        <link:definition>9952154 - Statement - Condensed Consolidated Statement of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CondensedConsolidatedStatementofEquity" roleURI="http://www.crowncastle.com/role/CondensedConsolidatedStatementofEquity">
+        <link:definition>9952155 - Statement - Condensed Consolidated Statement of Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="General" roleURI="http://www.crowncastle.com/role/General">
+        <link:definition>9952156 - Disclosure - General</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPolicies" roleURI="http://www.crowncastle.com/role/SummaryofSignificantAccountingPolicies">
+        <link:definition>9952157 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsandDisposalGroups" roleURI="http://www.crowncastle.com/role/DiscontinuedOperationsandDisposalGroups">
+        <link:definition>9952158 - Disclosure - Discontinued Operations and Disposal Groups</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesNotes" roleURI="http://www.crowncastle.com/role/RevenuesNotes">
+        <link:definition>9952159 - Disclosure - Revenues (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandOtherObligations" roleURI="http://www.crowncastle.com/role/DebtandOtherObligations">
+        <link:definition>9952160 - Disclosure - Debt and Other Obligations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueDisclosures" roleURI="http://www.crowncastle.com/role/FairValueDisclosures">
+        <link:definition>9952161 - Disclosure - Fair Value Disclosures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.crowncastle.com/role/IncomeTaxes">
+        <link:definition>9952162 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PerShareInformation" roleURI="http://www.crowncastle.com/role/PerShareInformation">
+        <link:definition>9952163 - Disclosure - Per Share Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingencies" roleURI="http://www.crowncastle.com/role/CommitmentsandContingencies">
+        <link:definition>9952164 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Equity" roleURI="http://www.crowncastle.com/role/Equity">
+        <link:definition>9952165 - Disclosure - Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegments" roleURI="http://www.crowncastle.com/role/OperatingSegments">
+        <link:definition>9952166 - Disclosure - Operating Segments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowInformation" roleURI="http://www.crowncastle.com/role/SupplementalCashFlowInformation">
+        <link:definition>9952167 - Disclosure - Supplemental Cash Flow Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RestructuringandRelatedActivities" roleURI="http://www.crowncastle.com/role/RestructuringandRelatedActivities">
+        <link:definition>9952168 - Disclosure - Restructuring and Related Activities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEvents" roleURI="http://www.crowncastle.com/role/SubsequentEvents">
+        <link:definition>9952169 - Disclosure - Subsequent Events</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccountingPoliciesPolicies" roleURI="http://www.crowncastle.com/role/AccountingPoliciesPolicies">
+        <link:definition>9955511 - Disclosure - Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsandDisposalGroupsTables" roleURI="http://www.crowncastle.com/role/DiscontinuedOperationsandDisposalGroupsTables">
+        <link:definition>9955512 - Disclosure - Discontinued Operations and Disposal Groups (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesTables" roleURI="http://www.crowncastle.com/role/RevenuesTables">
+        <link:definition>9955513 - Disclosure - Revenues (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandOtherObligationsTables" roleURI="http://www.crowncastle.com/role/DebtandOtherObligationsTables">
+        <link:definition>9955514 - Disclosure - Debt and Other Obligations (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueDisclosuresTables" roleURI="http://www.crowncastle.com/role/FairValueDisclosuresTables">
+        <link:definition>9955515 - Disclosure - Fair Value Disclosures (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PerShareInformationTables" roleURI="http://www.crowncastle.com/role/PerShareInformationTables">
+        <link:definition>9955516 - Disclosure - Per Share Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityTables" roleURI="http://www.crowncastle.com/role/EquityTables">
+        <link:definition>9955517 - Disclosure - Equity (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsOperatingSegmentsTables" roleURI="http://www.crowncastle.com/role/OperatingSegmentsOperatingSegmentsTables">
+        <link:definition>9955518 - Disclosure - Operating Segments Operating Segments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowInformationTables" roleURI="http://www.crowncastle.com/role/SupplementalCashFlowInformationTables">
+        <link:definition>9955519 - Disclosure - Supplemental Cash Flow Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RestructuringandRelatedActivitiesTables" roleURI="http://www.crowncastle.com/role/RestructuringandRelatedActivitiesTables">
+        <link:definition>9955520 - Disclosure - Restructuring and Related Activities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsTables" roleURI="http://www.crowncastle.com/role/SubsequentEventsTables">
+        <link:definition>9955521 - Disclosure - Subsequent Events (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GeneralBusinessDetails" roleURI="http://www.crowncastle.com/role/GeneralBusinessDetails">
+        <link:definition>9955522 - Disclosure - General Business (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsandDisposalGroupsDetails" roleURI="http://www.crowncastle.com/role/DiscontinuedOperationsandDisposalGroupsDetails">
+        <link:definition>9955523 - Disclosure - Discontinued Operations and Disposal Groups (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuesDetails" roleURI="http://www.crowncastle.com/role/RevenuesDetails">
+        <link:definition>9955524 - Disclosure - Revenues (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandOtherObligationsIndebtednessDetails" roleURI="http://www.crowncastle.com/role/DebtandOtherObligationsIndebtednessDetails">
+        <link:definition>9955525 - Disclosure - Debt and Other Obligations (Indebtedness) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandOtherObligationsComponentsofInterestExpenseandAmortizationofDeferredFinancingCostsDetails" roleURI="http://www.crowncastle.com/role/DebtandOtherObligationsComponentsofInterestExpenseandAmortizationofDeferredFinancingCostsDetails">
+        <link:definition>9955526 - Disclosure - Debt and Other Obligations (Components of Interest Expense and Amortization of Deferred Financing Costs) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandOtherObligationsContractualMaturitiesDetails" roleURI="http://www.crowncastle.com/role/DebtandOtherObligationsContractualMaturitiesDetails">
+        <link:definition>9955527 - Disclosure - Debt and Other Obligations Contractual Maturities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtandOtherObligationsExtinguishmentofDebtDetails" roleURI="http://www.crowncastle.com/role/DebtandOtherObligationsExtinguishmentofDebtDetails">
+        <link:definition>9955528 - Disclosure - Debt and Other Obligations Extinguishment of Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueDisclosuresEstimatedFairValuesandCarryingAmountsofAssetsandLiabilitiesDetails" roleURI="http://www.crowncastle.com/role/FairValueDisclosuresEstimatedFairValuesandCarryingAmountsofAssetsandLiabilitiesDetails">
+        <link:definition>9955529 - Disclosure - Fair Value Disclosures (Estimated Fair Values and Carrying Amounts of Assets and Liabilities) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDetails" roleURI="http://www.crowncastle.com/role/IncomeTaxesDetails">
+        <link:definition>9955530 - Disclosure - Income Taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PerShareInformationReconciliationoftheNumeratorsandDenominatorsoftheBasicandDilutedPerShareComputationsDetails" roleURI="http://www.crowncastle.com/role/PerShareInformationReconciliationoftheNumeratorsandDenominatorsoftheBasicandDilutedPerShareComputationsDetails">
+        <link:definition>9955531 - Disclosure - Per Share Information (Reconciliation of the Numerators and Denominators of the Basic and Diluted Per Share Computations) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PerShareInformationStockIssuedDuringPeriodRestrictedStockAwardDetails" roleURI="http://www.crowncastle.com/role/PerShareInformationStockIssuedDuringPeriodRestrictedStockAwardDetails">
+        <link:definition>9955532 - Disclosure - Per Share Information Stock Issued During Period, Restricted Stock Award (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesCommitmentandContingenciesDetails" roleURI="http://www.crowncastle.com/role/CommitmentsandContingenciesCommitmentandContingenciesDetails">
+        <link:definition>9955533 - Disclosure - Commitments and Contingencies Commitment and Contingencies (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EquityDetails" roleURI="http://www.crowncastle.com/role/EquityDetails">
+        <link:definition>9955534 - Disclosure - Equity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OperatingSegmentsOperatingSegmentsTableDetails" roleURI="http://www.crowncastle.com/role/OperatingSegmentsOperatingSegmentsTableDetails">
+        <link:definition>9955535 - Disclosure - Operating Segments Operating Segments Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowInformationDetails" roleURI="http://www.crowncastle.com/role/SupplementalCashFlowInformationDetails">
+        <link:definition>9955536 - Disclosure - Supplemental Cash Flow Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RestructuringandRelatedActivitiesDetails" roleURI="http://www.crowncastle.com/role/RestructuringandRelatedActivitiesDetails">
+        <link:definition>9955537 - Disclosure - Restructuring and Related Activities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsDetails" roleURI="http://www.crowncastle.com/role/SubsequentEventsDetails">
+        <link:definition>9955538 - Disclosure - Subsequent Events (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="cci_CondensedConsolidatedBalanceSheetParentheticalAbstract" abstract="true" name="CondensedConsolidatedBalanceSheetParentheticalAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_Siterentalrevenues" abstract="false" name="Siterentalrevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_AcquisitionAndIntegrationCosts" abstract="false" name="AcquisitionAndIntegrationCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_NetIncomeLossFromDiscontinuedOperationsNetOfTax" abstract="false" name="NetIncomeLossFromDiscontinuedOperationsNetOfTax" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_General" abstract="true" name="General" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_DebtAndOtherObligationsAbstract" abstract="true" name="DebtAndOtherObligationsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_ScheduleOfInterestExpenseAndAmortizationOfDeferredFinancingCostsTableTextBlock" abstract="false" name="ScheduleOfInterestExpenseAndAmortizationOfDeferredFinancingCostsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="cci_ScheduleofCashCashEquivalentsandRestrictedCashTableTextBlock" abstract="false" name="ScheduleofCashCashEquivalentsandRestrictedCashTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="cci_A2024RestructuringAndRelatedCostsTableTextBlock" abstract="false" name="A2024RestructuringAndRelatedCostsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="cci_GeneralAbstract" abstract="true" name="GeneralAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_ContractualTermsAxis" abstract="true" name="ContractualTermsAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="cci_ContractualTermsDomain" abstract="true" name="ContractualTermsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_SubjectToCapitalLeaseWithTMOOrATTMember" abstract="true" name="SubjectToCapitalLeaseWithTMOOrATTMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_PurchaseOptionPercentageofTowers" abstract="false" name="PurchaseOptionPercentageofTowers" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="cci_SellingCostsMember" abstract="true" name="SellingCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_ValuationAllowanceForAssetsHeldForSale" abstract="false" name="ValuationAllowanceForAssetsHeldForSale" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_DisposalGroupIncludingDiscontinuedOperationCurrentMaturitiesOfDebtAndOtherObligations" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationCurrentMaturitiesOfDebtAndOtherObligations" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_DisposalGroupIncludingDiscontinuedOperationDebtAndOtherLongTermObligations" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationDebtAndOtherLongTermObligations" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_DisposalGroupIncludingDiscontinuedOperationOperatingLeaseLiabilityNoncurrent" abstract="false" name="DisposalGroupIncludingDiscontinuedOperationOperatingLeaseLiabilityNoncurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_RevenueRecognitionNoncancelableLeaseTermforWirelessTenants" abstract="false" name="RevenueRecognitionNoncancelableLeaseTermforWirelessTenants" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_RevenueRecognitionforFiberSolutionsTenants" abstract="false" name="RevenueRecognitionforFiberSolutionsTenants" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_AcceleratedPrepaidRentAmortization" abstract="false" name="AcceleratedPrepaidRentAmortization" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_SiteRentalRevenueRemainingRentalObligation" abstract="false" name="SiteRentalRevenueRemainingRentalObligation" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_TermSOFRAdjustmentMember" abstract="true" name="TermSOFRAdjustmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_InstallmentPurchaseLiabilitiesAndFinanceLeasesMember" abstract="true" name="InstallmentPurchaseLiabilitiesAndFinanceLeasesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_BankDebtMember" abstract="true" name="BankDebtMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_InstallmentPurchasesMember" abstract="true" name="InstallmentPurchasesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_FixedRateDebt2009SecuritizedNotesA2Member" abstract="true" name="FixedRateDebt2009SecuritizedNotesA2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A2015TowerRevenueNotes3.663due2045Member" abstract="true" name="A2015TowerRevenueNotes3.663due2045Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A2018TowerRevenueNotes4.241due2048Member" abstract="true" name="A2018TowerRevenueNotes4.241due2048Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A2016TermLoanAMember" abstract="true" name="A2016TermLoanAMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_June2020SeniorUnsecured1.350NotesDomain" abstract="true" name="June2020SeniorUnsecured1.350NotesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_SeniorUnsecured2016Notes4.450Member" abstract="true" name="SeniorUnsecured2016Notes4.450Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_SeniorUnsecured2016Notes3.7Member" abstract="true" name="SeniorUnsecured2016Notes3.7Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_February2021SeniorUnsecured1050NotesMember" abstract="true" name="February2021SeniorUnsecured1050NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A4.000SeniorUnsecuredNotesMember" abstract="true" name="A4.000SeniorUnsecuredNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A2900SeniorUnsecuredNotesMember" abstract="true" name="A2900SeniorUnsecuredNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_August2017SeniorUnsecured3.650NotesMember" abstract="true" name="August2017SeniorUnsecured3.650NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_January2023SeniorUnsecured5000NotesMember" abstract="true" name="January2023SeniorUnsecured5000NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A3.800SeniorNotesMember" abstract="true" name="A3.800SeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A4800SeniorNotesMember" abstract="true" name="A4800SeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_February2019SeniorUnsecured4.300NotesMember" abstract="true" name="February2019SeniorUnsecured4.300NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_December2023SeniorUnsecured5.600NotesMember" abstract="true" name="December2023SeniorUnsecured5.600NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_August2024SeniorUnsecured4.900NotesMember" abstract="true" name="August2024SeniorUnsecured4.900NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_August2019SeniorUnsecured3.100NotesMember" abstract="true" name="August2019SeniorUnsecured3.100NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_April2020SeniorUnsecured3.300NotesMember" abstract="true" name="April2020SeniorUnsecured3.300NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_June2020SeniorUnsecured2.250NotesDomain" abstract="true" name="June2020SeniorUnsecured2.250NotesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_February2021SeniorUnsecured2100NotesMember" abstract="true" name="February2021SeniorUnsecured2100NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_June2021SeniorUnsecured2500NotesDomain" abstract="true" name="June2021SeniorUnsecured2500NotesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A5100SeniorNotesMember" abstract="true" name="A5100SeniorNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_December2023SeniorUnsecured5.800NotesMember" abstract="true" name="December2023SeniorUnsecured5.800NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_August2024SeniorUnsecured5.200NotesMember" abstract="true" name="August2024SeniorUnsecured5.200NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_February2021SeniorUnsecured2900NotesMember" abstract="true" name="February2021SeniorUnsecured2900NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A4.750SeniorUnsecuredNotesMemberMember" abstract="true" name="A4.750SeniorUnsecuredNotesMemberMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_February2019SeniorUnsecured5.200NotesMember" abstract="true" name="February2019SeniorUnsecured5.200NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_August2019SeniorUnsecured4.000NotesMember" abstract="true" name="August2019SeniorUnsecured4.000NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_April2020SeniorUnsecured4.150NotesMember" abstract="true" name="April2020SeniorUnsecured4.150NotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_June2020SeniorUnsecured3.250NotesDomain" abstract="true" name="June2020SeniorUnsecured3.250NotesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_July2018TowerRevenueNotesMember" abstract="true" name="July2018TowerRevenueNotesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_DebtInstrumentMaturityDateRange" abstract="false" name="DebtInstrumentMaturityDateRange" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_FinanceLeaseObligations" abstract="false" name="FinanceLeaseObligations" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_RestrictedCashAndCashEquivalentsFairValueDisclosure" abstract="false" name="RestrictedCashAndCashEquivalentsFairValueDisclosure" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_RestrictedstockunitsgrantedAbstract" abstract="true" name="RestrictedstockunitsgrantedAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="cci_O2025Q1DividendsMember" abstract="true" name="O2025Q1DividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_O2025Q2DividendsMember" abstract="true" name="O2025Q2DividendsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_AvailabilityUnder2024ATMProgram" abstract="false" name="AvailabilityUnder2024ATMProgram" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_AtTheMarketStockOfferingProgramAggregateValueOfCommonStock" abstract="false" name="AtTheMarketStockOfferingProgramAggregateValueOfCommonStock" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_AtTheMarketStockOfferingProgramTerminated2021ProgramRemainingUnsold" abstract="false" name="AtTheMarketStockOfferingProgramTerminated2021ProgramRemainingUnsold" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_LeaseExpenseMember" abstract="true" name="LeaseExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_EmployeeCompensationExpenseMember" abstract="true" name="EmployeeCompensationExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_OtherMember" abstract="true" name="OtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_TowerCount" abstract="false" name="TowerCount" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="cci_EmployeeCompensationExpense" abstract="false" name="EmployeeCompensationExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_IncreaseDecreaseinaccountspayableforpurchasesofpropertyandequipment" abstract="false" name="IncreaseDecreaseinaccountspayableforpurchasesofpropertyandequipment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_Purchaseofpropertyandequipmentundercapitalleasesandinstallmentpurchases" abstract="false" name="Purchaseofpropertyandequipmentundercapitalleasesandinstallmentpurchases" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="cci_ConsolidatedContinuingAndDiscontinuedOperationsMember" abstract="true" name="ConsolidatedContinuingAndDiscontinuedOperationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A2023RestructuringPlanMember" abstract="true" name="A2023RestructuringPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_A2024RestructuringPlanMember" abstract="true" name="A2024RestructuringPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_RestructuringPlansMember" abstract="true" name="RestructuringPlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="cci_EmployeeHeadcountReduction" abstract="false" name="EmployeeHeadcountReduction" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+</xs:schema>

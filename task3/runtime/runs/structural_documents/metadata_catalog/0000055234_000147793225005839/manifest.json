@@ -1,0 +1,58 @@
+{
+  "entity": "0000055234",
+  "schema_name": "kens-20250630.xsd",
+  "namespace": "http://kens.com/20250630",
+  "filing": {
+    "accessionNumber": "0001477932-25-005839",
+    "reportDate": "2025-06-30",
+    "primaryDocument": "kens_10q.htm",
+    "filingDate": "2025-08-14",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "kens-20250630.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/55234/000147793225005839/kens-20250630.xsd",
+      "SHA256": "b7ddcfe7f79260b79503357289bc8cc75c655ae6116e612438997b0eb1f9357d",
+      "bytes": 18671
+    },
+    {
+      "file": "kens-20250630_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/55234/000147793225005839/kens-20250630_pre.xml",
+      "SHA256": "21c9484d1291e276547b219dbae0c300d0eb663871dd7152c4545ebbf8f4e976",
+      "bytes": 100332
+    },
+    {
+      "file": "kens-20250630_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/55234/000147793225005839/kens-20250630_lab.xml",
+      "SHA256": "cc7bb5a7bca77abf08cdccd0a21a46a99343bf87870d808d6baaa51a41dae3dd",
+      "bytes": 127682
+    },
+    {
+      "file": "kens-20250630_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/55234/000147793225005839/kens-20250630_cal.xml",
+      "SHA256": "e372ae8d63f5b9e070ea5f07c4eda02b4f2693211b49841e7961656824b246ac",
+      "bytes": 27823
+    },
+    {
+      "file": "kens-20250630_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/55234/000147793225005839/kens-20250630_def.xml",
+      "SHA256": "0c3717da31ba8cc1d096289c256be2897d9efaa1c209f61ac2fc2af7bcd16a09",
+      "bytes": 53640
+    },
+    {
+      "file": "kens_10q_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/55234/000147793225005839/kens_10q_htm.xml",
+      "SHA256": "6108fb4475c4d39e57833834d855bf329a385f3ec374fd86c00bf124b843b72a",
+      "bytes": 110220
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

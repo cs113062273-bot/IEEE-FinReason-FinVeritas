@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/source/us/2026/constant-us-gaap.xule",
+  "sha256": "6c8377948ba8cadb3d6f749b5e9c72b4f769c2322fac1b839507309a7f8c09c3",
+  "bytes": 26379,
+  "kind": "generic rule constants; no filing findings",
+  "license": "resources/task3_dqc0015/License.md"
+}

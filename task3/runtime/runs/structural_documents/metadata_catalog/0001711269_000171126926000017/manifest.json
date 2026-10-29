@@ -1,0 +1,58 @@
+{
+  "entity": "0001711269",
+  "schema_name": "evrg-20251231.xsd",
+  "namespace": "http://www.evergy.com/20251231",
+  "filing": {
+    "accessionNumber": "0001711269-26-000017",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "evrg-20251231.htm",
+    "filingDate": "2026-02-19",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "evrg-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231.xsd",
+      "SHA256": "5d4c7f01d83bc4ca989e9630db043e35ef509fda5e9657e5a1c89d1e03f24d9f",
+      "bytes": 165254
+    },
+    {
+      "file": "evrg-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231_pre.xml",
+      "SHA256": "1e89bc897a5f422902e758e9f0aad16dba0d4eea0e1c9191e56c5a87f92b0036",
+      "bytes": 1734725
+    },
+    {
+      "file": "evrg-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231_def.xml",
+      "SHA256": "e1e56f8666b16deb6a0451d9b93193a11b581efb9dc4b766f78188755f4fa337",
+      "bytes": 1427998
+    },
+    {
+      "file": "evrg-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231_lab.xml",
+      "SHA256": "33e2c2f35d80f3e2ee3dfd9cdf0d4af78e767abde5bc785cb5410366775ee5a2",
+      "bytes": 1779978
+    },
+    {
+      "file": "evrg-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231_cal.xml",
+      "SHA256": "6d5c5536a230ac6b93f828b44e474b5457c667d87650acfb18839afc76fe934e",
+      "bytes": 203892
+    },
+    {
+      "file": "evrg-20251231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711269/000171126926000017/evrg-20251231_htm.xml",
+      "SHA256": "f67acdc12ad3338c6c53829173db0985ce073cc97486c9cbd1a4309980524403",
+      "bytes": 10515354
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

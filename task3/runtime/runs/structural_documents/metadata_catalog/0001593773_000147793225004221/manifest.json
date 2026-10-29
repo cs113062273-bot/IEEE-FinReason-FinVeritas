@@ -1,0 +1,58 @@
+{
+  "entity": "0001593773",
+  "schema_name": "amjt-20250228.xsd",
+  "namespace": "http://amjt.com/20250228",
+  "filing": {
+    "accessionNumber": "0001477932-25-004221",
+    "reportDate": "2025-02-28",
+    "primaryDocument": "amj_10q.htm",
+    "filingDate": "2025-05-29",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "amjt-20250228.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593773/000147793225004221/amjt-20250228.xsd",
+      "SHA256": "9571dbaea3c00ce8f2d864ee311c44669d1bd52614eed2e9c63f47d9c3b53f5e",
+      "bytes": 26782
+    },
+    {
+      "file": "amjt-20250228_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593773/000147793225004221/amjt-20250228_pre.xml",
+      "SHA256": "fc803f6df46a4a17fe5122889a29666c6c0922b6bd6b32826085519461888f63",
+      "bytes": 132273
+    },
+    {
+      "file": "amjt-20250228_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593773/000147793225004221/amjt-20250228_lab.xml",
+      "SHA256": "ff2115f411a53b2077f887e9512a9ff85030b1076a0cb4988c1b8dc157ffdc45",
+      "bytes": 152476
+    },
+    {
+      "file": "amjt-20250228_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593773/000147793225004221/amjt-20250228_cal.xml",
+      "SHA256": "fdb54c4496bc95b264062193360be2a71c1f056b7873b510fbcd4c4aea07a4f8",
+      "bytes": 30273
+    },
+    {
+      "file": "amjt-20250228_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593773/000147793225004221/amjt-20250228_def.xml",
+      "SHA256": "09176bec8eaacb812801b0387cd8264164880cc18e9fbac3389c9efd56615926",
+      "bytes": 62791
+    },
+    {
+      "file": "amj_10q_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593773/000147793225004221/amj_10q_htm.xml",
+      "SHA256": "7071a843526c6080ad4baae007131a31a818ab99844d349a9662ee5009c636fc",
+      "bytes": 272585
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

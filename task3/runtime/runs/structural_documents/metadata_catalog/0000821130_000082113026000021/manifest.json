@@ -1,0 +1,51 @@
+{
+  "entity": "0000821130",
+  "schema_name": "ad-20251231.xsd",
+  "namespace": "http://www.arrayinc.com/20251231",
+  "filing": {
+    "accessionNumber": "0000821130-26-000021",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "ad-20251231.htm",
+    "filingDate": "2026-03-30",
+    "form": "10-K/A"
+  },
+  "documents": [
+    {
+      "file": "ad-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/821130/000082113026000021/ad-20251231.xsd",
+      "SHA256": "23eab0536d1b36ffb48612b9620f3ad6883765b926f752aed085954b21cd883c",
+      "bytes": 3424
+    },
+    {
+      "file": "ad-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/821130/000082113026000021/ad-20251231_pre.xml",
+      "SHA256": "46dd4ab8d6bb9c0cbcb180856c9fef25c535711dc66a3a0c5f62a05587bc2889",
+      "bytes": 25496
+    },
+    {
+      "file": "ad-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/821130/000082113026000021/ad-20251231_def.xml",
+      "SHA256": "895fddc250e7a3539f6eef52cdb263e8091ba56a71ca8969db0a08b5494249e4",
+      "bytes": 23761
+    },
+    {
+      "file": "ad-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/821130/000082113026000021/ad-20251231_lab.xml",
+      "SHA256": "464a1e55eb066345f6db6d1f9539c1e6231ed8022cf807f82ae5aeb6f58771c1",
+      "bytes": 44184
+    },
+    {
+      "file": "ad-20251231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/821130/000082113026000021/ad-20251231_htm.xml",
+      "SHA256": "8736555ac6058599ce82349ac8f2fcd73be768030cb7f035a0a52a6f513c374b",
+      "bytes": 8806
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

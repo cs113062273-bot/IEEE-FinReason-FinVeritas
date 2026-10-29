@@ -1,0 +1,58 @@
+{
+  "entity": "0001133421",
+  "schema_name": "noc-20251231.xsd",
+  "namespace": "http://www.northropgrumman.com/20251231",
+  "filing": {
+    "accessionNumber": "0001133421-26-000003",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "noc-20251231.htm",
+    "filingDate": "2026-01-27",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "noc-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231.xsd",
+      "SHA256": "44ff3ced12e2f97f157b630bf57a9b409a8cc8b4bbfb957a1cc329532c0a3adf",
+      "bytes": 85253
+    },
+    {
+      "file": "noc-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_pre.xml",
+      "SHA256": "75d6358edd8023e533ed9d5e2af2f0de9fbd2dfbf752015f5cade84d28f8b84c",
+      "bytes": 831558
+    },
+    {
+      "file": "noc-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_def.xml",
+      "SHA256": "66177f5052b8e60e4e08bf7cc44c2480ae1fa9dcdeeefc07d57e69058c3d7e76",
+      "bytes": 485619
+    },
+    {
+      "file": "noc-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_lab.xml",
+      "SHA256": "be276b9f25032b670fb7ec2fdc242903d84c3983b63de5b575ae58fef8265cea",
+      "bytes": 1155036
+    },
+    {
+      "file": "noc-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_cal.xml",
+      "SHA256": "624ff9a34b1442fc58c81984b47efacccfd127bf18f687c9bdd10758e0596780",
+      "bytes": 93617
+    },
+    {
+      "file": "noc-20251231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000003/noc-20251231_htm.xml",
+      "SHA256": "5093b5291a902a5c629ac2a796bd0fc397b42206402c62693c7605f46b91b5fb",
+      "bytes": 2970766
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

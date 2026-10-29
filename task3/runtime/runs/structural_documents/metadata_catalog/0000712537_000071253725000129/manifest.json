@@ -1,0 +1,58 @@
+{
+  "entity": "0000712537",
+  "schema_name": "fcf-20250930.xsd",
+  "namespace": "http://www.fcbanking.com/20250930",
+  "filing": {
+    "accessionNumber": "0000712537-25-000129",
+    "reportDate": "2025-09-30",
+    "primaryDocument": "fcf-20250930.htm",
+    "filingDate": "2025-11-10",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "fcf-20250930.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253725000129/fcf-20250930.xsd",
+      "SHA256": "ff03051328fd33fc13ed7207119b4f858bd62fe181efddce8abf06b1f6a5655e",
+      "bytes": 87630
+    },
+    {
+      "file": "fcf-20250930_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253725000129/fcf-20250930_pre.xml",
+      "SHA256": "efe67fa9becb7da1c102706dcad0f62c07aa84f0b4afdbca61fbec9c970ea89e",
+      "bytes": 846757
+    },
+    {
+      "file": "fcf-20250930_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253725000129/fcf-20250930_def.xml",
+      "SHA256": "409d028cb22de4fc2326013d63f6ab7b225259a69de89f01cb6e18a771b83711",
+      "bytes": 718482
+    },
+    {
+      "file": "fcf-20250930_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253725000129/fcf-20250930_lab.xml",
+      "SHA256": "48b1cc937baab0d3575d26bef94a29540ad0439530cc800ce1d2f58e86e5c3c4",
+      "bytes": 896808
+    },
+    {
+      "file": "fcf-20250930_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253725000129/fcf-20250930_cal.xml",
+      "SHA256": "a2f4c2b71cb28ec3ac6dd698124d3a228c66a1e40bc210dda428c57101410762",
+      "bytes": 101770
+    },
+    {
+      "file": "fcf-20250930_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/712537/000071253725000129/fcf-20250930_htm.xml",
+      "SHA256": "f02ff8bd5287c9f00b764657ba1e6c9cd53f5efe12f1a1bac737cc5b91e1beb0",
+      "bytes": 8005681
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

@@ -1,0 +1,58 @@
+{
+  "entity": "0001411342",
+  "schema_name": "efc-20241231.xsd",
+  "namespace": "http://www.ellingtonfinancial.com/20241231",
+  "filing": {
+    "accessionNumber": "0001411342-25-000015",
+    "reportDate": "2024-12-31",
+    "primaryDocument": "efc-20241231.htm",
+    "filingDate": "2025-03-03",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "efc-20241231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000141134225000015/efc-20241231.xsd",
+      "SHA256": "fab55d3922e4c95ab4fb37a4e781518371f94fa8a60e557f9c789f561ea04282",
+      "bytes": 246233
+    },
+    {
+      "file": "efc-20241231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000141134225000015/efc-20241231_pre.xml",
+      "SHA256": "6f20965adab94e927a8820899402c4ac94297a0e820d8245f199ca442c0ee5f7",
+      "bytes": 1876824
+    },
+    {
+      "file": "efc-20241231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000141134225000015/efc-20241231_def.xml",
+      "SHA256": "c3c1bbcb73a9fabd733a7af7bcbefaacd3bb545c2dda0f49cc882c97a946978f",
+      "bytes": 1553562
+    },
+    {
+      "file": "efc-20241231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000141134225000015/efc-20241231_lab.xml",
+      "SHA256": "bc0a383d541d8a1e36d9559ee7b49fc9390dee5c0ca41bb489ae4b45930ad525",
+      "bytes": 1915967
+    },
+    {
+      "file": "efc-20241231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000141134225000015/efc-20241231_cal.xml",
+      "SHA256": "14bc6f1d716472bc2e3f7f63d9193599ff1990056a18762e15ac6987fa7f02f8",
+      "bytes": 81529
+    },
+    {
+      "file": "efc-20241231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1411342/000141134225000015/efc-20241231_htm.xml",
+      "SHA256": "c0750c507b6111c93618625e1c518e9eea277928fa285fb40ecceb1b317939d3",
+      "bytes": 10290207
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

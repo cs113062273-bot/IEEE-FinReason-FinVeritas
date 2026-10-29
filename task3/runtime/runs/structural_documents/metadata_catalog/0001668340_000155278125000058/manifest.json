@@ -1,0 +1,58 @@
+{
+  "entity": "0001668340",
+  "schema_name": "bctf-20241231.xsd",
+  "namespace": "http://bank34.com/20241231",
+  "filing": {
+    "accessionNumber": "0001552781-25-000058",
+    "reportDate": "2024-12-31",
+    "primaryDocument": "e25055_bctf-10k.htm",
+    "filingDate": "2025-03-06",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "bctf-20241231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668340/000155278125000058/bctf-20241231.xsd",
+      "SHA256": "8229c79c6eb576bac47bf40583d9cbf338acb73a143b9bd9a9df0b1f04c2bafd",
+      "bytes": 76272
+    },
+    {
+      "file": "bctf-20241231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668340/000155278125000058/bctf-20241231_pre.xml",
+      "SHA256": "61b76a1d87c8aa77cde20ca2f69dfa4c414729c1233adf8762d995ae0f582177",
+      "bytes": 612555
+    },
+    {
+      "file": "bctf-20241231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668340/000155278125000058/bctf-20241231_lab.xml",
+      "SHA256": "ad8ba72d4109b604b262a5e4caa2cdcdb8905c2c66ad9b28f58af3d5031e6edd",
+      "bytes": 607293
+    },
+    {
+      "file": "bctf-20241231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668340/000155278125000058/bctf-20241231_cal.xml",
+      "SHA256": "a1504bd14fd48c6900bb70b419e6e78cf75760c3c96543447a1a7f17275ef16c",
+      "bytes": 100118
+    },
+    {
+      "file": "bctf-20241231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668340/000155278125000058/bctf-20241231_def.xml",
+      "SHA256": "2422bba724a6d4534c2289b8179ff208c0b63313d4dc84a94d6d29efc35b20c9",
+      "bytes": 432193
+    },
+    {
+      "file": "e25055_bctf-10k_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1668340/000155278125000058/e25055_bctf-10k_htm.xml",
+      "SHA256": "e761b27a964f16dc2f8b9f04790071b5b103b55dd76c877c98c97e640a7fd377",
+      "bytes": 3571657
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2026 Workiva-->
+<!--r:4446a140-bc23-4671-9ccd-0b4dc4b310ae,g:0df8df34-c713-4318-be40-d2fdf270f7fe-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:evrg="http://www.evergy.com/20251231" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types1="http://www.xbrl.org/dtr/type/2020-01-21" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.evergy.com/20251231">
+  <xs:import namespace="http://fasb.org/srt/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2020-01-21" schemaLocation="https://www.xbrl.org/dtr/type/2020-01-21/types.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/cyd-af-sub/2024" schemaLocation="https://xbrl.sec.gov/cyd/2024/cyd-af-sub-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2024" schemaLocation="https://xbrl.sec.gov/dei/2024/dei-2024.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2024" schemaLocation="https://xbrl.sec.gov/ecd/2024/ecd-2024.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="evrg-20251231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="evrg-20251231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="evrg-20251231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="evrg-20251231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="CoverPage" roleURI="http://www.evergy.com/role/CoverPage">
+        <link:definition>0000001 - Document - Cover Page</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AuditInformation" roleURI="http://www.evergy.com/role/AuditInformation">
+        <link:definition>9952151 - Document - Audit Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofComprehensiveIncome" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofComprehensiveIncome">
+        <link:definition>9952152 - Statement - Consolidated Statements of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheets" roleURI="http://www.evergy.com/role/ConsolidatedBalanceSheets">
+        <link:definition>9952153 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsParenthetical" roleURI="http://www.evergy.com/role/ConsolidatedBalanceSheetsParenthetical">
+        <link:definition>9952154 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlows" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofCashFlows">
+        <link:definition>9952155 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinEquity" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofChangesinEquity">
+        <link:definition>9952156 - Statement - Consolidated Statements of Changes in Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinEquityParenthetical" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofChangesinEquityParenthetical">
+        <link:definition>9952157 - Statement - Consolidated Statements of Changes in Equity (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofIncomeEvergyKansasCentralInc" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofIncomeEvergyKansasCentralInc">
+        <link:definition>9952158 - Statement - Consolidated Statements of Income - Evergy Kansas Central, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsEvergyKansasCentralInc" roleURI="http://www.evergy.com/role/ConsolidatedBalanceSheetsEvergyKansasCentralInc">
+        <link:definition>9952159 - Statement - Consolidated Balance Sheets - Evergy Kansas Central, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsEvergyKansasCentralIncParenthetical" roleURI="http://www.evergy.com/role/ConsolidatedBalanceSheetsEvergyKansasCentralIncParenthetical">
+        <link:definition>9952160 - Statement - Consolidated Balance Sheets - Evergy Kansas Central, Inc (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlowsEvergyKansasCentralInc" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofCashFlowsEvergyKansasCentralInc">
+        <link:definition>9952161 - Statement - Consolidated Statements of Cash Flows - Evergy Kansas Central, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinEquityEvergyKansasCentralInc" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofChangesinEquityEvergyKansasCentralInc">
+        <link:definition>9952162 - Statement - Consolidated Statements of Changes in Equity - Evergy Kansas Central, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofComprehensiveIncomeEvergyMetroInc" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofComprehensiveIncomeEvergyMetroInc">
+        <link:definition>9952163 - Statement - Consolidated Statements of Comprehensive Income - Evergy Metro, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsEvergyMetroInc" roleURI="http://www.evergy.com/role/ConsolidatedBalanceSheetsEvergyMetroInc">
+        <link:definition>9952164 - Statement - Consolidated Balance Sheets - Evergy Metro, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsEvergyMetroIncParenthetical" roleURI="http://www.evergy.com/role/ConsolidatedBalanceSheetsEvergyMetroIncParenthetical">
+        <link:definition>9952165 - Statement - Consolidated Balance Sheets - Evergy Metro, Inc (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofCashFlowsEvergyMetroInc" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofCashFlowsEvergyMetroInc">
+        <link:definition>9952166 - Statement - Consolidated Statements of Cash Flows - Evergy Metro, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofChangesinEquityEvergyMetroInc" roleURI="http://www.evergy.com/role/ConsolidatedStatementsofChangesinEquityEvergyMetroInc">
+        <link:definition>9952167 - Statement - Consolidated Statements of Changes in Equity - Evergy Metro, Inc</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIES">
+        <link:definition>9952168 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUE" roleURI="http://www.evergy.com/role/REVENUE">
+        <link:definition>9952169 - Disclosure - REVENUE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLES" roleURI="http://www.evergy.com/role/RECEIVABLES">
+        <link:definition>9952170 - Disclosure - RECEIVABLES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RATEMATTERSANDREGULATION" roleURI="http://www.evergy.com/role/RATEMATTERSANDREGULATION">
+        <link:definition>9952171 - Disclosure - RATE MATTERS AND REGULATION</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILL" roleURI="http://www.evergy.com/role/GOODWILL">
+        <link:definition>9952172 - Disclosure - GOODWILL</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ASSETRETIREMENTOBLIGATIONS" roleURI="http://www.evergy.com/role/ASSETRETIREMENTOBLIGATIONS">
+        <link:definition>9952173 - Disclosure - ASSET RETIREMENT OBLIGATIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYPLANTANDEQUIPMENT" roleURI="http://www.evergy.com/role/PROPERTYPLANTANDEQUIPMENT">
+        <link:definition>9952174 - Disclosure - PROPERTY, PLANT AND EQUIPMENT</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="JOINTLYOWNEDELECTRICUTILITYPLANTS" roleURI="http://www.evergy.com/role/JOINTLYOWNEDELECTRICUTILITYPLANTS">
+        <link:definition>9952175 - Disclosure - JOINTLY-OWNED ELECTRIC UTILITY PLANTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITS" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITS">
+        <link:definition>9952176 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EQUITYCOMPENSATION" roleURI="http://www.evergy.com/role/EQUITYCOMPENSATION">
+        <link:definition>9952177 - Disclosure - EQUITY COMPENSATION</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDIT" roleURI="http://www.evergy.com/role/SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDIT">
+        <link:definition>9952178 - Disclosure - SHORT-TERM BORROWINGS AND SHORT-TERM BANK LINES OF CREDIT</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBT" roleURI="http://www.evergy.com/role/LONGTERMDEBT">
+        <link:definition>9952179 - Disclosure - LONG-TERM DEBT</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTS" roleURI="http://www.evergy.com/role/DERIVATIVEINSTRUMENTS">
+        <link:definition>9952180 - Disclosure - DERIVATIVE INSTRUMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTS" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTS">
+        <link:definition>9952181 - Disclosure - FAIR VALUE MEASUREMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIES" roleURI="http://www.evergy.com/role/COMMITMENTSANDCONTINGENCIES">
+        <link:definition>9952182 - Disclosure - COMMITMENTS AND CONTINGENCIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GUARANTEES" roleURI="http://www.evergy.com/role/GUARANTEES">
+        <link:definition>9952183 - Disclosure - GUARANTEES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTYTRANSACTIONSANDRELATIONSHIPS" roleURI="http://www.evergy.com/role/RELATEDPARTYTRANSACTIONSANDRELATIONSHIPS">
+        <link:definition>9952184 - Disclosure - RELATED PARTY TRANSACTIONS AND RELATIONSHIPS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREHOLDERSEQUITY" roleURI="http://www.evergy.com/role/SHAREHOLDERSEQUITY">
+        <link:definition>9952185 - Disclosure - SHAREHOLDERS' EQUITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VARIABLEINTERESTENTITIES" roleURI="http://www.evergy.com/role/VARIABLEINTERESTENTITIES">
+        <link:definition>9952186 - Disclosure - VARIABLE INTEREST ENTITIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXES" roleURI="http://www.evergy.com/role/TAXES">
+        <link:definition>9952187 - Disclosure - TAXES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASES" roleURI="http://www.evergy.com/role/LEASES">
+        <link:definition>9952188 - Disclosure - LEASES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentsandRelatedInformation" roleURI="http://www.evergy.com/role/SegmentsandRelatedInformation">
+        <link:definition>9952189 - Disclosure - Segments and Related Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIFinancialStatementsofParentCompany" roleURI="http://www.evergy.com/role/ScheduleIFinancialStatementsofParentCompany">
+        <link:definition>9952190 - Disclosure - Schedule I Financial Statements of Parent Company</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIIValuationandQualifyingAccounts" roleURI="http://www.evergy.com/role/ScheduleIIValuationandQualifyingAccounts">
+        <link:definition>9952191 - Disclosure - Schedule II Valuation and Qualifying Accounts</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPolicies" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPolicies">
+        <link:definition>9955511 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESTables" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESTables">
+        <link:definition>9955512 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUETables" roleURI="http://www.evergy.com/role/REVENUETables">
+        <link:definition>9955513 - Disclosure - REVENUE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESTables" roleURI="http://www.evergy.com/role/RECEIVABLESTables">
+        <link:definition>9955514 - Disclosure - RECEIVABLES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RATEMATTERSANDREGULATIONTables" roleURI="http://www.evergy.com/role/RATEMATTERSANDREGULATIONTables">
+        <link:definition>9955515 - Disclosure - RATE MATTERS AND REGULATION (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ASSETRETIREMENTOBLIGATIONSTables" roleURI="http://www.evergy.com/role/ASSETRETIREMENTOBLIGATIONSTables">
+        <link:definition>9955516 - Disclosure - ASSET RETIREMENT OBLIGATIONS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYPLANTANDEQUIPMENTTables" roleURI="http://www.evergy.com/role/PROPERTYPLANTANDEQUIPMENTTables">
+        <link:definition>9955517 - Disclosure - PROPERTY, PLANT AND EQUIPMENT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="JOINTLYOWNEDELECTRICUTILITYPLANTSTables" roleURI="http://www.evergy.com/role/JOINTLYOWNEDELECTRICUTILITYPLANTSTables">
+        <link:definition>9955518 - Disclosure - JOINTLY-OWNED ELECTRIC UTILITY PLANTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSTables" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSTables">
+        <link:definition>9955519 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EQUITYCOMPENSATIONTables" roleURI="http://www.evergy.com/role/EQUITYCOMPENSATIONTables">
+        <link:definition>9955520 - Disclosure - EQUITY COMPENSATION (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDITTables" roleURI="http://www.evergy.com/role/SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDITTables">
+        <link:definition>9955521 - Disclosure - SHORT-TERM BORROWINGS AND SHORT-TERM BANK LINES OF CREDIT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTTables" roleURI="http://www.evergy.com/role/LONGTERMDEBTTables">
+        <link:definition>9955522 - Disclosure - LONG-TERM DEBT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTSTables" roleURI="http://www.evergy.com/role/DERIVATIVEINSTRUMENTSTables">
+        <link:definition>9955523 - Disclosure - DERIVATIVE INSTRUMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTSTables" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTSTables">
+        <link:definition>9955524 - Disclosure - FAIR VALUE MEASUREMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIESTables" roleURI="http://www.evergy.com/role/COMMITMENTSANDCONTINGENCIESTables">
+        <link:definition>9955525 - Disclosure - COMMITMENTS AND CONTINGENCIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTYTRANSACTIONSANDRELATIONSHIPSTables" roleURI="http://www.evergy.com/role/RELATEDPARTYTRANSACTIONSANDRELATIONSHIPSTables">
+        <link:definition>9955526 - Disclosure - RELATED PARTY TRANSACTIONS AND RELATIONSHIPS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREHOLDERSEQUITYTables" roleURI="http://www.evergy.com/role/SHAREHOLDERSEQUITYTables">
+        <link:definition>9955527 - Disclosure - SHAREHOLDERS' EQUITY (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VARIABLEINTERESTENTITIESTables" roleURI="http://www.evergy.com/role/VARIABLEINTERESTENTITIESTables">
+        <link:definition>9955528 - Disclosure - VARIABLE INTEREST ENTITIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESTables" roleURI="http://www.evergy.com/role/TAXESTables">
+        <link:definition>9955529 - Disclosure - TAXES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESTables" roleURI="http://www.evergy.com/role/LEASESTables">
+        <link:definition>9955530 - Disclosure - LEASES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTSANDRELATEDINFORMATIONTables" roleURI="http://www.evergy.com/role/SEGMENTSANDRELATEDINFORMATIONTables">
+        <link:definition>9955531 - Disclosure - SEGMENTS AND RELATED INFORMATION (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESOrganizationDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESOrganizationDetails">
+        <link:definition>9955532 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Organization (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESCashCashEquivalentsandRestrictedCashDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESCashCashEquivalentsandRestrictedCashDetails">
+        <link:definition>9955533 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Cash, Cash Equivalents and Restricted Cash (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESFuelInventoryandSuppliesDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESFuelInventoryandSuppliesDetails">
+        <link:definition>9955534 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Fuel Inventory and Supplies (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAllowanceForFundsUsedDuringConstructionDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAllowanceForFundsUsedDuringConstructionDetails">
+        <link:definition>9955535 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Allowance For Funds Used During Construction (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPropertyPlantandEquipmentDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESPropertyPlantandEquipmentDetails">
+        <link:definition>9955536 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Property, Plant and Equipment (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESCorporateOwnedLifeInsuranceDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESCorporateOwnedLifeInsuranceDetails">
+        <link:definition>9955537 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Corporate-Owned Life Insurance (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESOtherIncomeExpenseDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESOtherIncomeExpenseDetails">
+        <link:definition>9955538 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Other Income (Expense) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESEarningsPerShareDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESEarningsPerShareDetails">
+        <link:definition>9955539 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Earnings Per Share (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAntidilutiveSecuritiesDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESAntidilutiveSecuritiesDetails">
+        <link:definition>9955540 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Antidilutive Securities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESSupplementalCashFlowInformationDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESSupplementalCashFlowInformationDetails">
+        <link:definition>9955541 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Supplemental Cash Flow Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESDividendsDeclaredDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESDividendsDeclaredDetails">
+        <link:definition>9955542 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - Dividends Declared (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESNewAccountingStandardsDetails" roleURI="http://www.evergy.com/role/SUMMARYOFSIGNIFICANTACCOUNTINGPOLICIESNewAccountingStandardsDetails">
+        <link:definition>9955543 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES - New Accounting Standards (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEDetails" roleURI="http://www.evergy.com/role/REVENUEDetails">
+        <link:definition>9955544 - Disclosure - REVENUE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESDetails" roleURI="http://www.evergy.com/role/RECEIVABLESDetails">
+        <link:definition>9955545 - Disclosure - RECEIVABLES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESNarrativeDetails" roleURI="http://www.evergy.com/role/RECEIVABLESNarrativeDetails">
+        <link:definition>9955546 - Disclosure - RECEIVABLES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESAllowanceforCreditLosesDetails" roleURI="http://www.evergy.com/role/RECEIVABLESAllowanceforCreditLosesDetails">
+        <link:definition>9955547 - Disclosure - RECEIVABLES - Allowance for Credit Loses (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESOtherReceivablesDetails" roleURI="http://www.evergy.com/role/RECEIVABLESOtherReceivablesDetails">
+        <link:definition>9955548 - Disclosure - RECEIVABLES - Other Receivables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESPledgedasCollateralDetails" roleURI="http://www.evergy.com/role/RECEIVABLESPledgedasCollateralDetails">
+        <link:definition>9955549 - Disclosure - RECEIVABLES - Pledged as Collateral (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RATEMATTERSANDREGULATIONNarrativeDetails" roleURI="http://www.evergy.com/role/RATEMATTERSANDREGULATIONNarrativeDetails">
+        <link:definition>9955550 - Disclosure - RATE MATTERS AND REGULATION - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RATEMATTERSANDREGULATIONRegulatoryMattersAssetDetails" roleURI="http://www.evergy.com/role/RATEMATTERSANDREGULATIONRegulatoryMattersAssetDetails">
+        <link:definition>9955551 - Disclosure - RATE MATTERS AND REGULATION - Regulatory Matters Asset (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RATEMATTERSANDREGULATIONRegulatoryMattersLiabilitiesDetails" roleURI="http://www.evergy.com/role/RATEMATTERSANDREGULATIONRegulatoryMattersLiabilitiesDetails">
+        <link:definition>9955552 - Disclosure - RATE MATTERS AND REGULATION - Regulatory Matters Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GOODWILLDetails" roleURI="http://www.evergy.com/role/GOODWILLDetails">
+        <link:definition>9955553 - Disclosure - GOODWILL (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ASSETRETIREMENTOBLIGATIONSDetails" roleURI="http://www.evergy.com/role/ASSETRETIREMENTOBLIGATIONSDetails">
+        <link:definition>9955554 - Disclosure - ASSET RETIREMENT OBLIGATIONS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ASSETRETIREMENTOBLIGATIONSNarrativeDetails" roleURI="http://www.evergy.com/role/ASSETRETIREMENTOBLIGATIONSNarrativeDetails">
+        <link:definition>9955555 - Disclosure - ASSET RETIREMENT OBLIGATIONS - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYPLANTANDEQUIPMENTDetails" roleURI="http://www.evergy.com/role/PROPERTYPLANTANDEQUIPMENTDetails">
+        <link:definition>9955556 - Disclosure - PROPERTY, PLANT AND EQUIPMENT (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYPLANTANDEQUIPMENTDepreciationExpenseDetails" roleURI="http://www.evergy.com/role/PROPERTYPLANTANDEQUIPMENTDepreciationExpenseDetails">
+        <link:definition>9955557 - Disclosure - PROPERTY, PLANT AND EQUIPMENT - Depreciation Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="JOINTLYOWNEDELECTRICUTILITYPLANTSDetails" roleURI="http://www.evergy.com/role/JOINTLYOWNEDELECTRICUTILITYPLANTSDetails">
+        <link:definition>9955558 - Disclosure - JOINTLY-OWNED ELECTRIC UTILITY PLANTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSNarrativeDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSNarrativeDetails">
+        <link:definition>9955559 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSDetails">
+        <link:definition>9955560 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSPENSIONPLANSANDPOSTRETIREMENTBENEFITSScheduleofComponentsofNetPeriodicBenefitCostsDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSPENSIONPLANSANDPOSTRETIREMENTBENEFITSScheduleofComponentsofNetPeriodicBenefitCostsDetails">
+        <link:definition>9955561 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS PENSION PLANS AND POST-RETIREMENT BENEFITS - Schedule of Components of Net Periodic Benefit Costs (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSAPBODetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSAPBODetails">
+        <link:definition>9955562 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - APBO (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSWeightedAverageAssumptionsDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSWeightedAverageAssumptionsDetails">
+        <link:definition>9955563 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Weighted-Average Assumptions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSExpectedFutureServicesDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSExpectedFutureServicesDetails">
+        <link:definition>9955564 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Expected Future Services (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSTargetAssetAllocationsDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSTargetAssetAllocationsDetails">
+        <link:definition>9955565 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Target Asset Allocations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSFairValuesofAssetsDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSFairValuesofAssetsDetails">
+        <link:definition>9955566 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Fair Values of Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSCostTrendAssumptionsDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSCostTrendAssumptionsDetails">
+        <link:definition>9955567 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Cost Trend Assumptions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PENSIONPLANSANDPOSTRETIREMENTBENEFITSEmployeeSavingsPlansDetails" roleURI="http://www.evergy.com/role/PENSIONPLANSANDPOSTRETIREMENTBENEFITSEmployeeSavingsPlansDetails">
+        <link:definition>9955568 - Disclosure - PENSION PLANS AND POST-RETIREMENT BENEFITS - Employee Savings Plans (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EQUITYCOMPENSATIONNarrativeDetails" roleURI="http://www.evergy.com/role/EQUITYCOMPENSATIONNarrativeDetails">
+        <link:definition>9955569 - Disclosure - EQUITY COMPENSATION - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EQUITYCOMPENSATIONIncomeTaxBenefitDetails" roleURI="http://www.evergy.com/role/EQUITYCOMPENSATIONIncomeTaxBenefitDetails">
+        <link:definition>9955570 - Disclosure - EQUITY COMPENSATION - Income Tax Benefit (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EQUITYCOMPENSATIONRSUsDetails" roleURI="http://www.evergy.com/role/EQUITYCOMPENSATIONRSUsDetails">
+        <link:definition>9955571 - Disclosure - EQUITY COMPENSATION - RSUs (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDITNarrativeDetails" roleURI="http://www.evergy.com/role/SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDITNarrativeDetails">
+        <link:definition>9955572 - Disclosure - SHORT-TERM BORROWINGS AND SHORT-TERM BANK LINES OF CREDIT - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDITScheduleofShortTermDebtDetails" roleURI="http://www.evergy.com/role/SHORTTERMBORROWINGSANDSHORTTERMBANKLINESOFCREDITScheduleofShortTermDebtDetails">
+        <link:definition>9955573 - Disclosure - SHORT-TERM BORROWINGS AND SHORT-TERM BANK LINES OF CREDIT - Schedule of Short Term Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTDetails" roleURI="http://www.evergy.com/role/LONGTERMDEBTDetails">
+        <link:definition>9955574 - Disclosure - LONG-TERM DEBT (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTNarrativeDetails" roleURI="http://www.evergy.com/role/LONGTERMDEBTNarrativeDetails">
+        <link:definition>9955575 - Disclosure - LONG-TERM DEBT - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTScheduledMaturitiesDetails" roleURI="http://www.evergy.com/role/LONGTERMDEBTScheduledMaturitiesDetails">
+        <link:definition>9955576 - Disclosure - LONG-TERM DEBT - Scheduled Maturities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsandHedgingActivitiesNarrativeDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsandHedgingActivitiesNarrativeDetails">
+        <link:definition>9955577 - Disclosure - Derivative Instruments and Hedging Activities - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsNotionalAmountsDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsNotionalAmountsDetails">
+        <link:definition>9955578 - Disclosure - Derivative Instruments - Notional Amounts (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsCashFlowHedgeDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsCashFlowHedgeDetails">
+        <link:definition>9955579 - Disclosure - Derivative Instruments Cash Flow Hedge (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsOffsettingAssetsDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsOffsettingAssetsDetails">
+        <link:definition>9955580 - Disclosure - Derivative Instruments Offsetting Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsOffsettingLiabilitiesDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsOffsettingLiabilitiesDetails">
+        <link:definition>9955581 - Disclosure - Derivative Instruments Offsetting Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsFairValueDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsFairValueDetails">
+        <link:definition>9955582 - Disclosure - Derivative Instruments Fair Value (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsGainandLossesDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsGainandLossesDetails">
+        <link:definition>9955583 - Disclosure - Derivative Instruments Gain and Losses (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsbyHedgingRelationshipbyIncomeStatementLocationDetails" roleURI="http://www.evergy.com/role/DerivativeInstrumentsbyHedgingRelationshipbyIncomeStatementLocationDetails">
+        <link:definition>9955584 - Disclosure - Derivative Instruments by Hedging Relationship by Income Statement Location (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTSNarrativeDetails" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTSNarrativeDetails">
+        <link:definition>9955585 - Disclosure - FAIR VALUE MEASUREMENTS - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTSLongTermDebtDetails" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTSLongTermDebtDetails">
+        <link:definition>9955586 - Disclosure - FAIR VALUE MEASUREMENTS - Long-Term Debt (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTSRecurringDetails" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTSRecurringDetails">
+        <link:definition>9955587 - Disclosure - FAIR VALUE MEASUREMENTS - Recurring (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTSNAVDetails" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTSNAVDetails">
+        <link:definition>9955588 - Disclosure - FAIR VALUE MEASUREMENTS - NAV (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEMEASUREMENTSGainsLossesDetails" roleURI="http://www.evergy.com/role/FAIRVALUEMEASUREMENTSGainsLossesDetails">
+        <link:definition>9955589 - Disclosure - FAIR VALUE MEASUREMENTS - Gains (Losses) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIESNarrativeDetails" roleURI="http://www.evergy.com/role/COMMITMENTSANDCONTINGENCIESNarrativeDetails">
+        <link:definition>9955590 - Disclosure - COMMITMENTS AND CONTINGENCIES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="COMMITMENTSANDCONTINGENCIESContractualCommitmentsDetails" roleURI="http://www.evergy.com/role/COMMITMENTSANDCONTINGENCIESContractualCommitmentsDetails">
+        <link:definition>9955591 - Disclosure - COMMITMENTS AND CONTINGENCIES - Contractual Commitments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GUARANTEESDetails" roleURI="http://www.evergy.com/role/GUARANTEESDetails">
+        <link:definition>9955592 - Disclosure - GUARANTEES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RELATEDPARTYTRANSACTIONSANDRELATIONSHIPSDetails" roleURI="http://www.evergy.com/role/RELATEDPARTYTRANSACTIONSANDRELATIONSHIPSDetails">
+        <link:definition>9955593 - Disclosure - RELATED PARTY TRANSACTIONS AND RELATIONSHIPS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SHAREHOLDERSEQUITYNarrativeDetails" roleURI="http://www.evergy.com/role/SHAREHOLDERSEQUITYNarrativeDetails">
+        <link:definition>9955594 - Disclosure - SHAREHOLDERS' EQUITY - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VARIABLEINTERESTENTITIESNarrativeDetails" roleURI="http://www.evergy.com/role/VARIABLEINTERESTENTITIESNarrativeDetails">
+        <link:definition>9955595 - Disclosure - VARIABLE INTEREST ENTITIES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VARIABLEINTERESTENTITIESAssetsandLiabilitiesRelatedtoVIEDetails" roleURI="http://www.evergy.com/role/VARIABLEINTERESTENTITIESAssetsandLiabilitiesRelatedtoVIEDetails">
+        <link:definition>9955596 - Disclosure - VARIABLE INTEREST ENTITIES - Assets and Liabilities Related to VIE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESIncomeTaxExpenseDetails" roleURI="http://www.evergy.com/role/TAXESIncomeTaxExpenseDetails">
+        <link:definition>9955597 - Disclosure - TAXES - Income Tax Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESTaxesPaidDetails" roleURI="http://www.evergy.com/role/TAXESTaxesPaidDetails">
+        <link:definition>9955598 - Disclosure - TAXES - Taxes Paid (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESDeferredIncomeTaxesDetails" roleURI="http://www.evergy.com/role/TAXESDeferredIncomeTaxesDetails">
+        <link:definition>9955599 - Disclosure - TAXES - Deferred Income Taxes (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESTaxCreditCarryforwardsDetails" roleURI="http://www.evergy.com/role/TAXESTaxCreditCarryforwardsDetails">
+        <link:definition>9955600 - Disclosure - TAXES - Tax Credit Carryforwards (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESNetOperatingLossCarryforwardsDetails" roleURI="http://www.evergy.com/role/TAXESNetOperatingLossCarryforwardsDetails">
+        <link:definition>9955601 - Disclosure - TAXES - Net Operating Loss Carryforwards (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESValuationAllowanceDetails" roleURI="http://www.evergy.com/role/TAXESValuationAllowanceDetails">
+        <link:definition>9955602 - Disclosure - TAXES - Valuation Allowance (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="TAXESStateTaxReformDetails" roleURI="http://www.evergy.com/role/TAXESStateTaxReformDetails">
+        <link:definition>9955603 - Disclosure - TAXES - State Tax Reform (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESNarrativeDetails" roleURI="http://www.evergy.com/role/LEASESNarrativeDetails">
+        <link:definition>9955604 - Disclosure - LEASES - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESScheduleofLeaseExpenseDetails" roleURI="http://www.evergy.com/role/LEASESScheduleofLeaseExpenseDetails">
+        <link:definition>9955605 - Disclosure - LEASES - Schedule of Lease Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESSupplementalCashFlowInformationDetails" roleURI="http://www.evergy.com/role/LEASESSupplementalCashFlowInformationDetails">
+        <link:definition>9955606 - Disclosure - LEASES - Supplemental Cash Flow Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESScheduleofOtherPertinentLeaseInformationDetails" roleURI="http://www.evergy.com/role/LEASESScheduleofOtherPertinentLeaseInformationDetails">
+        <link:definition>9955607 - Disclosure - LEASES - Schedule of Other Pertinent Lease Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESScheduleofFuturePaymentsforFinanceLeasesDetails" roleURI="http://www.evergy.com/role/LEASESScheduleofFuturePaymentsforFinanceLeasesDetails">
+        <link:definition>9955608 - Disclosure - LEASES - Schedule of Future Payments for Finance Leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESScheduleofFuturePaymentsforFinanceLeasesDetails_1" roleURI="http://www.evergy.com/role/LEASESScheduleofFuturePaymentsforFinanceLeasesDetails_1">
+        <link:definition>9955608 - Disclosure - LEASES - Schedule of Future Payments for Finance Leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESScheduleofFuturePaymentsforOperatingLeasesDetails" roleURI="http://www.evergy.com/role/LEASESScheduleofFuturePaymentsforOperatingLeasesDetails">
+        <link:definition>9955609 - Disclosure - LEASES - Schedule of Future Payments for Operating Leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESScheduleofFuturePaymentsforOperatingLeasesDetails_1" roleURI="http://www.evergy.com/role/LEASESScheduleofFuturePaymentsforOperatingLeasesDetails_1">
+        <link:definition>9955609 - Disclosure - LEASES - Schedule of Future Payments for Operating Leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentsandRelatedInformationDetails" roleURI="http://www.evergy.com/role/SegmentsandRelatedInformationDetails">
+        <link:definition>9955610 - Disclosure - Segments and Related Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIFinancialStatementsofParentCompanyStatementsofIncomeDetails" roleURI="http://www.evergy.com/role/ScheduleIFinancialStatementsofParentCompanyStatementsofIncomeDetails">
+        <link:definition>9955611 - Disclosure - Schedule I Financial Statements of Parent Company Statements of Income (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIFinancialStatementsofParentCompanyBalanceSheetsDetails" roleURI="http://www.evergy.com/role/ScheduleIFinancialStatementsofParentCompanyBalanceSheetsDetails">
+        <link:definition>9955612 - Disclosure - Schedule I Financial Statements of Parent Company Balance Sheets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIFinancialStatementsofParentCompanyBalanceSheetParentheticalDetails" roleURI="http://www.evergy.com/role/ScheduleIFinancialStatementsofParentCompanyBalanceSheetParentheticalDetails">
+        <link:definition>9955613 - Disclosure - Schedule I Financial Statements of Parent Company Balance Sheet Parenthetical (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIFinancialStatementsofParentCompanyStatementofCashFlowsDetails" roleURI="http://www.evergy.com/role/ScheduleIFinancialStatementsofParentCompanyStatementofCashFlowsDetails">
+        <link:definition>9955614 - Disclosure - Schedule I Financial Statements of Parent Company Statement of Cash Flows (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIFinancialStatementsofParentCompanyScheduleIFinancialStatementsofParentCompanyDividendsDetails" roleURI="http://www.evergy.com/role/ScheduleIFinancialStatementsofParentCompanyScheduleIFinancialStatementsofParentCompanyDividendsDetails">
+        <link:definition>9955615 - Disclosure - Schedule I Financial Statements of Parent Company Schedule I Financial Statements of Parent Company - Dividends (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIIValuationandQualifyingAccountsDetails" roleURI="http://www.evergy.com/role/ScheduleIIValuationandQualifyingAccountsDetails">
+        <link:definition>9955616 - Disclosure - Schedule II Valuation and Qualifying Accounts (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="evrg_EvergyKansasCentralIncMember" abstract="true" name="EvergyKansasCentralIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EvergyMetroIncMember" abstract="true" name="EvergyMetroIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EvergyMember" abstract="true" name="EvergyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_FuelAndPurchasedPower" abstract="false" name="FuelAndPurchasedPower" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_SPPNetworkTransmissionCosts" abstract="false" name="SPPNetworkTransmissionCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DerivativeHedgingActivityAbstract" abstract="true" name="DerivativeHedgingActivityAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_DefinedBenefitPensionPlansAbstract" abstract="true" name="DefinedBenefitPensionPlansAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_OtherRegulatoryDisallowances" abstract="false" name="OtherRegulatoryDisallowances" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_InvestmentsAndOtherAssetsAbstract" abstract="true" name="InvestmentsAndOtherAssetsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_CustomerAdvancesForConstructionCurrent" abstract="false" name="CustomerAdvancesForConstructionCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmortizationOfNuclearFuel" abstract="false" name="AmortizationOfNuclearFuel" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmortizationOfDeferredRefuelingOutageCosts" abstract="false" name="AmortizationOfDeferredRefuelingOutageCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmortizationOfCorporateOwnedLifeInsurance" abstract="false" name="AmortizationOfCorporateOwnedLifeInsurance" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PaymentsForAssetRetirementObligations" abstract="false" name="PaymentsForAssetRetirementObligations" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncomeFromCorporateOwnedLifeInsurance" abstract="false" name="IncomeFromCorporateOwnedLifeInsurance" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_GainsLossesFromInvestmentsInEarlyStageCleanEnergyAndEnergySolutionCompanies" abstract="false" name="GainsLossesFromInvestmentsInEarlyStageCleanEnergyAndEnergySolutionCompanies" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInAccountsReceivablePledgedAsCollateral" abstract="false" name="IncreaseDecreaseInAccountsReceivablePledgedAsCollateral" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInEnergyRelatedInventory" abstract="false" name="IncreaseDecreaseInEnergyRelatedInventory" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PaymentsToAcquirePersimmonCreekWindFarm1LLCNetOfCashAcquired" abstract="false" name="PaymentsToAcquirePersimmonCreekWindFarm1LLCNetOfCashAcquired" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ProceedsFromTermLoanFacility" abstract="false" name="ProceedsFromTermLoanFacility" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_RepaymentOfTermLoanFacility" abstract="false" name="RepaymentOfTermLoanFacility" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ProceedsFromPaymentsForIssuanceOfCollateralizedDebtNet" abstract="false" name="ProceedsFromPaymentsForIssuanceOfCollateralizedDebtNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_RetirementsofLongTermDebtOfVIEs" abstract="false" name="RetirementsofLongTermDebtOfVIEs" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ProceedsFromBorrowingsAgainstCorporateOwnedLifeInsurance" abstract="false" name="ProceedsFromBorrowingsAgainstCorporateOwnedLifeInsurance" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_RepaymentsOfBorrowingsAgainstCorporateOwnedLifeInsurance" abstract="false" name="RepaymentsOfBorrowingsAgainstCorporateOwnedLifeInsurance" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ProceedsFromAdvanceForConstructionFinancingActivity" abstract="false" name="ProceedsFromAdvanceForConstructionFinancingActivity" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_StockIssuedDuringPeriodSharesDividendReinvestmentPlanAndShareBasedCompensationNet" abstract="false" name="StockIssuedDuringPeriodSharesDividendReinvestmentPlanAndShareBasedCompensationNet" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="evrg_StockIssuedDuringPeriodValueDividendReinvestmentPlanAndShareBasedCompensationNet" abstract="false" name="StockIssuedDuringPeriodValueDividendReinvestmentPlanAndShareBasedCompensationNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_UnearnedCompensationAbstract" abstract="true" name="UnearnedCompensationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_AdjustmentsToAdditionalPaidInCapitalShareBasedCompensationRestrictedStockUnitsIssuance" abstract="false" name="AdjustmentsToAdditionalPaidInCapitalShareBasedCompensationRestrictedStockUnitsIssuance" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_LoansNotesTradeAndOtherReceivablesDisclosureAndTransfersAndServicingOfFinancialAssetTextBlock" abstract="false" name="LoansNotesTradeAndOtherReceivablesDisclosureAndTransfersAndServicingOfFinancialAssetTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricUtilityPlantsAbstract" abstract="true" name="JointlyOwnedElectricUtilityPlantsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricUtilityPlantsTextBlock" abstract="false" name="JointlyOwnedElectricUtilityPlantsTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_PropertyGainsAndLossesPolicyTextBlock" abstract="false" name="PropertyGainsAndLossesPolicyTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_ScheduleOfAllowanceForFundsUsedDuringConstructionTableTextBlock" abstract="false" name="ScheduleOfAllowanceForFundsUsedDuringConstructionTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_DepreciableLivesofPropertyPlantandEquipmentTableTextBlock" abstract="false" name="DepreciableLivesofPropertyPlantandEquipmentTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_CashSurrenderValueOfCorporateOwnedLifeInsuranceTableTextBlock" abstract="false" name="CashSurrenderValueOfCorporateOwnedLifeInsuranceTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_ScheduleOfDilutiveAndAntiDilutiveSecuritiesConsideredInComputationOfEarningsPerShareTableTextBlock" abstract="false" name="ScheduleOfDilutiveAndAntiDilutiveSecuritiesConsideredInComputationOfEarningsPerShareTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="evrg_OffsettingDerivativeAssetsAndLiabilitiesTableTextBlock" abstract="false" name="OffsettingDerivativeAssetsAndLiabilitiesTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:textBlockItemType"/>
+  <xs:element id="evrg_ScheduleOfGrossNotionalContractAmountByTypeForHedgingDerivativesTableTextBlock" abstract="false" name="ScheduleOfGrossNotionalContractAmountByTypeForHedgingDerivativesTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="evrg_SupplementalCashFlowLeaseInformationTableTextBlock" abstract="false" name="SupplementalCashFlowLeaseInformationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="evrg_ScheduleOfOtherPertinentLeaseInformationTableTextBlock" abstract="false" name="ScheduleOfOtherPertinentLeaseInformationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="evrg_SummaryOfAccountingPoliciesTable" abstract="true" name="SummaryOfAccountingPoliciesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_EvergyKansasSouthIncMember" abstract="true" name="EvergyKansasSouthIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_AEPTransmissionHoldingCompanyLLCMember" abstract="true" name="AEPTransmissionHoldingCompanyLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_TransourceEnergyLLCMember" abstract="true" name="TransourceEnergyLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PrairieWindTransmissionLLCMember" abstract="true" name="PrairieWindTransmissionLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EarlyStageCleanEnergyAndEnergySolutionCompaniesMember" abstract="true" name="EarlyStageCleanEnergyAndEnergySolutionCompaniesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_EvergyTransmissionCompanyLLCMember" abstract="true" name="EvergyTransmissionCompanyLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EvergyMissouriWestIncMember" abstract="true" name="EvergyMissouriWestIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_RestrictedStockUnitsWithPerformanceMeasuresMember" abstract="true" name="RestrictedStockUnitsWithPerformanceMeasuresMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_A2024NaturalGasPlantPurchaseMember" abstract="true" name="A2024NaturalGasPlantPurchaseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_A2024SunflowerSkyPurchaseMember" abstract="true" name="A2024SunflowerSkyPurchaseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_A2024FoxtrotPurchaseMember" abstract="true" name="A2024FoxtrotPurchaseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_KansasSkySolarPlantToBeConstructedMember" abstract="true" name="KansasSkySolarPlantToBeConstructedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_SimpleCycleNaturalGasPlantToBeConstructedMember" abstract="true" name="SimpleCycleNaturalGasPlantToBeConstructedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantToBeConstructed1Member" abstract="true" name="JointlyOwnedElectricityGenerationPlantToBeConstructed1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantToBeConstructed2Member" abstract="true" name="JointlyOwnedElectricityGenerationPlantToBeConstructed2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_SummaryOfAccountingPoliciesLineItems" abstract="true" name="SummaryOfAccountingPoliciesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_NumberOfWhollyOwnedSubsidiaries" abstract="false" name="NumberOfWhollyOwnedSubsidiaries" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="evrg_TransmissionLineLength" abstract="false" name="TransmissionLineLength" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:lengthItemType"/>
+  <xs:element id="evrg_TransmissionLineElectricalPotential" abstract="false" name="TransmissionLineElectricalPotential" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="evrg_OwnedGeneratingCapacityAndRenewablePurchasedPower" abstract="false" name="OwnedGeneratingCapacityAndRenewablePurchasedPower" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:powerItemType"/>
+  <xs:element id="evrg_NumberOfCustomersServed" abstract="false" name="NumberOfCustomersServed" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="evrg_IncreaseOfNaturalGasAndPurchasedPowerCostsGross" abstract="false" name="IncreaseOfNaturalGasAndPurchasedPowerCostsGross" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseInWholesaleRevenues" abstract="false" name="IncreaseInWholesaleRevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_EquityInvestmentGainLossNetOfDerivativeGainLoss" abstract="false" name="EquityInvestmentGainLossNetOfDerivativeGainLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ApproximateMWNameplateCapacity" abstract="false" name="ApproximateMWNameplateCapacity" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:powerItemType"/>
+  <xs:element id="evrg_RealizedUnrealizedAndImpairmentLossesOnInvestment" abstract="false" name="RealizedUnrealizedAndImpairmentLossesOnInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_UnrealizedAndImpairmentLossOnInvestment" abstract="false" name="UnrealizedAndImpairmentLossOnInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseOfNaturalGasAndPurchasedPowerCostsNetIncreaseInWholesaleRevenues" abstract="false" name="IncreaseOfNaturalGasAndPurchasedPowerCostsNetIncreaseInWholesaleRevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesRequestedRateIncreaseDecreaseAmountWindFarm" abstract="false" name="PublicUtilitiesRequestedRateIncreaseDecreaseAmountWindFarm" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PISADeferralPercentage" abstract="false" name="PISADeferralPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_PotentialRecoveryPercentOfReturnOnNewGasFiredGeneratingUnit" abstract="false" name="PotentialRecoveryPercentOfReturnOnNewGasFiredGeneratingUnit" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_DogwoodCostsRecoveryPeriod" abstract="false" name="DogwoodCostsRecoveryPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_EnergyRelatedInventorySupplies" abstract="false" name="EnergyRelatedInventorySupplies" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AllowanceForBorrowedFundsUsedDuringConstruction" abstract="false" name="AllowanceForBorrowedFundsUsedDuringConstruction" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_RetiredGenerationFacilityMember" abstract="true" name="RetiredGenerationFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_CorporateOwnedLifeInsuranceBorrowings" abstract="false" name="CorporateOwnedLifeInsuranceBorrowings" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherIncomeExpenseNetTable" abstract="true" name="OtherIncomeExpenseNetTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_OtherIncomeExpenseNetLineItems" abstract="true" name="OtherIncomeExpenseNetLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_AFUDCEquityNonOperatingIncome" abstract="false" name="AFUDCEquityNonOperatingIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_CorporateOwnedLifeInsurancePolicyBenefit" abstract="false" name="CorporateOwnedLifeInsurancePolicyBenefit" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncomeFromSaleOfCommercialSolarProject" abstract="false" name="IncomeFromSaleOfCommercialSolarProject" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherNonOperatingIncomeOther" abstract="false" name="OtherNonOperatingIncomeOther" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NonServiceCostComponentOfNetBenefitCost" abstract="false" name="NonServiceCostComponentOfNetBenefitCost" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherNonoperatingIncomeExpenseWolfCreekCOLI" abstract="false" name="OtherNonoperatingIncomeExpenseWolfCreekCOLI" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherNonoperatingIncomeExpenseOther" abstract="false" name="OtherNonoperatingIncomeExpenseOther" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NonCashPropertyPlantAndEquipmentAdditionsGross" abstract="false" name="NonCashPropertyPlantAndEquipmentAdditionsGross" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_LesseeLeaseAsset" abstract="false" name="LesseeLeaseAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_LesseeLeaseLiability" abstract="false" name="LesseeLeaseLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassResidentialMember" abstract="true" name="ElectricUtilityCustomerClassResidentialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassCommercialMember" abstract="true" name="ElectricUtilityCustomerClassCommercialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassIndustrialMember" abstract="true" name="ElectricUtilityCustomerClassIndustrialMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassOtherRetailMember" abstract="true" name="ElectricUtilityCustomerClassOtherRetailMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassTotalElectricRetailMember" abstract="true" name="ElectricUtilityCustomerClassTotalElectricRetailMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassWholesaleMember" abstract="true" name="ElectricUtilityCustomerClassWholesaleMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassTransmissionMember" abstract="true" name="ElectricUtilityCustomerClassTransmissionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_ElectricUtilityCustomerClassIndustrialSteamMember" abstract="true" name="ElectricUtilityCustomerClassIndustrialSteamMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_OtherRevenue" abstract="false" name="OtherRevenue" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_MaximumAmountOfOutstandingPrincipalUnderReceivablesAgreement" abstract="false" name="MaximumAmountOfOutstandingPrincipalUnderReceivablesAgreement" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AdditionalAmountofOutstandingPrincipalUnderReceivablesAgreement" abstract="false" name="AdditionalAmountofOutstandingPrincipalUnderReceivablesAgreement" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherReceivablesContractsWithCustomers" abstract="false" name="OtherReceivablesContractsWithCustomers" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_A2025RateCaseProceedingsMember" abstract="true" name="A2025RateCaseProceedingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_ApplicationsForPredeterminationMember" abstract="true" name="ApplicationsForPredeterminationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_TransmissionDeliveryChargeMember" abstract="true" name="TransmissionDeliveryChargeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_A2024RateCaseProceedingsMember" abstract="true" name="A2024RateCaseProceedingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_EvergyMissouriWestOtherProceedingsMember" abstract="true" name="EvergyMissouriWestOtherProceedingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_A2026RateCaseProceedingsMember" abstract="true" name="A2026RateCaseProceedingsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_FERC2023TFRProceedingMember" abstract="true" name="FERC2023TFRProceedingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_FERC2024TFRProceedingMember" abstract="true" name="FERC2024TFRProceedingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_FERC2025TFRProceedingMember" abstract="true" name="FERC2025TFRProceedingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_FERC2026TFRProceedingMember" abstract="true" name="FERC2026TFRProceedingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_LaCygneStationMember" abstract="true" name="LaCygneStationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_KansasCorporationCommissionMember" abstract="true" name="KansasCorporationCommissionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_FederalEnergyRegulatoryCommissionMember" abstract="true" name="FederalEnergyRegulatoryCommissionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MissouriPublicServiceCommissionMember" abstract="true" name="MissouriPublicServiceCommissionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_February2021WinterWeatherEventMember" abstract="true" name="February2021WinterWeatherEventMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_TFRRevenuesForRefundMember" abstract="true" name="TFRRevenuesForRefundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PublicUtilitiesRefundPercentOnEarningsOverApprovedReturnOnEquity" abstract="false" name="PublicUtilitiesRefundPercentOnEarningsOverApprovedReturnOnEquity" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_PublicUtilitiesRecoveryMechanismPercentForFuelCost" abstract="false" name="PublicUtilitiesRecoveryMechanismPercentForFuelCost" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="evrg_PublicUtilitiesRecoveryMechanismsSharingPercentageForFuelCost" abstract="false" name="PublicUtilitiesRecoveryMechanismsSharingPercentageForFuelCost" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="evrg_CWIPRiderImplementationCommencementAfterPlantConstructionOnset" abstract="false" name="CWIPRiderImplementationCommencementAfterPlantConstructionOnset" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_AmountOfCWIPRecoveryPercentage" abstract="false" name="AmountOfCWIPRecoveryPercentage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_CWIPRiderRateUpdateInterval" abstract="false" name="CWIPRiderRateUpdateInterval" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_RecoveryPeriodKansasSkySolarGenerationPlantYears" abstract="false" name="RecoveryPeriodKansasSkySolarGenerationPlantYears" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_PublicUtilitiesEstimatedAnnualTransmissionsRevenueIncreaseDecreaseOverPriorYearAmount" abstract="false" name="PublicUtilitiesEstimatedAnnualTransmissionsRevenueIncreaseDecreaseOverPriorYearAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesApprovedRateIncreaseDecreaseAmountWindFarm" abstract="false" name="PublicUtilitiesApprovedRateIncreaseDecreaseAmountWindFarm" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_CostOfInvestmentInRenewableGenerationNetOfCashAcquired" abstract="false" name="CostOfInvestmentInRenewableGenerationNetOfCashAcquired" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DeferralOfRevenuesToRegulatoryLiabilityForRefundToCustomersForCOLIRateCredits" abstract="false" name="DeferralOfRevenuesToRegulatoryLiabilityForRefundToCustomersForCOLIRateCredits" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_RegulatoryAssetLiabilityRepresentingDifferencesBetweenPensionAndPostRetirementCostsForGAAPAndForRatemaking" abstract="false" name="RegulatoryAssetLiabilityRepresentingDifferencesBetweenPensionAndPostRetirementCostsForGAAPAndForRatemaking" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesApprovedRateIncreaseDecreaseAmountNotIncludingCertainOpenItems" abstract="false" name="PublicUtilitiesApprovedRateIncreaseDecreaseAmountNotIncludingCertainOpenItems" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseInRegulatoryAsset" abstract="false" name="IncreaseInRegulatoryAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesOtherRegulatoryDisallowances" abstract="false" name="PublicUtilitiesOtherRegulatoryDisallowances" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_RecommendedReturnOnEquity" abstract="false" name="RecommendedReturnOnEquity" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_RecommendedIncreaseDecreaseToRevenues" abstract="false" name="RecommendedIncreaseDecreaseToRevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesRateIncrease" abstract="false" name="PublicUtilitiesRateIncrease" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesDecreaseToBaseRatesForFuelAndPurchasedPowerPendingApproval" abstract="false" name="PublicUtilitiesDecreaseToBaseRatesForFuelAndPurchasedPowerPendingApproval" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DebtFairValueAdjustmentMember" abstract="true" name="DebtFairValueAdjustmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_AssetRetirementObligationsFairValueAdjustmentMember" abstract="true" name="AssetRetirementObligationsFairValueAdjustmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DepreciationMember" abstract="true" name="DepreciationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_AnalogMeterUnvrecoveredInvestmentMember" abstract="true" name="AnalogMeterUnvrecoveredInvestmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_TreasuryYieldHedgeMember" abstract="true" name="TreasuryYieldHedgeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_IatanNo1AndCommonFacilitiesDepreciationAndCarryingCostsMember" abstract="true" name="IatanNo1AndCommonFacilitiesDepreciationAndCarryingCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_IatanNo2ConstructionAccountingCostsMember" abstract="true" name="IatanNo2ConstructionAccountingCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_KansasPropertyTaxSurchargeMember" abstract="true" name="KansasPropertyTaxSurchargeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DisallowedPlantCostsMember" abstract="true" name="DisallowedPlantCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_LaCygneDeferredDepreciationMember" abstract="true" name="LaCygneDeferredDepreciationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DeferredCustomerProgramsMember" abstract="true" name="DeferredCustomerProgramsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_February2021WinterWeatherEventSecuritizedCostsMember" abstract="true" name="February2021WinterWeatherEventSecuritizedCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_WolfCreekoutageMember" abstract="true" name="WolfCreekoutageMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PensionAndOtherPostretirementBenefitNonserviceCostsMember" abstract="true" name="PensionAndOtherPostretirementBenefitNonserviceCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_RetiredGenerationFacilityApprovedMember" abstract="true" name="RetiredGenerationFacilityApprovedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MergerTransitionCostsMember" abstract="true" name="MergerTransitionCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_OtherRegulatoryAssetsIncludedInRateBaseMember" abstract="true" name="OtherRegulatoryAssetsIncludedInRateBaseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_COLIRateCreditsRefundMember" abstract="true" name="COLIRateCreditsRefundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_DeferredRefundableIncomeTaxesMember" abstract="true" name="DeferredRefundableIncomeTaxesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_NuclearProductionTaxCreditsMember" abstract="true" name="NuclearProductionTaxCreditsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_DeferredregulatorygainfromsaleleasebackMember" abstract="true" name="DeferredregulatorygainfromsaleleasebackMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EmissionAllowancesMember" abstract="true" name="EmissionAllowancesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_NucleardecommissioningMember" abstract="true" name="NucleardecommissioningMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JurisdictionalAllowanceForFundsUsedDuringConstructionMember" abstract="true" name="JurisdictionalAllowanceForFundsUsedDuringConstructionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_LaCygneLeaseholdDismantlingCostsMember" abstract="true" name="LaCygneLeaseholdDismantlingCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_KansasTaxCreditsMember" abstract="true" name="KansasTaxCreditsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PurchasePowerAgreementMember" abstract="true" name="PurchasePowerAgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_February2021WinterWeatherEventRegulatoryLiabilityMember" abstract="true" name="February2021WinterWeatherEventRegulatoryLiabilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SibleyRevenuesForRefundMember" abstract="true" name="SibleyRevenuesForRefundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PhaseInPlanForRatemakingMember" abstract="true" name="PhaseInPlanForRatemakingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInAROResultingFromDecommissioningStudy" abstract="false" name="IncreaseDecreaseInAROResultingFromDecommissioningStudy" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PropertyPlantAndEquipmentAdjustment" abstract="false" name="PropertyPlantAndEquipmentAdjustment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PublicUtilitiesPropertyPlantAndEquipmentInServiceNet" abstract="false" name="PublicUtilitiesPropertyPlantAndEquipmentInServiceNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PlantToBeRetiredNet" abstract="false" name="PlantToBeRetiredNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantLaCygneStationMember" abstract="true" name="JointlyOwnedElectricityGenerationPlantLaCygneStationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantIatanNo1Member" abstract="true" name="JointlyOwnedElectricityGenerationPlantIatanNo1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantIatanNo.2Member" abstract="true" name="JointlyOwnedElectricityGenerationPlantIatanNo.2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantIatanCommonMember" abstract="true" name="JointlyOwnedElectricityGenerationPlantIatanCommonMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantJeffreyEnergyCenterMember" abstract="true" name="JointlyOwnedElectricityGenerationPlantJeffreyEnergyCenterMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantStateLineMember" abstract="true" name="JointlyOwnedElectricityGenerationPlantStateLineMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_LaCygneUnit2Member" abstract="true" name="LaCygneUnit2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantDogwoodMember" abstract="true" name="JointlyOwnedElectricityGenerationPlantDogwoodMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_SumnerCountyCCGTFacilityMember" abstract="true" name="SumnerCountyCCGTFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_RenoCountyCCGTFacilityMember" abstract="true" name="RenoCountyCCGTFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_AccreditedCapacity" abstract="false" name="AccreditedCapacity" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:powerItemType"/>
+  <xs:element id="evrg_LeaseholdInterestPercentage" abstract="false" name="LeaseholdInterestPercentage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_PensionPlansAndOtherPostretirementBenefitPlansDefinedBenefitMemberMember" abstract="true" name="PensionPlansAndOtherPostretirementBenefitPlansDefinedBenefitMemberMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndSpecialTerminationBenefits" abstract="false" name="DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndSpecialTerminationBenefits" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_UnfundedAccumulatedBenefitObligationForNonQualifiedPlans" abstract="false" name="UnfundedAccumulatedBenefitObligationForNonQualifiedPlans" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_SegregatedAssetsForNonQualifiedBenefitPlans" abstract="false" name="SegregatedAssetsForNonQualifiedBenefitPlans" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanChangeInDiscountRate" abstract="false" name="DefinedBenefitPlanChangeInDiscountRate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanContributionsByEmployerAndParticipants" abstract="false" name="DefinedBenefitPlanContributionsByEmployerAndParticipants" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanPlanAssetsOtherNet" abstract="false" name="DefinedBenefitPlanPlanAssetsOtherNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanAmountRecognizedInAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiability" abstract="false" name="DefinedBenefitPlanAmountRecognizedInAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanAmountsforAssetLiabilityRecognizedinStatementofFinancialPositionAndAOCINet" abstract="false" name="DefinedBenefitPlanAmountsforAssetLiabilityRecognizedinStatementofFinancialPositionAndAOCINet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmountsInAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiabilityNotYetRecognizedAsAComponentOfNetPeriodicBenefitCostAbstract" abstract="true" name="AmountsInAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiabilityNotYetRecognizedAsAComponentOfNetPeriodicBenefitCostAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiabilityNetGainsLossesBeforeTax" abstract="false" name="DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiabilityNetGainsLossesBeforeTax" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiabilityNetPriorServiceCostCreditBeforeTax" abstract="false" name="DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeOrRegulatoryAssetLiabilityNetPriorServiceCostCreditBeforeTax" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NetPeriodBenefitCostsBeforeRegulatoryAdjustmentAndIntercompanyAllocations" abstract="false" name="NetPeriodBenefitCostsBeforeRegulatoryAdjustmentAndIntercompanyAllocations" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanRegulatoryAdjustmentNet" abstract="false" name="DefinedBenefitPlanRegulatoryAdjustmentNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlansIntercompanyAllocationsNet" abstract="false" name="DefinedBenefitPlansIntercompanyAllocationsNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanBondMember" abstract="true" name="DefinedBenefitPlanBondMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanOtherInvestmentMember" abstract="true" name="DefinedBenefitPlanOtherInvestmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_AlternativeInvestmentFundsMember" abstract="true" name="AlternativeInvestmentFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DefinedBenefitPlanOtherMember" abstract="true" name="DefinedBenefitPlanOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SharebasedCompensationArrangementbySharebasedPaymentAwardEquityInstrumentsOtherthanOptionsAddedfromMergerVestedInPeriod" abstract="false" name="SharebasedCompensationArrangementbySharebasedPaymentAwardEquityInstrumentsOtherthanOptionsAddedfromMergerVestedInPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="evrg_ConvertibleNotesDue2027Member" abstract="true" name="ConvertibleNotesDue2027Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_DebtInstrumentDebtDefaultThreshold" abstract="false" name="DebtInstrumentDebtDefaultThreshold" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DebtInstrumentCovenantDebtToCapitalizationRatioMaximum" abstract="false" name="DebtInstrumentCovenantDebtToCapitalizationRatioMaximum" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_PollutionControlBondsMember" abstract="true" name="PollutionControlBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SecuritizedBondsMember" abstract="true" name="SecuritizedBondsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2025EKCMember" abstract="true" name="MortgageBondsDue2025EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2026EKCMember" abstract="true" name="MortgageBondsDue2026EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2027EKCMember" abstract="true" name="MortgageBondsDue2027EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2033EKCMember" abstract="true" name="MortgageBondsDue2033EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2042EKCMember" abstract="true" name="MortgageBondsDue2042EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2043AEKCMember" abstract="true" name="MortgageBondsDue2043AEKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2043BEKCMember" abstract="true" name="MortgageBondsDue2043BEKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2045EKCMember" abstract="true" name="MortgageBondsDue2045EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2049KEKCMember" abstract="true" name="MortgageBondsDue2049KEKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2050EKCMember" abstract="true" name="MortgageBondsDue2050EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2053EKCMember" abstract="true" name="MortgageBondsDue2053EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2037EKSMember" abstract="true" name="MortgageBondsDue2037EKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2038EKSMember" abstract="true" name="MortgageBondsDue2038EKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2044EKSMember" abstract="true" name="MortgageBondsDue2044EKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2030EMMember" abstract="true" name="MortgageBondsDue2030EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2033EMMember" abstract="true" name="MortgageBondsDue2033EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2049EvergyMetroMember" abstract="true" name="MortgageBondsDue2049EvergyMetroMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2027EMWMember" abstract="true" name="MortgageBondsDue2027EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2032EMWMember" abstract="true" name="MortgageBondsDue2032EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PollutionControlBondsDue2032AEKCMember" abstract="true" name="PollutionControlBondsDue2032AEKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PollutionControlBondsDue2032BEKCMember" abstract="true" name="PollutionControlBondsDue2032BEKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PollutionControlBondsDue2027EKSMember" abstract="true" name="PollutionControlBondsDue2027EKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PollutionControlBondsDue2031EKSMember" abstract="true" name="PollutionControlBondsDue2031EKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PollutionControlBondsDue2032AEKSMember" abstract="true" name="PollutionControlBondsDue2032AEKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PollutionControlBondsDue2032BEKSMember" abstract="true" name="PollutionControlBondsDue2032BEKSMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EIRRBondsSeries2007Aand2007Bdue2035EMMember" abstract="true" name="EIRRBondsSeries2007Aand2007Bdue2035EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EERRBonds2875PercentSeries2008EMMember" abstract="true" name="EERRBonds2875PercentSeries2008EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesdue2025EMMember" abstract="true" name="SeniorNotesdue2025EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_Seniornotesdue2035EMMember" abstract="true" name="Seniornotesdue2035EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2035And5.78EMMember" abstract="true" name="SeniorNotesDue2035And5.78EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2041EMMember" abstract="true" name="SeniorNotesDue2041EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2047EMMember" abstract="true" name="SeniorNotesDue2047EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2048EMMember" abstract="true" name="SeniorNotesDue2048EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesSeriesAdue2025EMWMember" abstract="true" name="SeniorNotesSeriesAdue2025EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesSeriesBdue2033EMWMember" abstract="true" name="SeniorNotesSeriesBdue2033EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesSeriesCdue2043EMWMember" abstract="true" name="SeniorNotesSeriesCdue2043EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesSeriesADue2031EMWMember" abstract="true" name="SeniorNotesSeriesADue2031EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesSeriesB301PercentDue2033EMWMember" abstract="true" name="SeniorNotesSeriesB301PercentDue2033EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesSeriesCDue2036EMWMember" abstract="true" name="SeniorNotesSeriesCDue2036EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotes2.90PercentSeriesDue2029Member" abstract="true" name="SeniorNotes2.90PercentSeriesDue2029Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SeniorNotes3.77PercentSeriesDue2029Member" abstract="true" name="SeniorNotes3.77PercentSeriesDue2029Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_LongTermDebtFairValueAdjustmentMember" abstract="true" name="LongTermDebtFairValueAdjustmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_GeneralMortgagebondsEIRRseries2005Member" abstract="true" name="GeneralMortgagebondsEIRRseries2005Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_SecuritizedBondsDue2040EMWMember" abstract="true" name="SecuritizedBondsDue2040EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2034EMWMember" abstract="true" name="MortgageBondsDue2034EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_JuniorSubordinatedNotesDue2055Member" abstract="true" name="JuniorSubordinatedNotesDue2055Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2034EMMember" abstract="true" name="MortgageBondsDue2034EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_EIRRBondsDue2045EMMember" abstract="true" name="EIRRBondsDue2045EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_EIRRBondsDue2038EMMember" abstract="true" name="EIRRBondsDue2038EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_MortgageBondsDue2035EKCMember" abstract="true" name="MortgageBondsDue2035EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_GeneralMortgageBondsDue2035EMMember" abstract="true" name="GeneralMortgageBondsDue2035EMMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_FirstMortgageBondsDue2035EMWMember" abstract="true" name="FirstMortgageBondsDue2035EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_NotesDue2028EKCMember" abstract="true" name="NotesDue2028EKCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_DebtConversionTermsOneMember" abstract="true" name="DebtConversionTermsOneMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_DebtConversionTermsTwoMember" abstract="true" name="DebtConversionTermsTwoMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2025Member" abstract="true" name="SeniorNotesDue2025Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2025EMWMember" abstract="true" name="SeniorNotesDue2025EMWMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_MaximumAmountOfFirstMortgageBondsAuthorized" abstract="false" name="MaximumAmountOfFirstMortgageBondsAuthorized" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_FirstMortgageBondsAdditionalPrincipalAvailableToBeIssued" abstract="false" name="FirstMortgageBondsAdditionalPrincipalAvailableToBeIssued" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PercentageofBondablePropertyAllowed" abstract="false" name="PercentageofBondablePropertyAllowed" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_DebtInstrumentCovenantPriorityDebtPercentageOfTangibleNetWorthMaximum" abstract="false" name="DebtInstrumentCovenantPriorityDebtPercentageOfTangibleNetWorthMaximum" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_CreditDerivativeMaximumExposureAfterMasterNettingAndCollateral" abstract="false" name="CreditDerivativeMaximumExposureAfterMasterNettingAndCollateral" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_TransmissionCongestionRightsMember" abstract="true" name="TransmissionCongestionRightsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_NaturalGasCommodityContractMember" abstract="true" name="NaturalGasCommodityContractMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PowerCommodityContractMember" abstract="true" name="PowerCommodityContractMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PowerCommodityContractCurrentMember" abstract="true" name="PowerCommodityContractCurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_NaturalGasCommodityContractCurrentMember" abstract="true" name="NaturalGasCommodityContractCurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_CommodityContractCurrentMember" abstract="true" name="CommodityContractCurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_CommodityContractNoncurrentMember" abstract="true" name="CommodityContractNoncurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PowerCommodityContractNoncurrentMember" abstract="true" name="PowerCommodityContractNoncurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_NaturalGasCommodityContractNoncurrentMember" abstract="true" name="NaturalGasCommodityContractNoncurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_InterestRateSwapCurrentMember" abstract="true" name="InterestRateSwapCurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_InterestRateSwapNoncurrentMember" abstract="true" name="InterestRateSwapNoncurrentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_IncomeTaxBenefitExpenseMember" abstract="true" name="IncomeTaxBenefitExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_RegulatoryAccountMember" abstract="true" name="RegulatoryAccountMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_FuelCostsMember" abstract="true" name="FuelCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PurchasedPowerCostsMember" abstract="true" name="PurchasedPowerCostsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DerivativeInstrumentsGainLossReclassifiedFromRegulatoryAccountIntoIncomeOnDerivatives" abstract="false" name="DerivativeInstrumentsGainLossReclassifiedFromRegulatoryAccountIntoIncomeOnDerivatives" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_SeniorNotesDue2029EvergyMember" abstract="true" name="SeniorNotesDue2029EvergyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_OtherEvergyMember" abstract="true" name="OtherEvergyMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_CoreBondFundMember" abstract="true" name="CoreBondFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_HighYieldBondFundMember" abstract="true" name="HighYieldBondFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EmergingMarketsBondFundMember" abstract="true" name="EmergingMarketsBondFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_AlternativeInvestmentFundMember" abstract="true" name="AlternativeInvestmentFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_OtherEquityFundMember" abstract="true" name="OtherEquityFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DebtEquityOtherFundMember" abstract="true" name="DebtEquityOtherFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_OtherTrustAssetsMember" abstract="true" name="OtherTrustAssetsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_RabbiTrustFairValueDisclosure" abstract="false" name="RabbiTrustFairValueDisclosure" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_SelfInsuredHealthPlanTrustFairValueDisclosure" abstract="false" name="SelfInsuredHealthPlanTrustFairValueDisclosure" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_Evrg_OtherEquityInvestmentFairValueDisclosure" abstract="false" name="Evrg_OtherEquityInvestmentFairValueDisclosure" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DecommissioningTrustAssetsMember" abstract="true" name="DecommissioningTrustAssetsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_RabbiTrustsMember" abstract="true" name="RabbiTrustsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_FairValueInvestmentsEntitiesThatCalculateNetAssetValueSettlementTerm" abstract="false" name="FairValueInvestmentsEntitiesThatCalculateNetAssetValueSettlementTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_FairValueInvestmentsEntitiesThatCalculateNetAssetValueNumberOfFunds" abstract="false" name="FairValueInvestmentsEntitiesThatCalculateNetAssetValueNumberOfFunds" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="evrg_FairValueInvestmentsEntitiesThatCalculateNetAssetValueNumberOfFundsMakingDistributions" abstract="false" name="FairValueInvestmentsEntitiesThatCalculateNetAssetValueNumberOfFundsMakingDistributions" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="evrg_FairValueInvestmentsEntitiesThatCalculateNetAssetValueNumberOfExtensions" abstract="false" name="FairValueInvestmentsEntitiesThatCalculateNetAssetValueNumberOfExtensions" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="evrg_FairValueInvestmentsEntitiesThatCalculateNetAssetValueExtensionTerm" abstract="false" name="FairValueInvestmentsEntitiesThatCalculateNetAssetValueExtensionTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_DecommissioningTrustAssetsEquityMember" abstract="true" name="DecommissioningTrustAssetsEquityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_DecommissioningTrustAssetsDebtMember" abstract="true" name="DecommissioningTrustAssetsDebtMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EstimatesOfEnvironmentalFinancialImpactAndRelatedIssuesTable" abstract="true" name="EstimatesOfEnvironmentalFinancialImpactAndRelatedIssuesTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_EstimatesOfEnvironmentalFinancialImpactAndRelatedIssuesLineItems" abstract="true" name="EstimatesOfEnvironmentalFinancialImpactAndRelatedIssuesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_IndustryAggregateLimitForNuclearInsurance" abstract="false" name="IndustryAggregateLimitForNuclearInsurance" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IndustryAggregateLimitForNonNuclearInsurance" abstract="false" name="IndustryAggregateLimitForNonNuclearInsurance" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceFullLimitOfPublicLiability" abstract="false" name="NuclearLiabilityInsuranceFullLimitOfPublicLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceMaximumAvailableCommercialInsurance" abstract="false" name="NuclearLiabilityInsuranceMaximumAvailableCommercialInsurance" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceIndustryWideRetrospectiveAssessmentProgram" abstract="false" name="NuclearLiabilityInsuranceIndustryWideRetrospectiveAssessmentProgram" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceOwnersInsuranceAmountMaximum" abstract="false" name="NuclearLiabilityInsuranceOwnersInsuranceAmountMaximum" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceOwnersInsuranceAmountPerIncident" abstract="false" name="NuclearLiabilityInsuranceOwnersInsuranceAmountPerIncident" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceOwnersPropertyInsuranceMaximum" abstract="false" name="NuclearLiabilityInsuranceOwnersPropertyInsuranceMaximum" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceOwnersNonnuclearPropertyInsuranceMaximum" abstract="false" name="NuclearLiabilityInsuranceOwnersNonnuclearPropertyInsuranceMaximum" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_NuclearLiabilityInsuranceOwnersPropertyInsuranceAssessmentMaximum" abstract="false" name="NuclearLiabilityInsuranceOwnersPropertyInsuranceAssessmentMaximum" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PurchasedPowerMember" abstract="true" name="PurchasedPowerMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JointlyOwnedElectricityGenerationPlantIatanNo1And2Member" abstract="true" name="JointlyOwnedElectricityGenerationPlantIatanNo1And2Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_JeffreyEnergyCenterMember" abstract="true" name="JeffreyEnergyCenterMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_OperatingExpensesAndCapitalCostsBilledMember" abstract="true" name="OperatingExpensesAndCapitalCostsBilledMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_EvergyIncMoneyPoolMember" abstract="true" name="EvergyIncMoneyPoolMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_IncomeTaxReceivableMember" abstract="true" name="IncomeTaxReceivableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_IncomeTaxesPayableMember" abstract="true" name="IncomeTaxesPayableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_RestrictiononPaymentOfDividendsMinimumRatioOfEquityToCapitalization" abstract="false" name="RestrictiononPaymentOfDividendsMinimumRatioOfEquityToCapitalization" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_ATMProgram032027AgreementMember" abstract="true" name="ATMProgram032027AgreementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_ATMProgram102027Member" abstract="true" name="ATMProgram102027Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_AggregateCommonStockAvailableToSellUnderATM" abstract="false" name="AggregateCommonStockAvailableToSellUnderATM" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AggregateCommonStockAvailableToIssueUnderATM" abstract="false" name="AggregateCommonStockAvailableToIssueUnderATM" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ForwardContractIndexedToIssuersEquityNetCashSettlement" abstract="false" name="ForwardContractIndexedToIssuersEquityNetCashSettlement" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_ForwardContractIndexedToIssuersEquityNetShareSettlement" abstract="false" name="ForwardContractIndexedToIssuersEquityNetShareSettlement" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="evrg_ForwardContractEffectiveDate" abstract="false" name="ForwardContractEffectiveDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="evrg_ForwardContractMaturityDate" abstract="false" name="ForwardContractMaturityDate" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:dateItemType"/>
+  <xs:element id="evrg_InvestmentTaxCreditsAbstract" abstract="true" name="InvestmentTaxCreditsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_InvestmentTaxCreditDeferral" abstract="false" name="InvestmentTaxCreditDeferral" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_InvestmentTaxCreditAmortization" abstract="false" name="InvestmentTaxCreditAmortization" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_InvestmentTaxCreditTotalNet" abstract="false" name="InvestmentTaxCreditTotalNet" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_EffectOfAbstract" abstract="true" name="EffectOfAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_EffectiveIncomeTaxRateReconciliationAFUDCEquity" abstract="false" name="EffectiveIncomeTaxRateReconciliationAFUDCEquity" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_EffectiveIncomeTaxRateReconciliationOfficerCompensationLimitation" abstract="false" name="EffectiveIncomeTaxRateReconciliationOfficerCompensationLimitation" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_EffectiveIncomeTaxRateReconciliationChangesInUncertainTaxPositionsNet" abstract="false" name="EffectiveIncomeTaxRateReconciliationChangesInUncertainTaxPositionsNet" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_AmortizationOfStateExcessDeferredIncomeTaxesAmount" abstract="false" name="AmortizationOfStateExcessDeferredIncomeTaxesAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmortizationOfStateExcessDeferredIncomeTaxesPercent" abstract="false" name="AmortizationOfStateExcessDeferredIncomeTaxesPercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_AmortizationOfFederalExcessDeferredIncomeTaxesAmount" abstract="false" name="AmortizationOfFederalExcessDeferredIncomeTaxesAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmortizationOfFederalExcessDeferredIncomeTaxesPercent" abstract="false" name="AmortizationOfFederalExcessDeferredIncomeTaxesPercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="evrg_EffectiveIncomeTaxRateReconciliationEffectOfRegulatoryTreatmentBookTaxDifferencesPercentages" abstract="false" name="EffectiveIncomeTaxRateReconciliationEffectOfRegulatoryTreatmentBookTaxDifferencesPercentages" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:percentItemType"/>
+  <xs:element id="evrg_EffectiveIncometaxRateReconciliationEffectOfRegulatoryTreatmentBookTaxDifferencesAmount" abstract="false" name="EffectiveIncometaxRateReconciliationEffectOfRegulatoryTreatmentBookTaxDifferencesAmount" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_MissouriStateMember" abstract="true" name="MissouriStateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_KansasStateMember" abstract="true" name="KansasStateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_OtherStatesMember" abstract="true" name="OtherStatesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_DeferredTaxAssetsIncomeTaxesRefundableToCustomers" abstract="false" name="DeferredTaxAssetsIncomeTaxesRefundableToCustomers" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DeferredTaxLiabilitiesEmployeeBenefitCostsNet" abstract="false" name="DeferredTaxLiabilitiesEmployeeBenefitCostsNet" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DeferredTaxLiabilitiesAssetRetirementObligationRegulatoryAsset" abstract="false" name="DeferredTaxLiabilitiesAssetRetirementObligationRegulatoryAsset" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_DeferredTaxLiabilitiesAcquisitionPremiumNet" abstract="false" name="DeferredTaxLiabilitiesAcquisitionPremiumNet" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_FederalAlternativeMinimumTaxCreditCarryforwardMember" abstract="true" name="FederalAlternativeMinimumTaxCreditCarryforwardMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types1:domainItemType"/>
+  <xs:element id="evrg_PortionOfGeneralBusinessTaxCreditRelatedToNuclearPowerProductionMember" abstract="true" name="PortionOfGeneralBusinessTaxCreditRelatedToNuclearPowerProductionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_AmountOfTaxCreditAcquiredInBusinessCombination" abstract="false" name="AmountOfTaxCreditAcquiredInBusinessCombination" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_PerMWhAmountOfNuclearProductionTaxCredit" abstract="false" name="PerMWhAmountOfNuclearProductionTaxCredit" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_MinimumPerMWhGrossReceiptsNuclearPTCRequirement" abstract="false" name="MinimumPerMWhGrossReceiptsNuclearPTCRequirement" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_MaximumPerMWhGrossReceiptsNuclearPTCRequirement" abstract="false" name="MaximumPerMWhGrossReceiptsNuclearPTCRequirement" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_AmountOfNetOperatingLossesRelatedToBusinessAcquisition" abstract="false" name="AmountOfNetOperatingLossesRelatedToBusinessAcquisition" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInNetDeferredIncomeTaxLiabilitiesDuetoTaxReform" abstract="false" name="IncreaseDecreaseInNetDeferredIncomeTaxLiabilitiesDuetoTaxReform" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInNetDeferredIncomeTaxLiabilitiesForRevaluationOfRegulatedDeferredIncomeTaxAssetsAndLiabilities" abstract="false" name="IncreaseDecreaseInNetDeferredIncomeTaxLiabilitiesForRevaluationOfRegulatedDeferredIncomeTaxAssetsAndLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseinNetDeferredIncomeTaxLiabilitiesForTaxGrossUpAdjustmentForRatemakingPurposesDueToTaxReform" abstract="false" name="IncreaseDecreaseinNetDeferredIncomeTaxLiabilitiesForTaxGrossUpAdjustmentForRatemakingPurposesDueToTaxReform" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInUnamortizedInvestmentTaxCredits" abstract="false" name="IncreaseDecreaseInUnamortizedInvestmentTaxCredits" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_IncreaseDecreaseInUnamortizedInvestmentTaxCreditsForTaxGrossUpAdjustmentForRatemakingPurposes" abstract="false" name="IncreaseDecreaseInUnamortizedInvestmentTaxCreditsForTaxGrossUpAdjustmentForRatemakingPurposes" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_LeaseRemainingLeaseTerm" abstract="false" name="LeaseRemainingLeaseTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="evrg_CashFlowLesseeAbstract" abstract="true" name="CashFlowLesseeAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="evrg_EvergyCompaniesMember" abstract="true" name="EvergyCompaniesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="evrg_OperationsCosts" abstract="false" name="OperationsCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_SupportCosts" abstract="false" name="SupportCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherSegmentItemsCosts" abstract="false" name="OtherSegmentItemsCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_OtherComprehensiveIncomeFromSubsidiariesNetOfTax" abstract="false" name="OtherComprehensiveIncomeFromSubsidiariesNetOfTax" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="evrg_EquityContribution" abstract="false" name="EquityContribution" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

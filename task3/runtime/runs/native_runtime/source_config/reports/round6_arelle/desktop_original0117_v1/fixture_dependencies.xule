@@ -1,0 +1,109 @@
+output-attribute effectiveDate
+output-attribute rule-focus
+namespace http://fasb.org/us-gaap/2024
+namespace srt = http://fasb.org/srt/2024
+constant $STATEMENT_CUBES = FILTER taxonomy().cubes where $item.drs-role.description.contains('- Statement -')
+and (not $item.drs-role.uri.lower-case.contains('parenthetical')) 
+and (not $item.drs-role.uri.lower-case.contains('equity')) 
+and (not $item.drs-role.uri.lower-case.contains('deficit')) 
+and (not $item.drs-role.uri.lower-case.contains('stockholders')) 
+and (not $item.drs-role.uri.lower-case.contains('capital')) 
+and (not $item.drs-role.uri.lower-case.contains('investment')) 
+and (not $item.drs-role.uri.lower-case.contains('changes')) 
+and (not $item.drs-role.uri.lower-case.contains('shareholder')) 
+and (not $item.drs-role.uri.lower-case.contains('convertible')) 
+and (not $item.drs-role.uri.lower-case.contains('preferred'))  
+and (not $item.drs-role.uri.lower-case.contains('temporaryequity')) 
+and (not $item.drs-role.uri.lower-case.contains('redeemable'))
+and (not $item.drs-role.uri.lower-case.contains('netproceedsfromallsources'))
+and (not $item.drs-role.uri.lower-case.contains('membersinterest'))
+and (not $item.drs-role.description.lower-case.contains('schedule iii'))
+and (not $item.drs-role.description.lower-case.contains('schedule iv'))
+and (not $item.cube-concept.name in set(ScheduleOfInvestmentsTable,SummaryOfInvestmentHoldingsTable,InvestmentsSoldNotYetPurchasedTable,OpenOptionContractsWrittenTable,OpenFuturesContractTable,OpenForwardForeignCurrencyContractTable,OpenSwapContractTable))
+
+
+constant $STATEMENT_PARENTHETICAL_CUBES = FILTER taxonomy().cubes where $item.drs-role.description.contains('- Statement -')
+and ($item.drs-role.uri.lower-case.contains('parenthetical')) 
+
+
+constant $NOTES_CUBES = FILTER taxonomy().cubes where $item.drs-role.description.contains('- Disclosure -')
+
+
+constant $DOCUMENT_TYPE = first(list([covered @concept.local-name ='DocumentType']))
+
+
+
+constant $RULE-FORM-LOOKUP = dict(list('0117', '10-K,10-K/A,10-KT,10-KT/A,20-F,20-F/A,40-F,40-F/A,10-Q,10-Q/A,10-QT,10-QT/A,SBSEF-FIN-QTR,SBSEF-FIN-QTR/A,F-1,F-1/A,F-10,F-10/A,F-10EF,F-1MEF,F-3,F-3/A,F-3ASR,F-3D,F-3MEF,F-4,F-4/A,POS AM,POS462B,POS462C,POSASR,S-1,S-1/A,S-3,S-3/A,S-4,S-4/A,S-11,S-11/A,8-K,8-K/A,6-K,8-K,11-K,11-K/A,11-KT'))
+constant $ruleVersion = 'desktop controlled independent fixture'
+constant $effective_dates = dict(list('9574',date('2020-01-01')),list('10093',date('2020-01-01')))
+
+function applicable_form($ruleName)
+		$rule_number = ($ruleName.split('.'))[($ruleName.split('.').length)-1];
+		$ApplicableForms = $RULE-FORM-LOOKUP[$rule_number]
+		$ApplicableForms.contains($DOCUMENT_TYPE) or  $DOCUMENT_TYPE == none or $ApplicableForms == none
+
+/**
+ *applicable_form()
+ *
+ * @param string - The rule number such as 100
+
+ 
+ * @return boolean - Returns true if the rule should run on the applicable form type.
+ *
+**/
+
+
+
+function tolerance_for_decimals_comp($left, $right, $min_decimals, $decimal_tolerance_factor)
+
+	/** This eliminates crazy values for decimals **/
+	$min_decimals_adj = if $min_decimals == inf
+							5
+						else
+							if $min_decimals > 5
+								5
+							else
+								$min_decimals
+
+	$left_decimal = if ($left.decimals == none or $left.decimals == inf)
+						$min_decimals_adj else $left.decimals;
+						
+	$right_decimal = if ($right.decimals == none or $right.decimals == inf)
+						$min_decimals_adj else $right.decimals;
+						
+	$tolerance1 = if ($left_decimal < $right_decimal) 
+						$left_decimal
+					else 	
+						$right_decimal;
+	$tolerance2 = if ($tolerance1 == inf) 
+						0
+					else 	
+						(10.power(-1 * $tolerance1)) * $decimal_tolerance_factor;
+						
+	$leftSide = if ($left == none)
+				0
+			else
+				$left;
+
+	$rightSide = if ($right == none)
+				0
+			else
+				$right;
+
+	if (abs(round($leftSide,$tolerance1) - round($rightSide,$tolerance1)) > $tolerance2) 
+		true
+	else 
+		false 
+
+/** 
+ * tolerance_for_decimals_greater_than
+ * 
+ * This function returns true if the first parameter is greater than the 2nd parameter after taking into account decimals and tolerance factor.
+ * 
+ * @param factset - $less - Passes a factset value to compare to a second parameter called $greater
+ * @param factset - $greater - Passes a factset value to compare to the first parameter called $less
+ * @param factset - $min_decimals - Passes a decimal that represents the lowest decimal value in the facts.  This is used if any of the decimals are none.
+ * @param integer - $decimal_tolerance_factor - Integer value that defines how different the values can be
+ * @return boolean - Returns true if the two values provided are outside of the tolerance range.
+**/
+

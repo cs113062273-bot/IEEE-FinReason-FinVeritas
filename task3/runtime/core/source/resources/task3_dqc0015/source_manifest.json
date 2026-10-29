@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-10-13T11:11:57.437765+00:00",
+  "approved_ruleset_branch": "v29",
+  "repository": "https://github.com/DataQualityCommittee/dqc_us_rules",
+  "commit": "15523c24c6997d9384a6aef82b7205ccd53feea2",
+  "general_rule_description": "https://xbrl.us/data-rule/dqc_0015/",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/License.md",
+      "file": "resources\\task3_dqc0015\\License.md",
+      "bytes": 1813,
+      "sha256": "8aa6d2bae76c3cc4d5cafb6016726bf2719a7700dd64efdaca67b897dd584931"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/source/us/2026/DQC_0015.xule",
+      "file": "resources\\task3_dqc0015\\DQC_0015.xule",
+      "bytes": 1474,
+      "sha256": "1c20d6fa68f326437330643493b7da8c1c3963041ffc683db95488fdc0c2a6f2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/docs/DQC_US_0015/DQC_0015_MemberExclusions.xlsx",
+      "file": "resources\\task3_dqc0015\\DQC_0015_MemberExclusions.xlsx",
+      "bytes": 13450,
+      "sha256": "5c666f28fcd6c90032fe661347c5efbfcf2447e3e1902e0fa5752b329d1318bd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2023_concepts.csv",
+      "file": "resources\\task3_dqc0015\\dqc_15_usgaap_2023_concepts.csv",
+      "bytes": 372846,
+      "sha256": "7a9aedd9aee8dc749f8910f1d6bb6bd599c7b048b544d6cc22eae1e9ce923587"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2024_concepts.csv",
+      "file": "resources\\task3_dqc0015\\dqc_15_usgaap_2024_concepts.csv",
+      "bytes": 369393,
+      "sha256": "d0d374d8f97f8ba235b36183b59f5b96c706b7b6cd86b416f2011a04e0972189"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2025_concepts.csv",
+      "file": "resources\\task3_dqc0015\\dqc_15_usgaap_2025_concepts.csv",
+      "bytes": 372774,
+      "sha256": "24ed054cd81fad7558ee0e0f5e9f5fcd3857b469d6742c0f52d84c3fab994f12"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/DataQualityCommittee/dqc_us_rules/15523c24c6997d9384a6aef82b7205ccd53feea2/dqc_us_rules/resources/DQC_US_0015/dqc_15_usgaap_2026_concepts.csv",
+      "file": "resources\\task3_dqc0015\\dqc_15_usgaap_2026_concepts.csv",
+      "bytes": 375779,
+      "sha256": "6792de3a1817d1619cc360129b93750b7604f33655d17965ce60fbbf169186c1"
+    }
+  ],
+  "resource_kind": "Generic taxonomy constraint definitions, no cases or filing results",
+  "license_file": "resources/task3_dqc0015/License.md",
+  "external_case_answers_read": false,
+  "dimension_policy": "Require consolidated dimension-free selected target; every dimensional/segment qualifier is excluded"
+}

@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2026 Workiva-->
+<!--r:019c4def-6d06-7b18-adce-29949fd3c4b6,g:2ca8db87-d933-40d4-955c-2f63dbd83baf-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:whg="http://westwoodgroup.com/20251231" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://westwoodgroup.com/20251231">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="whg-20251231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="whg-20251231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="whg-20251231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="whg-20251231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="Cover" roleURI="http://westwoodgroup.com/role/Cover">
+        <link:definition>0000001 - Document - Cover</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AuditInformation" roleURI="http://westwoodgroup.com/role/AuditInformation">
+        <link:definition>0000002 - Document - Audit Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DocumentandEntityInformation" roleURI="http://westwoodgroup.com/role/DocumentandEntityInformation">
+        <link:definition>0000003 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDBALANCESHEETS" roleURI="http://westwoodgroup.com/role/CONSOLIDATEDBALANCESHEETS">
+        <link:definition>9952151 - Statement - CONSOLIDATED BALANCE SHEETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDBALANCESHEETSParenthetical" roleURI="http://westwoodgroup.com/role/CONSOLIDATEDBALANCESHEETSParenthetical">
+        <link:definition>9952152 - Statement - CONSOLIDATED BALANCE SHEETS (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTSOFCOMPREHENSIVEINCOME" roleURI="http://westwoodgroup.com/role/CONSOLIDATEDSTATEMENTSOFCOMPREHENSIVEINCOME">
+        <link:definition>9952153 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTsOFSTOCKHOLDERSEQUITY" roleURI="http://westwoodgroup.com/role/CONSOLIDATEDSTATEMENTsOFSTOCKHOLDERSEQUITY">
+        <link:definition>9952154 - Statement - CONSOLIDATED STATEMENTs OF STOCKHOLDERS' EQUITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTSOFSTOCKHOLDERSEQUITYParenthetical" roleURI="http://westwoodgroup.com/role/CONSOLIDATEDSTATEMENTSOFSTOCKHOLDERSEQUITYParenthetical">
+        <link:definition>9952155 - Statement - CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTSOFCASHFLOWS" roleURI="http://westwoodgroup.com/role/CONSOLIDATEDSTATEMENTSOFCASHFLOWS">
+        <link:definition>9952156 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DescriptionoftheBusiness" roleURI="http://westwoodgroup.com/role/DescriptionoftheBusiness">
+        <link:definition>9952157 - Disclosure - Description of the Business</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPolicies" roleURI="http://westwoodgroup.com/role/SummaryofSignificantAccountingPolicies">
+        <link:definition>9952158 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Investments" roleURI="http://westwoodgroup.com/role/Investments">
+        <link:definition>9952159 - Disclosure - Investments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstruments" roleURI="http://westwoodgroup.com/role/FairValueofFinancialInstruments">
+        <link:definition>9952160 - Disclosure - Fair Value of Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssets" roleURI="http://westwoodgroup.com/role/GoodwillandOtherIntangibleAssets">
+        <link:definition>9952161 - Disclosure - Goodwill and Other Intangible Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetComponents" roleURI="http://westwoodgroup.com/role/BalanceSheetComponents">
+        <link:definition>9952162 - Disclosure - Balance Sheet Components</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://westwoodgroup.com/role/IncomeTaxes">
+        <link:definition>9952163 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RegulatoryCapitalRequirements" roleURI="http://westwoodgroup.com/role/RegulatoryCapitalRequirements">
+        <link:definition>9952164 - Disclosure - Regulatory Capital Requirements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueNotes" roleURI="http://westwoodgroup.com/role/RevenueNotes">
+        <link:definition>9952165 - Disclosure - Revenue (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefits" roleURI="http://westwoodgroup.com/role/EmployeeBenefits">
+        <link:definition>9952166 - Disclosure - Employee Benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShare" roleURI="http://westwoodgroup.com/role/EarningsPerShare">
+        <link:definition>9952167 - Disclosure - Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntities" roleURI="http://westwoodgroup.com/role/VariableInterestEntities">
+        <link:definition>9952168 - Disclosure - Variable Interest Entities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactions" roleURI="http://westwoodgroup.com/role/RelatedPartyTransactions">
+        <link:definition>9952169 - Disclosure - Related Party Transactions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingencies" roleURI="http://westwoodgroup.com/role/CommitmentsandContingencies">
+        <link:definition>9952170 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReporting" roleURI="http://westwoodgroup.com/role/SegmentReporting">
+        <link:definition>9952171 - Disclosure - Segment Reporting</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Concentration" roleURI="http://westwoodgroup.com/role/Concentration">
+        <link:definition>9952172 - Disclosure - Concentration</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEvents" roleURI="http://westwoodgroup.com/role/SubsequentEvents">
+        <link:definition>9952173 - Disclosure - Subsequent Events</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="QuarterlyFinancialData" roleURI="http://westwoodgroup.com/role/QuarterlyFinancialData">
+        <link:definition>9952174 - Disclosure - Quarterly Financial Data</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesCodificationTopic842" roleURI="http://westwoodgroup.com/role/LeasesCodificationTopic842">
+        <link:definition>9952175 - Disclosure - Leases, Codification Topic 842</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsandAssetAcquisitions" roleURI="http://westwoodgroup.com/role/BusinessCombinationsandAssetAcquisitions">
+        <link:definition>9952176 - Disclosure - Business Combinations and Asset Acquisitions</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesPolicies" roleURI="http://westwoodgroup.com/role/SummaryofSignificantAccountingPoliciesPolicies">
+        <link:definition>9955511 - Disclosure - Summary of Significant Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenuePolicies" roleURI="http://westwoodgroup.com/role/RevenuePolicies">
+        <link:definition>9955512 - Disclosure - Revenue (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerSharePolicies" roleURI="http://westwoodgroup.com/role/EarningsPerSharePolicies">
+        <link:definition>9955513 - Disclosure - Earnings Per Share (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DescriptionoftheBusinessDivestitureofOmahaOperationsTables" roleURI="http://westwoodgroup.com/role/DescriptionoftheBusinessDivestitureofOmahaOperationsTables">
+        <link:definition>9955514 - Disclosure - Description of the Business Divestiture of Omaha Operations (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentsTables" roleURI="http://westwoodgroup.com/role/InvestmentsTables">
+        <link:definition>9955515 - Disclosure - Investments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstrumentsTables" roleURI="http://westwoodgroup.com/role/FairValueofFinancialInstrumentsTables">
+        <link:definition>9955516 - Disclosure - Fair Value of Financial Instruments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsTables" roleURI="http://westwoodgroup.com/role/GoodwillandOtherIntangibleAssetsTables">
+        <link:definition>9955517 - Disclosure - Goodwill and Other Intangible Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetComponentsTables" roleURI="http://westwoodgroup.com/role/BalanceSheetComponentsTables">
+        <link:definition>9955518 - Disclosure - Balance Sheet Components (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesTables" roleURI="http://westwoodgroup.com/role/IncomeTaxesTables">
+        <link:definition>9955519 - Disclosure - Income Taxes (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueTables" roleURI="http://westwoodgroup.com/role/RevenueTables">
+        <link:definition>9955520 - Disclosure - Revenue (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsTables" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsTables">
+        <link:definition>9955521 - Disclosure - Employee Benefits (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareTables" roleURI="http://westwoodgroup.com/role/EarningsPerShareTables">
+        <link:definition>9955522 - Disclosure - Earnings Per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesTables" roleURI="http://westwoodgroup.com/role/VariableInterestEntitiesTables">
+        <link:definition>9955523 - Disclosure - Variable Interest Entities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesTables" roleURI="http://westwoodgroup.com/role/CommitmentsandContingenciesTables">
+        <link:definition>9955524 - Disclosure - Commitments and Contingencies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingTables" roleURI="http://westwoodgroup.com/role/SegmentReportingTables">
+        <link:definition>9955525 - Disclosure - Segment Reporting (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConcentrationTables" roleURI="http://westwoodgroup.com/role/ConcentrationTables">
+        <link:definition>9955526 - Disclosure - Concentration (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="QuarterlyFinancialDataTables" roleURI="http://westwoodgroup.com/role/QuarterlyFinancialDataTables">
+        <link:definition>9955527 - Disclosure - Quarterly Financial Data (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesCodificationTopic842Tables" roleURI="http://westwoodgroup.com/role/LeasesCodificationTopic842Tables">
+        <link:definition>9955528 - Disclosure - Leases, Codification Topic 842 (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsandAssetAcquisitionsTables" roleURI="http://westwoodgroup.com/role/BusinessCombinationsandAssetAcquisitionsTables">
+        <link:definition>9955529 - Disclosure - Business Combinations and Asset Acquisitions (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DescriptionoftheBusinessDetailsTextual" roleURI="http://westwoodgroup.com/role/DescriptionoftheBusinessDetailsTextual">
+        <link:definition>9955530 - Disclosure - Description of the Business (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DescriptionoftheBusinessDetails" roleURI="http://westwoodgroup.com/role/DescriptionoftheBusinessDetails">
+        <link:definition>9955531 - Disclosure - Description of the Business (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesDetailsTextual" roleURI="http://westwoodgroup.com/role/SummaryofSignificantAccountingPoliciesDetailsTextual">
+        <link:definition>9955532 - Disclosure - Summary of Significant Accounting Policies (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryofSignificantAccountingPoliciesNewAccountingPronouncementsorChangeinAccountingPrincipleDetails" roleURI="http://westwoodgroup.com/role/SummaryofSignificantAccountingPoliciesNewAccountingPronouncementsorChangeinAccountingPrincipleDetails">
+        <link:definition>9955533 - Disclosure - Summary of Significant Accounting Policies New Accounting Pronouncements or Change in Accounting Principle (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentsTradingSecuritiesFVDetails" roleURI="http://westwoodgroup.com/role/InvestmentsTradingSecuritiesFVDetails">
+        <link:definition>9955534 - Disclosure - Investments (Trading Securities FV) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentsOtherRevenueDetails1" roleURI="http://westwoodgroup.com/role/InvestmentsOtherRevenueDetails1">
+        <link:definition>9955535 - Disclosure - Investments (Other Revenue) (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentsDetailsTextual" roleURI="http://westwoodgroup.com/role/InvestmentsDetailsTextual">
+        <link:definition>9955536 - Disclosure - Investments (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentsPrivateEquityInvestmentDetails2" roleURI="http://westwoodgroup.com/role/InvestmentsPrivateEquityInvestmentDetails2">
+        <link:definition>9955537 - Disclosure - Investments Private Equity Investment (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="InvestmentsDetails" roleURI="http://westwoodgroup.com/role/InvestmentsDetails">
+        <link:definition>9955538 - Disclosure - Investments (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueofFinancialInstrumentsLevelsDetails" roleURI="http://westwoodgroup.com/role/FairValueofFinancialInstrumentsLevelsDetails">
+        <link:definition>9955539 - Disclosure - Fair Value of Financial Instruments (Levels) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsDetails" roleURI="http://westwoodgroup.com/role/GoodwillandOtherIntangibleAssetsDetails">
+        <link:definition>9955540 - Disclosure - Goodwill and Other Intangible Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IntangibleAssetsDetails1" roleURI="http://westwoodgroup.com/role/IntangibleAssetsDetails1">
+        <link:definition>9955541 - Disclosure - Intangible Assets (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsEstimatedAmortizationDetails2" roleURI="http://westwoodgroup.com/role/GoodwillandOtherIntangibleAssetsEstimatedAmortizationDetails2">
+        <link:definition>9955542 - Disclosure - Goodwill and Other Intangible Assets (Estimated Amortization) (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillandOtherIntangibleAssetsIntangibleAssetsdisposedDetails" roleURI="http://westwoodgroup.com/role/GoodwillandOtherIntangibleAssetsIntangibleAssetsdisposedDetails">
+        <link:definition>9955543 - Disclosure - Goodwill and Other Intangible Assets Intangible Assets disposed (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetComponentsDetails" roleURI="http://westwoodgroup.com/role/BalanceSheetComponentsDetails">
+        <link:definition>9955544 - Disclosure - Balance Sheet Components (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheetComponentsDetails1" roleURI="http://westwoodgroup.com/role/BalanceSheetComponentsDetails1">
+        <link:definition>9955545 - Disclosure - Balance Sheet Components (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesbyjurisdictionDetails" roleURI="http://westwoodgroup.com/role/IncomeTaxesbyjurisdictionDetails">
+        <link:definition>9955546 - Disclosure - Income Taxes (by jurisdiction) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDetailsTextual" roleURI="http://westwoodgroup.com/role/IncomeTaxesDetailsTextual">
+        <link:definition>9955547 - Disclosure - Income Taxes (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesEffectivetaxratereconciliationDetails" roleURI="http://westwoodgroup.com/role/IncomeTaxesEffectivetaxratereconciliationDetails">
+        <link:definition>9955548 - Disclosure - Income Taxes (Effective tax rate reconciliation) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesProvisionComponentsDetails1" roleURI="http://westwoodgroup.com/role/IncomeTaxesProvisionComponentsDetails1">
+        <link:definition>9955549 - Disclosure - Income Taxes (Provision Components) (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDeferredTaxesDetails2" roleURI="http://westwoodgroup.com/role/IncomeTaxesDeferredTaxesDetails2">
+        <link:definition>9955550 - Disclosure - Income Taxes (Deferred Taxes) (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDetails3" roleURI="http://westwoodgroup.com/role/IncomeTaxesDetails3">
+        <link:definition>9955551 - Disclosure - Income Taxes (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesIncomeTaxesUncertainTaxPositionsDetails4" roleURI="http://westwoodgroup.com/role/IncomeTaxesIncomeTaxesUncertainTaxPositionsDetails4">
+        <link:definition>9955552 - Disclosure - Income Taxes Income Taxes (Uncertain Tax Positions) (Details 4)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Cashpaidforincometaxes" roleURI="http://westwoodgroup.com/role/Cashpaidforincometaxes">
+        <link:definition>9955553 - Disclosure - Cash paid for income taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RegulatoryCapitalRequirementsDetails" roleURI="http://westwoodgroup.com/role/RegulatoryCapitalRequirementsDetails">
+        <link:definition>9955554 - Disclosure - Regulatory Capital Requirements (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueRevenueDisaggregatedDetails" roleURI="http://westwoodgroup.com/role/RevenueRevenueDisaggregatedDetails">
+        <link:definition>9955555 - Disclosure - Revenue Revenue Disaggregated (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsDetailsTextual" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsDetailsTextual">
+        <link:definition>9955556 - Disclosure - Employee Benefits (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsStockCompExpenseSummarytableDetails" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsStockCompExpenseSummarytableDetails">
+        <link:definition>9955557 - Disclosure - Employee Benefits (Stock Comp Expense Summary table) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsDetails1" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsDetails1">
+        <link:definition>9955558 - Disclosure - Employee Benefits (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsServiceGrantsandVestsDetails" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsServiceGrantsandVestsDetails">
+        <link:definition>9955559 - Disclosure - Employee Benefits (Service Grants and Vests) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsPerformanceGrantsandVestsDetails" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsPerformanceGrantsandVestsDetails">
+        <link:definition>9955560 - Disclosure - Employee Benefits (Performance Grants and Vests) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeeBenefitsProfitSharingand401kDetails" roleURI="http://westwoodgroup.com/role/EmployeeBenefitsProfitSharingand401kDetails">
+        <link:definition>9955561 - Disclosure - Employee Benefits (Profit Sharing and 401k) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareAntidilutiveSharesDetails" roleURI="http://westwoodgroup.com/role/EarningsPerShareAntidilutiveSharesDetails">
+        <link:definition>9955562 - Disclosure - Earnings Per Share (Anti-dilutive Shares) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareComputatonofBasicandDilutedEPSDetails" roleURI="http://westwoodgroup.com/role/EarningsPerShareComputatonofBasicandDilutedEPSDetails">
+        <link:definition>9955563 - Disclosure - Earnings Per Share (Computaton of Basic and Diluted EPS) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesDetailsTextual" roleURI="http://westwoodgroup.com/role/VariableInterestEntitiesDetailsTextual">
+        <link:definition>9955564 - Disclosure - Variable Interest Entities (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VariableInterestEntitiesDetails" roleURI="http://westwoodgroup.com/role/VariableInterestEntitiesDetails">
+        <link:definition>9955565 - Disclosure - Variable Interest Entities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RelatedPartyTransactionsDetailsTextual" roleURI="http://westwoodgroup.com/role/RelatedPartyTransactionsDetailsTextual">
+        <link:definition>9955566 - Disclosure - Related Party Transactions (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesDetailsTextual" roleURI="http://westwoodgroup.com/role/CommitmentsandContingenciesDetailsTextual">
+        <link:definition>9955567 - Disclosure - Commitments and Contingencies (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsandContingenciesDetails" roleURI="http://westwoodgroup.com/role/CommitmentsandContingenciesDetails">
+        <link:definition>9955568 - Disclosure - Commitments and Contingencies (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingDetailsTextual" roleURI="http://westwoodgroup.com/role/SegmentReportingDetailsTextual">
+        <link:definition>9955569 - Disclosure - Segment Reporting (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingDetails" roleURI="http://westwoodgroup.com/role/SegmentReportingDetails">
+        <link:definition>9955570 - Disclosure - Segment Reporting (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingReconciliationofNetIncometoEconomicEarningsDetails" roleURI="http://westwoodgroup.com/role/SegmentReportingReconciliationofNetIncometoEconomicEarningsDetails">
+        <link:definition>9955571 - Disclosure - Segment Reporting - Reconciliation of Net Income to Economic Earnings (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentReportingPropertyandEquipmentNetbyGeographicAreaDetails" roleURI="http://westwoodgroup.com/role/SegmentReportingPropertyandEquipmentNetbyGeographicAreaDetails">
+        <link:definition>9955572 - Disclosure - Segment Reporting - Property and Equipment, Net by Geographic Area (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConcentrationDetailsTextual" roleURI="http://westwoodgroup.com/role/ConcentrationDetailsTextual">
+        <link:definition>9955573 - Disclosure - Concentration (Details Textual)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConcentrationDetails" roleURI="http://westwoodgroup.com/role/ConcentrationDetails">
+        <link:definition>9955574 - Disclosure - Concentration (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventDetails" roleURI="http://westwoodgroup.com/role/SubsequentEventDetails">
+        <link:definition>9955575 - Disclosure - Subsequent Event (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsDetails" roleURI="http://westwoodgroup.com/role/SubsequentEventsDetails">
+        <link:definition>9955576 - Disclosure - Subsequent Events (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="QuarterlyFinancialDataDetails" roleURI="http://westwoodgroup.com/role/QuarterlyFinancialDataDetails">
+        <link:definition>9955577 - Disclosure - Quarterly Financial Data (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesCodificationTopic842Details" roleURI="http://westwoodgroup.com/role/LeasesCodificationTopic842Details">
+        <link:definition>9955578 - Disclosure - Leases, Codification Topic 842 (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BusinessCombinationsandAssetAcquisitionsDetails" roleURI="http://westwoodgroup.com/role/BusinessCombinationsandAssetAcquisitionsDetails">
+        <link:definition>9955579 - Disclosure - Business Combinations and Asset Acquisitions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="whg_DocumentAndEntityInformationAbstract" abstract="true" name="DocumentAndEntityInformationAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_InvestmentsUnderFairValueMeasurementAlternative" abstract="false" name="InvestmentsUnderFairValueMeasurementAlternative" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_DividendsPayableNonCurrent" abstract="false" name="DividendsPayableNonCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TrustPerformanceBasedFeesMember" abstract="true" name="TrustPerformanceBasedFeesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_OtherRevenueNet" abstract="false" name="OtherRevenueNet" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_WestwoodFundsExpense" abstract="false" name="WestwoodFundsExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_MutualFundAdministrationAndDistribution" abstract="false" name="MutualFundAdministrationAndDistribution" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AccountingStandardsUpdate201609Member" abstract="true" name="AccountingStandardsUpdate201609Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfAdoptionQuantification" abstract="false" name="NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfAdoptionQuantification" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AdjustmentsToAdditionalPaidInCapitalIncomeTaxDeficiencyFromShareBasedCompensation" abstract="false" name="AdjustmentsToAdditionalPaidInCapitalIncomeTaxDeficiencyFromShareBasedCompensation" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AccumulatedOtherComprehensiveIncomeLossTax" abstract="false" name="AccumulatedOtherComprehensiveIncomeLossTax" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TreasuryStockSharesAcquiredEmployeeStockPlan" abstract="false" name="TreasuryStockSharesAcquiredEmployeeStockPlan" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="whg_TreasuryStockValueAcquiredCostMethodEmployeeStockPlan" abstract="false" name="TreasuryStockValueAcquiredCostMethodEmployeeStockPlan" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TreasuryStockAcquiredEmployeeStockPlan" abstract="false" name="TreasuryStockAcquiredEmployeeStockPlan" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessCombinationAcquisitionOfLessThan100PercentOfBroadmarkNoncontontrollingInterest" abstract="false" name="BusinessCombinationAcquisitionOfLessThan100PercentOfBroadmarkNoncontontrollingInterest" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_RealizedGainsOnPrivateInvestments" abstract="false" name="RealizedGainsOnPrivateInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" abstract="false" name="ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_Gainonsaleofoperations" abstract="false" name="Gainonsaleofoperations" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_PaymentforRepurchasesofStockforBenefitPlan" abstract="false" name="PaymentforRepurchasesofStockforBenefitPlan" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_ExcessTaxBenefitFromShareBasedCompensationFinancingActivities" abstract="false" name="ExcessTaxBenefitFromShareBasedCompensationFinancingActivities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_EffectOfExchangeRateOnCashAndCashEquivalents" abstract="false" name="EffectOfExchangeRateOnCashAndCashEquivalents" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_CashAndCashEquivalentsPeriodIncreaseDecrease" abstract="false" name="CashAndCashEquivalentsPeriodIncreaseDecrease" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_DividendsDeclared" abstract="false" name="DividendsDeclared" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_NoncashTenantImprovements" abstract="false" name="NoncashTenantImprovements" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_NonCashAccruedPPE" abstract="false" name="NonCashAccruedPPE" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BankingAndThriftAbstract" abstract="true" name="BankingAndThriftAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_VariableInterestEntitiesAbstract" abstract="true" name="VariableInterestEntitiesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsDisposedTableTextBlock" abstract="false" name="FiniteLivedIntangibleAssetsDisposedTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="whg_RevenueDisaggregationbyGeographicLocationTableTextBlock" abstract="false" name="RevenueDisaggregationbyGeographicLocationTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="whg_RestrictedStockSubjectOnlyToServiceConditionMember" abstract="true" name="RestrictedStockSubjectOnlyToServiceConditionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_RestrictedSharesSubjectToServiceAndPerformanceConditionsMember" abstract="true" name="RestrictedSharesSubjectToServiceAndPerformanceConditionsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_ShareBasedCompensationAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValueAndFairValueOfSharesVestedTableTextBlock" abstract="false" name="ShareBasedCompensationAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValueAndFairValueOfSharesVestedTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="whg_ScheduleofEconomicEarningsTableTextBlock" abstract="false" name="ScheduleofEconomicEarningsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="whg_SignificantAccountingPolicyTable" abstract="true" name="SignificantAccountingPolicyTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="whg_AdoptionofASU201609Member" abstract="true" name="AdoptionofASU201609Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_WestwoodInternationalAdvisorsIncMember" abstract="true" name="WestwoodInternationalAdvisorsIncMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_CanadianPlanMember" abstract="true" name="CanadianPlanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_ScheduleOfSignificantAccountingPoliciesLineItems" abstract="true" name="ScheduleOfSignificantAccountingPoliciesLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_TaxrateexcludingASU201609adoption" abstract="false" name="TaxrateexcludingASU201609adoption" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_SeedMoneyInvestment" abstract="false" name="SeedMoneyInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_NewAccountingPronouncementMember" abstract="true" name="NewAccountingPronouncementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_EstimatedleaseassetandnetleaseliabilityforASU201602" abstract="false" name="EstimatedleaseassetandnetleaseliabilityforASU201602" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_UsGaap_EquitySecuritiesMemberMember" abstract="true" name="UsGaap_EquitySecuritiesMemberMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_IncomeTaxBenefitExpenseOnSecuritiesTransactions" abstract="false" name="IncomeTaxBenefitExpenseOnSecuritiesTransactions" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_UndertakingForCollectiveInvestmentInTransferableSecuritiesMember" abstract="true" name="UndertakingForCollectiveInvestmentInTransferableSecuritiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_UnrealizedGainsLossesOnPrivateInvestments" abstract="false" name="UnrealizedGainsLossesOnPrivateInvestments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_LongTermInvestmentsCostInAPrivateCompany" abstract="false" name="LongTermInvestmentsCostInAPrivateCompany" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_CarryingValuePrivateInvestment" abstract="false" name="CarryingValuePrivateInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_InvestmentCarryingValueVista" abstract="false" name="InvestmentCarryingValueVista" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_LongTermInvestmentAtCostInPrivateEquity" abstract="false" name="LongTermInvestmentAtCostInPrivateEquity" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_LongTermInvestmentAtCostInAPrivateInvestmentFund" abstract="false" name="LongTermInvestmentAtCostInAPrivateInvestmentFund" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_UnrealizedGainOnPrivateEquityInvestment" abstract="false" name="UnrealizedGainOnPrivateEquityInvestment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_PrivateEquityInvestmentCommitment" abstract="false" name="PrivateEquityInvestmentCommitment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_PrivateEquityInvestmentPurchase" abstract="false" name="PrivateEquityInvestmentPurchase" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_ZarvonaEnergyFundIIALPDomain" abstract="true" name="ZarvonaEnergyFundIIALPDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_BroadmarkAssetManagementLLCDomain" abstract="true" name="BroadmarkAssetManagementLLCDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_SalientMLPTotalReturnFundLPDomain" abstract="true" name="SalientMLPTotalReturnFundLPDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_SalientMLPTotalReturnTEFundLPDomain" abstract="true" name="SalientMLPTotalReturnTEFundLPDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TotalMember" abstract="true" name="TotalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_ZarvonaEnergyFundGPLPDomain" abstract="true" name="ZarvonaEnergyFundGPLPDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TotalInvestments" abstract="false" name="TotalInvestments" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_InvestCloudPrivateInvestment" abstract="false" name="InvestCloudPrivateInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_WEBsPreferredStock" abstract="false" name="WEBsPreferredStock" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_WEBsCallOption" abstract="false" name="WEBsCallOption" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TXSEPrivateInvestment" abstract="false" name="TXSEPrivateInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_RidgelineInc.PrivateInvestment" abstract="false" name="RidgelineInc.PrivateInvestment" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TotalInvestmentsUnderMeasurementAlternative" abstract="false" name="TotalInvestmentsUnderMeasurementAlternative" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_FairValueHierarchyIncludingNAVAxis" abstract="true" name="FairValueHierarchyIncludingNAVAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="whg_FairValueHierarchyIncludingNAVDomain" abstract="true" name="FairValueHierarchyIncludingNAVDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_InputsNetAssetValueMember" abstract="true" name="InputsNetAssetValueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PrivateEquityInvestmentsMember" abstract="true" name="PrivateEquityInvestmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_UnobservableInputBookValueMultipleMinimum" abstract="false" name="UnobservableInputBookValueMultipleMinimum" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:decimalItemType"/>
+  <xs:element id="whg_UnobservableInputBookValueMultipleMaximum" abstract="false" name="UnobservableInputBookValueMultipleMaximum" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:decimalItemType"/>
+  <xs:element id="whg_UnobservableInputBookValueMultipleWeightedAverage" abstract="false" name="UnobservableInputBookValueMultipleWeightedAverage" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:decimalItemType"/>
+  <xs:element id="whg_UnobservableInputRevenueRetentionDiscountRateMinimum" abstract="false" name="UnobservableInputRevenueRetentionDiscountRateMinimum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputRevenueRetentionDiscountRateMaximum" abstract="false" name="UnobservableInputRevenueRetentionDiscountRateMaximum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputRevenueRetentionVolatilityMaximum" abstract="false" name="UnobservableInputRevenueRetentionVolatilityMaximum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputRevenueRetentionVolatilityMinimum" abstract="false" name="UnobservableInputRevenueRetentionVolatilityMinimum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputRevenueRetentionDiscountRateWeightedAverage" abstract="false" name="UnobservableInputRevenueRetentionDiscountRateWeightedAverage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputRevenueRetentionVolatilityWeightedAverage" abstract="false" name="UnobservableInputRevenueRetentionVolatilityWeightedAverage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputGrowthDiscountRateWeightedAverage" abstract="false" name="UnobservableInputGrowthDiscountRateWeightedAverage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputGrowthDiscountRateMaximum" abstract="false" name="UnobservableInputGrowthDiscountRateMaximum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputGrowthDiscountRateMinimum" abstract="false" name="UnobservableInputGrowthDiscountRateMinimum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputGrowthVolatilityWeightedAverage" abstract="false" name="UnobservableInputGrowthVolatilityWeightedAverage" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputGrowthVolatilityMaximum" abstract="false" name="UnobservableInputGrowthVolatilityMaximum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_UnobservableInputGrowthVolatilityMinimum" abstract="false" name="UnobservableInputGrowthVolatilityMinimum" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_TrustSegmentGoodwill" abstract="false" name="TrustSegmentGoodwill" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AdvisorySegmentGoodwill" abstract="false" name="AdvisorySegmentGoodwill" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BalanceAtDecember312021" abstract="false" name="BalanceAtDecember312021" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AdjustedGoodwillAdvisorySegment" abstract="false" name="AdjustedGoodwillAdvisorySegment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AdjustedGoodwillTotal" abstract="false" name="AdjustedGoodwillTotal" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AcquiredGoodwillTotal" abstract="false" name="AcquiredGoodwillTotal" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_FiniteLivedIntangiblesExpectedAmortizationThereafter" abstract="false" name="FiniteLivedIntangiblesExpectedAmortizationThereafter" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsDisposedAbstract" abstract="true" name="FiniteLivedIntangibleAssetsDisposedAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsDisposedTable" abstract="true" name="FiniteLivedIntangibleAssetsDisposedTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsDisposedLineItems" abstract="true" name="FiniteLivedIntangibleAssetsDisposedLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsSoldAccumulatedAmortization" abstract="false" name="FiniteLivedIntangibleAssetsSoldAccumulatedAmortization" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsSoldNet" abstract="false" name="FiniteLivedIntangibleAssetsSoldNet" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_FiniteLivedIntangibleAssetsSoldGross" abstract="false" name="FiniteLivedIntangibleAssetsSoldGross" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_ComputerHardwareAndOfficeEquipmentMember" abstract="true" name="ComputerHardwareAndOfficeEquipmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TaxReformTable" abstract="true" name="TaxReformTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="whg_TaxReformAxis" abstract="true" name="TaxReformAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="whg_TaxReformDomain" abstract="true" name="TaxReformDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TaxReformLineItems" abstract="true" name="TaxReformLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_RepatriationEarningsandProfits" abstract="false" name="RepatriationEarningsandProfits" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_SignificantChangeinIncomeTaxProvisionisReasonablyPossibleAmountofUnrecordedBenefit" abstract="false" name="SignificantChangeinIncomeTaxProvisionisReasonablyPossibleAmountofUnrecordedBenefit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_GlobalIntangibleLowTaxedIncomeNetDeductions" abstract="false" name="GlobalIntangibleLowTaxedIncomeNetDeductions" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_GlobalIntangibleLowTaxedIncomePercent" abstract="false" name="GlobalIntangibleLowTaxedIncomePercent" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_TaxCreditsusedtopayFederalcashtaxes" abstract="false" name="TaxCreditsusedtopayFederalcashtaxes" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_DeferredTaxAssetsLiabilitiesNetAbstract" abstract="true" name="DeferredTaxAssetsLiabilitiesNetAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_StateAndLocalTaxesPaidMassachusetts" abstract="false" name="StateAndLocalTaxesPaidMassachusetts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_StateAndLocalTaxesPaidNewYork" abstract="false" name="StateAndLocalTaxesPaidNewYork" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_StateAndLocalTaxesPaidPennsylvania" abstract="false" name="StateAndLocalTaxesPaidPennsylvania" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_StateAndLocalTaxesPaidTexas" abstract="false" name="StateAndLocalTaxesPaidTexas" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_StateAndLocalTaxesPaidOther" abstract="false" name="StateAndLocalTaxesPaidOther" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_SCLPNetCapital" abstract="false" name="SCLPNetCapital" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_SCLPNetCapitalExcess" abstract="false" name="SCLPNetCapitalExcess" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_SCLPMinimumNetCapital" abstract="false" name="SCLPMinimumNetCapital" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_AdvisoryMember" abstract="true" name="AdvisoryMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TrustMember" abstract="true" name="TrustMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_OtherRevenueMiscServicesMember" abstract="true" name="OtherRevenueMiscServicesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PerformancefeeMember" abstract="true" name="PerformancefeeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TrustFeeMember" abstract="true" name="TrustFeeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_InvestmentAdvisoryServicesMember" abstract="true" name="InvestmentAdvisoryServicesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_MutualFundAdvisoryMemberMember" abstract="true" name="MutualFundAdvisoryMemberMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PrivateWealthAdvisoryMember" abstract="true" name="PrivateWealthAdvisoryMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TrustPerformanceBasedMember" abstract="true" name="TrustPerformanceBasedMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_BenefitPlansMember" abstract="true" name="BenefitPlansMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_UCITSFundMember" abstract="true" name="UCITSFundMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PerformanceBasedRestrictedSharesForFuturePerformanceYearsMember" abstract="true" name="PerformanceBasedRestrictedSharesForFuturePerformanceYearsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_EmployeeMember" abstract="true" name="EmployeeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_ShareBasedCompensationAwardTrancheFourMember" abstract="true" name="ShareBasedCompensationAwardTrancheFourMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_FundPurchasesOfCommonStock" abstract="false" name="FundPurchasesOfCommonStock" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_ShareBasedCompensationArrangementByShareBasedPaymentAwardAvailableForGrant" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardAvailableForGrant" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_SharePretaxIncomeGoal" abstract="false" name="SharePretaxIncomeGoal" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_SharePretaxIncomeGoalSlidingScaleAward" abstract="false" name="SharePretaxIncomeGoalSlidingScaleAward" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_PercentageofPretaxincomeGoalEarned" abstract="false" name="PercentageofPretaxincomeGoalEarned" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsIssuedAndOutstandingInPeriodGross" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsIssuedAndOutstandingInPeriodGross" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="whg_ShareBasedCompensationArrangementWithIndividualRequisiteServicePeriod" abstract="false" name="ShareBasedCompensationArrangementWithIndividualRequisiteServicePeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="whg_MutualFundIncentiveAwardLiability" abstract="false" name="MutualFundIncentiveAwardLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_DefinedContributionPlanSpecifiedPeriodOfServiceForEmployerProfitSharingContributionsToBeFullyVested" abstract="false" name="DefinedContributionPlanSpecifiedPeriodOfServiceForEmployerProfitSharingContributionsToBeFullyVested" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="whg_MutualFundIncentiveAwardExpense" abstract="false" name="MutualFundIncentiveAwardExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_UnvestedMutualFundAwards" abstract="false" name="UnvestedMutualFundAwards" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_MutualFundAwardLiability" abstract="false" name="MutualFundAwardLiability" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_StockBasedCompensationExpenseSubjectToServiceConditionMember" abstract="true" name="StockBasedCompensationExpenseSubjectToServiceConditionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_StockBasedCompensationExpenseSubjectToPerformanceConditionMember" abstract="true" name="StockBasedCompensationExpenseSubjectToPerformanceConditionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_StockBasedCompensationExpenseMember" abstract="true" name="StockBasedCompensationExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_CanadianPlanRestrictedStockExpenseMember" abstract="true" name="CanadianPlanRestrictedStockExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_RestrictedSharesSubjectToServiceConditionMember" abstract="true" name="RestrictedSharesSubjectToServiceConditionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_ShareBasedCompensationAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValueAndFairValueOfSharesVestedAbstract" abstract="true" name="ShareBasedCompensationAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValueAndFairValueOfSharesVestedAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_ProfitSharingAndContributionsAbstract" abstract="true" name="ProfitSharingAndContributionsAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_ProfitSharingContribution" abstract="false" name="ProfitSharingContribution" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_IncrementalCommonSharesAttributableToNonvestedRestrictedShares" abstract="false" name="IncrementalCommonSharesAttributableToNonvestedRestrictedShares" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="whg_EarningsPerShareBasicAndDilutedAbstract" abstract="true" name="EarningsPerShareBasicAndDilutedAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_VariableInterestEntityMember" abstract="true" name="VariableInterestEntityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_CommonTrustFundsMember" abstract="true" name="CommonTrustFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_WestwoodFundsMember" abstract="true" name="WestwoodFundsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_WestwoodHospitalityFundILLCMember" abstract="true" name="WestwoodHospitalityFundILLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PrivateWealthMember" abstract="true" name="PrivateWealthMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_InstitutionalMember" abstract="true" name="InstitutionalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_VariableInterestEntityNonconsolidatedCarryingAmountAssetsAndLiabilitiesAbstract" abstract="true" name="VariableInterestEntityNonconsolidatedCarryingAmountAssetsAndLiabilitiesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="whg_RiskOfLoss" abstract="false" name="RiskOfLoss" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_GeneralDamageMember" abstract="true" name="GeneralDamageMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_SpecialDamageMember" abstract="true" name="SpecialDamageMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PunitiveDamageMember" abstract="true" name="PunitiveDamageMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_FirstLawsuitByAGFMember" abstract="true" name="FirstLawsuitByAGFMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_SecondLawsuitByAGFMember" abstract="true" name="SecondLawsuitByAGFMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_PercentageOfDefenseCostsCoveredByInsurance" abstract="false" name="PercentageOfDefenseCostsCoveredByInsurance" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="whg_TotalReportableSegments" abstract="false" name="TotalReportableSegments" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TotalReportingSegment" abstract="false" name="TotalReportingSegment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TotalReportableSegmentsMember" abstract="true" name="TotalReportableSegmentsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_TotalReportingSegmentMember" abstract="true" name="TotalReportingSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_OtherReportingSegmentMember" abstract="true" name="OtherReportingSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_RevenueFromExternalSources" abstract="false" name="RevenueFromExternalSources" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_NetIntersegmentRevenues" abstract="false" name="NetIntersegmentRevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_Otherrevenue" abstract="false" name="Otherrevenue" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_EconomicEarningsLosses" abstract="false" name="EconomicEarningsLosses" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_NumberOfMajorCustomers" abstract="false" name="NumberOfMajorCustomers" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:integerItemType"/>
+  <xs:element id="whg_WestwoodManagementMember" abstract="true" name="WestwoodManagementMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="whg_InvestmentInNHBC" abstract="false" name="InvestmentInNHBC" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_RevenueRetentionEarnOut" abstract="false" name="RevenueRetentionEarnOut" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="xbrli:booleanItemType"/>
+  <xs:element id="whg_GrowthEarnOut" abstract="false" name="GrowthEarnOut" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_NonCompeteAgreements" abstract="false" name="NonCompeteAgreements" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessCombinationsRecognizedIntangible" abstract="false" name="BusinessCombinationsRecognizedIntangible" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TradeName" abstract="false" name="TradeName" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_TotalRevenues" abstract="false" name="TotalRevenues" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessAcquisitionsSalientProFormaRevenue" abstract="false" name="BusinessAcquisitionsSalientProFormaRevenue" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessAcquisitionsSalientNetIncomeLoss0" abstract="false" name="BusinessAcquisitionsSalientNetIncomeLoss0" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessCombinationConsiderationTransferredBroadmark" abstract="false" name="BusinessCombinationConsiderationTransferredBroadmark" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessCombinationConsiderationTransferredGrossBroadmark" abstract="false" name="BusinessCombinationConsiderationTransferredGrossBroadmark" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessCombinationBroadmarkRevenuesIncludedinEarnings" abstract="false" name="BusinessCombinationBroadmarkRevenuesIncludedinEarnings" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="whg_BusinessCombinationsBroadmarkNetIncomeIncludedInEarnings" abstract="false" name="BusinessCombinationsBroadmarkNetIncomeIncludedInEarnings" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

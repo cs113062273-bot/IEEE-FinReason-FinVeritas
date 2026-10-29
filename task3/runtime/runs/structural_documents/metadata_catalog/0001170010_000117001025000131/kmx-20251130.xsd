@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:28eb9cd3-1bac-4f73-9c0a-dac4dccd061d,g:57d07a0c-fa85-478c-b0b6-039e63a946fa-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:kmx="http://www.carmax.com/20251130" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.carmax.com/20251130">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmx-20251130_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmx-20251130_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmx-20251130_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="kmx-20251130_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="DocumentAndEntityInformation" roleURI="http://www.carmax.com/role/DocumentAndEntityInformation">
+        <link:definition>0000001 - Document - Document And Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfEarnings" roleURI="http://www.carmax.com/role/ConsolidatedStatementsOfEarnings">
+        <link:definition>9952151 - Statement - Consolidated Statements Of Earnings</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfComprehensiveIncome" roleURI="http://www.carmax.com/role/ConsolidatedStatementsOfComprehensiveIncome">
+        <link:definition>9952152 - Statement - Consolidated Statements Of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheets" roleURI="http://www.carmax.com/role/ConsolidatedBalanceSheets">
+        <link:definition>9952153 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsParenthetical" roleURI="http://www.carmax.com/role/ConsolidatedBalanceSheetsParenthetical">
+        <link:definition>9952154 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfCashFlows" roleURI="http://www.carmax.com/role/ConsolidatedStatementsOfCashFlows">
+        <link:definition>9952155 - Statement - Consolidated Statements Of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsofShareholdersEquityStatement" roleURI="http://www.carmax.com/role/ConsolidatedStatementsofShareholdersEquityStatement">
+        <link:definition>9952156 - Statement - Consolidated Statements of Shareholders' Equity Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowInformation" roleURI="http://www.carmax.com/role/SupplementalCashFlowInformation">
+        <link:definition>9952157 - Statement - Supplemental Cash Flow Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowInformationSupplementalCashFlowInformation" roleURI="http://www.carmax.com/role/SupplementalCashFlowInformationSupplementalCashFlowInformation">
+        <link:definition>9952158 - Statement - Supplemental Cash Flow Information Supplemental Cash Flow Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SupplementalCashFlowInformationSupplementalCashFlowInformation_1" roleURI="http://www.carmax.com/role/SupplementalCashFlowInformationSupplementalCashFlowInformation_1">
+        <link:definition>9952159 - Statement - Supplemental Cash Flow Information Supplemental Cash Flow Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Background" roleURI="http://www.carmax.com/role/Background">
+        <link:definition>9952160 - Disclosure - Background</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Revenue" roleURI="http://www.carmax.com/role/Revenue">
+        <link:definition>9952161 - Disclosure - Revenue</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CarMaxAutoFinance" roleURI="http://www.carmax.com/role/CarMaxAutoFinance">
+        <link:definition>9952162 - Disclosure - CarMax Auto Finance</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AutoLoansHeldforInvestment" roleURI="http://www.carmax.com/role/AutoLoansHeldforInvestment">
+        <link:definition>9952163 - Disclosure - Auto Loans Held for Investment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsAndHedgingActivities" roleURI="http://www.carmax.com/role/DerivativeInstrumentsAndHedgingActivities">
+        <link:definition>9952164 - Disclosure - Derivative Instruments And Hedging Activities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurements" roleURI="http://www.carmax.com/role/FairValueMeasurements">
+        <link:definition>9952165 - Disclosure - Fair Value Measurements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CancellationReserves" roleURI="http://www.carmax.com/role/CancellationReserves">
+        <link:definition>9952166 - Disclosure - Cancellation Reserves</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.carmax.com/role/IncomeTaxes">
+        <link:definition>9952167 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Debt" roleURI="http://www.carmax.com/role/Debt">
+        <link:definition>9952168 - Disclosure - Debt</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlans" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlans">
+        <link:definition>9952169 - Disclosure - Stock and Stock-Based Incentive Plans</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NetEarningsPerShare" roleURI="http://www.carmax.com/role/NetEarningsPerShare">
+        <link:definition>9952170 - Disclosure - Net Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLoss" roleURI="http://www.carmax.com/role/AccumulatedOtherComprehensiveIncomeLoss">
+        <link:definition>9952171 - Disclosure - Accumulated Other Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesNotes" roleURI="http://www.carmax.com/role/LeasesNotes">
+        <link:definition>9952172 - Disclosure - Leases (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ContingentLiabilities" roleURI="http://www.carmax.com/role/ContingentLiabilities">
+        <link:definition>9952173 - Disclosure - Contingent Liabilities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BackgroundBasisofAccountingPolicies" roleURI="http://www.carmax.com/role/BackgroundBasisofAccountingPolicies">
+        <link:definition>9955511 - Disclosure - Background Basis of Accounting (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueTables" roleURI="http://www.carmax.com/role/RevenueTables">
+        <link:definition>9955512 - Disclosure - Revenue (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CarMaxAutoFinanceTables" roleURI="http://www.carmax.com/role/CarMaxAutoFinanceTables">
+        <link:definition>9955513 - Disclosure - CarMax Auto Finance (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AutoLoansHeldforInvestmentTables" roleURI="http://www.carmax.com/role/AutoLoansHeldforInvestmentTables">
+        <link:definition>9955514 - Disclosure - Auto Loans Held for Investment (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsTables" roleURI="http://www.carmax.com/role/FairValueMeasurementsTables">
+        <link:definition>9955515 - Disclosure - Fair Value Measurements (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CancellationReservesTables" roleURI="http://www.carmax.com/role/CancellationReservesTables">
+        <link:definition>9955516 - Disclosure - Cancellation Reserves (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtTables" roleURI="http://www.carmax.com/role/DebtTables">
+        <link:definition>9955517 - Disclosure - Debt (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlansTables" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlansTables">
+        <link:definition>9955518 - Disclosure - Stock and Stock-Based Incentive Plans (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NetEarningsPerShareTables" roleURI="http://www.carmax.com/role/NetEarningsPerShareTables">
+        <link:definition>9955519 - Disclosure - Net Earnings Per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLossTables" roleURI="http://www.carmax.com/role/AccumulatedOtherComprehensiveIncomeLossTables">
+        <link:definition>9955520 - Disclosure - Accumulated Other Comprehensive Income (Loss) (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://www.carmax.com/role/LeasesTables">
+        <link:definition>9955521 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BackgroundNarrativeDetails" roleURI="http://www.carmax.com/role/BackgroundNarrativeDetails">
+        <link:definition>9955522 - Disclosure - Background (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueDetails" roleURI="http://www.carmax.com/role/RevenueDetails">
+        <link:definition>9955523 - Disclosure - Revenue (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueNarrativeDetails" roleURI="http://www.carmax.com/role/RevenueNarrativeDetails">
+        <link:definition>9955524 - Disclosure - Revenue (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CarMaxAutoFinanceComponentsOfCarMaxAutoFinanceIncomeDetails" roleURI="http://www.carmax.com/role/CarMaxAutoFinanceComponentsOfCarMaxAutoFinanceIncomeDetails">
+        <link:definition>9955525 - Disclosure - CarMax Auto Finance (Components Of CarMax Auto Finance Income) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AutoLoansHeldforInvestmentNetDetails" roleURI="http://www.carmax.com/role/AutoLoansHeldforInvestmentNetDetails">
+        <link:definition>9955526 - Disclosure - Auto Loans Held for Investment, Net (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AutoLoansHeldforInvestmentByMajorCreditGradeDetails" roleURI="http://www.carmax.com/role/AutoLoansHeldforInvestmentByMajorCreditGradeDetails">
+        <link:definition>9955527 - Disclosure - Auto Loans Held for Investment (By Major Credit Grade) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AutoLoansHeldforInvestmentAllowanceforLoanLossesDetails" roleURI="http://www.carmax.com/role/AutoLoansHeldforInvestmentAllowanceforLoanLossesDetails">
+        <link:definition>9955528 - Disclosure - Auto Loans Held for Investment (Allowance for Loan Losses) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AutoLoansHeldforInvestmentPastDueReceivablesDetails" roleURI="http://www.carmax.com/role/AutoLoansHeldforInvestmentPastDueReceivablesDetails">
+        <link:definition>9955529 - Disclosure - Auto Loans Held for Investment (Past Due Receivables) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DerivativeInstrumentsAndHedgingActivitiesNarrativeDetails" roleURI="http://www.carmax.com/role/DerivativeInstrumentsAndHedgingActivitiesNarrativeDetails">
+        <link:definition>9955530 - Disclosure - Derivative Instruments And Hedging Activities (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsScheduleOfItemsMeasuredAtFairValueOnARecurringBasisDetails" roleURI="http://www.carmax.com/role/FairValueMeasurementsScheduleOfItemsMeasuredAtFairValueOnARecurringBasisDetails">
+        <link:definition>9955531 - Disclosure - Fair Value Measurements (Schedule Of Items Measured At Fair Value On A Recurring Basis) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsFairValueMeasurementsScheduleofCarryingValuesandEstimatedFairValuesDetails" roleURI="http://www.carmax.com/role/FairValueMeasurementsFairValueMeasurementsScheduleofCarryingValuesandEstimatedFairValuesDetails">
+        <link:definition>9955532 - Disclosure - Fair Value Measurements Fair Value Measurements (Schedule of Carrying Values and Estimated Fair Values) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CancellationReservesNarrativeDetails" roleURI="http://www.carmax.com/role/CancellationReservesNarrativeDetails">
+        <link:definition>9955533 - Disclosure - Cancellation Reserves (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CancellationReservesScheduleOfCancellationReservesAccrualDetails" roleURI="http://www.carmax.com/role/CancellationReservesScheduleOfCancellationReservesAccrualDetails">
+        <link:definition>9955534 - Disclosure - Cancellation Reserves (Schedule Of Cancellation Reserves Accrual) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesNarrativeDetails" roleURI="http://www.carmax.com/role/IncomeTaxesNarrativeDetails">
+        <link:definition>9955535 - Disclosure - Income Taxes (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtScheduleOfDebtDetails" roleURI="http://www.carmax.com/role/DebtScheduleOfDebtDetails">
+        <link:definition>9955536 - Disclosure - Debt (Schedule Of Debt) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtScheduleofFundingVehiclesDetails" roleURI="http://www.carmax.com/role/DebtScheduleofFundingVehiclesDetails">
+        <link:definition>9955537 - Disclosure - Debt (Schedule of Funding Vehicles) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtNarrativeDetails" roleURI="http://www.carmax.com/role/DebtNarrativeDetails">
+        <link:definition>9955538 - Disclosure - Debt (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlansNarrativeDetails" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlansNarrativeDetails">
+        <link:definition>9955539 - Disclosure - Stock and Stock-Based Incentive Plans (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlansScheduleofCommonStockRepurchasesDetails" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlansScheduleofCommonStockRepurchasesDetails">
+        <link:definition>9955540 - Disclosure - Stock and Stock-Based Incentive Plans (Schedule of Common Stock Repurchases) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlansCompositionofShareBasedCompensationExpenseDetails" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlansCompositionofShareBasedCompensationExpenseDetails">
+        <link:definition>9955541 - Disclosure - Stock and Stock-Based Incentive Plans (Composition of Share-Based Compensation Expense) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlansCompositionofShareBasedCompensationExpenseByGrantTypeDetails" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlansCompositionofShareBasedCompensationExpenseByGrantTypeDetails">
+        <link:definition>9955542 - Disclosure - Stock and Stock-Based Incentive Plans (Composition of Share-Based Compensation Expense - By Grant Type) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StockandStockBasedIncentivePlansStockIncentivePlanInformationDetails" roleURI="http://www.carmax.com/role/StockandStockBasedIncentivePlansStockIncentivePlanInformationDetails">
+        <link:definition>9955543 - Disclosure - Stock and Stock-Based Incentive Plans (Stock Incentive Plan Information) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NetEarningsPerShareBasicAndDilutiveNetEarningsPerShareReconciliationsDetails" roleURI="http://www.carmax.com/role/NetEarningsPerShareBasicAndDilutiveNetEarningsPerShareReconciliationsDetails">
+        <link:definition>9955544 - Disclosure - Net Earnings Per Share (Basic And Dilutive Net Earnings Per Share Reconciliations) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NetEarningsPerShareNarrativeDetails" roleURI="http://www.carmax.com/role/NetEarningsPerShareNarrativeDetails">
+        <link:definition>9955545 - Disclosure - Net Earnings Per Share (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLossDetails" roleURI="http://www.carmax.com/role/AccumulatedOtherComprehensiveIncomeLossDetails">
+        <link:definition>9955546 - Disclosure - Accumulated Other Comprehensive Income (Loss) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLossChangesInandReclassificationsOutofAccumulatedOtherComprehensiveIncomeLossDetails" roleURI="http://www.carmax.com/role/AccumulatedOtherComprehensiveIncomeLossChangesInandReclassificationsOutofAccumulatedOtherComprehensiveIncomeLossDetails">
+        <link:definition>9955547 - Disclosure - Accumulated Other Comprehensive Income (Loss) (Changes In and Reclassifications Out of Accumulated Other Comprehensive Income (Loss)) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccumulatedOtherComprehensiveIncomeLossNarrativeDetails" roleURI="http://www.carmax.com/role/AccumulatedOtherComprehensiveIncomeLossNarrativeDetails">
+        <link:definition>9955548 - Disclosure - Accumulated Other Comprehensive Income (Loss) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesDetails" roleURI="http://www.carmax.com/role/LeasesDetails">
+        <link:definition>9955549 - Disclosure - Leases (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesNarrativeDetails" roleURI="http://www.carmax.com/role/LeasesNarrativeDetails">
+        <link:definition>9955550 - Disclosure - Leases Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesComponentsofLeaseCostDetails" roleURI="http://www.carmax.com/role/LeasesComponentsofLeaseCostDetails">
+        <link:definition>9955551 - Disclosure - Leases Components of Lease Cost (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesSupplementalBalanceSheetDetails" roleURI="http://www.carmax.com/role/LeasesSupplementalBalanceSheetDetails">
+        <link:definition>9955552 - Disclosure - Leases - Supplemental Balance Sheet (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeaseTermandDiscountRateDetails" roleURI="http://www.carmax.com/role/LeaseTermandDiscountRateDetails">
+        <link:definition>9955553 - Disclosure - Lease Term and Discount Rate (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeaseSupplementalCashFlowInformationDetails" roleURI="http://www.carmax.com/role/LeaseSupplementalCashFlowInformationDetails">
+        <link:definition>9955554 - Disclosure - Lease Supplemental Cash Flow Information (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesMaturitiesofLeaseLiabilitiesDetails" roleURI="http://www.carmax.com/role/LeasesMaturitiesofLeaseLiabilitiesDetails">
+        <link:definition>9955555 - Disclosure - Leases Maturities of Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ContingentLiabilitiesDetails" roleURI="http://www.carmax.com/role/ContingentLiabilitiesDetails">
+        <link:definition>9955556 - Disclosure - Contingent Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="kmx_NetSalesAndOperatingRevenuesMember" abstract="false" name="NetSalesAndOperatingRevenuesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_UsedVehiclesMember" abstract="true" name="UsedVehiclesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_WholesaleVehiclesMember" abstract="true" name="WholesaleVehiclesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_OtherMember" abstract="true" name="OtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_GrossProfitMember" abstract="false" name="GrossProfitMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_NetIncomeLossFromFinancingMember" abstract="false" name="NetIncomeLossFromFinancingMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_DepreciationAndAmortizationMember" abstract="true" name="DepreciationAndAmortizationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_EarningsBeforeIncomeTaxesMember" abstract="false" name="EarningsBeforeIncomeTaxesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_IncomeTaxProvisionMember" abstract="false" name="IncomeTaxProvisionMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_NetEarningsMember" abstract="false" name="NetEarningsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_NetIncomeLossFromFinancing" abstract="false" name="NetIncomeLossFromFinancing" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_WeightedAverageCommonSharesAbstract" abstract="true" name="WeightedAverageCommonSharesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_PercentageOfSalesAbstract" abstract="true" name="PercentageOfSalesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_ItemAsPercentOfNetSalesAndOperatingRevenues" abstract="false" name="ItemAsPercentOfNetSalesAndOperatingRevenues" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_NonRecourseDebtCurrent" abstract="false" name="NonRecourseDebtCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_NonRecourseDebtNonCurrent" abstract="false" name="NonRecourseDebtNonCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_ProvisionForContractCancellationReserves" abstract="false" name="ProvisionForContractCancellationReserves" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_ProceedsFromRevolvingLineOfCreditAndLongTermDebt" abstract="false" name="ProceedsFromRevolvingLineOfCreditAndLongTermDebt" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_PaymentsOnRevolvingLineOfCreditAndLongTermDebt" abstract="false" name="PaymentsOnRevolvingLineOfCreditAndLongTermDebt" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_RepaymentsOfLongTermFinanceAndCapitalLeaseObligations" abstract="false" name="RepaymentsOfLongTermFinanceAndCapitalLeaseObligations" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_ProceedsFromIssuanceOfNonRecourseDebt" abstract="false" name="ProceedsFromIssuanceOfNonRecourseDebt" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_PaymentsOnNonRecourseDebt" abstract="false" name="PaymentsOnNonRecourseDebt" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_FinancingObligationsIncurred" abstract="false" name="FinancingObligationsIncurred" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_AutoLoansSoldInExchangeForBeneficialInterests" abstract="false" name="AutoLoansSoldInExchangeForBeneficialInterests" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_AutoFinanceIncomeAbstract" abstract="true" name="AutoFinanceIncomeAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_AutoFinanceIncomeLossTextBlock" abstract="false" name="AutoFinanceIncomeLossTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ContractCancellationReservesAbstract" abstract="true" name="ContractCancellationReservesAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_ContractCancellationReserveTextBlock" abstract="false" name="ContractCancellationReserveTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ScheduleOfSharePerUnitActivityTextBlock" abstract="false" name="ScheduleOfSharePerUnitActivityTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ScheduleOfComponentsOfNetIncomeLossFromFinancingTableTextBlock" abstract="false" name="ScheduleOfComponentsOfNetIncomeLossFromFinancingTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ScheduleOfCarryingValuesAndEstimatedFairValuesOfAutoLoansHeldForSaleTableTextBlock" abstract="false" name="ScheduleOfCarryingValuesAndEstimatedFairValuesOfAutoLoansHeldForSaleTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ContractCancellationReserveTableTextBlock" abstract="false" name="ContractCancellationReserveTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ScheduleofFundingVehiclesTableTextBlock" abstract="false" name="ScheduleofFundingVehiclesTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ScheduleOfShareBasedCompensationExpenseByGrantTypeTableTextBlock" abstract="false" name="ScheduleOfShareBasedCompensationExpenseByGrantTypeTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ExpectedCashSettlementRangeUponCashSettledRestrictedStockUnitVestingTableTextBlock" abstract="false" name="ExpectedCashSettlementRangeUponCashSettledRestrictedStockUnitVestingTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_OtherLeaseDisclosuresTableTextBlock" abstract="false" name="OtherLeaseDisclosuresTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ScheduleOfFutureMinimumLeaseObligationsTableTextBlock" abstract="false" name="ScheduleOfFutureMinimumLeaseObligationsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="kmx_ExtendedprotectionplanDomain" abstract="true" name="ExtendedprotectionplanDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ThirdpartyfinancefeesDomain" abstract="true" name="ThirdpartyfinancefeesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_AdvertisingSubscriptionRevenuesDomain" abstract="true" name="AdvertisingSubscriptionRevenuesDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ServiceDomain" abstract="true" name="ServiceDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_OtherDomain" abstract="true" name="OtherDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_AutoFinanceIncomeTable" abstract="true" name="AutoFinanceIncomeTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_InterestAndFeeIncomeMember" abstract="false" name="InterestAndFeeIncomeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_InterestIncomeExpenseNetMember" abstract="false" name="InterestIncomeExpenseNetMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ProvisionForLoanLossesMember" abstract="false" name="ProvisionForLoanLossesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_TotalInterestMarginAfterProvisionForLoanLossesMember" abstract="false" name="TotalInterestMarginAfterProvisionForLoanLossesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_TotalOtherNonoperatingExpenseIncomePercentMember" abstract="true" name="TotalOtherNonoperatingExpenseIncomePercentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PayrollAndFringeBenefitExpenseMember" abstract="false" name="PayrollAndFringeBenefitExpenseMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_OtherDirectExpensesMember" abstract="false" name="OtherDirectExpensesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_TotalDirectExpensesMember" abstract="false" name="TotalDirectExpensesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_CarmaxAutoFinanceIncomeMember" abstract="false" name="CarmaxAutoFinanceIncomeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_AutoFinanceIncomeLineItems" abstract="true" name="AutoFinanceIncomeLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_ItemAsPercentOfTotalAverageManagedReceivablesPrincipalOnly" abstract="false" name="ItemAsPercentOfTotalAverageManagedReceivablesPrincipalOnly" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_Totalaveragemanagedreceivables" abstract="false" name="Totalaveragemanagedreceivables" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_AutoLoanServicingIncome" abstract="false" name="AutoLoanServicingIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_TermSecuritizationsMember" abstract="false" name="TermSecuritizationsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ExcessCollateralMember" abstract="true" name="ExcessCollateralMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_OtherReceivablesMember" abstract="false" name="OtherReceivablesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_NonRecourseNotesPayable" abstract="false" name="NonRecourseNotesPayable" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_CreditGradeAMember" abstract="false" name="CreditGradeAMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_CreditGradeBMember" abstract="false" name="CreditGradeBMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_CreditGradeCAndOtherMember" abstract="false" name="CreditGradeCAndOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Tier1ManagedReceivablesMember" abstract="true" name="Tier1ManagedReceivablesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Tier2Tier3ManagedReceivablesMember" abstract="true" name="Tier2Tier3ManagedReceivablesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_TotalEndingManagedReceivablesAsPercentageByMajorCreditGrade" abstract="false" name="TotalEndingManagedReceivablesAsPercentageByMajorCreditGrade" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_TransferOfAutoLoansToHeldForSaleMember" abstract="true" name="TransferOfAutoLoansToHeldForSaleMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_AutoLoansHeldForInvestmentMember" abstract="true" name="AutoLoansHeldForInvestmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ItemAsPercentOfTotalEndingManagedReceivablesIncrease" abstract="false" name="ItemAsPercentOfTotalEndingManagedReceivablesIncrease" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_ItemAsPercentOfTotalEndingManagedReceivablesPeriodIncreaseDecrease" abstract="false" name="ItemAsPercentOfTotalEndingManagedReceivablesPeriodIncreaseDecrease" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_OneToThirtyDaysPastDueMember" abstract="true" name="OneToThirtyDaysPastDueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ThirtyOneToSixtyDaysPastDueMember" abstract="false" name="ThirtyOneToSixtyDaysPastDueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_SixtyOneToNinetyDaysPastDueMember" abstract="false" name="SixtyOneToNinetyDaysPastDueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_GreaterThanNinetyDaysPastDueMember" abstract="false" name="GreaterThanNinetyDaysPastDueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PastDueReceivablesAsAPercentageOfTotalEndingManagedReceivables" abstract="false" name="PastDueReceivablesAsAPercentageOfTotalEndingManagedReceivables" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_ItemAsAPercentOfTotalEndingManagedReceivables" abstract="false" name="ItemAsAPercentOfTotalEndingManagedReceivables" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_BeneficialInterestsInNonConsolidatedSecuritizations" abstract="false" name="BeneficialInterestsInNonConsolidatedSecuritizations" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_ItemAsPercentageOfTotalAssetsAtFairValue" abstract="false" name="ItemAsPercentageOfTotalAssetsAtFairValue" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_ItemAsPercentageOfTotalAssets" abstract="false" name="ItemAsPercentageOfTotalAssets" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_ItemAsPercentageOfTotalLiabilities" abstract="false" name="ItemAsPercentageOfTotalLiabilities" nillable="true" xbrli:periodType="instant" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_CancellationReservesCurrentPortion" abstract="false" name="CancellationReservesCurrentPortion" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_TermLoanMember" abstract="true" name="TermLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_A4.17seniornotesdue2026Member" abstract="true" name="A4.17seniornotesdue2026Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_A4.27seniornotesdue2028Member" abstract="true" name="A4.27seniornotesdue2028Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_October2021TermLoanMember" abstract="true" name="October2021TermLoanMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_FinancingObligations" abstract="false" name="FinancingObligations" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_WarehouseFacilityOneMember" abstract="false" name="WarehouseFacilityOneMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_WarehouseFacilityTwoMember" abstract="false" name="WarehouseFacilityTwoMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_WarehouseFacilityThreeMember" abstract="true" name="WarehouseFacilityThreeMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_WarehouseFacilitiesMember" abstract="false" name="WarehouseFacilitiesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_TermSecuritizationsDebtMember" abstract="false" name="TermSecuritizationsDebtMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_WarehouseFacilitiesMaximumBorrowingCapacity" abstract="false" name="WarehouseFacilitiesMaximumBorrowingCapacity" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_WarehouseFacilityCapacityIncrease" abstract="false" name="WarehouseFacilityCapacityIncrease" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_FinancingObligationMember" abstract="false" name="FinancingObligationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_AssetBackedSecuritizationProgramAxis" abstract="true" name="AssetBackedSecuritizationProgramAxis" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_AssetBackedSecuritizationProgramDomain" abstract="true" name="AssetBackedSecuritizationProgramDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PrimeAutoLoansReceivableMember" abstract="true" name="PrimeAutoLoansReceivableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_NonPrimeAutoLoansReceivableMember" abstract="true" name="NonPrimeAutoLoansReceivableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_InitialLeaseTerms" abstract="false" name="InitialLeaseTerms" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="kmx_Fiscal2023GrantsYear1Member" abstract="true" name="Fiscal2023GrantsYear1Member" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Fiscal2022GrantMember" abstract="true" name="Fiscal2022GrantMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Fiscal2023GrantMember" abstract="true" name="Fiscal2023GrantMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Fiscal2024GrantMember" abstract="true" name="Fiscal2024GrantMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Fiscal2025GrantMember" abstract="true" name="Fiscal2025GrantMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_Fiscal2026GrantMember" abstract="true" name="Fiscal2026GrantMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ShareRepurchaseProgramMember" abstract="false" name="ShareRepurchaseProgramMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PSUFirstYearPeriodMember" abstract="true" name="PSUFirstYearPeriodMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PSUSecondYearPeriodMember" abstract="true" name="PSUSecondYearPeriodMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PSUThirdYearPeriodMember" abstract="true" name="PSUThirdYearPeriodMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_PSUPerformanceAdjustmentFactor" abstract="false" name="PSUPerformanceAdjustmentFactor" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_CashPaymentPerCashSettledRestrictedStockUnit" abstract="false" name="CashPaymentPerCashSettledRestrictedStockUnit" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:percentItemType"/>
+  <xs:element id="kmx_StockUnitsConvertedToCommonStockForEachUnitGranted" abstract="false" name="StockUnitsConvertedToCommonStockForEachUnitGranted" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="kmx_MarketStockUnitsConvertedToCommonStockConversionRatioNumberOfFinalTradingDaysInVestingPeriod" abstract="false" name="MarketStockUnitsConvertedToCommonStockConversionRatioNumberOfFinalTradingDaysInVestingPeriod" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="kmx_ShareBasedCompensationArrangementByShareBasedPaymentAwardConversionRatioQuotient" abstract="false" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardConversionRatioQuotient" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:pureItemType"/>
+  <xs:element id="kmx_CashSettledRestrictedStockUnitsMember" abstract="false" name="CashSettledRestrictedStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_StockSettledRestrictedStockUnitsMember" abstract="false" name="StockSettledRestrictedStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_DeferredStockUnitsMember" abstract="true" name="DeferredStockUnitsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_OthersharebasedincentivesMember" abstract="true" name="OthersharebasedincentivesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ScheduleOfBasicAndDilutiveNetEarningsPerShareReconciliationTable" abstract="true" name="ScheduleOfBasicAndDilutiveNetEarningsPerShareReconciliationTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_StockSettledStockUnitsAndAwardsMember" abstract="false" name="StockSettledStockUnitsAndAwardsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ScheduleOfBasicAndDilutiveNetEarningsPerShareReconciliationLineItems" abstract="true" name="ScheduleOfBasicAndDilutiveNetEarningsPerShareReconciliationLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_ScheduleOfAccumulatedOtherComprehensiveLossTable" abstract="true" name="ScheduleOfAccumulatedOtherComprehensiveLossTable" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_UnrecognizedActuarialLossesMember" abstract="false" name="UnrecognizedActuarialLossesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_UnrecognizedHedgeLossesMember" abstract="false" name="UnrecognizedHedgeLossesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_ScheduleOfAccumulatedOtherComprehensiveLossLineItems" abstract="true" name="ScheduleOfAccumulatedOtherComprehensiveLossLineItems" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="kmx_CarmaxAutoFinanceMember" abstract="false" name="CarmaxAutoFinanceMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="kmx_AccumulatedOtherComprehensiveIncomeLossDeferredTaxes" abstract="false" name="AccumulatedOtherComprehensiveIncomeLossDeferredTaxes" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_LeaseRenewalTerm" abstract="false" name="LeaseRenewalTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="kmx_RealEstateLeaseTerm" abstract="false" name="RealEstateLeaseTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="kmx_EquipmentLeaseTerm" abstract="false" name="EquipmentLeaseTerm" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:durationItemType"/>
+  <xs:element id="kmx_FinanceLeaseCost" abstract="false" name="FinanceLeaseCost" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_Totalleaseassets" abstract="false" name="Totalleaseassets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_Totalleaseliabilities" abstract="false" name="Totalleaseliabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_FinanceLeaseAccumulatedDepreciation" abstract="false" name="FinanceLeaseAccumulatedDepreciation" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="kmx_LesseeMinimumLeasePaymentsForLeasesNotYetCommenced" abstract="false" name="LesseeMinimumLeasePaymentsForLeasesNotYetCommenced" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+</xs:schema>

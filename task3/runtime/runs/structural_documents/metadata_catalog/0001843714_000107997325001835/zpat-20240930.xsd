@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 6.3a -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+    <!-- Field: Doc-Info; Name: Misc; Value: +aAps7xRiXgen8uEYHMsSaWEmbPtx517WZkhvmh4bdlKnyYms1BXHSQYDYBmQa4B -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dei="http://xbrl.sec.gov/dei/2024" xmlns:us-gaap="http://fasb.org/us-gaap/2024" xmlns:us-types="http://fasb.org/us-types/2024" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2022-03-31" xmlns:ecd="http://xbrl.sec.gov/ecd/2024" xmlns:country="http://xbrl.sec.gov/country/2024" xmlns:srt="http://fasb.org/srt/2024" xmlns:cyd="http://xbrl.sec.gov/cyd/2024" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:zpat="http://zapataquantum.com/20240930" elementFormDefault="qualified" targetNamespace="http://zapataquantum.com/20240930">
+    <annotation>
+      <appinfo>
+        <link:roleType roleURI="http://zapataquantum.com/role/Cover" id="Cover">
+          <link:definition>00000001 - Document - Cover</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CondensedConsolidatedBalanceSheets" id="CondensedConsolidatedBalanceSheets">
+          <link:definition>00000002 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CondensedConsolidatedBalanceSheetsParenthetical" id="CondensedConsolidatedBalanceSheetsParenthetical">
+          <link:definition>00000003 - Statement - CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED) (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLoss" id="CondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLoss">
+          <link:definition>00000004 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME (LOSS) (UNAUDITED)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficit" id="CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficit">
+          <link:definition>00000005 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND STOCKHOLDERS' DEFICIT (UNAUDITED)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficitParenthetical" id="CondensedConsolidatedStatementsOfConvertiblePreferredStockAndStockholdersDeficitParenthetical">
+          <link:definition>00000006 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND STOCKHOLDERS' DEFICIT (UNAUDITED) (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CondensedConsolidatedStatementsOfCashFlows" id="CondensedConsolidatedStatementsOfCashFlows">
+          <link:definition>00000007 - Statement - CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/NatureOfBusinessAndBasisOfPresentation" id="NatureOfBusinessAndBasisOfPresentation">
+          <link:definition>999008 - Disclosure - Nature of the Business and Basis of Presentation</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPolicies" id="SummaryOfSignificantAccountingPolicies">
+          <link:definition>999009 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/Merger" id="Merger">
+          <link:definition>999010 - Disclosure - Merger</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/FairValueMeasurements" id="FairValueMeasurements">
+          <link:definition>999011 - Disclosure - Fair Value Measurements</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNet" id="PropertyAndEquipmentNet">
+          <link:definition>999012 - Disclosure - Property and Equipment, Net</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilities" id="AccruedExpensesAndOtherCurrentLiabilities">
+          <link:definition>999013 - Disclosure - Accrued Expenses and Other Current Liabilities</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/ForwardPurchaseAgreement" id="ForwardPurchaseAgreement">
+          <link:definition>999014 - Disclosure - Forward Purchase Agreement</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/Debt" id="Debt">
+          <link:definition>999015 - Disclosure - Debt</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/ConvertiblePreferredStock" id="ConvertiblePreferredStock">
+          <link:definition>999016 - Disclosure - Convertible Preferred Stock</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CommonStock" id="CommonStock">
+          <link:definition>999017 - Disclosure - Common Stock</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/Warrants" id="Warrants">
+          <link:definition>999018 - Disclosure - Warrants</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlans" id="CompensationPlans">
+          <link:definition>999019 - Disclosure - Compensation Plans</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/Leases" id="Leases">
+          <link:definition>999020 - Disclosure - Leases</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/IncomeTaxes" id="IncomeTaxes">
+          <link:definition>999021 - Disclosure - Income Taxes</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/RetirementPlan" id="RetirementPlan">
+          <link:definition>999022 - Disclosure - Retirement Plan</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CommitmentsAndContingencies" id="CommitmentsAndContingencies">
+          <link:definition>999023 - Disclosure - Commitments and Contingencies</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/NetIncomeLossPerShare" id="NetIncomeLossPerShare">
+          <link:definition>999024 - Disclosure - Net Income (Loss) per Share</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/RelatedPartyTransactions" id="RelatedPartyTransactions">
+          <link:definition>999025 - Disclosure - Related Party Transactions</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SubsequentEvents" id="SubsequentEvents">
+          <link:definition>999026 - Disclosure - Subsequent Events</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesPolicies" id="SummaryOfSignificantAccountingPoliciesPolicies">
+          <link:definition>999028 - Disclosure - Summary of Significant Accounting Policies (Policies)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesTables" id="SummaryOfSignificantAccountingPoliciesTables">
+          <link:definition>999029 - Disclosure - Summary of Significant Accounting Policies (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/MergerTables" id="MergerTables">
+          <link:definition>999030 - Disclosure - Merger (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/FairValueMeasurementsTables" id="FairValueMeasurementsTables">
+          <link:definition>999031 - Disclosure - Fair Value Measurements (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNetTables" id="PropertyAndEquipmentNetTables">
+          <link:definition>999032 - Disclosure - Property and Equipment, Net (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilitiesTables" id="AccruedExpensesAndOtherCurrentLiabilitiesTables">
+          <link:definition>999033 - Disclosure - Accrued Expenses and Other Current Liabilities (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/DebtTables" id="DebtTables">
+          <link:definition>999034 - Disclosure - Debt (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/ConvertiblePreferredStockTables" id="ConvertiblePreferredStockTables">
+          <link:definition>999035 - Disclosure - Convertible Preferred Stock (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlansTables" id="CompensationPlansTables">
+          <link:definition>999036 - Disclosure - Compensation Plans (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/LeasesTables" id="LeasesTables">
+          <link:definition>999037 - Disclosure - Leases (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CommitmentsAndContingenciesTables" id="CommitmentsAndContingenciesTables">
+          <link:definition>999038 - Disclosure - Commitments and Contingencies (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/NetIncomeLossPerShareTables" id="NetIncomeLossPerShareTables">
+          <link:definition>999039 - Disclosure - Net Income (Loss) per Share (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/NatureOfBusinessAndBasisOfPresentationDetailsNarrative" id="NatureOfBusinessAndBasisOfPresentationDetailsNarrative">
+          <link:definition>999040 - Disclosure - Nature of the Business and Basis of Presentation (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails" id="SummaryOfSignificantAccountingPoliciesDetails">
+          <link:definition>999041 - Disclosure - Summary of Significant Accounting Policies (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails1" id="SummaryOfSignificantAccountingPoliciesDetails1">
+          <link:definition>999042 - Disclosure - Summary of Significant Accounting Policies (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails2" id="SummaryOfSignificantAccountingPoliciesDetails2">
+          <link:definition>999043 - Disclosure - Summary of Significant Accounting Policies (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails3" id="SummaryOfSignificantAccountingPoliciesDetails3">
+          <link:definition>999044 - Disclosure - Summary of Significant Accounting Policies (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetails4" id="SummaryOfSignificantAccountingPoliciesDetails4">
+          <link:definition>999045 - Disclosure - Summary of Significant Accounting Policies (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" id="SummaryOfSignificantAccountingPoliciesDetailsNarrative">
+          <link:definition>999046 - Disclosure - Summary of Significant Accounting Policies (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/MergerDetails" id="MergerDetails">
+          <link:definition>999047 - Disclosure - Merger (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/MergerDetails1" id="MergerDetails1">
+          <link:definition>999048 - Disclosure - Merger (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/MergerDetailsNarrative" id="MergerDetailsNarrative">
+          <link:definition>999049 - Disclosure - Merger (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetails" id="FairValueMeasurementsDetails">
+          <link:definition>999050 - Disclosure - Fair Value Measurements (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetails1" id="FairValueMeasurementsDetails1">
+          <link:definition>999051 - Disclosure - Fair Value Measurements (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetails2" id="FairValueMeasurementsDetails2">
+          <link:definition>999052 - Disclosure - Fair Value Measurements (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/FairValueMeasurementsDetailsNarrative" id="FairValueMeasurementsDetailsNarrative">
+          <link:definition>999053 - Disclosure - Fair Value Measurements (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNetDetails" id="PropertyAndEquipmentNetDetails">
+          <link:definition>999054 - Disclosure - Property and Equipment, Net (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/PropertyAndEquipmentNetDetailsNarrative" id="PropertyAndEquipmentNetDetailsNarrative">
+          <link:definition>999055 - Disclosure - Property and Equipment, Net (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/AccruedExpensesAndOtherCurrentLiabilitiesDetails" id="AccruedExpensesAndOtherCurrentLiabilitiesDetails">
+          <link:definition>999056 - Disclosure - Accrued Expenses and Other Current Liabilities (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/ForwardPurchaseAgreementDetailsNarrative" id="ForwardPurchaseAgreementDetailsNarrative">
+          <link:definition>999057 - Disclosure - Forward Purchase Agreement (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/DebtDetails" id="DebtDetails">
+          <link:definition>999058 - Disclosure - Debt (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/DebtDetails1" id="DebtDetails1">
+          <link:definition>999059 - Disclosure - Debt (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/DebtDetails2" id="DebtDetails2">
+          <link:definition>999060 - Disclosure - Debt (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/DebtDetails3" id="DebtDetails3">
+          <link:definition>999061 - Disclosure - Debt (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/DebtDetailsNarrative" id="DebtDetailsNarrative">
+          <link:definition>999062 - Disclosure - Debt (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/ConvertiblePreferredStockDetails" id="ConvertiblePreferredStockDetails">
+          <link:definition>999063 - Disclosure - Convertible Preferred Stock (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/ConvertiblePreferredStockDetailsNarrative" id="ConvertiblePreferredStockDetailsNarrative">
+          <link:definition>999064 - Disclosure - Convertible Preferred Stock (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CommonStockDetailsNarrative" id="CommonStockDetailsNarrative">
+          <link:definition>999065 - Disclosure - Common Stock (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/WarrantsDetailsNarrative" id="WarrantsDetailsNarrative">
+          <link:definition>999066 - Disclosure - Warrants (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlansDetails" id="CompensationPlansDetails">
+          <link:definition>999067 - Disclosure - Compensation Plans (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlansDetails1" id="CompensationPlansDetails1">
+          <link:definition>999068 - Disclosure - Compensation Plans (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlansDetails2" id="CompensationPlansDetails2">
+          <link:definition>999069 - Disclosure - Compensation Plans (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlansDetails3" id="CompensationPlansDetails3">
+          <link:definition>999070 - Disclosure - Compensation Plans (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CompensationPlansDetailsNarrative" id="CompensationPlansDetailsNarrative">
+          <link:definition>999071 - Disclosure - Compensation Plans (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/LeasesDetails" id="LeasesDetails">
+          <link:definition>999072 - Disclosure - Leases (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/LeasesDetails1" id="LeasesDetails1">
+          <link:definition>999073 - Disclosure - Leases (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/LeasesDetailsNarrative" id="LeasesDetailsNarrative">
+          <link:definition>999074 - Disclosure - Leases (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/IncomeTaxesDetailsNarrative" id="IncomeTaxesDetailsNarrative">
+          <link:definition>999075 - Disclosure - Income Taxes (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CommitmentsAndContingenciesDetails" id="CommitmentsAndContingenciesDetails">
+          <link:definition>999076 - Disclosure - Commitments and Contingencies (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/CommitmentsAndContingenciesDetailsNarrative" id="CommitmentsAndContingenciesDetailsNarrative">
+          <link:definition>999077 - Disclosure - Commitments and Contingencies (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/NetIncomeLossPerShareDetails" id="NetIncomeLossPerShareDetails">
+          <link:definition>999078 - Disclosure - Net Income (Loss) per Share (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/NetIncomeLossPerShareDetails1" id="NetIncomeLossPerShareDetails1">
+          <link:definition>999079 - Disclosure - Net Income (Loss) per Share (Details 1)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/RelatedPartyTransactionsDetailsNarrative" id="RelatedPartyTransactionsDetailsNarrative">
+          <link:definition>999080 - Disclosure - Related Party Transactions (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://zapataquantum.com/role/SubsequentEventsDetailsNarrative" id="SubsequentEventsDetailsNarrative">
+          <link:definition>999081 - Disclosure - Subsequent Events (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:linkbaseRef xlink:type="simple" xlink:href="zpat-20240930_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="zpat-20240930_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="zpat-20240930_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="zpat-20240930_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links" />
+      </appinfo>
+    </annotation>
+    <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+    <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+    <import namespace="http://xbrl.sec.gov/dei/2024" schemaLocation="https://xbrl.sec.gov/dei/2024/dei-2024.xsd" />
+    <import namespace="http://fasb.org/us-gaap/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-gaap-2024.xsd" />
+    <import namespace="http://fasb.org/us-types/2024" schemaLocation="https://xbrl.fasb.org/us-gaap/2024/elts/us-types-2024.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/2022-03-31" schemaLocation="https://www.xbrl.org/dtr/type/2022-03-31/types.xsd" />
+    <import namespace="http://xbrl.sec.gov/ecd/2024" schemaLocation="https://xbrl.sec.gov/ecd/2024/ecd-2024.xsd" />
+    <import namespace="http://xbrl.sec.gov/country/2024" schemaLocation="https://xbrl.sec.gov/country/2024/country-2024.xsd" />
+    <import namespace="http://fasb.org/srt/2024" schemaLocation="https://xbrl.fasb.org/srt/2024/elts/srt-2024.xsd" />
+    <import namespace="http://xbrl.sec.gov/cyd/2024" schemaLocation="https://xbrl.sec.gov/cyd/2024/cyd-2024.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+    <element id="zpat_ConvertiblePreferredStocksMember" name="ConvertiblePreferredStocksMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClassARedeemableConvertiblePreferredStockMember" name="ClassARedeemableConvertiblePreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ReverseRecapitalizationMember" name="ReverseRecapitalizationMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ForwardPurchaseAgreementMember" name="ForwardPurchaseAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PublicWarrantsMember" name="PublicWarrantsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PrivatePlacementWarrantsMember" name="PrivatePlacementWarrantsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CustomerAMember" name="CustomerAMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CustomerBMember" name="CustomerBMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CustomerCMember" name="CustomerCMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CustomerDMember" name="CustomerDMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CustomerEMember" name="CustomerEMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CustomerFMember" name="CustomerFMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LegacyZapataMember" name="LegacyZapataMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AndrettiAcquisitionCorpMember" name="AndrettiAcquisitionCorpMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MergerMember" name="MergerMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LegacyZapataEquityholdersMember" name="LegacyZapataEquityholdersMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AacPublicShareholdersMember" name="AacPublicShareholdersMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AacSponsorSharesMember" name="AacSponsorSharesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeniorSecuredNoteHoldersMember" name="SeniorSecuredNoteHoldersMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CapitalMarketsAdvisorsMember" name="CapitalMarketsAdvisorsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_OtcEquityPrepaidForwardTransactionWithSandiaInvestmentManagementLpMember" name="OtcEquityPrepaidForwardTransactionWithSandiaInvestmentManagementLpMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SponsorMember" name="SponsorMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SPACCommonStockMember" name="SPACCommonStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_BusinessCombinationAgreementMember" name="BusinessCombinationAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ForwardPurchaseAgreementDerivativeLiabilityMember" name="ForwardPurchaseAgreementDerivativeLiabilityMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LossOnIssuanceOfForwardPurchaseAgreementDerivativeLiabilityMember" name="LossOnIssuanceOfForwardPurchaseAgreementDerivativeLiabilityMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PartialEarlyTerminationOfForwardPurchaseMember" name="PartialEarlyTerminationOfForwardPurchaseMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeniorSecuredNotesMember" name="SeniorSecuredNotesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AdvisoryAgreementsForCapitalMarketsMember" name="AdvisoryAgreementsForCapitalMarketsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClosingOfBusinessCombinationMember" name="ClosingOfBusinessCombinationMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AnytimeAfterClosingOfBusinessCombinationMember" name="AnytimeAfterClosingOfBusinessCombinationMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ThirdPartyAdvisorMember" name="ThirdPartyAdvisorMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NewCompanyCommonStockMember" name="NewCompanyCommonStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConversionOfSeniorSecuredNotesMember" name="ConversionOfSeniorSecuredNotesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LincolnParkPurchaseAgreementMember" name="LincolnParkPurchaseAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PreferredYieldRateMember" name="PreferredYieldRateMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_OptionalConversionWithDeSpacMember" name="OptionalConversionWithDeSpacMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeriesSeedPreferredStockMember" name="SeriesSeedPreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeriesB1PreferredStockMember" name="SeriesB1PreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeriesB2PreferredStockMember" name="SeriesB2PreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TwoThousandTwentyFourPlanMember" name="TwoThousandTwentyFourPlanMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LincolnParkCapitalFundLicMember" name="LincolnParkCapitalFundLicMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_N2024LincolnParkPurchaseAgreementMember" name="N2024LincolnParkPurchaseAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_WorkingCapitalLoanAgreementMember" name="WorkingCapitalLoanAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TwentyEighteenPlanMember" name="TwentyEighteenPlanMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_InducementAwardsMember" name="InducementAwardsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TwoThousandTwentyFourEsppMember" name="TwoThousandTwentyFourEsppMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NonvestedRestrictedCommonStockMember" name="NonvestedRestrictedCommonStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LicenseAgreementMember" name="LicenseAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AndrettiGlobalMember" name="AndrettiGlobalMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SponsorShipAgreementMember" name="SponsorShipAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AndrettiAutosport1LlcMember" name="AndrettiAutosport1LlcMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AdvisoryAndOtherAgreementsMember" name="AdvisoryAndOtherAgreementsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ThirdPartyMember" name="ThirdPartyMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LincolnParkRegistrationStatementMember" name="LincolnParkRegistrationStatementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CollaborativeResearchAgreementMember" name="CollaborativeResearchAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_QuantumCloudServiceAgreementMember" name="QuantumCloudServiceAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_UnvestedSharesMember" name="UnvestedSharesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConsultingServicesMember" name="ConsultingServicesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_GreaterThanFivePercentStockholderOfTheCompanyTwoMember" name="GreaterThanFivePercentStockholderOfTheCompanyTwoMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NewDirectorMember" name="NewDirectorMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotesIssuedOnJuneThirteenTwentyTwentyThreeMember" name="NotesIssuedOnJuneThirteenTwentyTwentyThreeMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotesIssuedOnSecondJulyTwentyTwentyThreeMember" name="NotesIssuedOnSecondJulyTwentyTwentyThreeMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_EnterpriseSolutionSubscriptionAgreementMember" name="EnterpriseSolutionSubscriptionAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ManagedServiceAgreementMember" name="ManagedServiceAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AndrettiAutosportOneLlcMember" name="AndrettiAutosportOneLlcMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SandiaMember" name="SandiaMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PurchaseAgreementMember" name="PurchaseAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AccreditedInvestorsMember" name="AccreditedInvestorsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConsentAgreementMember" name="ConsentAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ExistingLenderMember" name="ExistingLenderMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConversionAgreementsMember" name="ConversionAgreementsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MaterialDefinitiveAgreementMember" name="MaterialDefinitiveAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CompensatoryArrangementsMember" name="CompensatoryArrangementsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CertainOfficersMember" name="CertainOfficersMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeriesCConvertiblePreferredStockMember" name="SeriesCConvertiblePreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TwoAdvisorsMember" name="TwoAdvisorsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TwoOtherAdvisorsMember" name="TwoOtherAdvisorsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_WarrantPurchaseAgreementMember" name="WarrantPurchaseAgreementMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_Mr.WilliamKlitgaardMember" name="Mr.WilliamKlitgaardMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ChairOfTheAuditCommitteeMember" name="ChairOfTheAuditCommitteeMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_Mr.GolestaniMember" name="Mr.GolestaniMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeriesAConvertiblePreferredStockMember" name="SeriesAConvertiblePreferredStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DeferredOfferingCostsNonCurrent" name="DeferredOfferingCostsNonCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AccruedExpensesAndOtherCurrentLiabilities" name="AccruedExpensesAndOtherCurrentLiabilities" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DeferredLegalFeesCurrent" name="DeferredLegalFeesCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotesPayableRelatedPartiesCurrent" name="NotesPayableRelatedPartiesCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotePayableRelatedPartyNoncurrent" name="NotePayableRelatedPartyNoncurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" name="ChangeInFairValueOfForwardPurchaseAgreementDerivativeLiability" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ForeignCurrencyTranslationAdjustment" name="ForeignCurrencyTranslationAdjustment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockPursuantToEquityLineOfCredit" name="IssuanceOfCommonStockPursuantToEquityLineOfCredit" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockPursuantToEquityLineOfCreditShares" name="IssuanceOfCommonStockPursuantToEquityLineOfCreditShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CommitmentSharesIssuedPursuantToEquityLineOfCredit" name="CommitmentSharesIssuedPursuantToEquityLineOfCredit" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CommitmentSharesIssuedPursuantToEquityLineOfCreditShares" name="CommitmentSharesIssuedPursuantToEquityLineOfCreditShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockUnderPlan" name="IssuanceOfCommonStockUnderPlan" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockUnder2024PlanSharesShares" name="IssuanceOfCommonStockUnder2024PlanSharesShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PartialEarlyTerminationOfForwardPurchaseAgreement" name="PartialEarlyTerminationOfForwardPurchaseAgreement" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RetroactiveApplicationOfReverseRecapitalization" name="RetroactiveApplicationOfReverseRecapitalization" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RetroactiveApplicationOfReverseRecapitalizationShares" name="RetroactiveApplicationOfReverseRecapitalizationShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AdjustedBalanceOfPeriod" name="AdjustedBalanceOfPeriod" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AdjustedBalanceOfPeriodShares" name="AdjustedBalanceOfPeriodShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockPursuantToForwardPurchaseAgreement" name="IssuanceOfCommonStockPursuantToForwardPurchaseAgreement" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockPursuantToForwardPurchaseAgreementShares" name="IssuanceOfCommonStockPursuantToForwardPurchaseAgreementShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CommonStockIssuanceOfInConnectionWithDebtIssuanceCostsRelatedToSeniorSecuredNotesAndCapitalMarketsAdvisoryAgreements" name="CommonStockIssuanceOfInConnectionWithDebtIssuanceCostsRelatedToSeniorSecuredNotesAndCapitalMarketsAdvisoryAgreements" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockInConnectionWithDebtIssuanceCostsRelatedToSeniorSecuredNotesAndCapitalMarketsAdvisoryAgreementsShares" name="IssuanceOfCommonStockInConnectionWithDebtIssuanceCostsRelatedToSeniorSecuredNotesAndCapitalMarketsAdvisoryAgreementsShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConversionOfRedeemableConvertiblePreferredStockIntoCommonStockInConnectionWithReverseRecapitalization" name="ConversionOfRedeemableConvertiblePreferredStockIntoCommonStockInConnectionWithReverseRecapitalization" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConversionOfRedeemableConvertiblePreferredStockIntoCommonStockInConnectionWithReverseRecapitalizationShares" name="ConversionOfRedeemableConvertiblePreferredStockIntoCommonStockInConnectionWithReverseRecapitalizationShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockUponReverseRecapitalization" name="IssuanceOfCommonStockUponReverseRecapitalization" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockUponReverseRecapitalizationShares" name="IssuanceOfCommonStockUponReverseRecapitalizationShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NonCashVendorPayments" name="NonCashVendorPayments" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ChangeInFairValueOfSeniorNotes" name="ChangeInFairValueOfSeniorNotes" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NonCashLeaseExpense" name="NonCashLeaseExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_EquityLineOfCreditCommitmentExpense" name="EquityLineOfCreditCommitmentExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IncreaseDecreaseInAccruedExpensesOtherCurrentLiabilitiesAndOtherNonCurrentLiabilities" name="IncreaseDecreaseInAccruedExpensesOtherCurrentLiabilitiesAndOtherNonCurrentLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IncreaseDecreaseInDeferredLegalFees" name="IncreaseDecreaseInDeferredLegalFees" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuancesOfCommonStockUnderEquityLineOfCredit" name="IssuancesOfCommonStockUnderEquityLineOfCredit" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ProceedsFromReverseRecapitalization" name="ProceedsFromReverseRecapitalization" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ProceedsFromPartialEarlyTerminationOfForwardPurchaseAgreement" name="ProceedsFromPartialEarlyTerminationOfForwardPurchaseAgreement" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PrepaymentForForwardPurchaseAgreement" name="PrepaymentForForwardPurchaseAgreement" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockInConnectionWithDebtIssuanceCostsRelatedToSeniorSecuredNotesAndCapitalMarketAdvisoryAgreements" name="IssuanceOfCommonStockInConnectionWithDebtIssuanceCostsRelatedToSeniorSecuredNotesAndCapitalMarketAdvisoryAgreements" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DeferredOfferingCostsIncludedInAccountsPayableAndAccruedExpensesAndOtherCurrentLiabilities" name="DeferredOfferingCostsIncludedInAccountsPayableAndAccruedExpensesAndOtherCurrentLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DebtIssuanceCostsIncurredAndIncludedInAccruedExpensesAndOtherCurrentLiabilities" name="DebtIssuanceCostsIncurredAndIncludedInAccruedExpensesAndOtherCurrentLiabilities" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TemporaryEquityConvertedIntoPermanentEquityUponRecapitalization" name="TemporaryEquityConvertedIntoPermanentEquityUponRecapitalization" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockInConnectionWithTheEquityLineOfCreditCommitmentShares" name="IssuanceOfCommonStockInConnectionWithTheEquityLineOfCreditCommitmentShares" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_IssuanceOfCommonStockEquityAndIncentivePlan" name="IssuanceOfCommonStockEquityAndIncentivePlan" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DisclosureMergerAbstract" name="DisclosureMergerAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MergerTextBlock" name="MergerTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DisclosureForwardPurchaseAgreementAbstract" name="DisclosureForwardPurchaseAgreementAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DisclosureOfForwardPurchaseAgreementTextBlock" name="DisclosureOfForwardPurchaseAgreementTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DisclosureConvertiblePreferredStockAbstract" name="DisclosureConvertiblePreferredStockAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TemporaryEquityTextBlock" name="TemporaryEquityTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AccruedProfessionalFeesPolicyTextBlock" name="AccruedProfessionalFeesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DerivativeLiabilityForwardPurchaseAgreementPolicyTextBlock" name="DerivativeLiabilityForwardPurchaseAgreementPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeniorNotesIncludingSeniorNotesPolicyTextBlock" name="SeniorNotesIncludingSeniorNotesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClassificationOfConvertiblePreferredStockPolicyTextBlock" name="ClassificationOfConvertiblePreferredStockPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CostOfRevenuePolicyTextBlock" name="CostOfRevenuePolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SellingAndMarketingExpensesPolicyTextBlock" name="SellingAndMarketingExpensesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_GeneralAndAdministrativeExpensesPolicyTextBlock" name="GeneralAndAdministrativeExpensesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_WarrantsIssuancePolicyTextBlock" name="WarrantsIssuancePolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_EmergingGrowthCompanyPolicyTextBlock" name="EmergingGrowthCompanyPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RecentlyIssuedAccountingPronouncementsNotYetAdoptedPolicyTextBlock" name="RecentlyIssuedAccountingPronouncementsNotYetAdoptedPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ScheduleOfPercentageOfRevenueAndAccountsReceivableByMajorCustomersTableTextBlock" name="ScheduleOfPercentageOfRevenueAndAccountsReceivableByMajorCustomersTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ScheduleOfEstimatedUsefulLivesOfPropertyPlantAndEquipmentTableTextBlock" name="ScheduleOfEstimatedUsefulLivesOfPropertyPlantAndEquipmentTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ScheduleOfReconcilesTheElementsOfTheMergerToTheCondensedConsolidatedStatementOfCashFlowsAndTheConsolidatedStatementOfChangesInEquityTableTextBlock" name="ScheduleOfReconcilesTheElementsOfTheMergerToTheCondensedConsolidatedStatementOfCashFlowsAndTheConsolidatedStatementOfChangesInEquityTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ScheduleOfTheNumberOfSharesOfCompanyCommonStockOutstandingInTheAccountOfMergerTableTextBlock" name="ScheduleOfTheNumberOfSharesOfCompanyCommonStockOutstandingInTheAccountOfMergerTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SummaryOfAccruedExpensesAndOtherCurrentLiabilitiesTableTextBlock" name="SummaryOfAccruedExpensesAndOtherCurrentLiabilitiesTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SummaryOfInformationOfCurrentAndNonCurrentDebtTableTextBlock" name="SummaryOfInformationOfCurrentAndNonCurrentDebtTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SummaryOfSignificantUnobservableInputsUsedInPremiumOfSeniorSecuredNotesTableTextBlock" name="SummaryOfSignificantUnobservableInputsUsedInPremiumOfSeniorSecuredNotesTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SeniorSecuredNotesAndNotesPayableToRelatedPartyFutureMinimumPaymentsDueTableTextBlock" name="SeniorSecuredNotesAndNotesPayableToRelatedPartyFutureMinimumPaymentsDueTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConvertiblePreferredStockTableTextBlock" name="ConvertiblePreferredStockTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ScheduleOfNonvestedRestrictedCommonStockActivityTableTextBlock" name="ScheduleOfNonvestedRestrictedCommonStockActivityTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SupplementalLeasesTableTextBlock" name="SupplementalLeasesTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TemporaryEquityConversionIntoPermanentEquityExchangeRatio" name="TemporaryEquityConversionIntoPermanentEquityExchangeRatio" nillable="true" xbrli:periodType="duration" type="xbrli:pureItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SettlementDescription" name="SettlementDescription" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConcentrationRiskPercentage" name="ConcentrationRiskPercentage" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DiscriptionOfUsefulLivesOfPropertyPlantAndEquipment" name="DiscriptionOfUsefulLivesOfPropertyPlantAndEquipment" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_EventAxis" name="EventAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="zpat_EventDomain" name="EventDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RestirctedCashDepositToSecureLetterOfCredit" name="RestirctedCashDepositToSecureLetterOfCredit" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfSharesIssuedForSettlement" name="NumberOfSharesIssuedForSettlement" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MaterialAssetNonCurrent" name="MaterialAssetNonCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DecreaseInTemporaryEquityDueToConversionIntoPermanentEquityShares" name="DecreaseInTemporaryEquityDueToConversionIntoPermanentEquityShares" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MergerRelatedTransactionCost" name="MergerRelatedTransactionCost" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NetProceedsFromTheMerger" name="NetProceedsFromTheMerger" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MergerConsideration" name="MergerConsideration" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DesignatingCompanyAxis" name="DesignatingCompanyAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="zpat_DesignatingCompanyDomain" name="DesignatingCompanyDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_StockIssuedDuringThePeriodSharesRestructuring" name="StockIssuedDuringThePeriodSharesRestructuring" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PercentageOfAggregateSharesHeldByTheExistingShareholders" name="PercentageOfAggregateSharesHeldByTheExistingShareholders" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfDirectors" name="NumberOfDirectors" nillable="true" xbrli:periodType="instant" type="xbrli:intItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfIndependentDirectors" name="NumberOfIndependentDirectors" nillable="true" xbrli:periodType="instant" type="xbrli:intItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisUnobservableInputsReconciliationEarlyTermination" name="FairValueNetDerivativeAssetLiabilityMeasuredOnRecurringBasisUnobservableInputsReconciliationEarlyTermination" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ResetPricePerShare" name="ResetPricePerShare" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AgreementAxis" name="AgreementAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="zpat_AgreementDomain" name="AgreementDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_BalanceSheetLocationOneAxis" name="BalanceSheetLocationOneAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="zpat_BalanceSheetLocationOneDomain" name="BalanceSheetLocationOneDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_OpenMarketPurchaseOfSharesByAnInvestee" name="OpenMarketPurchaseOfSharesByAnInvestee" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PrepaymentPerShareOnRecycledShares" name="PrepaymentPerShareOnRecycledShares" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PrepaymentPerShare" name="PrepaymentPerShare" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ResetPriceThresholdOne" name="ResetPriceThresholdOne" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfDaysAfterWhichResetIsMade" name="NumberOfDaysAfterWhichResetIsMade" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfConsecutiveTradingDaysForDeterminingSharePrice" name="NumberOfConsecutiveTradingDaysForDeterminingSharePrice" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfTradingDaysForDeterminingSharePrice" name="NumberOfTradingDaysForDeterminingSharePrice" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SubscriptionReceivableFromRecycledShares" name="SubscriptionReceivableFromRecycledShares" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DerivativeForwardInstrumentShareForfeited" name="DerivativeForwardInstrumentShareForfeited" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ForwardPurchaseAgreementTerminationObligation" name="ForwardPurchaseAgreementTerminationObligation" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentOfOutOfPocketCosts" name="PaymentOfOutOfPocketCosts" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentForRecycledShares" name="PaymentForRecycledShares" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_QuarterlyFeePayable" name="QuarterlyFeePayable" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotePayableRelatedParties" name="NotePayableRelatedParties" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotePayableRelatedPartiesNonCurrent" name="NotePayableRelatedPartiesNonCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClosingStockPrice" name="ClosingStockPrice" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_TotalFutureMinimumPayments" name="TotalFutureMinimumPayments" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ImputedInterest" name="ImputedInterest" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_BusinessCombinationAxis" name="BusinessCombinationAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="zpat_BusinessCombinationDomain" name="BusinessCombinationDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DebtInstrumentConversionPricePerShare" name="DebtInstrumentConversionPricePerShare" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AggregatePrincipalAmountOfExchangedDebtInstrument" name="AggregatePrincipalAmountOfExchangedDebtInstrument" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AggregateAccruedInterestAmountOfExchangedDebtInstrument" name="AggregateAccruedInterestAmountOfExchangedDebtInstrument" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_UnconvertedDebtInstrumentFaceAmount" name="UnconvertedDebtInstrumentFaceAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotesPayableConvertibleIntoWarrant" name="NotesPayableConvertibleIntoWarrant" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConvertiblePricePerWarrant" name="ConvertiblePricePerWarrant" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NotesPayableToRelatedPartiesCurrentAndCurrent" name="NotesPayableToRelatedPartiesCurrentAndCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PercentageOfInterestOfNotesPayable" name="PercentageOfInterestOfNotesPayable" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PreferredStockIssuedAndOutstanding" name="PreferredStockIssuedAndOutstanding" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConvertibleCommonStockSharesIssuedUponConversion" name="ConvertibleCommonStockSharesIssuedUponConversion" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MergerRelatedAxis" name="MergerRelatedAxis" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" />
+    <element id="zpat_MergerRelatedDomain" name="MergerRelatedDomain" abstract="true" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CommonStockIssuedUponConversionOfSecuredNotes" name="CommonStockIssuedUponConversionOfSecuredNotes" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ExchangeRatio" name="ExchangeRatio" nillable="true" xbrli:periodType="instant" type="xbrli:pureItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CommonStockIssuedToRelatedParty" name="CommonStockIssuedToRelatedParty" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AggregateNumberOfTradingDaysForDeterminingTheSharePrice" name="AggregateNumberOfTradingDaysForDeterminingTheSharePrice" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AmountOfCommitmentFeePaid" name="AmountOfCommitmentFeePaid" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ValueOfCommonStockPurchased" name="ValueOfCommonStockPurchased" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_OutstandingLoanPayableToRelatedParty" name="OutstandingLoanPayableToRelatedParty" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_OutstandingNotesPayableToRelatedParty" name="OutstandingNotesPayableToRelatedParty" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClassOfWarrantsOrRightsRedemptionPricePerUnit" name="ClassOfWarrantsOrRightsRedemptionPricePerUnit" nillable="true" xbrli:periodType="instant" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClassOfWarrantsOrRightsMinimumNoticePeriodToBeGivenToWarrantHoldersBeforeRedemption" name="ClassOfWarrantsOrRightsMinimumNoticePeriodToBeGivenToWarrantHoldersBeforeRedemption" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AggregateNumberOfTradingDaysForDeterminingSharePrice" name="AggregateNumberOfTradingDaysForDeterminingSharePrice" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClassOfWarrantsOrRightsLockInPeriod" name="ClassOfWarrantsOrRightsLockInPeriod" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_StockIssuedDuringPeriodSharesStockOptionExercised" name="StockIssuedDuringPeriodSharesStockOptionExercised" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ReserveForCommonStockIssuance" name="ReserveForCommonStockIssuance" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PercentageOfCommonStockShareOutstanding" name="PercentageOfCommonStockShareOutstanding" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_OptionToPurchaseCommonStockShare" name="OptionToPurchaseCommonStockShare" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_StockOptionCompensation" name="StockOptionCompensation" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_UnrecognizedCompensationRemainingWeightedAveragePeriod" name="UnrecognizedCompensationRemainingWeightedAveragePeriod" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PercentageOfFairMarketValuePerShare" name="PercentageOfFairMarketValuePerShare" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LicenseFeePayable" name="LicenseFeePayable" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_LicenseFeePayablePerAnnumInFuture" name="LicenseFeePayablePerAnnumInFuture" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_FixedMilestonePaymentPayable" name="FixedMilestonePaymentPayable" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_MaximumSalesThreshold" name="MaximumSalesThreshold" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RoyaltyAsPercentageOfNetSales" name="RoyaltyAsPercentageOfNetSales" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentOfRoyalties" name="PaymentOfRoyalties" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentTowardsMarketingExpenses" name="PaymentTowardsMarketingExpenses" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AgreementExpireDate" name="AgreementExpireDate" nillable="true" xbrli:periodType="duration" type="xbrli:dateItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SponsorshipAgreementPayment" name="SponsorshipAgreementPayment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentOfSeniorSecuredNoteTerm" name="PaymentOfSeniorSecuredNoteTerm" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RemainingSeniorSecuredNotesPayment" name="RemainingSeniorSecuredNotesPayment" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RemainingSeniorSecuredNotesPaymentInMonth" name="RemainingSeniorSecuredNotesPaymentInMonth" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentToThirdParty" name="PaymentToThirdParty" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NonRefundableCashFeePayableOverTermToRelatedParty" name="NonRefundableCashFeePayableOverTermToRelatedParty" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentOfRegistrationStatement" name="PaymentOfRegistrationStatement" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_VoluntantlyPayment" name="VoluntantlyPayment" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ClosingOfMergerTransactionCost" name="ClosingOfMergerTransactionCost" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_PaymentToAdvisoryAndOtherAgreements" name="PaymentToAdvisoryAndOtherAgreements" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ThirdPartyContributeInFormOfSeniorSecuredNote" name="ThirdPartyContributeInFormOfSeniorSecuredNote" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_AgreementPeriods" name="AgreementPeriods" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RemainingPurchaseCommitment" name="RemainingPurchaseCommitment" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumeratorAbstract" name="NumeratorAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_DenominatorAbstract" name="DenominatorAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_EffectOfPotentiallyDilutiveSecuritiesRsus" name="EffectOfPotentiallyDilutiveSecuritiesRsus" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NetIncomeLossPerShareAttributableToCommonStockholdersAbstract" name="NetIncomeLossPerShareAttributableToCommonStockholdersAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ExpensesToBeRecognizedInNextTwelveMonths" name="ExpensesToBeRecognizedInNextTwelveMonths" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ValuationDateDescription" name="ValuationDateDescription" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_SettlementAmountAdjustment" name="SettlementAmountAdjustment" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_NumberOfWarrantPurchase" name="NumberOfWarrantPurchase" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ConversionAgreementsDescription" name="ConversionAgreementsDescription" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_RestrictedCommonStockGrant" name="RestrictedCommonStockGrant" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ExercisePrice" name="ExercisePrice" nillable="true" xbrli:periodType="duration" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_August2025WarrantsDescription" name="August2025WarrantsDescription" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_CashCompensation" name="CashCompensation" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_StockOptionGrantedDescription" name="StockOptionGrantedDescription" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="zpat_ForbearanceAgreementDescription" name="ForbearanceAgreementDescription" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+</schema>

@@ -1,0 +1,58 @@
+{
+  "entity": "0000932781",
+  "schema_name": "fcco-20251231.xsd",
+  "namespace": "http://firstcommunitysc.com/20251231",
+  "filing": {
+    "accessionNumber": "0001552781-26-000126",
+    "reportDate": "2025-12-31",
+    "primaryDocument": "e26095_fcco-10k.htm",
+    "filingDate": "2026-03-16",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "fcco-20251231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/932781/000155278126000126/fcco-20251231.xsd",
+      "SHA256": "04754a6a597b28aac86be7de4bbd30926975296aa391923b1d9707fcf66bfc7f",
+      "bytes": 85971
+    },
+    {
+      "file": "fcco-20251231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/932781/000155278126000126/fcco-20251231_pre.xml",
+      "SHA256": "cf50ebfc70baf170a88d6fe311cafff2791b6c2357084fbfdecc3357e95b29b8",
+      "bytes": 579934
+    },
+    {
+      "file": "fcco-20251231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/932781/000155278126000126/fcco-20251231_lab.xml",
+      "SHA256": "33adb2c8e7b25fe376d63445ae222a0febc9139dd7301a973b812a6fe25fb929",
+      "bytes": 615437
+    },
+    {
+      "file": "fcco-20251231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/932781/000155278126000126/fcco-20251231_cal.xml",
+      "SHA256": "4bcbc0704177be6e30ae913c78321e78c3426bedf535af1ea2d04764e0c347a6",
+      "bytes": 134692
+    },
+    {
+      "file": "fcco-20251231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/932781/000155278126000126/fcco-20251231_def.xml",
+      "SHA256": "cb20181117f23249c84e3861ba5d80d2825b784534dccdffd46841846188ba10",
+      "bytes": 330355
+    },
+    {
+      "file": "e26095_fcco-10k_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/932781/000155278126000126/e26095_fcco-10k_htm.xml",
+      "SHA256": "98d1fe45dadf9be0e4746696aa1de1b57b7ad52a8d7586cd27939dc726b20e64",
+      "bytes": 3459636
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

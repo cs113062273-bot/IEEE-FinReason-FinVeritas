@@ -1,0 +1,58 @@
+{
+  "entity": "0001464790",
+  "schema_name": "rily-20250630.xsd",
+  "namespace": "http://brileyfin.com/20250630",
+  "filing": {
+    "accessionNumber": "0001464790-25-000029",
+    "reportDate": "2025-06-30",
+    "primaryDocument": "rily-20250630.htm",
+    "filingDate": "2025-12-15",
+    "form": "10-Q"
+  },
+  "documents": [
+    {
+      "file": "rily-20250630.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000029/rily-20250630.xsd",
+      "SHA256": "3d5d2ed26922388f28d3b50aa54255bf96bb41b4a711d997804a798996b1f776",
+      "bytes": 127512
+    },
+    {
+      "file": "rily-20250630_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000029/rily-20250630_pre.xml",
+      "SHA256": "4e7efafae85849684b192e9b01335329b693af82a351b8e80df25ebe9bfa32d9",
+      "bytes": 1235819
+    },
+    {
+      "file": "rily-20250630_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000029/rily-20250630_def.xml",
+      "SHA256": "07a7206c4400d829c7d0f8b6bc4ad7acb74a37f215ddc8b433108febc2cde137",
+      "bytes": 995464
+    },
+    {
+      "file": "rily-20250630_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000029/rily-20250630_lab.xml",
+      "SHA256": "b5182d929c19bb386d25e758525574cdafe0282bb4eb0fc468086f2f5f559e26",
+      "bytes": 1416182
+    },
+    {
+      "file": "rily-20250630_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000029/rily-20250630_cal.xml",
+      "SHA256": "9163094a47f032642539023e67e3d088b681df12a325682c1cae9fb50ba7d7c9",
+      "bytes": 184291
+    },
+    {
+      "file": "rily-20250630_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1464790/000146479025000029/rily-20250630_htm.xml",
+      "SHA256": "c301737e0dffcad49dc511e56f3c2dc3881d0b86a85521490fc065780f7f25d7",
+      "bytes": 5123781
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

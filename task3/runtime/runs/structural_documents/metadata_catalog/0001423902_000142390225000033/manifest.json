@@ -1,0 +1,58 @@
+{
+  "entity": "0001423902",
+  "schema_name": "wes-20241231.xsd",
+  "namespace": "http://www.westernmidstream.com/20241231",
+  "filing": {
+    "accessionNumber": "0001423902-25-000033",
+    "reportDate": "2024-12-31",
+    "primaryDocument": "wes-20241231.htm",
+    "filingDate": "2025-02-26",
+    "form": "10-K"
+  },
+  "documents": [
+    {
+      "file": "wes-20241231.xsd",
+      "section": "Schema document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390225000033/wes-20241231.xsd",
+      "SHA256": "de012450db3d597a5dfdadd09f32863dd62d4c44033b3b7ac53cdf5c6d7da74d",
+      "bytes": 79597
+    },
+    {
+      "file": "wes-20241231_pre.xml",
+      "section": "Presentation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390225000033/wes-20241231_pre.xml",
+      "SHA256": "586b0e6026ad8ef7ab04bdf754f66ed335e8153d8ec3c0cec0c93cf56774d297",
+      "bytes": 845691
+    },
+    {
+      "file": "wes-20241231_def.xml",
+      "section": "Definition linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390225000033/wes-20241231_def.xml",
+      "SHA256": "d96fb5a70238be242368a4cecf2000f2709132a8637d40d5d8580bc1c91807ab",
+      "bytes": 574027
+    },
+    {
+      "file": "wes-20241231_lab.xml",
+      "section": "Label linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390225000033/wes-20241231_lab.xml",
+      "SHA256": "1d0b45c565ae9509bc90e14b8cb51a7e049a1cb6860c8d4bba5ed4e23769e970",
+      "bytes": 899848
+    },
+    {
+      "file": "wes-20241231_cal.xml",
+      "section": "Calculation linkbase document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390225000033/wes-20241231_cal.xml",
+      "SHA256": "636c0d6e74613cacdd0d594fc96bc50ac4331f920f4b4404b435c6d2c59f0755",
+      "bytes": 97280
+    },
+    {
+      "file": "wes-20241231_htm.xml",
+      "section": "Instance document",
+      "url": "https://www.sec.gov/Archives/edgar/data/1423902/000142390225000033/wes-20241231_htm.xml",
+      "SHA256": "2a93a21e197000ae39225690e7ce53669a65da14661244d8a8c3c6f4a227fe9f",
+      "bytes": 2924541
+    }
+  ],
+  "source_only": true,
+  "DQC_results_or_answers": false
+}

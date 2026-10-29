@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with the Workiva Platform-->
+<!--Copyright 2025 Workiva-->
+<!--r:818338b5-cf3e-4b77-9d59-084222c3b174,g:a7313db2-9aad-457e-81dd-3b14a02a8fac-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:titn="http://www.titanmachinery.com/20251031" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.titanmachinery.com/20251031">
+  <xs:import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd"/>
+  <xs:import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd"/>
+  <xs:import namespace="http://xbrl.sec.gov/ecd/2025" schemaLocation="https://xbrl.sec.gov/ecd/2025/ecd-2025.xsd"/>
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="titn-20251031_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="titn-20251031_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="titn-20251031_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xmlns:xlink="http://www.w3.org/1999/xlink" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="titn-20251031_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple"/>
+      <link:roleType id="Cover" roleURI="http://www.titanmachinery.com/role/Cover">
+        <link:definition>0000001 - Document - Cover</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDBALANCESHEETS" roleURI="http://www.titanmachinery.com/role/CONSOLIDATEDBALANCESHEETS">
+        <link:definition>9952151 - Statement - CONSOLIDATED BALANCE SHEETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDBALANCESHEETSParenthetical" roleURI="http://www.titanmachinery.com/role/CONSOLIDATEDBALANCESHEETSParenthetical">
+        <link:definition>9952152 - Statement - CONSOLIDATED BALANCE SHEETS (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTSOFOPERATIONS" roleURI="http://www.titanmachinery.com/role/CONSOLIDATEDSTATEMENTSOFOPERATIONS">
+        <link:definition>9952153 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTSOFCOMPREHENSIVEINCOMELOSS" roleURI="http://www.titanmachinery.com/role/CONSOLIDATEDSTATEMENTSOFCOMPREHENSIVEINCOMELOSS">
+        <link:definition>9952154 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTOFSTOCKHOLDERSEQUITYStatement" roleURI="http://www.titanmachinery.com/role/CONSOLIDATEDSTATEMENTOFSTOCKHOLDERSEQUITYStatement">
+        <link:definition>9952155 - Statement - CONSOLIDATED STATEMENT OF STOCKHOLDERS' EQUITY Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONSOLIDATEDSTATEMENTSOFCASHFLOWS" roleURI="http://www.titanmachinery.com/role/CONSOLIDATEDSTATEMENTSOFCASHFLOWS">
+        <link:definition>9952156 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSACTIVITYANDSIGNIFICANTACCOUNTINGPOLICIES" roleURI="http://www.titanmachinery.com/role/BUSINESSACTIVITYANDSIGNIFICANTACCOUNTINGPOLICIES">
+        <link:definition>9952157 - Disclosure - BUSINESS ACTIVITY AND SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARENotes" roleURI="http://www.titanmachinery.com/role/EARNINGSPERSHARENotes">
+        <link:definition>9952158 - Disclosure - EARNINGS PER SHARE (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUENotes" roleURI="http://www.titanmachinery.com/role/REVENUENotes">
+        <link:definition>9952159 - Disclosure - REVENUE (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESNotes" roleURI="http://www.titanmachinery.com/role/RECEIVABLESNotes">
+        <link:definition>9952160 - Disclosure - RECEIVABLES (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INVENTORIES" roleURI="http://www.titanmachinery.com/role/INVENTORIES">
+        <link:definition>9952161 - Disclosure - INVENTORIES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYANDEQUIPMENT" roleURI="http://www.titanmachinery.com/role/PROPERTYANDEQUIPMENT">
+        <link:definition>9952162 - Disclosure - PROPERTY AND EQUIPMENT</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IntangibleAssetsGoodwillandOther" roleURI="http://www.titanmachinery.com/role/IntangibleAssetsGoodwillandOther">
+        <link:definition>9952163 - Disclosure - Intangible Assets, Goodwill and Other</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LINESOFCREDITFLOORPLANPAYABLE" roleURI="http://www.titanmachinery.com/role/LINESOFCREDITFLOORPLANPAYABLE">
+        <link:definition>9952164 - Disclosure - LINES OF CREDIT / FLOORPLAN PAYABLE</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTNotes" roleURI="http://www.titanmachinery.com/role/LONGTERMDEBTNotes">
+        <link:definition>9952165 - Disclosure - LONG TERM DEBT (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTS" roleURI="http://www.titanmachinery.com/role/DERIVATIVEINSTRUMENTS">
+        <link:definition>9952166 - Disclosure - DERIVATIVE INSTRUMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOMENotes" roleURI="http://www.titanmachinery.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOMENotes">
+        <link:definition>9952167 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESNotes" roleURI="http://www.titanmachinery.com/role/LEASESNotes">
+        <link:definition>9952168 - Disclosure - LEASES (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFFINANCIALINSTRUMENTS" roleURI="http://www.titanmachinery.com/role/FAIRVALUEOFFINANCIALINSTRUMENTS">
+        <link:definition>9952169 - Disclosure - FAIR VALUE OF FINANCIAL INSTRUMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXES" roleURI="http://www.titanmachinery.com/role/INCOMETAXES">
+        <link:definition>9952170 - Disclosure - INCOME TAXES</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSCOMBINATIONSNotes" roleURI="http://www.titanmachinery.com/role/BUSINESSCOMBINATIONSNotes">
+        <link:definition>9952171 - Disclosure - BUSINESS COMBINATIONS (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONTINGENCIESNotes" roleURI="http://www.titanmachinery.com/role/CONTINGENCIESNotes">
+        <link:definition>9952172 - Disclosure - CONTINGENCIES (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDOPERATINGRESULTS" roleURI="http://www.titanmachinery.com/role/SEGMENTINFORMATIONANDOPERATINGRESULTS">
+        <link:definition>9952173 - Disclosure - SEGMENT INFORMATION AND OPERATING RESULTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSACTIVITYANDSIGNIFICANTACCOUNTINGPOLICIESPolicies" roleURI="http://www.titanmachinery.com/role/BUSINESSACTIVITYANDSIGNIFICANTACCOUNTINGPOLICIESPolicies">
+        <link:definition>9955511 - Disclosure - BUSINESS ACTIVITY AND SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHARETables" roleURI="http://www.titanmachinery.com/role/EARNINGSPERSHARETables">
+        <link:definition>9955512 - Disclosure - EARNINGS PER SHARE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUETables" roleURI="http://www.titanmachinery.com/role/REVENUETables">
+        <link:definition>9955513 - Disclosure - REVENUE (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESTables" roleURI="http://www.titanmachinery.com/role/RECEIVABLESTables">
+        <link:definition>9955514 - Disclosure - RECEIVABLES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INVENTORIESTables" roleURI="http://www.titanmachinery.com/role/INVENTORIESTables">
+        <link:definition>9955515 - Disclosure - INVENTORIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYANDEQUIPMENTTables" roleURI="http://www.titanmachinery.com/role/PROPERTYANDEQUIPMENTTables">
+        <link:definition>9955516 - Disclosure - PROPERTY AND EQUIPMENT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IntangibleAssetsGoodwillandOtherTables" roleURI="http://www.titanmachinery.com/role/IntangibleAssetsGoodwillandOtherTables">
+        <link:definition>9955517 - Disclosure - Intangible Assets, Goodwill and Other (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LINESOFCREDITFLOORPLANPAYABLESummaryofOutstandingAmountsTables" roleURI="http://www.titanmachinery.com/role/LINESOFCREDITFLOORPLANPAYABLESummaryofOutstandingAmountsTables">
+        <link:definition>9955518 - Disclosure - LINES OF CREDIT / FLOORPLAN PAYABLE Summary of Outstanding Amounts (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTTables" roleURI="http://www.titanmachinery.com/role/LONGTERMDEBTTables">
+        <link:definition>9955519 - Disclosure - LONG TERM DEBT (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTSTables" roleURI="http://www.titanmachinery.com/role/DERIVATIVEINSTRUMENTSTables">
+        <link:definition>9955520 - Disclosure - DERIVATIVE INSTRUMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOMEAOCITables" roleURI="http://www.titanmachinery.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOMEAOCITables">
+        <link:definition>9955521 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME AOCI (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESTables" roleURI="http://www.titanmachinery.com/role/LEASESTables">
+        <link:definition>9955522 - Disclosure - LEASES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFFINANCIALINSTRUMENTSTables" roleURI="http://www.titanmachinery.com/role/FAIRVALUEOFFINANCIALINSTRUMENTSTables">
+        <link:definition>9955523 - Disclosure - FAIR VALUE OF FINANCIAL INSTRUMENTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSCOMBINATIONSTables" roleURI="http://www.titanmachinery.com/role/BUSINESSCOMBINATIONSTables">
+        <link:definition>9955524 - Disclosure - BUSINESS COMBINATIONS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONTINGENCIESTables" roleURI="http://www.titanmachinery.com/role/CONTINGENCIESTables">
+        <link:definition>9955525 - Disclosure - CONTINGENCIES (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDOPERATINGRESULTSTables" roleURI="http://www.titanmachinery.com/role/SEGMENTINFORMATIONANDOPERATINGRESULTSTables">
+        <link:definition>9955526 - Disclosure - SEGMENT INFORMATION AND OPERATING RESULTS (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSACTIVITYANDSIGNIFICANTACCOUNTINGPOLICIESDetails" roleURI="http://www.titanmachinery.com/role/BUSINESSACTIVITYANDSIGNIFICANTACCOUNTINGPOLICIESDetails">
+        <link:definition>9955527 - Disclosure - BUSINESS ACTIVITY AND SIGNIFICANT ACCOUNTING POLICIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EARNINGSPERSHAREDetails" roleURI="http://www.titanmachinery.com/role/EARNINGSPERSHAREDetails">
+        <link:definition>9955528 - Disclosure - EARNINGS PER SHARE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEDetails" roleURI="http://www.titanmachinery.com/role/REVENUEDetails">
+        <link:definition>9955529 - Disclosure - REVENUE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEUnbilledReceivablesDetails" roleURI="http://www.titanmachinery.com/role/REVENUEUnbilledReceivablesDetails">
+        <link:definition>9955530 - Disclosure - REVENUE Unbilled Receivables (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEDeferredRevenueDetails" roleURI="http://www.titanmachinery.com/role/REVENUEDeferredRevenueDetails">
+        <link:definition>9955531 - Disclosure - REVENUE Deferred Revenue (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="REVENUEDeferredRevenueTableDetails" roleURI="http://www.titanmachinery.com/role/REVENUEDeferredRevenueTableDetails">
+        <link:definition>9955532 - Disclosure - REVENUE Deferred Revenue Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RECEIVABLESDetails" roleURI="http://www.titanmachinery.com/role/RECEIVABLESDetails">
+        <link:definition>9955533 - Disclosure - RECEIVABLES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INVENTORIESDetails" roleURI="http://www.titanmachinery.com/role/INVENTORIESDetails">
+        <link:definition>9955534 - Disclosure - INVENTORIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYANDEQUIPMENTDetails" roleURI="http://www.titanmachinery.com/role/PROPERTYANDEQUIPMENTDetails">
+        <link:definition>9955535 - Disclosure - PROPERTY AND EQUIPMENT (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="PROPERTYANDEQUIPMENTDepreciationDetails" roleURI="http://www.titanmachinery.com/role/PROPERTYANDEQUIPMENTDepreciationDetails">
+        <link:definition>9955536 - Disclosure - PROPERTY AND EQUIPMENT Depreciation (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IntangibleAssetsGoodwillandOtherDetails" roleURI="http://www.titanmachinery.com/role/IntangibleAssetsGoodwillandOtherDetails">
+        <link:definition>9955537 - Disclosure - Intangible Assets, Goodwill and Other (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LINESOFCREDITFLOORPLANPAYABLEDetails" roleURI="http://www.titanmachinery.com/role/LINESOFCREDITFLOORPLANPAYABLEDetails">
+        <link:definition>9955538 - Disclosure - LINES OF CREDIT / FLOORPLAN PAYABLE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LONGTERMDEBTDetails" roleURI="http://www.titanmachinery.com/role/LONGTERMDEBTDetails">
+        <link:definition>9955539 - Disclosure - LONG TERM DEBT (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTSDetails1" roleURI="http://www.titanmachinery.com/role/DERIVATIVEINSTRUMENTSDetails1">
+        <link:definition>9955540 - Disclosure - DERIVATIVE INSTRUMENTS (Details 1)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTSDERIVATIVESINSTRUMENTSDetails2" roleURI="http://www.titanmachinery.com/role/DERIVATIVEINSTRUMENTSDERIVATIVESINSTRUMENTSDetails2">
+        <link:definition>9955541 - Disclosure - DERIVATIVE INSTRUMENTS DERIVATIVES INSTRUMENTS (Details 2)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTSDERIVATEINSTRUMENTSDetails3" roleURI="http://www.titanmachinery.com/role/DERIVATIVEINSTRUMENTSDERIVATEINSTRUMENTSDetails3">
+        <link:definition>9955542 - Disclosure - DERIVATIVE INSTRUMENTS DERIVATE INSTRUMENTS (Details 3)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DERIVATIVEINSTRUMENTSDERIVATIVEINSTRUMENTSNARRATIVEDetails" roleURI="http://www.titanmachinery.com/role/DERIVATIVEINSTRUMENTSDERIVATIVEINSTRUMENTSNARRATIVEDetails">
+        <link:definition>9955543 - Disclosure - DERIVATIVE INSTRUMENTS DERIVATIVE INSTRUMENTS NARRATIVE (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ACCUMULATEDOTHERCOMPREHENSIVEINCOMEAOCIDetails" roleURI="http://www.titanmachinery.com/role/ACCUMULATEDOTHERCOMPREHENSIVEINCOMEAOCIDetails">
+        <link:definition>9955544 - Disclosure - ACCUMULATED OTHER COMPREHENSIVE INCOME AOCI (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESDetails" roleURI="http://www.titanmachinery.com/role/LEASESDetails">
+        <link:definition>9955545 - Disclosure - LEASES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESLeaseExpenseDetails" roleURI="http://www.titanmachinery.com/role/LEASESLeaseExpenseDetails">
+        <link:definition>9955546 - Disclosure - LEASES Lease Expense (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESROUAssetsandLeaseLiabilitiesDetails" roleURI="http://www.titanmachinery.com/role/LEASESROUAssetsandLeaseLiabilitiesDetails">
+        <link:definition>9955547 - Disclosure - LEASES ROU Assets and Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESMaturitiesofLeaseLiabilitiesDetails" roleURI="http://www.titanmachinery.com/role/LEASESMaturitiesofLeaseLiabilitiesDetails">
+        <link:definition>9955548 - Disclosure - LEASES Maturities of Lease Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LEASESWeightedAverageLeaseTermsDetails" roleURI="http://www.titanmachinery.com/role/LEASESWeightedAverageLeaseTermsDetails">
+        <link:definition>9955549 - Disclosure - LEASES Weighted Average Lease Terms (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FAIRVALUEOFFINANCIALINSTRUMENTSDetails" roleURI="http://www.titanmachinery.com/role/FAIRVALUEOFFINANCIALINSTRUMENTSDetails">
+        <link:definition>9955550 - Disclosure - FAIR VALUE OF FINANCIAL INSTRUMENTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="INCOMETAXESINCOMETAXESDetails" roleURI="http://www.titanmachinery.com/role/INCOMETAXESINCOMETAXESDetails">
+        <link:definition>9955551 - Disclosure - INCOME TAXES INCOME TAXES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BUSINESSCOMBINATIONSDetails" roleURI="http://www.titanmachinery.com/role/BUSINESSCOMBINATIONSDetails">
+        <link:definition>9955552 - Disclosure - BUSINESS COMBINATIONS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CONTINGENCIESDetails" roleURI="http://www.titanmachinery.com/role/CONTINGENCIESDetails">
+        <link:definition>9955553 - Disclosure - CONTINGENCIES (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SEGMENTINFORMATIONANDOPERATINGRESULTSDetails" roleURI="http://www.titanmachinery.com/role/SEGMENTINFORMATIONANDOPERATINGRESULTSDetails">
+        <link:definition>9955554 - Disclosure - SEGMENT INFORMATION AND OPERATING RESULTS (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="titn_AssetsNoncurrentExcludingPropertyPlantAndEquipmentAbstract" abstract="true" name="AssetsNoncurrentExcludingPropertyPlantAndEquipmentAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="titn_FloorplanNotesPayable" abstract="false" name="FloorplanNotesPayable" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_SalesOfEquipmentMember" abstract="true" name="SalesOfEquipmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_SalesOfPartsMember" abstract="true" name="SalesOfPartsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_ServiceSalesMember" abstract="true" name="ServiceSalesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_RentalAndOtherMember" abstract="true" name="RentalAndOtherMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_AgricultureSegmentMember" abstract="true" name="AgricultureSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_StockIssuedDuringPeriodShareOfRestrictedStockAwardStockOptionsExercisedAndWarrantsAndTaxBenefitsOfEquityAwards" abstract="false" name="StockIssuedDuringPeriodShareOfRestrictedStockAwardStockOptionsExercisedAndWarrantsAndTaxBenefitsOfEquityAwards" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:sharesItemType"/>
+  <xs:element id="titn_StockIssuedDuringPeriodValueOfRestrictedStockAwardStockOptionsExercisedWarrantsExercisedAndTaxBenefitsOfEquityAwards" abstract="false" name="StockIssuedDuringPeriodValueOfRestrictedStockAwardStockOptionsExercisedWarrantsExercisedAndTaxBenefitsOfEquityAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_IncreaseDecreaseInFloorplanNotesPayable" abstract="false" name="IncreaseDecreaseInFloorplanNotesPayable" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_PaymentsToAcquirePropertyAndEquipmentExcludingRentalFleet" abstract="false" name="PaymentsToAcquirePropertyAndEquipmentExcludingRentalFleet" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_ChangeInNonManufacturerFloorplanNotesPayable" abstract="false" name="ChangeInNonManufacturerFloorplanNotesPayable" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_CashPaidDuringThePeriodAbstract" abstract="true" name="CashPaidDuringThePeriodAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="titn_NetTransferOfEquipmentToFromFixedAssetsFromToInventories" abstract="false" name="NetTransferOfEquipmentToFromFixedAssetsFromToInventories" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_LinesOfCreditFloorplanNotesPayableTextBlock" abstract="false" name="LinesOfCreditFloorplanNotesPayableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="titn_AccumulatedOtherComprehensiveIncomeAbstract" abstract="true" name="AccumulatedOtherComprehensiveIncomeAbstract" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+  <xs:element id="titn_LeaseDisclosureTextBlock" abstract="false" name="LeaseDisclosureTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="titn_RentalFleetAssetsTableTextBlock" abstract="false" name="RentalFleetAssetsTableTextBlock" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:textBlockItemType"/>
+  <xs:element id="titn_BusinessCombinationRecognizedIdentifiableAssetAcquiredAndLiabilityAssumedOperatingLeaseLiabilityCurrent" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetAcquiredAndLiabilityAssumedOperatingLeaseLiabilityCurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_BusinessCombinationRecognizedIdentifiableAssetAcquiredAndLiabilityAssumedOperatingLeaseLiabilityNoncurrent" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetAcquiredAndLiabilityAssumedOperatingLeaseLiabilityNoncurrent" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_BusinessCombinationRecognizedIdentifiableAssetAcquiredAndLiabilityAssumedOperatingLeaseAssets" abstract="false" name="BusinessCombinationRecognizedIdentifiableAssetAcquiredAndLiabilityAssumedOperatingLeaseAssets" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_DeferredRevenuefromContractswithCustomersMember" abstract="true" name="DeferredRevenuefromContractswithCustomersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_Europe_SegmentMember" abstract="true" name="Europe_SegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_ConstructionSegmentMember" abstract="true" name="ConstructionSegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_RevenuefromContractswithCustomersMember" abstract="true" name="RevenuefromContractswithCustomersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_OtherRevenueMember" abstract="true" name="OtherRevenueMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_RentalMember" abstract="true" name="RentalMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_Australia_segmentMember" abstract="true" name="Australia_segmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_UnbilledReceivablesfromOperatingLeasesandRentalContractsMember" abstract="true" name="UnbilledReceivablesfromOperatingLeasesandRentalContractsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_TradeReceivablesduefromFinanceCompaniesMember" abstract="true" name="TradeReceivablesduefromFinanceCompaniesMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_ReceivablesduefromManufacturersMember" abstract="true" name="ReceivablesduefromManufacturersMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_OtherReceivableMember" abstract="true" name="OtherReceivableMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_TradeAndUnbilledReceivablesFromRentalContractsMember" abstract="true" name="TradeAndUnbilledReceivablesFromRentalContractsMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_RevenuefromContractswithCustomersImpairmentLoss" abstract="false" name="RevenuefromContractswithCustomersImpairmentLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_RentalContractImpairmentLoss" abstract="false" name="RentalContractImpairmentLoss" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_ImpairedFinancingReceivables" abstract="false" name="ImpairedFinancingReceivables" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_InventoryNewEquipmentNetOfReserves" abstract="false" name="InventoryNewEquipmentNetOfReserves" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_InventoryUsedEquipmentNetOfReserves" abstract="false" name="InventoryUsedEquipmentNetOfReserves" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+  <xs:element id="titn_RentalFleetEquipmentMember" abstract="true" name="RentalFleetEquipmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_CNHIndustrialCapitalCreditFacilityMember" abstract="true" name="CNHIndustrialCapitalCreditFacilityMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_BankSyndicateMember" abstract="true" name="BankSyndicateMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_DLLFinanceLLCMember" abstract="true" name="DLLFinanceLLCMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_FloorplanLineOfCreditMember" abstract="true" name="FloorplanLineOfCreditMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_NonInterestBearingFloorplanLineofCreditMember" abstract="true" name="NonInterestBearingFloorplanLineofCreditMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_SaleLeasebackFinancingObligationMember" abstract="true" name="SaleLeasebackFinancingObligationMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_CustomerRelationshipMember" abstract="true" name="CustomerRelationshipMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_DistributionRightsDomain" abstract="true" name="DistributionRightsDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_CustomerRelationshipDomain" abstract="true" name="CustomerRelationshipDomain" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_OConnorMember" abstract="true" name="OConnorMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_SharedResources_SegmentMember" abstract="true" name="SharedResources_SegmentMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+  <xs:element id="titn_EquipmentInventoryMember" abstract="true" name="EquipmentInventoryMember" nillable="true" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="dtr-types:domainItemType"/>
+</xs:schema>

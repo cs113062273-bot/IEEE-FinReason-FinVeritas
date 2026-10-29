@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+    <!-- Field: Doc-Info; Name: Generator; Value: GoFiler Complete; Version: 6.4b -->
+    <!-- Field: Doc-Info; Name: VendorURI; Value: https://www.novaworks.com -->
+    <!-- Field: Doc-Info; Name: Status; Value: 0x00000000 -->
+    <!-- Field: Doc-Info; Name: Misc; Value: /qg5o7xRiXgOn8uEb3ZMSaKACaP9wpJ5melBtWx2fTnKbyIvTj5qWSfBM+8Wcf8O -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:dei="http://xbrl.sec.gov/dei/2025" xmlns:us-gaap="http://fasb.org/us-gaap/2025" xmlns:srt="http://fasb.org/srt/2025" xmlns:srt-types="http://fasb.org/srt-types/2025" xmlns:dtr-types="http://www.xbrl.org/dtr/type/2024-01-31" xmlns:fcco="http://firstcommunitysc.com/20251231" elementFormDefault="qualified" targetNamespace="http://firstcommunitysc.com/20251231">
+    <annotation>
+      <appinfo>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/Cover" id="Cover">
+          <link:definition>00000001 - Document - Cover</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/BalanceSheets" id="BalanceSheets">
+          <link:definition>00000002 - Statement - Consolidated Balance Sheets</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/BalanceSheetsParenthetical" id="BalanceSheetsParenthetical">
+          <link:definition>00000003 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StatementsOfIncome" id="StatementsOfIncome">
+          <link:definition>00000004 - Statement - Consolidated Statements of Income</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StatementsOfComprehensiveIncomeLoss" id="StatementsOfComprehensiveIncomeLoss">
+          <link:definition>00000005 - Statement - Consolidated Statements of Comprehensive Income (Loss)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StatementsOfComprehensiveIncomeLossParenthetical" id="StatementsOfComprehensiveIncomeLossParenthetical">
+          <link:definition>00000006 - Statement - Consolidated Statements of Comprehensive Income (Loss) (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StatementsOfChangesInShareholdersEquity" id="StatementsOfChangesInShareholdersEquity">
+          <link:definition>00000007 - Statement - Consolidated Statements of Changes in Shareholders' Equity</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StatementsOfChangesInShareholdersEquityParenthetical" id="StatementsOfChangesInShareholdersEquityParenthetical">
+          <link:definition>00000008 - Statement - Consolidated Statements of Changes in Shareholders' Equity (Parenthetical)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StatementsOfCashFlows" id="StatementsOfCashFlows">
+          <link:definition>00000009 - Statement - Consolidated Statements of Cash Flows</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/OrganizationAndBasisOfPresentation" id="OrganizationAndBasisOfPresentation">
+          <link:definition>999010 - Disclosure - ORGANIZATION AND BASIS OF PRESENTATION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/SummaryOfSignificantAccountingPolicies" id="SummaryOfSignificantAccountingPolicies">
+          <link:definition>999011 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecurities" id="InvestmentSecurities">
+          <link:definition>999012 - Disclosure - INVESTMENT SECURITIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/Loans" id="Loans">
+          <link:definition>999013 - Disclosure - LOANS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/FairValueMeasurement" id="FairValueMeasurement">
+          <link:definition>999014 - Disclosure - FAIR VALUE MEASUREMENT</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/PropertyAndEquipment" id="PropertyAndEquipment">
+          <link:definition>999015 - Disclosure - PROPERTY AND EQUIPMENT</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/GoodwillCoreDepositIntangible" id="GoodwillCoreDepositIntangible">
+          <link:definition>999016 - Disclosure - GOODWILL, CORE DEPOSIT INTANGIBLE</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/OtherRealEstateOwned" id="OtherRealEstateOwned">
+          <link:definition>999017 - Disclosure - OTHER REAL ESTATE OWNED</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/Deposits" id="Deposits">
+          <link:definition>999018 - Disclosure - DEPOSITS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/SecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoney" id="SecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoney">
+          <link:definition>999019 - Disclosure - SECURITIES SOLD UNDER AGREEMENTS TO REPURCHASE AND OTHER BORROWED MONEY</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/AdvancesFromFederalHomeLoanBank" id="AdvancesFromFederalHomeLoanBank">
+          <link:definition>999020 - Disclosure - ADVANCES FROM FEDERAL HOME LOAN BANK</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/JuniorSubordinatedDebt" id="JuniorSubordinatedDebt">
+          <link:definition>999021 - Disclosure - JUNIOR SUBORDINATED DEBT</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/Leases" id="Leases">
+          <link:definition>999022 - Disclosure - LEASES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/IncomeTaxes" id="IncomeTaxes">
+          <link:definition>999023 - Disclosure - INCOME TAXES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/CommitmentsConcentrationsOfCreditRiskAndContingencies" id="CommitmentsConcentrationsOfCreditRiskAndContingencies">
+          <link:definition>999024 - Disclosure - COMMITMENTS, CONCENTRATIONS OF CREDIT RISK, AND CONTINGENCIES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/RevenueRecognition" id="RevenueRecognition">
+          <link:definition>999025 - Disclosure - REVENUE RECOGNITION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/OtherIncomeAndOtherExpense" id="OtherIncomeAndOtherExpense">
+          <link:definition>999026 - Disclosure - OTHER INCOME AND OTHER EXPENSE</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensation" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensation">
+          <link:definition>999027 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/EmployeeBenefitPlans" id="EmployeeBenefitPlans">
+          <link:definition>999028 - Disclosure - EMPLOYEE BENEFIT PLANS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/EarningsPerCommonShare" id="EarningsPerCommonShare">
+          <link:definition>999029 - Disclosure - EARNINGS PER COMMON SHARE</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ShareholdersEquityCapitalRequirementsAndDividendRestrictions" id="ShareholdersEquityCapitalRequirementsAndDividendRestrictions">
+          <link:definition>999030 - Disclosure - SHAREHOLDERS&#8217; EQUITY, CAPITAL REQUIREMENTS AND DIVIDEND RESTRICTIONS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ParentCompanyFinancialInformation" id="ParentCompanyFinancialInformation">
+          <link:definition>999031 - Disclosure - PARENT COMPANY FINANCIAL INFORMATION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/Derivatives" id="Derivatives">
+          <link:definition>999032 - Disclosure - DERIVATIVES</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ReportableSegments" id="ReportableSegments">
+          <link:definition>999033 - Disclosure - REPORTABLE SEGMENTS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/BusinessCombination" id="BusinessCombination">
+          <link:definition>999034 - Disclosure - BUSINESS COMBINATION</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/SubsequentEvents" id="SubsequentEvents">
+          <link:definition>999035 - Disclosure - SUBSEQUENT EVENTS</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/SummaryOfSignificantAccountingPoliciesPolicies" id="SummaryOfSignificantAccountingPoliciesPolicies">
+          <link:definition>999036 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Policies)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesTables" id="InvestmentSecuritiesTables">
+          <link:definition>999037 - Disclosure - INVESTMENT SECURITIES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansTables" id="LoansTables">
+          <link:definition>999038 - Disclosure - LOANS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/FairValueMeasurementTables" id="FairValueMeasurementTables">
+          <link:definition>999039 - Disclosure - FAIR VALUE MEASUREMENT (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/PropertyAndEquipmentTables" id="PropertyAndEquipmentTables">
+          <link:definition>999040 - Disclosure - PROPERTY AND EQUIPMENT (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/GoodwillCoreDepositIntangibleTables" id="GoodwillCoreDepositIntangibleTables">
+          <link:definition>999041 - Disclosure - GOODWILL, CORE DEPOSIT INTANGIBLE (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/OtherRealEstateOwnedTables" id="OtherRealEstateOwnedTables">
+          <link:definition>999042 - Disclosure - OTHER REAL ESTATE OWNED (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DepositsTables" id="DepositsTables">
+          <link:definition>999043 - Disclosure - DEPOSITS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LeasesTables" id="LeasesTables">
+          <link:definition>999044 - Disclosure - LEASES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/IncomeTaxesTables" id="IncomeTaxesTables">
+          <link:definition>999045 - Disclosure - INCOME TAXES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/CommitmentsConcentrationsOfCreditRiskAndContingenciesTables" id="CommitmentsConcentrationsOfCreditRiskAndContingenciesTables">
+          <link:definition>999046 - Disclosure - COMMITMENTS, CONCENTRATIONS OF CREDIT RISK, AND CONTINGENCIES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/RevenueRecognitionTables" id="RevenueRecognitionTables">
+          <link:definition>999047 - Disclosure - REVENUE RECOGNITION (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/OtherIncomeAndOtherExpenseTables" id="OtherIncomeAndOtherExpenseTables">
+          <link:definition>999048 - Disclosure - OTHER INCOME AND OTHER EXPENSE (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationTables" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationTables">
+          <link:definition>999049 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/EarningsPerCommonShareTables" id="EarningsPerCommonShareTables">
+          <link:definition>999050 - Disclosure - EARNINGS PER COMMON SHARE (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ShareholdersEquityCapitalRequirementsAndDividendRestrictionsTables" id="ShareholdersEquityCapitalRequirementsAndDividendRestrictionsTables">
+          <link:definition>999051 - Disclosure - SHAREHOLDERS&#8217; EQUITY, CAPITAL REQUIREMENTS AND DIVIDEND RESTRICTIONS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ParentCompanyFinancialInformationTables" id="ParentCompanyFinancialInformationTables">
+          <link:definition>999052 - Disclosure - PARENT COMPANY FINANCIAL INFORMATION (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DerivativesTables" id="DerivativesTables">
+          <link:definition>999053 - Disclosure - DERIVATIVES (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ReportableSegmentsTables" id="ReportableSegmentsTables">
+          <link:definition>999054 - Disclosure - REPORTABLE SEGMENTS (Tables)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/SummaryOfSignificantAccountingPoliciesDetailsNarrative" id="SummaryOfSignificantAccountingPoliciesDetailsNarrative">
+          <link:definition>999055 - Disclosure - SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetails" id="InvestmentSecuritiesDetails">
+          <link:definition>999056 - Disclosure - INVESTMENT SECURITIES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetails2" id="InvestmentSecuritiesDetails2">
+          <link:definition>999057 - Disclosure - INVESTMENT SECURITIES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetails3" id="InvestmentSecuritiesDetails3">
+          <link:definition>999058 - Disclosure - INVESTMENT SECURITIES (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetails4" id="InvestmentSecuritiesDetails4">
+          <link:definition>999059 - Disclosure - INVESTMENT SECURITIES (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetails5" id="InvestmentSecuritiesDetails5">
+          <link:definition>999060 - Disclosure - INVESTMENT SECURITIES (Details 5)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetails6" id="InvestmentSecuritiesDetails6">
+          <link:definition>999061 - Disclosure - INVESTMENT SECURITIES (Details 6)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/InvestmentSecuritiesDetailsNarrative" id="InvestmentSecuritiesDetailsNarrative">
+          <link:definition>999062 - Disclosure - INVESTMENT SECURITIES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails" id="LoansDetails">
+          <link:definition>999063 - Disclosure - LOANS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails2" id="LoansDetails2">
+          <link:definition>999064 - Disclosure - LOANS (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails3" id="LoansDetails3">
+          <link:definition>999065 - Disclosure - LOANS (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails4" id="LoansDetails4">
+          <link:definition>999066 - Disclosure - LOANS (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails5" id="LoansDetails5">
+          <link:definition>999067 - Disclosure - LOANS (Details 5)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails6" id="LoansDetails6">
+          <link:definition>999068 - Disclosure - LOANS (Details 6)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails7" id="LoansDetails7">
+          <link:definition>999069 - Disclosure - LOANS (Details 7)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails8" id="LoansDetails8">
+          <link:definition>999070 - Disclosure - LOANS (Details 8)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails9" id="LoansDetails9">
+          <link:definition>999071 - Disclosure - LOANS (Details 9)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetails10" id="LoansDetails10">
+          <link:definition>999072 - Disclosure - LOANS (Details 10)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LoansDetailsNarrative" id="LoansDetailsNarrative">
+          <link:definition>999073 - Disclosure - LOANS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/FairValueMeasurementDetails" id="FairValueMeasurementDetails">
+          <link:definition>999074 - Disclosure - FAIR VALUE MEASUREMENT (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/FairValueMeasurementDetails2" id="FairValueMeasurementDetails2">
+          <link:definition>999075 - Disclosure - FAIR VALUE MEASUREMENT (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/FairValueMeasurementDetails3" id="FairValueMeasurementDetails3">
+          <link:definition>999076 - Disclosure - FAIR VALUE MEASUREMENT (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/FairValueMeasurementDetails4" id="FairValueMeasurementDetails4">
+          <link:definition>999077 - Disclosure - FAIR VALUE MEASUREMENT (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/PropertyAndEquipmentDetails" id="PropertyAndEquipmentDetails">
+          <link:definition>999078 - Disclosure - PROPERTY AND EQUIPMENT (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/PropertyAndEquipmentDetailsNarrative" id="PropertyAndEquipmentDetailsNarrative">
+          <link:definition>999079 - Disclosure - PROPERTY AND EQUIPMENT (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/GoodwillCoreDepositIntangibleDetails" id="GoodwillCoreDepositIntangibleDetails">
+          <link:definition>999080 - Disclosure - GOODWILL, CORE DEPOSIT INTANGIBLE (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/GoodwillCoreDepositIntangibleDetails2" id="GoodwillCoreDepositIntangibleDetails2">
+          <link:definition>999081 - Disclosure - GOODWILL, CORE DEPOSIT INTANGIBLE (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/GoodwillCoreDepositIntangibleDetails3" id="GoodwillCoreDepositIntangibleDetails3">
+          <link:definition>999082 - Disclosure - GOODWILL, CORE DEPOSIT INTANGIBLE (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/OtherRealEstateOwnedDetails" id="OtherRealEstateOwnedDetails">
+          <link:definition>999083 - Disclosure - OTHER REAL ESTATE OWNED (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DepositsDetails" id="DepositsDetails">
+          <link:definition>999084 - Disclosure - DEPOSITS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DepositsDetails2" id="DepositsDetails2">
+          <link:definition>999085 - Disclosure - DEPOSITS (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DepositsDetailsNarrative" id="DepositsDetailsNarrative">
+          <link:definition>999086 - Disclosure - DEPOSITS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/SecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoneyDetailsNarrative" id="SecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoneyDetailsNarrative">
+          <link:definition>999087 - Disclosure - SECURITIES SOLD UNDER AGREEMENTS TO REPURCHASE AND OTHER BORROWED MONEY (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/AdvancesFromFederalHomeLoanBankDetailsNarrative" id="AdvancesFromFederalHomeLoanBankDetailsNarrative">
+          <link:definition>999088 - Disclosure - ADVANCES FROM FEDERAL HOME LOAN BANK (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/JuniorSubordinatedDebtDetailsNarrative" id="JuniorSubordinatedDebtDetailsNarrative">
+          <link:definition>999089 - Disclosure - JUNIOR SUBORDINATED DEBT (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LeasesDetails" id="LeasesDetails">
+          <link:definition>999090 - Disclosure - LEASES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/LeasesDetailsNarrative" id="LeasesDetailsNarrative">
+          <link:definition>999091 - Disclosure - LEASES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/IncomeTaxesDetails" id="IncomeTaxesDetails">
+          <link:definition>999092 - Disclosure - INCOME TAXES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/IncomeTaxesDetails2" id="IncomeTaxesDetails2">
+          <link:definition>999093 - Disclosure - INCOME TAXES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/IncomeTaxesDetails3" id="IncomeTaxesDetails3">
+          <link:definition>999094 - Disclosure - INCOME TAXES (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/IncomeTaxesDetailsNarrative" id="IncomeTaxesDetailsNarrative">
+          <link:definition>999095 - Disclosure - INCOME TAXES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ScheduleOfConcentrationsOfCreditRiskDetails" id="ScheduleOfConcentrationsOfCreditRiskDetails">
+          <link:definition>999096 - Disclosure - Schedule of Concentrations of Credit Risk (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/CommitmentsConcentrationsOfCreditRiskAndContingenciesDetails" id="CommitmentsConcentrationsOfCreditRiskAndContingenciesDetails">
+          <link:definition>999097 - Disclosure - COMMITMENTS, CONCENTRATIONS OF CREDIT RISK, AND CONTINGENCIES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/CommitmentsConcentrationsOfCreditRiskAndContingenciesDetailsNarrative" id="CommitmentsConcentrationsOfCreditRiskAndContingenciesDetailsNarrative">
+          <link:definition>999098 - Disclosure - COMMITMENTS, CONCENTRATIONS OF CREDIT RISK, AND CONTINGENCIES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/RevenueRecognitionDetails" id="RevenueRecognitionDetails">
+          <link:definition>999099 - Disclosure - REVENUE RECOGNITION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/RevenueRecognitionDetails2" id="RevenueRecognitionDetails2">
+          <link:definition>999100 - Disclosure - REVENUE RECOGNITION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails">
+          <link:definition>999101 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails2" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails2">
+          <link:definition>999102 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails3" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails3">
+          <link:definition>999103 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails4" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails4">
+          <link:definition>999104 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Details 4)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails5" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails5">
+          <link:definition>999105 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Details 5)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails6" id="StockOptionsRestrictedStockRestrictedStockUnitsAndDeferredCompensationDetails6">
+          <link:definition>999106 - Disclosure - STOCK OPTIONS, RESTRICTED STOCK, RESTRICTED STOCK UNITS, AND DEFERRED COMPENSATION (Details 6)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/EmployeeBenefitPlansDetailsNarrative" id="EmployeeBenefitPlansDetailsNarrative">
+          <link:definition>999107 - Disclosure - EMPLOYEE BENEFIT PLANS (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/EarningsPerCommonShareDetails" id="EarningsPerCommonShareDetails">
+          <link:definition>999108 - Disclosure - EARNINGS PER COMMON SHARE (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ShareholdersEquityCapitalRequirementsAndDividendRestrictionsDetails" id="ShareholdersEquityCapitalRequirementsAndDividendRestrictionsDetails">
+          <link:definition>999109 - Disclosure - SHAREHOLDERS' EQUITY, CAPITAL REQUIREMENTS AND DIVIDEND RESTRICTIONS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ParentCompanyFinancialInformationDetails" id="ParentCompanyFinancialInformationDetails">
+          <link:definition>999110 - Disclosure - PARENT COMPANY FINANCIAL INFORMATION (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ParentCompanyFinancialInformationDetails2" id="ParentCompanyFinancialInformationDetails2">
+          <link:definition>999111 - Disclosure - PARENT COMPANY FINANCIAL INFORMATION (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ParentCompanyFinancialInformationDetails3" id="ParentCompanyFinancialInformationDetails3">
+          <link:definition>999112 - Disclosure - PARENT COMPANY FINANCIAL INFORMATION (Details 3)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DerivativesDetails" id="DerivativesDetails">
+          <link:definition>999113 - Disclosure - DERIVATIVES (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DerivativesDetails2" id="DerivativesDetails2">
+          <link:definition>999114 - Disclosure - DERIVATIVES (Details 2)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/DerivativesDetailsNarrative" id="DerivativesDetailsNarrative">
+          <link:definition>999115 - Disclosure - DERIVATIVES (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/ReportableSegmentsDetails" id="ReportableSegmentsDetails">
+          <link:definition>999116 - Disclosure - REPORTABLE SEGMENTS (Details)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:roleType roleURI="http://firstcommunitysc.com/role/BusinessCombinationDetailsNarrative" id="BusinessCombinationDetailsNarrative">
+          <link:definition>999117 - Disclosure - BUSINESS COMBINATION (Details Narrative)</link:definition>
+          <link:usedOn>link:presentationLink</link:usedOn>
+          <link:usedOn>link:calculationLink</link:usedOn>
+          <link:usedOn>link:definitionLink</link:usedOn>
+        </link:roleType>
+        <link:linkbaseRef xlink:type="simple" xlink:href="fcco-20251231_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="fcco-20251231_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="fcco-20251231_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links" />
+        <link:linkbaseRef xlink:type="simple" xlink:href="fcco-20251231_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links" />
+      </appinfo>
+    </annotation>
+    <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+    <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+    <import namespace="http://xbrl.sec.gov/dei/2025" schemaLocation="https://xbrl.sec.gov/dei/2025/dei-2025.xsd" />
+    <import namespace="http://fasb.org/us-gaap/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-gaap-2025.xsd" />
+    <import namespace="http://fasb.org/us-types/2025" schemaLocation="https://xbrl.fasb.org/us-gaap/2025/elts/us-types-2025.xsd" />
+    <import namespace="http://www.xbrl.org/dtr/type/2024-01-31" schemaLocation="https://www.xbrl.org/dtr/type/2024-01-31/types.xsd" />
+    <import namespace="http://xbrl.sec.gov/country/2025" schemaLocation="https://xbrl.sec.gov/country/2025/country-2025.xsd" />
+    <import namespace="http://fasb.org/srt/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-2025.xsd" />
+    <import namespace="http://fasb.org/srt-types/2025" schemaLocation="https://xbrl.fasb.org/srt/2025/elts/srt-types-2025.xsd" />
+    <element id="fcco_NonvestedRestrictedStockMember" name="NonvestedRestrictedStockMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SmallBusinessAdministrationSecuritiesMember" name="SmallBusinessAdministrationSecuritiesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CorporateAndOtherDebtSecuritiesMember" name="CorporateAndOtherDebtSecuritiesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FinancingReceivables30To89DaysPastDueMember" name="FinancingReceivables30To89DaysPastDueMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FinancingReceivablesNonaccrualMember" name="FinancingReceivablesNonaccrualMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherRealEstateOwnedMember" name="OtherRealEstateOwnedMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AppraisalValueComparisonSalesOtherEstimatesValuationTechniqueMember" name="AppraisalValueComparisonSalesOtherEstimatesValuationTechniqueMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FCCCapitalTrustIMember" name="FCCCapitalTrustIMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_LessorsOfNonResidentialPropertiesMember" name="LessorsOfNonResidentialPropertiesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_LessorsOfResidentialPropertiesMember" name="LessorsOfResidentialPropertiesMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_PrivateHouseholdsMember" name="PrivateHouseholdsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherActivitiesRelatedToRealEstateMember" name="OtherActivitiesRelatedToRealEstateMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_HotelsMember" name="HotelsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_KeyIndividualsMember" name="KeyIndividualsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SalaryContinuationPlanMember" name="SalaryContinuationPlanMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommercialAndRetailBankingMember" name="CommercialAndRetailBankingMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_MortgageBanking1Member" name="MortgageBanking1Member" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_InvestmentAdvisoryAndNonDepositMember" name="InvestmentAdvisoryAndNonDepositMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_EliminationsMember" name="EliminationsMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SignatureBankOfGeorgiaMember" name="SignatureBankOfGeorgiaMember" nillable="true" xbrli:periodType="duration" type="dtr-types:domainItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_NonvestedRestrictedStockAndStockUnits" name="NonvestedRestrictedStockAndStockUnits" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_NonInterestExpensesMerger" name="NonInterestExpensesMerger" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossNetOfTax" name="OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossNetOfTax" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherComprehensiveIncomeUnrealizedHoldingGainOnSecuritiesArisingDuringPeriodTax" name="OtherComprehensiveIncomeUnrealizedHoldingGainOnSecuritiesArisingDuringPeriodTax" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossTax" name="OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossTax" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AdoptionOfNewAccountingStandardCECL" name="AdoptionOfNewAccountingStandardCECL" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AmortizationOfCompensationOnRestrictedStock" name="AmortizationOfCompensationOnRestrictedStock" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_InvestmentSecuritiesAvailableForSaleIncomeNetAmortizationOfDiscountAndPremium" name="InvestmentSecuritiesAvailableForSaleIncomeNetAmortizationOfDiscountAndPremium" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_InvestmentSecuritiesHeldToMaturityIncomeNetAmortizationOfDiscountAndPremium" name="InvestmentSecuritiesHeldToMaturityIncomeNetAmortizationOfDiscountAndPremium" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_WritedownsOfOtherRealEstateOwned" name="WritedownsOfOtherRealEstateOwned" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TerminationOfOperatingLeaseRightOfUseAsset" name="TerminationOfOperatingLeaseRightOfUseAsset" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TerminationOfOperatingLeaseLiability" name="TerminationOfOperatingLeaseLiability" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DisclosureSecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoneyAbstract" name="DisclosureSecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoneyAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoneyDisclosureTextBlock" name="SecuritiesSoldUnderAgreementsToRepurchaseAndOtherBorrowedMoneyDisclosureTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DisclosureRevenueRecognitionAbstract" name="DisclosureRevenueRecognitionAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RevenueRecognitionTextBlock" name="RevenueRecognitionTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FederalHomeLoanBankStockPolicyTextBlock" name="FederalHomeLoanBankStockPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AllowanceForCreditLossesOnHeldToMaturitySecuritiesPolicyTextBlock" name="AllowanceForCreditLossesOnHeldToMaturitySecuritiesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AllowanceForCreditLossesOnAvailableForSaleSecuritiesPolicyTextBlock" name="AllowanceForCreditLossesOnAvailableForSaleSecuritiesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FinancingReceivableAllowanceForCreditLossesPolicyOrMethodologyChange1PolicyTextBlock" name="FinancingReceivableAllowanceForCreditLossesPolicyOrMethodologyChange1PolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AllowanceForCreditLossesOnUnfundedCommitmentsPolicyTextBlock" name="AllowanceForCreditLossesOnUnfundedCommitmentsPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ApplicationOfNewAccountingGuidanceAdoptedIn2025And2024PolicyTextBlock" name="ApplicationOfNewAccountingGuidanceAdoptedIn2025And2024PolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RiskAndUncertaintiesPolicyTextBlock" name="RiskAndUncertaintiesPolicyTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleOfUnfundedCommitmentsTableTextBlock" name="ScheduleOfUnfundedCommitmentsTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherRealEstateAndForeclosedAssetsRollForwardTableTextBlock" name="OtherRealEstateAndForeclosedAssetsRollForwardTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleOfTotalDepositLiabilitiesTableTextBlock" name="ScheduleOfTotalDepositLiabilitiesTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleOfOtherNonInterestIncomeTableTextBlock" name="ScheduleOfOtherNonInterestIncomeTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleOfOtherNonInterestExpenseTableTextBlock" name="ScheduleOfOtherNonInterestExpenseTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleofStockAwardsGrantedTableTextBlock" name="ScheduleofStockAwardsGrantedTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleOfFairValueOfStockAwardsGrantedTableTextBlock" name="ScheduleOfFairValueOfStockAwardsGrantedTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleOfCompensationExpenseRelatedToStockAwardsGrantedTableTextBlock" name="ScheduleOfCompensationExpenseRelatedToStockAwardsGrantedTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ScheduleofStockAwardGrantedTableTextBlock" name="ScheduleofStockAwardGrantedTableTextBlock" nillable="true" xbrli:periodType="duration" type="dtr-types:textBlockItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DebtSecuritiesHeldToMaturityProvisionForCreditLosses" name="DebtSecuritiesHeldToMaturityProvisionForCreditLosses" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SecurityOwnedAndPledgedAsCollateralAmortizedCost" name="SecurityOwnedAndPledgedAsCollateralAmortizedCost" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SecurityOwnedAndPledgedAsCollateralFairValues" name="SecurityOwnedAndPledgedAsCollateralFairValues" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_LoanWithinLoanTypePercentage" name="LoanWithinLoanTypePercentage" nillable="true" xbrli:periodType="instant" type="xbrli:pureItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLossWriteoff" name="FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLossWriteoff" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_FinancingReceivableNonaccrualAllowance" name="FinancingReceivableNonaccrualAllowance" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredLoanFeesAndCost" name="DeferredLoanFeesAndCost" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TotalAvailableForSaleSecuritiesAndLoansHeldForSale" name="TotalAvailableForSaleSecuritiesAndLoansHeldForSale" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OtherRealEstateSales" name="OtherRealEstateSales" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TimeDeposits250000rMore" name="TimeDeposits250000rMore" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TrustPreferredSecuritiesRedemptionPriceAsPercentageOfPrincipalAmount" name="TrustPreferredSecuritiesRedemptionPriceAsPercentageOfPrincipalAmount" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_OperatingLeaseLiabilityReduced" name="OperatingLeaseLiabilityReduced" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_IncomeTaxReconciliationIncreaseInCashSurrenderValueLifeInsurance" name="IncomeTaxReconciliationIncreaseInCashSurrenderValueLifeInsurance" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_EffectiveIncomeTaxRateReconciliationAtIncreaseInCashSurrenderValueLifeInsurance" name="EffectiveIncomeTaxRateReconciliationAtIncreaseInCashSurrenderValueLifeInsurance" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_IncomeTaxReconciliationLifeInsuranceProceeds" name="IncomeTaxReconciliationLifeInsuranceProceeds" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_EffectiveIncomeTaxRateReconciliationAtLifeInsuranceProceeds" name="EffectiveIncomeTaxRateReconciliationAtLifeInsuranceProceeds" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxAssetsTaxUnfundedCommitments" name="DeferredTaxAssetsTaxUnfundedCommitments" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxAssetsUnrealizedLossesOnAvailableforsaleSecurities" name="DeferredTaxAssetsUnrealizedLossesOnAvailableforsaleSecurities" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxAssetsUnrealizedLossesOnHeldtomaturitySecurities" name="DeferredTaxAssetsUnrealizedLossesOnHeldtomaturitySecurities" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxAssetsOriginationIncomeCosts" name="DeferredTaxAssetsOriginationIncomeCosts" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxAsstesOtherRealEstateOwned" name="DeferredTaxAsstesOtherRealEstateOwned" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxAsstesAccruedBonusesAndVacation" name="DeferredTaxAsstesAccruedBonusesAndVacation" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredTaxLiabilitiesExcessFinancialReportingBasisOfAssetsAcquired" name="DeferredTaxLiabilitiesExcessFinancialReportingBasisOfAssetsAcquired" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ConcentrationRiskNumber" name="ConcentrationRiskNumber" nillable="true" xbrli:periodType="instant" type="xbrli:integerItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ConcentrationRiskNumberOfLoans" name="ConcentrationRiskNumberOfLoans" nillable="true" xbrli:periodType="instant" type="xbrli:integerItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ATMDebitCardIncome" name="ATMDebitCardIncome" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RecurringIncomeOnBankOwnedLifeInsurance" name="RecurringIncomeOnBankOwnedLifeInsurance" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SafeDepositFees" name="SafeDepositFees" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_WireTransferFees" name="WireTransferFees" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CoreBankingelectronicProcessingAndServices" name="CoreBankingelectronicProcessingAndServices" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_SoftwareSubscriptionsAndServices" name="SoftwareSubscriptionsAndServices" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TelephoneExpense" name="TelephoneExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CourierExpense" name="CourierExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DebitCardAndFraudLosses" name="DebitCardAndFraudLosses" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_ShareholderExpense" name="ShareholderExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_NonemployeeDirectorDeferredCompensationStockPlanDeferredStockUnits" name="NonemployeeDirectorDeferredCompensationStockPlanDeferredStockUnits" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TimebasedRestrictedStockUnitsOfficer" name="TimebasedRestrictedStockUnitsOfficer" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_PerformancebasedRestrictedStockUnitsOfficer" name="PerformancebasedRestrictedStockUnitsOfficer" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockOfficerAndDirector" name="RestrictedStockOfficerAndDirector" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_NonemployeeDirectorDeferredCompensationPlanAccumulatedShareUnits" name="NonemployeeDirectorDeferredCompensationPlanAccumulatedShareUnits" nillable="true" xbrli:periodType="instant" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RelatedDirectorCompensationExpense" name="RelatedDirectorCompensationExpense" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TimebasedRestrictedStockUnitsOfficerStockAwardsGranted" name="TimebasedRestrictedStockUnitsOfficerStockAwardsGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_PerformancebasedRestrictedStockUnitsOfficerStockAwardsGranted" name="PerformancebasedRestrictedStockUnitsOfficerStockAwardsGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockOfficerStockAwardsGranted" name="RestrictedStockOfficerStockAwardsGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockDirectorStockAwardsGranted" name="RestrictedStockDirectorStockAwardsGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TimebasedRestrictedStockUnitsOfficerFairValueOfStockAwardsGranted" name="TimebasedRestrictedStockUnitsOfficerFairValueOfStockAwardsGranted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_PerformancebasedRestrictedStockUnitsOfficerFairValueOfStockAwardsGranted" name="PerformancebasedRestrictedStockUnitsOfficerFairValueOfStockAwardsGranted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockOfficerFairValueOfStockAwardsGranted" name="RestrictedStockOfficerFairValueOfStockAwardsGranted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockDirectorFairValueOfStockAwardsGranted" name="RestrictedStockDirectorFairValueOfStockAwardsGranted" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TimebasedRestrictedStockUnitsOfficerCompensationExpenseRelatedToStockAwards" name="TimebasedRestrictedStockUnitsOfficerCompensationExpenseRelatedToStockAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_PerformancebasedRestrictedStockUnitsOfficerCompensationExpenseRelatedToStockAwards" name="PerformancebasedRestrictedStockUnitsOfficerCompensationExpenseRelatedToStockAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockOfficerCompensationExpenseRelatedToStockAwards" name="RestrictedStockOfficerCompensationExpenseRelatedToStockAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockDirectorCompensationExpenseRelatedToStockAwards" name="RestrictedStockDirectorCompensationExpenseRelatedToStockAwards" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AdditionalReserveRestrictedStock" name="AdditionalReserveRestrictedStock" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TimebasedRestrictedStockUnitsOfficerStockAwardGranted" name="TimebasedRestrictedStockUnitsOfficerStockAwardGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_PerformancebasedRestrictedStockUnitsOfficerStockAwardGranted" name="PerformancebasedRestrictedStockUnitsOfficerStockAwardGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockOfficerStockAwardGranted" name="RestrictedStockOfficerStockAwardGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_RestrictedStockDirectorStockAwardGranted" name="RestrictedStockDirectorStockAwardGranted" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DefinedContributionPlanEmployerMatchLevelOne" name="DefinedContributionPlanEmployerMatchLevelOne" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DefinedContributionPlanEmployerMatchLevelTwo" name="DefinedContributionPlanEmployerMatchLevelTwo" nillable="true" xbrli:periodType="duration" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredCompensationArrangementWithIndividualAgeOfEmployeesCovered" name="DeferredCompensationArrangementWithIndividualAgeOfEmployeesCovered" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredCompensationArrangementWithIndividualMonthlyBenefits" name="DeferredCompensationArrangementWithIndividualMonthlyBenefits" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DeferredCompensationArrangementWithIndividualMonthlyBenefitsPeriod" name="DeferredCompensationArrangementWithIndividualMonthlyBenefitsPeriod" nillable="true" xbrli:periodType="duration" type="xbrli:durationItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_EarningsPerShareDenominatorAbstract" name="EarningsPerShareDenominatorAbstract" abstract="true" nillable="true" xbrli:periodType="duration" type="xbrli:stringItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_IncrementalCommonSharesAttributableToDeferredCompensation" name="IncrementalCommonSharesAttributableToDeferredCompensation" nillable="true" xbrli:periodType="duration" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_AverageMarketPriceUsedToCalculateNumberOfShares" name="AverageMarketPriceUsedToCalculateNumberOfShares" nillable="true" xbrli:periodType="duration" type="dtr-types:perShareItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedAmount" name="CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedRatioAsPercent" name="CommonEquityTierRequiredToBeCategorizedAdequatelyCapitalizedRatioAsPercent" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommonEquityTierActualAmount" name="CommonEquityTierActualAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommonEquityTier1ActualRatioAsPercent" name="CommonEquityTier1ActualRatioAsPercent" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommonEquityTierRequiredToBeCategorizedWellCapitalizedAmount" name="CommonEquityTierRequiredToBeCategorizedWellCapitalizedAmount" nillable="true" xbrli:periodType="instant" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_CommonEquityTierRequiredToBeCategorizedWellCapitalizedRatioAsPercent" name="CommonEquityTierRequiredToBeCategorizedWellCapitalizedRatioAsPercent" nillable="true" xbrli:periodType="instant" type="dtr-types:percentItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_InvestmentInSubsidiary" name="InvestmentInSubsidiary" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_EquityInUndistributedEarningsLossOfSubsidiary" name="EquityInUndistributedEarningsLossOfSubsidiary" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_DividendIncomeFromSubsidiary" name="DividendIncomeFromSubsidiary" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+    <element id="fcco_TotalOtherNoninterestExpense" name="TotalOtherNoninterestExpense" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" />
+</schema>
